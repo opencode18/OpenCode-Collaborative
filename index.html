@@ -155,7 +155,7 @@
          <div class="heading"><h1>Mentors</h1></div> 
           <div class="card" v-for="mentor in mentors">
               <div class="front"><div class="image"><img v-bind:src="mentor.imageurl"></div><div class="name">{{ mentor.name }}</div></div>
-              <div class="back"><div class="about"><h3>About me</h3>{{ mentor.about }}</div><div class="social"><a v-bind:href="https://facebook.com/mentor.facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a> <a v-bind:href="https://github.com/mentor.github"><i class="fa fa-github" aria-hidden="true"></i></a> <a v-bind:href="https://twitter.com/mentor.twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></div></div>
+              <div class="back"><div class="about"><h3>About me</h3>{{ mentor.about }}</div><div class="social"><a v-bind:href="mentor.facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a> <a v-bind:href="mentor.github"><i class="fa fa-github" aria-hidden="true"></i></a> <a v-bind:href="mentor.twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></div></div>
           </div>
           
         </div>
@@ -170,7 +170,7 @@
             <div class="heading"><h1>Participants</h1></div> 
              <div class="card" v-for="contestant in contestants">
                  <div class="front"><div class="image"><img v-bind:src="contestant.imageurl"></div><div class="name">{{ contestant.name }}</div></div>
-                 <div class="back"><div class="about"><h3>About me</h3>{{ contestant.about }}</div><div class="social"><a v-bind:href="https://facebook.com/contestant.facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a> <a v-bind:href="https://github.com/contestant.github"><i class="fa fa-github" aria-hidden="true"></i></a> <a v-bind:href="https://twitter.com/contestant.twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></div></div>
+                 <div class="back"><div class="about"><h3>About me</h3>{{ contestant.about }}</div><div class="social"><a v-bind:href="contestant.facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a> <a v-bind:href="contestant.github"><i class="fa fa-github" aria-hidden="true"></i></a> <a v-bind:href="contestant.twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></div></div>
              </div>
         </div>
       </div>
