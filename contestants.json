@@ -2,7 +2,7 @@
     "contestants" : [
         {
             "name" : "Contestant_name",
-            "imageurl" : "contestant/avatar.jpg",
+            "imageurl" : "contestant/avatar.png",
             "about" : "Write about yourself",
             "facebook" : "Facebook Handle",
             "github" : "Github Handle",
