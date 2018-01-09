@@ -1,5 +1,5 @@
  const app1=new Vue({
-          el : '#contestant',
+          el : '#contestants',
           data : {
               contestants : []
           },
