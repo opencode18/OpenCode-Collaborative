@@ -7,6 +7,14 @@
             "facebook" : "Facebook Handle",
             "github" : "Github Handle",
             "twitter" : "twitter Handle"
+        },
+        {
+            "name" : "Arpit Mishra",
+            "imageurl" : "contestant/Cool-avatars-anonymous-avatar.jpg",
+            "about" : "I code when I'm bored.",
+            "facebook" : "arpitmisraw2614",
+            "github" : "arpitmisraw",
+            "twitter" : "none"
         }
        
     ]
