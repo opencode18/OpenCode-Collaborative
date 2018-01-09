@@ -1,20 +1,12 @@
 {
     "contestants" : [
         {
-            "name" : "Aswanth K",
-            "imageurl" : "mentor/aswanth.jpg",
-            "about" : "Hello I'm a web developer",
-            "facebook" : "aswanth9495",
-            "github" : "aswanth9495",
-            "twitter" : "aswanthkoleri"
-        },
-        {
-            "name" : "Anupam Dagar",
-            "imageurl" : "mentor/anupam.jpg",
-            "about" : "Hello I'm a web developer",
-            "facebook" : "aswanth9495",
-            "github" : "aswanth9495",
-            "twitter" : "aswanthkoleri"
+            "name" : "Contestant_name",
+            "imageurl" : "contestant/avatar.png",
+            "about" : "Write about yourself",
+            "facebook" : "Facebook Handle",
+            "github" : "Github Handle",
+            "twitter" : "twitter Handle"
         }
        
     ]
