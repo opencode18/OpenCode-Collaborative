@@ -1,13 +1,13 @@
  const app1=new Vue({
-          el : '#contestant',
+          el : '#mentors',
           data : {
-              contestants : []
+              mentors : []
           },
           created() {
-              fetch('contestants.json')
+              fetch('mentors.json')
             .then(response => response.json() )
             .then(json => {
-                this.contestants = json.contestants
+                this.mentors = json.mentors
             })
           }
       })
