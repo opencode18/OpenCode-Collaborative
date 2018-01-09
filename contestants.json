@@ -14,7 +14,15 @@
             "about" : "I code when I'm bored.",
             "facebook" : "https://www.facebook.com/arpitmisraw2614",
             "github" : "https://github.com/arpitmisraw",
-            "twitter" : "none"
+            "twitter" : ""
+        },
+        {
+            "name" : "Vishal Pani",
+            "imageurl" : "contestant/avatar.jpeg",
+            "about" : "An A.I invasion will probably make me laugh.",
+            "facebook" : "https://www.facebook.com/vishal.pani",
+            "github" : "https://github.com/falconis",
+            "twitter" : ""
         },
         {
             "name" : "Jigar Chavada",
@@ -24,6 +32,5 @@
             "github" : "https://github.com/Jigar3",
             "twitter" : ""
         }
-
     ]
 }
