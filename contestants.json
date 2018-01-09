@@ -15,7 +15,15 @@
             "facebook" : "https://www.facebook.com/arpitmisraw2614",
             "github" : "https://github.com/arpitmisraw",
             "twitter" : "none"
+        },
+        {
+            "name" : "Jigar Chavada",
+            "imageurl" : "contestant/jsc39.jpeg",
+            "about" : "Eat Sleep Code Repeat",
+            "facebook" : "https://www.facebook.com/jsc3998",
+            "github" : "https://github.com/Jigar3",
+            "twitter" : ""
         }
-       
+
     ]
 }
