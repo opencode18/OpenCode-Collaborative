@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Scrolling Nav - Start Bootstrap Template</title>
+    <title>OpenCode</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -43,11 +43,11 @@
     height: 250px;
     background: #333;
     text-align: justify;
-    
+
  }
  .card .back .about h3 {
    text-align: center;
-    
+
  }
  .card .back .social {
    font-size: 50px;
@@ -56,7 +56,7 @@
    width : 100%;
    height :100%;
  }
- 
+
      .card .front {
      position: absolute;
      width: 100%;
@@ -69,7 +69,7 @@
  .card .front .name {
     font-size  : 20px;
  }
- 
+
      .card .back {
      position: absolute;
      width: 100%;
@@ -80,11 +80,11 @@
      transition: transform 0.55s linear;
      padding : 20px;
  }
- 
+
      .card:hover .front {
      transform: perspective(600px) rotateY(-180deg)
  }
- 
+
      .card:hover .back {
      transform: perspective(600px) rotateY(0deg)
  }
@@ -102,8 +102,8 @@
  .contestants .back .social a {
   color : #fff ;
  }
- 
- 
+
+
 </style>
   <body id="page-top">
 
@@ -132,7 +132,7 @@
 
     <header class="bg-primary text-white">
       <div class="container text-center">
-        <h1>Welcome to Scrolling Nav</h1>
+        <h1>OpenCode</h1>
         <p class="lead">A landing page template freshly redesigned for Bootstrap 4</p>
       </div>
     </header>
@@ -158,12 +158,12 @@
       <div class="container">
         <div class="row">
           <div class="mentors" id="mentors">
-         <div class="heading"><h1>Mentors</h1></div> 
+         <div class="heading"><h1>Mentors</h1></div>
           <div class="card" v-for="mentor in mentors">
               <div class="front"><div class="image"><img v-bind:src="mentor.imageurl"></div><div class="name">{{ mentor.name }}</div></div>
               <div class="back"><div class="about"><h3>About me</h3>{{ mentor.about }}</div><div class="social"><a v-bind:href="mentor.facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a> <a v-bind:href="mentor.github"><i class="fa fa-github" aria-hidden="true"></i></a> <a v-bind:href="mentor.twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></div></div>
           </div>
-          
+
         </div>
         </div>
       </div>
@@ -173,7 +173,7 @@
       <div class="container">
         <div class="row">
           <div class="contestants" id="contestants">
-            <div class="heading"><h1>Participants</h1></div> 
+            <div class="heading"><h1>Participants</h1></div>
              <div class="card" v-for="contestant in contestants">
                  <div class="front"><div class="image"><img v-bind:src="contestant.imageurl"></div><div class="name">{{ contestant.name }}</div></div>
                  <div class="back"><div class="about"><h3>About me</h3>{{ contestant.about }}</div><div class="social"><a v-bind:href="contestant.facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a> <a v-bind:href="contestant.github"><i class="fa fa-github" aria-hidden="true"></i></a> <a v-bind:href="contestant.twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></div></div>
@@ -185,7 +185,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+        <p class="m-0 text-center text-white">OpenCode</p>
       </div>
       <!-- /.container -->
     </footer>
@@ -204,5 +204,5 @@
   <script src="https://unpkg.com/vue"></script>
   <script src="js/mentor.js"></script>
   <script src="js/contestant.js"></script>
-  
+
 </html>
