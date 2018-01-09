@@ -1,12 +1,12 @@
 {
     "contestants" : [
         {
-            "name" : "Contestant_name",
-            "imageurl" : "contestant/avatar.png",
-            "about" : "Write about yourself",
-            "facebook" : "Facebook Handle",
-            "github" : "Github Handle",
-            "twitter" : "twitter Handle"
+            "name" : "Sneha Mishra",
+            "imageurl" : "contestant/panda.jpg",
+            "about" : "Noob help me out!!!",
+            "facebook" : "https://www.facebook.com/snehamishrabb",
+            "github" : "https://github.com/Tlazypanda",
+            "twitter" : ""
         },
         {
             "name" : "Arpit Mishra",
