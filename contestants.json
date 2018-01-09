@@ -1,20 +1,20 @@
 {
     "contestants" : [
         {
-            "name" : "Aswanth K",
-            "imageurl" : "mentor/aswanth.jpg",
-            "about" : "Hello I'm a web developer",
-            "facebook" : "aswanth9495",
-            "github" : "aswanth9495",
-            "twitter" : "aswanthkoleri"
+            "name" : "Sneha Mishra",
+            "imageurl" : "contestant/panda.jpg",
+            "about" : "Noob help me out!!!",
+            "facebook" : "https://www.facebook.com/snehamishrabb",
+            "github" : "https://github.com/Tlazypanda",
+            "twitter" : ""
         },
         {
-            "name" : "Anupam Dagar",
-            "imageurl" : "mentor/anupam.jpg",
-            "about" : "Hello I'm a web developer",
-            "facebook" : "aswanth9495",
-            "github" : "aswanth9495",
-            "twitter" : "aswanthkoleri"
+            "name" : "Arpit Mishra",
+            "imageurl" : "contestant/Cool-avatars-anonymous-avatar.jpg",
+            "about" : "I code when I'm bored.",
+            "facebook" : "https://www.facebook.com/arpitmisraw2614",
+            "github" : "https://github.com/arpitmisraw",
+            "twitter" : "none"
         }
        
     ]
