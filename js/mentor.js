@@ -4,7 +4,7 @@
               mentors : []
           },
           created() {
-              fetch('mentors.json')
+              fetch('https://opencode18.github.io/OpenCode-Collaborative/mentors.json')
             .then(response => response.json() )
             .then(json => {
                 this.mentors = json.mentors
