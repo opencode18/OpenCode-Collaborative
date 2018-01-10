@@ -1,0 +1,44 @@
+{
+    "contestants" : [
+        {
+            "name" : "Sneha Mishra",
+            "imageurl" : "contestant/panda.jpg",
+            "about" : "Noob help me out!!!",
+            "facebook" : "https://www.facebook.com/snehamishrabb",
+            "github" : "https://github.com/Tlazypanda",
+            "twitter" : ""
+        },
+        {
+            "name" : "Arpit Mishra",
+            "imageurl" : "contestant/Cool-avatars-anonymous-avatar.jpg",
+            "about" : "I code when I'm bored.",
+            "facebook" : "https://www.facebook.com/arpitmisraw2614",
+            "github" : "https://github.com/arpitmisraw",
+            "twitter" : ""
+        },
+        {
+            "name" : "Vishal Pani",
+            "imageurl" : "contestant/avatar.jpeg",
+            "about" : "An A.I invasion will probably make me laugh.",
+            "facebook" : "https://www.facebook.com/vishal.pani",
+            "github" : "https://github.com/falconis",
+            "twitter" : ""
+        },
+        {
+            "name" : "Jigar Chavada",
+            "imageurl" : "contestant/jsc39.jpeg",
+            "about" : "Eat Sleep Code Repeat",
+            "facebook" : "https://www.facebook.com/jsc3998",
+            "github" : "https://github.com/Jigar3",
+            "twitter" : ""
+        },
+        {
+            "name" : "Vivek Raj",
+            "imageurl" : "contestant/me1.jpg",
+            "about" : "A Worst web-developer",
+            "facebook" : "https://www.facebook.com/profile.php?id=100005118040716",
+            "github" : "https://github.com/swaager",
+            "twitter" : ""
+        }
+    ]
+}
