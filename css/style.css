@@ -98,3 +98,7 @@
   .contestants .back .social a:hover {
     color: lightblue;
   }
+ .bg-primary {
+     
+    background: linear-gradient(to bottom right, #ee0979, #ff6a00);
+  }
