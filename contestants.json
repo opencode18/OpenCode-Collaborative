@@ -79,6 +79,14 @@
             "facebook" : "https://www.facebook.com/joglekaraayush",
             "github" : "https://github.com/aayushjoglekar",
             "twitter" : "https://github.com/aayushjoglekar"
+        },
+        {
+            "name" : "Priyesh Kumar",
+            "imageurl" : "",
+            "about" : "getting started with open source development",
+            "facebook" : "",
+            "github" : "https://github.com/16priyesh",
+            "twitter" : ""
         }
     ]
 }
