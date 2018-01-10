@@ -1,7 +1,7 @@
 # OpenCode Collaborative Website
 ![](https://raw.githubusercontent.com/opencode18/opencode18.github.io/master/images/fbog.png)
 
-Chat with us on [Zulip](https://www.opencode18.zulipchat.com)  
+Chat with us on [Zulip](https://opencode18.zulipchat.com/)  
 Like us on [Facebook](https://www.facebook.com/opencodeiiita/)
 
 

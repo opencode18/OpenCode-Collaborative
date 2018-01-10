@@ -98,7 +98,9 @@
             </div>
             <div class="back">
               <div class="about">
-                <h3>About me</h3>{{ mentor.about }}</div>
+                <h3>About me</h3>
+                  <hr class="card-underline">
+                <p>{{ mentor.about }}</p></div>
               <div class="social">
                 <a v-bind:href="mentor.facebook">
                   <i class="fa fa-facebook-official" aria-hidden="true"></i>
@@ -134,7 +136,7 @@
             </div>
             <div class="back">
               <div class="about">
-                <h3>About me</h3>{{ contestant.about }}</div>
+                <h3>About me</h3><hr class="card-underline"><p>{{ contestant.about }}</p></div>
               <div class="social">
                 <a v-bind:href="contestant.facebook">
                   <i class="fa fa-facebook-official" aria-hidden="true"></i>
@@ -208,7 +210,7 @@
 			
 		        
 				
-					<ul class= "list-inline" style="float: right; margin-right: 0px ;">
+					<ul class= "list-inline" style="float: left; margin-right: 0px ;">
 						
 						<li class="list-inline-item"><a href="https://github.com/fossiiita" target="_blank"><img class="img-responsive" id="foss" src="images/favicon/foss.png"></a></li>
 						<li class="list-inline-item"><a href="https://geekhaven.iiita.ac.in/"><img class="img-responsive" id="geek" src="images/favicon/Geekhaven.png"></a></li>
