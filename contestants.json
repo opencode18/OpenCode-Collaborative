@@ -182,6 +182,14 @@
 			"facebook": "",
 			"github": "https://github.com/brain-sick",
 			"twitter": ""
+      },
+      {
+	 "name":"Pranjal Gupta",
+         "imageurl":" contestant/IMG_20171225_183446.jpg",
+         "about":"",
+         "facebook":"https://www.facebook.com/pranjal.gupta.562",
+         "github":"https://github.com/pranjalg2308",
+         "twitter":""      
       }
    ]
 }
