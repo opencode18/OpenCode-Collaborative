@@ -198,7 +198,7 @@
         "facebook":"https://www.facebook.com/arsh.panghal",
         "github":"https://github.com/arshjat",
         "twitter":""
-	    },
+      },
       {
          "name":"Gaurav Pandey",
          "imageurl":"contestant/dexter.jpeg",
@@ -206,6 +206,6 @@
          "facebook":"",
          "github":"https://github.com/gau1rav",
          "twitter":""
-       },
+      },
    ]
 }
