@@ -99,12 +99,12 @@
    transform: perspective(600px) rotateY(0deg);
   }
 
-  .mentors .contestants {
+  .mentors .contestants .projects {
     width: 100%;
     text-align: center;
   }
 
-  .mentors .contestants .heading {
+  .mentors .contestants .heading .projects {
     text-align: left;
   }
 
@@ -123,6 +123,13 @@
     margin:0 4px;
   }
   .contestants .back .social a:hover {
+    color: lightblue;
+  }
+  .projects .back .social a {
+    color: #fff;
+    margin:0 4px;
+  }
+  .projects .back .social a:hover {
     color: lightblue;
   }
  .bg-primary {
