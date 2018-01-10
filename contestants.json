@@ -1,5 +1,102 @@
 {
     "contestants" : [
+        {
+            "name" : "Sneha Mishra",
+            "imageurl" : "contestant/panda.jpg",
+            "about" : "Noob help me out!!!",
+            "facebook" : "https://www.facebook.com/snehamishrabb",
+            "github" : "https://github.com/Tlazypanda",
+            "twitter" : ""
+        },
+        {
+            "name" : "Arpit Mishra",
+            "imageurl" : "contestant/Cool-avatars-anonymous-avatar.jpg",
+            "about" : "I code when I'm bored.",
+            "facebook" : "https://www.facebook.com/arpitmisraw2614",
+            "github" : "https://github.com/arpitmisraw",
+            "twitter" : ""
+        },
+        {
+            "name" : "Vishal Pani",
+            "imageurl" : "contestant/avatar.jpeg",
+            "about" : "An A.I invasion will probably make me laugh.",
+            "facebook" : "https://www.facebook.com/vishal.pani",
+            "github" : "https://github.com/falconis",
+            "twitter" : ""
+        },
+        {
+            "name" : "Madhur Gupta",
+            "imageurl" : "contestant/myimage.jpg",
+            "about" : "A wanna-be Web Developer.",
+            "facebook" : "https://www.facebook.com/madhurguptaiiita",
+            "github" : "https://github.com/madhur1998",
+            "twitter" : ""
+        },
+        {
+            "name" : "Jigar Chavada",
+            "imageurl" : "contestant/jsc39.jpeg",
+            "about" : "Eat Sleep Code Repeat",
+            "facebook" : "https://www.facebook.com/jsc3998",
+            "github" : "https://github.com/Jigar3",
+            "twitter" : ""
+        },
+        {
+            "name" : "Abhishek Singh saini",
+            "imageurl" : "contestant/profile.jpg",
+            "about" : "I am an enthusiastic coder & developer",
+            "facebook" : "https://www.facebook.com/Abhitaker4",
+            "github" : "https://github.com/AbhiTaker",
+            "twitter" : "https://twitter.com/Abhi_saini_AS"
+        },
+        {
+            "name" : "Atisaya Jain",
+            "imageurl" : "contestant/atisayajain.jpg",
+            "about" : "Learning how to learn!",
+            "facebook" : "https://www.facebook.com/atisayajain",
+            "github" : "https://github.com/atisayajain",
+            "twitter" : "https://twitter.com/atisayajain"
+        },
+        {
+            "name" : "Yash Rathore",
+            "imageurl" : "contestant/Default-gitUserAvatar.jpeg",
+            "about" : "Who? what?! where?!!",
+            "facebook" : "https://www.facebook.com/yash.re.10",
+            "github" : "https://github.com/Re42",
+            "twitter" : ""
+        },
+        {
+            "name" : "Praful Tondomker",
+            "imageurl" : "contestant/ImageSS.jpg",
+            "about" : "Who? what?! where?!!",
+            "facebook" : "https://www.facebook.com/saisathypraful.tondomker",
+            "github" : "https://github.com/SSPrafulTondomker",
+            "twitter" : ""
+        },
+        {
+            "name" : "Aayush Joglekar",
+            "imageurl" : "contestant/aj.jpeg",
+            "about" : "Absolutely awkward, proud nerd & geek, decreaser of world suck.",
+            "facebook" : "https://www.facebook.com/joglekaraayush",
+            "github" : "https://github.com/aayushjoglekar",
+            "twitter" : "https://github.com/aayushjoglekar"
+        },
+         {
+            "name" : "Druval CR",
+            "imageurl" : "contestant/druval.jpg",
+            "about" : "New to OpenSource",
+            "facebook" : "https://www.facebook.com/druval.cr",
+            "github" : "https://github.com/druvalcr28",
+            "twitter" : ""
+        },
+        
+       {
+            "name" : "Tanmay Mittal",
+            "imageurl" : "contestant/tanmay.jpeg",
+            "about" : "New to this developer's world",
+            "facebook" : "https://www.facebook.com/tanmay.mittal.106",
+            "github" : "https://github.com/strikertanmay",
+            "twitter" : ""  
+        },
        {
 			"name": "Sneha Mishra",
 			"imageurl": "contestant/panda.jpg",
