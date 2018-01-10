@@ -147,6 +147,13 @@
 			"twitter": ""
 		},
 		{
+		    "name": "Ayush Gupta",
+			"imageurl": "contestant/ayush.png",
+			"about": "Consectatio Excellentiae",
+			"facebook": "https://www.facebook.com/ayush926",
+			"github": "https://github.com/AK-007"
+    },
+    {
 			"name": "Nityananda Gohain",
 			"imageurl": "contestant/nitya.jpeg",
 			"about": "Code Explorer! :)",
