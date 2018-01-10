@@ -232,7 +232,15 @@
          "github":"https://github.com/strikertanmay",
          "twitter":""
 	   
+      },
+      {
+	 "name":"Esha Jaiswal",
+	 "imageurl":"contestant/esha.jpg",
+	 "about":"Just Learning",
+	 "facebook":"https://www.facebook.com/esha.jaiswal.52",
+	 "github":"https://github.com/Esha23",
+	 "twitter":""
+	   
       }
-	
    ]
 }
