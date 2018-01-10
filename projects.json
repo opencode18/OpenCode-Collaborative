@@ -1,0 +1,112 @@
+{
+    "projects" : [
+        {
+            "name" : "OpenCode Collaborative",
+            "imageurl" : "",
+            "about" : "A collaborative website created by particpants of opencode'18.",
+            "github" : "https://github.com/aswanth9495",
+        },
+         {
+            "name" : "CodeStash",
+            "imageurl" : "",
+            "about" : "Competitive Coding",
+            "github" : "https://github.com/aswanth9495",
+        },
+        {
+            "name" : "Girls Who Code",
+            "imageurl" : "",
+            "about" : "Female Developers only project for OpenCode'18",
+            "github" : "https://github.com/aswanth9495",
+        },
+        {
+            "name" : "Letsgo",
+            "imageurl" : "",
+            "about" : "A Website for learning Go",
+            "github" : "https://github.com/aswanth9495",
+        },
+        {
+            "name" : "Go Algorithms",
+            "imageurl" : "",
+            "about" : "Implementation of Data Structures and Algorithms in Go",
+            "github" : "https://github.com/aswanth9495",
+        },
+        {
+            "name" : "Motivate",
+            "imageurl" : "",
+            "about" : "A simple script to print random motivational quotes.",
+            "github" : "https://github.com/aswanth9495",
+        },
+        {
+            "name" : "Lecture Connect",
+            "imageurl" : "",
+            "about" : "A real time lecture translation in different languages for students.",
+            "github" : "https://github.com/aswanth9495",
+        },
+        {
+            "name" : "Aparoksha-18: Website",
+            "imageurl" : "",
+            "about" : "Official website of Aparoksha'18.",
+            "github" : "https://github.com/aswanth9495",
+        },
+        {
+            "name" : "ProfilePortal",
+            "imageurl" : "",
+            "about" : "A portal that keeps track of the Profiles of websites like Spoj, Codechef, Github etc.",
+            "github" : "https://github.com/aswanth9495",
+        },
+        {
+            "name" : "My Broadcast",
+            "imageurl" : "",
+            "about" : "A platform to share links (tech and non-tech),create channel,subscribe,get notifications and weekly email.",
+            "github" : "https://github.com/aswanth9495",
+        },
+        {
+            "name" : "Utlyz-CLI",
+            "imageurl" : "",
+            "about" : "A command line application to access internet over terminal.Be it facebook, wikipedia or even news.",
+            "github" : "https://github.com/aswanth9495",
+        },
+        {
+            "name" : "PyDic",
+            "imageurl" : "",
+            "about" : "A python app which uses the CLI to query the definitions of a word in a dictionary.",
+            "github" : "https://github.com/aswanth9495",
+        },
+        {
+            "name" : "Anna",
+            "imageurl" : "",
+            "about" : "Assistant on chrome.",
+            "github" : "https://github.com/aswanth9495",
+        },
+        {
+            "name" : "Attendance Portal",
+            "imageurl" : "",
+            "about" : "A unique solution to mark attendance online using tokens",
+            "github" : "https://github.com/aswanth9495",
+        },
+        {
+            "name" : "HoxNox",
+            "imageurl" : "",
+            "about" : "Portfolios Made Easy, Generate portfolios in 3 easy steps.",
+            "github" : "https://github.com/aswanth9495",
+        },
+        {
+            "name" : "LucidCV",
+            "imageurl" : "",
+            "about" : "Simple CV Maker.",
+            "github" : "https://github.com/aswanth9495",
+        }, 
+        {
+            "name" : "OpenNews",
+            "imageurl" : "",
+            "about" : "Newsfeed App.",
+            "github" : "https://github.com/aswanth9495",
+        },
+        {
+            "name" : "yes",
+            "imageurl" : "",
+            "about" : "Implementation of simple and dangerous yes command in various languages.",
+            "github" : "https://github.com/aswanth9495",
+        }
+    ]
+}
