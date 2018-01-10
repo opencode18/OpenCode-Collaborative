@@ -79,6 +79,14 @@
             "facebook" : "https://www.facebook.com/joglekaraayush",
             "github" : "https://github.com/aayushjoglekar",
             "twitter" : "https://github.com/aayushjoglekar"
+        },
+         {
+            "name" : "Druval CR",
+            "imageurl" : "contestant/druval.jpg",
+            "about" : "New to OpenSource",
+            "facebook" : "https://www.facebook.com/druval.cr",
+            "github" : "https://github.com/druvalcr28",
+            "twitter" : ""
         }
     ]
 }
