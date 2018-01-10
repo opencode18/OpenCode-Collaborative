@@ -87,6 +87,22 @@
             "facebook" : "https://www.facebook.com/profile.php?id=100007203708174",
             "github" : "https://github.com/marshallKR7",
             "twitter" : ""
+        },
+        {
+            "name" : "Druval CR",
+            "imageurl" : "contestant/druval.jpg",
+            "about" : "New to OpenSource",
+            "facebook" : "https://www.facebook.com/druval.cr",
+            "github" : "https://github.com/druvalcr28",
+            "twitter" : ""
+        },
+        {
+           "name" : "Pratham Prakash Gupta",
+           "imageurl" : "contestant/github_avatar.jpg",
+           "about" : "Error 404! Not Found",
+           "facebook" : "www.facebook.com/prathamprakash29",
+           "github" : "https://github.com/prathamprakash29",
+           "twitter" : ""
         }
     ]
 }
