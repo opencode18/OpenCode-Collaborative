@@ -190,22 +190,23 @@
 			"facebook": "",
 			"github": "https://github.com/brain-sick",
 			"twitter": ""
-      },	    
-      {
-        "name":"Arsh Panghal",
-        "imageurl":"contestant/arshjat.jpg",
-        "about":"Interested in full stack web developing!",
-        "facebook":"https://www.facebook.com/arsh.panghal",
-        "github":"https://github.com/arshjat",
-        "twitter":""
       },
-      {
-         "name":"Gaurav Pandey",
-         "imageurl":"contestant/dexter.jpeg",
-         "about":"Still a Beginner",
-         "facebook":"",
-         "github":"https://github.com/gau1rav",
+	   {
+         "name":"Arsh Panghal",
+         "imageurl":"contestant/arshjat.jpg",
+         "about":"Interested in full stack web developing!",
+         "facebook":"https://www.facebook.com/arsh.panghal",
+         "github":"https://github.com/arshjat",
+         "twitter":""
+	  },
+	   {
+         "name":"Utkarsh Singh",
+         "imageurl":"contestant/utkarsh_singh.jpg",
+         "about":"Front-end web developer!",
+         "facebook":"https://www.facebook.com/utkarshsingh360",
+         "github":"https://github.com/utkarshsingh99",
          "twitter":""
       }
+	   }
    ]
 }
