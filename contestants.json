@@ -55,6 +55,14 @@
             "facebook" : "https://www.facebook.com/atisayajain",
             "github" : "https://github.com/atisayajain",
             "twitter" : "https://twitter.com/atisayajain"
+        },
+        {
+            "name" : "Yash Rathore",
+            "imageurl" : "contestant/Default-gitUserAvatar.jpeg",
+            "about" : "Who? what?! where?!!",
+            "facebook" : "https://www.facebook.com/yash.re.10",
+            "github" : "https://github.com/Re42",
+            "twitter" : ""
         }
         
     ]
