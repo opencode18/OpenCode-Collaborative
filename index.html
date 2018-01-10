@@ -97,14 +97,13 @@
     padding: 20px;
   }
 
-  /*Class front-turn/back-turn is added when the card is flipped.*/
 
-  .card .front-turn{
+  .card:hover .front{
     transform: perspective(600px);
     transform: rotateY(-180deg);
   }
 
-  .card .back-turn{
+  .card:hover .back{
     transform: perspective(600px);
     transform: rotateY(0deg);
   }
@@ -278,8 +277,7 @@
   <!-- Custom JavaScript for this theme -->
   <script src="js/scrolling-nav.js"></script>
 
-  <!-- Custom JavaScript to handle events -->
-  <script src="js/script.js"></script>
+
 
 </body>
 <script src="https://unpkg.com/vue"></script>
