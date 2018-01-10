@@ -216,20 +216,21 @@
          "twitter":""
       },
       {
-	 "name":"Amritesh Bhaskar",
+	       "name":"Amritesh Bhaskar",
          "imageurl":"contestant/amy.jpeg",
          "about":"Just a Beginner. but Beware!...",
          "facebook":"https://www.facebook.com/technoamritesh",
          "github":"https://github.com/amriteshbhaskar",
          "twitter":""	   
       },
-	{
-	 "name":"Pulkit Goel",
-         "imageurl":"contestant/pulkit.jpeg",
-         "about":"Yup, that's my profile pic",
-         "facebook":"",
-	 "github":"https://github.com/Tachyon01",
-	 "twitter":""
-      }
+	    {
+	      "name":"Pulkit Goel",
+        "imageurl":"contestant/pulkit.jpeg",
+        "about":"Yup, that's my profile pic",
+        "facebook":"",
+	      "github":"https://github.com/Tachyon01",
+	      "twitter":""
+       }
+	
    ]
 }
