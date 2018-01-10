@@ -17,6 +17,8 @@ To add a mentor open `mentors.json` and please maintain the following format EXA
         &nbsp;&nbsp;     "twitter" : "url"  
         }
 
+
+
 IMPORTANT:
 
 * All images must be optimized before uploaded to the repo via commit or PR. 
@@ -35,6 +37,8 @@ To add yourself to student section you need to open the file `contestants.json` 
         &nbsp;&nbsp;     "github" : "url",  
         &nbsp;&nbsp;     "twitter" : "url"  
         }
+        
+
 IMPORTANT:
 
 * All images must be optimized before uploaded to the repo via commit or PR. 
@@ -55,6 +59,10 @@ Please help us follow the best practice to make it easy for the reviewer as well
 * Provide the link to live gh-pages from your forked repository or relevant screenshot for easier review.
 
 * Pull Request older than 4 days with no response from the contributor shall be marked closed.
+
+* Those who wish to solve an issue, comment on it first that you would like to take up the issue and get assigned to solve the issue. Assigning will be done on a first come first serve basis.
+
+* Do not make PR which is not related to any issues. You can create an issue and solve it once we approve them.
 
 * Avoid duplicate PRs, if need be comment on the older PR with the PR number of the follow-up (new PR) and close the obsolete PR yourself.
 
