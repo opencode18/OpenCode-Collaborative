@@ -25,6 +25,14 @@
             "twitter" : ""
         },
         {
+            "name" : "Madhur Gupta",
+            "imageurl" : "contestant/myimage.jpg",
+            "about" : "A wanna-be Web Developer.",
+            "facebook" : "https://www.facebook.com/madhurguptaiiita",
+            "github" : "https://github.com/madhur1998",
+            "twitter" : ""
+        },
+        {
             "name" : "Jigar Chavada",
             "imageurl" : "contestant/jsc39.jpeg",
             "about" : "Eat Sleep Code Repeat",
