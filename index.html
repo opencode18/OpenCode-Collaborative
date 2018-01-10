@@ -24,7 +24,9 @@
   <link href="css/scrolling-nav.css" rel="stylesheet">
   <!-- Font awesome for social icons  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/simple-line-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <style>
   /* structure css code */
@@ -92,12 +94,20 @@
     padding: 20px;
   }
 
-  .card:hover .front {
+  /*.card:hover .front {
     transform: perspective(600px) rotateY(-180deg)
   }
 
   .card:hover .back {
     transform: perspective(600px) rotateY(0deg)
+  }*/
+
+  .flipped .front{
+   transform: perspective(600px) rotateY(-180deg);
+  }
+    
+   .flipped .back{
+   transform: perspective(600px) rotateY(0deg);
   }
 
   .mentors .contestants {
@@ -112,9 +122,14 @@
   .mentors .back .social a {
     color: #fff;
   }
-
+  .mentors .back .social a:hover {
+    color: lightblue;
+  }
   .contestants .back .social a {
     color: #fff;
+  }
+  .contestants .back .social a:hover {
+    color: lightblue;
   }
 </style>
 
@@ -177,7 +192,7 @@
           <div class="heading">
             <h1>Mentors</h1>
           </div>
-          <div class="card" v-for="mentor in mentors">
+          <div class="card" v-for="mentor in mentors" onclick="this.classList.toggle('flipped')">
             <div class="front">
               <div class="image">
                 <img v-bind:src="mentor.imageurl">
@@ -213,7 +228,7 @@
           <div class="heading">
             <h1>Participants</h1>
           </div>
-          <div class="card" v-for="contestant in contestants">
+          <div class="card" v-for="contestant in contestants" onclick="this.classList.toggle('flipped')">
             <div class="front">
               <div class="image">
                 <img v-bind:src="contestant.imageurl">
@@ -241,12 +256,63 @@
   </section>
 
   <!-- Footer -->
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">OpenCode</p>
-    </div>
-    <!-- /.container -->
-  </footer>
+ <footer id="footer" role="contentinfo">
+			<div class="container">
+			<!-- <div class=""> -->
+				<div class="col-md-12 text-center">
+					<div>
+        
+          </div>
+
+          <p>Created with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://geekhaven.iiita.ac.in/foss/" target="_blank">FOSS</a></p>
+
+        </div>
+
+						<!-- <div class="col-md-6 to-animate"> -->
+							<!-- <h3>Contact Info</h3> -->
+
+								<!-- <li class="fh5co-contact-address ">
+									<i class="icon-home"></i>
+									5555 Love Paradise 56 New Clity 5655, <br>Excel Tower United Kingdom
+								</li> -->
+
+								<!-- <div class="row">
+
+							<div class="col-md-4">
+
+									<h4 class="contact_head">Faheem Zunjani</h4>
+										<i class="icon-envelope contact_icon"></i><span>iit2015113@iiita.ac.in</span>
+
+									</div>
+									<div class="col-md-4">
+								<i class="icon-globe contact_icon"></i> <a href="http://fossiiita.github.io" target="_blank">fossiiita.github.io</a>
+							</div>
+
+
+									<div class="col-md-4">
+
+									<h4 class="contact_head">Mubaris NK</h4>
+									<i class="icon-envelope contact_icon"></i><span>iit2015134@iita.ac.in</span>
+								</div>
+
+						</div> -->
+
+						<!-- </div> -->
+			<!-- </div> -->
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<ul class= "list-inline" style="float: right; margin-right: 0px ;">
+						
+						<li class="list-inline-item"><a href="https://github.com/fossiiita" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true" style="font-size: 40px"></i></a></li>
+						<li class="list-inline-item"><a href="mailto:iit2015113@iiita.ac.in"><i class="fa fa-envelope-square" style="font-size: 40px" ></i></a></li>
+						<li class="list-inline-item"><a href="https://www.facebook.com/opencodeiiita/"><i class=" fa fa-facebook-square" style="font-size: 40px" ></i></a></li>
+					</ul>
+					
+				</div>
+			</div>
+		</div>
+	</footer>
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
