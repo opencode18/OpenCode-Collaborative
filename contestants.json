@@ -31,6 +31,15 @@
             "facebook" : "https://www.facebook.com/jsc3998",
             "github" : "https://github.com/Jigar3",
             "twitter" : ""
-        }
+        },
+        {
+            "name" : "Haripprasath Mahendran",
+            "imageurl" : "contestant/Optimized-IMG_20180108_192917_679.jpg",
+            "about" : "Neophyte Coder!",
+            "facebook" : "https://www.facebook.com/HaripprasathMahendran",
+            "github" : "https://github.com/HariMahi",
+            "twitter" : ""
+        }   
+        
     ]
 }
