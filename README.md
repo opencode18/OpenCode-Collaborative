@@ -17,6 +17,8 @@ To add a mentor open `mentors.json` and please maintain the following format EXA
         &nbsp;&nbsp;     "twitter" : "url"  
         }
 
+
+
 IMPORTANT:
 
 * All images must be optimized before uploaded to the repo via commit or PR. 
@@ -35,6 +37,8 @@ To add yourself to student section you need to open the file `contestants.json` 
         &nbsp;&nbsp;     "github" : "url",  
         &nbsp;&nbsp;     "twitter" : "url"  
         }
+        
+
 IMPORTANT:
 
 * All images must be optimized before uploaded to the repo via commit or PR. 

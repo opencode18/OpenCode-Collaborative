@@ -50,12 +50,45 @@
             "twitter" : ""
         },
         { 
+            "name" : "Abhishek Singh saini",
+            "imageurl" : "contestant/profile.jpg",
+            "about" : "I am an enthusiastic coder & developer",
+            "facebook" : "https://www.facebook.com/Abhitaker4",
+            "github" : "https://github.com/AbhiTaker",
+            "twitter" : "https://twitter.com/Abhi_saini_AS"
+        },
+        {
+
             "name" : "Atisaya Jain",
             "imageurl" : "contestant/atisayajain.jpg",
             "about" : "Learning how to learn!",
             "facebook" : "https://www.facebook.com/atisayajain",
             "github" : "https://github.com/atisayajain",
             "twitter" : "https://twitter.com/atisayajain"
+        },
+        {
+            "name" : "Yash Rathore",
+            "imageurl" : "contestant/Default-gitUserAvatar.jpeg",
+            "about" : "Who? what?! where?!!",
+            "facebook" : "https://www.facebook.com/yash.re.10",
+            "github" : "https://github.com/Re42",
+            "twitter" : ""
+        },
+        {
+            "name" : "Praful Tondomker",
+            "imageurl" : "contestant/ImageSS.jpg",
+            "about" : "Who? what?! where?!!",
+            "facebook" : "https://www.facebook.com/saisathypraful.tondomker",
+            "github" : "https://github.com/SSPrafulTondomker",
+            "twitter" : ""
+        },
+        {
+            "name" : "Aayush Joglekar",
+            "imageurl" : "contestant/aj.jpeg",
+            "about" : "Absolutely awkward, proud nerd & geek, decreaser of world suck.",
+            "facebook" : "https://www.facebook.com/joglekaraayush",
+            "github" : "https://github.com/aayushjoglekar",
+            "twitter" : "https://github.com/aayushjoglekar"
         }
     ]
 }
