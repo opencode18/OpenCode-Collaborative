@@ -105,12 +105,20 @@
            "twitter" : ""
         },
         {
-        "name" : "Anubhav Marwaha",
-        "imageurl" : "contestant/image.jpg",
-        "about" : "Coding is the new heaven",
-        "facebook" : "https://www.facebook.com/anubhav.marwaha",
-        "github" : "https://github.com/Anubhav2000",
-        "twitter" : "",
+           "name" : "Ananya Agrawal",
+           "imageurl" : "contestant/ananya.jpg",
+           "about" : "Help me learn !!",
+           "facebook" "https://www.facebook.com/ananya.agrawal1251999",
+           "github" : "https://github.com/ananya-agrawal",
+           "twitter" : ""
+        },
+        {
+            "name" : "Anubhav Marwaha",
+            "imageurl" : "contestant/image.jpg",
+            "about" : "Coding is the new heaven",
+            "facebook" : "https://www.facebook.com/anubhav.marwaha",
+            "github" : "https://github.com/Anubhav2000",
+            "twitter" : "",
         }
     ]
 }
