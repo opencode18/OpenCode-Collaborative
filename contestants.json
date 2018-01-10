@@ -73,12 +73,12 @@
          "twitter":""
       },
       {
-       "name": "Abhishek Sharma",
-	    "imageurl":"contestant/IMG_20180103_205533.jpg",
-	    "about":"The lazy one",
-	    "facebook":"https://www.facebook.com/profile.php?id=100006277743199",
-	    "github":"https://github.com/abhishhh1",
-	    "twitter":"https://twitter.com/abhishhh1"
+         "name":"Abhishek Sharma",
+         "imageurl":"contestant/IMG_20180103_205533.jpg",
+         "about":"The lazy one",
+         "facebook":"https://www.facebook.com/profile.php?id=100006277743199",
+         "github":"https://github.com/abhishhh1",
+         "twitter":"https://twitter.com/abhishhh1"
       },
       {
          "name":"Praful Tondomker",
@@ -184,36 +184,36 @@
          "twitter":""
       },
       {
-       "name": "Abhinav Kumar Srivastava",
-	    "imageurl":"contestant/abhinav.jpg",
-	    "about":"Yet another one, but different",
-	    "facebook":"",
-	    "github":"https://github.com/ProBeta1",
-	    "twitter":""
-      },
-     {
-      "name": "Aditya Raj",
-			"imageurl": "contestant/aditya-raj.jpg",
-			"about": "Feeling open sourced!",
-			"facebook": "",
-			"github": "https://github.com/brain-sick",
-			"twitter": ""
+         "name":"Abhinav Kumar Srivastava",
+         "imageurl":"contestant/abhinav.jpg",
+         "about":"Yet another one, but different",
+         "facebook":"",
+         "github":"https://github.com/ProBeta1",
+         "twitter":""
       },
       {
-	       "name":"Pranjal Gupta",
+         "name":"Aditya Raj",
+         "imageurl":"contestant/aditya-raj.jpg",
+         "about":"Feeling open sourced!",
+         "facebook":"",
+         "github":"https://github.com/brain-sick",
+         "twitter":""
+      },
+      {
+         "name":"Pranjal Gupta",
          "imageurl":" contestant/IMG_20171225_183446.jpg",
          "about":"",
          "facebook":"https://www.facebook.com/pranjal.gupta.562",
          "github":"https://github.com/pranjalg2308",
-         "twitter":""   
-      },	    
+         "twitter":""
+      },
       {
-        "name":"Arsh Panghal",
-        "imageurl":"contestant/arshjat.jpg",
-        "about":"Interested in full stack web developing!",
-        "facebook":"https://www.facebook.com/arsh.panghal",
-        "github":"https://github.com/arshjat",
-        "twitter":""
+         "name":"Arsh Panghal",
+         "imageurl":"contestant/arshjat.jpg",
+         "about":"Interested in full stack web developing!",
+         "facebook":"https://www.facebook.com/arsh.panghal",
+         "github":"https://github.com/arshjat",
+         "twitter":""
       },
       {
          "name":"Gaurav Pandey",
@@ -224,61 +224,68 @@
          "twitter":""
       },
       {
-	 "name":"Amritesh Bhaskar",
+         "name":"Amritesh Bhaskar",
          "imageurl":"contestant/amy.jpeg",
          "about":"Just a Beginner. but Beware!...",
          "facebook":"https://www.facebook.com/technoamritesh",
          "github":"https://github.com/amriteshbhaskar",
-         "twitter":""	   
+         "twitter":""
       },
-       {
-	 "name":"Tanmay Mittal",
+      {
+         "name":"Tanmay Mittal",
          "imageurl":"contestant/tanmay.jpeg",
          "about":"New to this Developer's World",
          "facebook":"https://www.facebook.com/tanmay.mittal.106",
          "github":"https://github.com/strikertanmay",
          "twitter":""
-       },
-	{
-	 "name":"Pulkit Goel",
+      },
+      {
+         "name":"Pulkit Goel",
          "imageurl":"contestant/pulkit.jpeg",
          "about":"Yup, that's my profile pic",
          "facebook":"",
-	 "github":"https://github.com/Tachyon01",
-	 "twitter":""
-	   
+         "github":"https://github.com/Tachyon01",
+         "twitter":""
       },
       {
-		"name":"Shyam K Kotecha",
-		"imageurl":"contestant/pic.png",
-	        "about":"Newbie trying to learn opensource development.",
-         	"facebook":"",
-         	"github":"https://github.com/shyam49",
-         	"twitter":""
+         "name":"Esha Jaiswal",
+         "imageurl":"contestant/esha.jpg",
+         "about":"Just Learning",
+         "facebook":"https://www.facebook.com/esha.jaiswal.52",
+         "github":"https://github.com/Esha23",
+         "twitter":""
       },
       {
-	   "name" : "Utkarsh Singh",
-	   "imageurl" : "contestant/utkarsh_singh.jpg",
-	   "about" : "Creaive and Passionate",
-	   "facebook" : "https://facebook.com/utkarshsingh369",
-	   "github" : "https://github.com/utkarshsingh99",
-	   "twitter" : ""
-      },  
-     {
-	   "name":"Komal Bhadani",
-           "imageurl":"contestant/Pic.jpg",
-	   "about":"Everything seems new!!",
-   	   "facebook":"",
-	   "github":"https://github.com/KomalBhadani27",
-	   "twitter":""
+         "name":"Shyam K Kotecha",
+         "imageurl":"contestant/pic.png",
+         "about":"Newbie trying to learn opensource development.",
+         "facebook":"",
+         "github":"https://github.com/shyam49",
+         "twitter":""
       },
       {
-	   "name" : "Mohammad Amir",
-	   "imageurl" : "contestant/amir.jpg",
-	   "about" : "New to Opensource",
-	   "facebook" : "",
-	   "github" : "https://github.com/mdmair2021",
-	   "twitter" : ""
-      }  
+         "name":"Utkarsh Singh",
+         "imageurl":"contestant/utkarsh_singh.jpg",
+         "about":"Creaive and Passionate",
+         "facebook":"https://facebook.com/utkarshsingh369",
+         "github":"https://github.com/utkarshsingh99",
+         "twitter":""
+      },
+      {
+         "name":"Komal Bhadani",
+         "imageurl":"contestant/Pic.jpg",
+         "about":"Everything seems new!!",
+         "facebook":"",
+         "github":"https://github.com/KomalBhadani27",
+         "twitter":""
+      },
+      {
+         "name":"Mohammad Amir",
+         "imageurl":"contestant/amir.jpg",
+         "about":"New to Opensource",
+         "facebook":"",
+         "github":"https://github.com/mdmair2021",
+         "twitter":""
+      }
    ]
 }
