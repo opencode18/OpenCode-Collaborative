@@ -95,6 +95,14 @@
            "facebook" : "www.facebook.com/prathamprakash29",
            "github" : "https://github.com/prathamprakash29",
            "twitter" : ""
-        }
+        },
+        {
+           "name" : "Ananya Agrawal",
+           "imageurl" : "contestant/ananya.jpg",
+           "about" : "Help me learn !!",
+           "facebook" "https://www.facebook.com/ananya.agrawal1251999",
+           "github" : "https://github.com/ananya-agrawal",
+           "twitter" : ""
+        },
     ]
 }
