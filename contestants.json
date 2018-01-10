@@ -72,6 +72,14 @@
             "github" : "https://github.com/aayushjoglekar",
             "twitter" : "https://github.com/aayushjoglekar"
         }
-        
+        {
+        "name" : "Anubhav Marwaha",
+        "imageurl" : "contestant/image.jpg",
+        "about" : "Coding is the new heaven",
+        "facebook" : "https://www.facebook.com/anubhav.marwaha",
+        "github" : "https://github.com/Anubhav2000",
+        "twitter" : "",
+        }
+       
     ]
 }
