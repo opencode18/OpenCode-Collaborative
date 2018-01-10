@@ -71,6 +71,14 @@
             "facebook" : "https://www.facebook.com/saisathypraful.tondomker",
             "github" : "https://github.com/SSPrafulTondomker",
             "twitter" : ""
+        },
+        {
+            "name" : "Aayush Joglekar",
+            "imageurl" : "contestant/aj.jpeg",
+            "about" : "Absolutely awkward, proud nerd & geek, decreaser of world suck.",
+            "facebook" : "https://www.facebook.com/joglekaraayush",
+            "github" : "https://github.com/aayushjoglekar",
+            "twitter" : "https://github.com/aayushjoglekar"
         }
     ]
 }
