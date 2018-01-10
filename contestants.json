@@ -214,6 +214,15 @@
          "facebook":"",
          "github":"https://github.com/gau1rav",
          "twitter":""
+      },
+      {
+	 "name":"Amritesh Bhaskar",
+         "imageurl":"contestant/amy.jpeg",
+         "about":"Just a Beginner. but Beware!...",
+         "facebook":"https://www.facebook.com/technoamritesh",
+         "github":"https://github.com/amriteshbhaskar",
+         "twitter":""
+	   
       }
    ]
 }
