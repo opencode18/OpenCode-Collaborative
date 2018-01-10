@@ -129,3 +129,18 @@
      
     background: linear-gradient(to bottom right, #ee0979, #ff6a00);
   }
+ #foss {
+  margin-top: 1vh; 
+  width : 10vh;
+  height : 4vh;
+}
+ #iiita {
+  width : 5vh !important;
+  height : 5vh!important;
+}
+
+ #geek {
+  width : 5vh !important;
+  height : 5vh!important;
+}
+
