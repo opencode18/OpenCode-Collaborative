@@ -176,7 +176,15 @@
          "twitter":""
       },
       {
-         "name": "Aditya Raj",
+       "name": "Abhinav Kumar Srivastava",
+	    "imageurl":"contestant/abhinav.jpg",
+	    "about":"Yet another one, but different",
+	    "facebook":"",
+	    "github":"https://github.com/ProBeta1",
+	    "twitter":""
+      },
+     {
+      "name": "Aditya Raj",
 			"imageurl": "contestant/aditya-raj.jpg",
 			"about": "Feeling open sourced!",
 			"facebook": "",
@@ -190,6 +198,6 @@
          "facebook":"https://www.facebook.com/arsh.panghal",
          "github":"https://github.com/arshjat",
          "twitter":""
-	},
+	    }
    ]
 }
