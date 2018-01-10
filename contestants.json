@@ -182,6 +182,14 @@
 			"facebook": "",
 			"github": "https://github.com/brain-sick",
 			"twitter": ""
-      }
+      },
+	   {
+         "name":"Arsh Panghal",
+         "imageurl":"contestant/arshjat.jpg",
+         "about":"Interested in full stack web developing!",
+         "facebook":"https://www.facebook.com/arsh.panghal",
+         "github":"https://github.com/arshjat",
+         "twitter":""
+	},
    ]
 }
