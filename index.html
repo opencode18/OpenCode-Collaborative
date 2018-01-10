@@ -154,6 +154,34 @@
       </div>
   </section>
 
+	  <div class="container">
+      <div class="row">
+        <div class="mentors" id="mentors">
+          <div class="heading">
+            <h1>Projects</h1>
+          </div>
+          <div class="card" v-for="project in projects" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              
+              <div class="name">{{ project.name }}</div>
+            </div>
+            <div class="back">
+              <div class="about">
+                <h3>About project</h3>{{ project.about }}</div>
+              <div class="social">
+                
+                <a v-bind:href="project.github">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
   <!-- Footer -->
  <footer id="footer" role="contentinfo">
 			<div class="container">
