@@ -121,7 +121,7 @@
          "twitter":""
       },
       {
-	"name":"Nilotpal Pramanik",
+	       "name":"Nilotpal Pramanik",
          "imageurl":"contestant/nilotpal.jpg",
          "about":"Nice to meet you:)",
          "facebook":"",
@@ -255,6 +255,14 @@
          	"facebook":"",
          	"github":"https://github.com/shyam49",
          	"twitter":""
+      },
+      {
+	   "name" : "Utkarsh Singh",
+	   "imageurl" : "contestant/utkarsh_singh.jpg",
+	   "about" : "Creaive and Passionate",
+	   "facebook" : "https://facebook.com/utkarshsingh369",
+	   "github" : "https://github.com/utkarshsingh99",
+	   "twitter" : ""
       },
    ]
 }
