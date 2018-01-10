@@ -255,6 +255,14 @@
 	   "facebook" : "https://facebook.com/utkarshsingh369",
 	   "github" : "https://github.com/utkarshsingh99",
 	   "twitter" : ""
+      },
+      {
+	   "name" : "Mohammad Amir",
+	   "imageurl" : "contestant/amir.jpg",
+	   "about" : "New to Opensource",
+	   "facebook" : "",
+	   "github" : "https://github.com/mdmair2021",
+	   "twitter" : ""
       }  
    ]
 }
