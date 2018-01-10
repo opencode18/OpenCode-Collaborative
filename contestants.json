@@ -238,6 +238,15 @@
          "facebook":"",
 	 "github":"https://github.com/Tachyon01",
 	 "twitter":""
+	   
+      },
+      {
+		"name":"Shyam K Kotecha",
+		"imageurl":"contestant/pic.png",
+	        "about":"Newbie trying to learn opensource development.",
+         	"facebook":"",
+         	"github":"https://github.com/shyam49",
+         	"twitter":""
       }
    ]
 }
