@@ -65,13 +65,37 @@
             "twitter" : ""
         },
         {
+            "name" : "Praful Tondomker",
+            "imageurl" : "contestant/ImageSS.jpg",
+            "about" : "Who? what?! where?!!",
+            "facebook" : "https://www.facebook.com/saisathypraful.tondomker",
+            "github" : "https://github.com/SSPrafulTondomker",
+            "twitter" : ""
+        },
+        {
             "name" : "Aayush Joglekar",
             "imageurl" : "contestant/aj.jpeg",
             "about" : "Absolutely awkward, proud nerd & geek, decreaser of world suck.",
             "facebook" : "https://www.facebook.com/joglekaraayush",
             "github" : "https://github.com/aayushjoglekar",
             "twitter" : "https://github.com/aayushjoglekar"
-        }
+        },
+         {
+            "name" : "Druval CR",
+            "imageurl" : "contestant/druval.jpg",
+            "about" : "New to OpenSource",
+            "facebook" : "https://www.facebook.com/druval.cr",
+            "github" : "https://github.com/druvalcr28",
+            "twitter" : ""
+        },
+        {
+           "name" : "Pratham Prakash Gupta",
+           "imageurl" : "contestant/github_avatar.jpg",
+           "about" : "Error 404! Not Found",
+           "facebook" : "www.facebook.com/prathamprakash29",
+           "github" : "https://github.com/prathamprakash29",
+           "twitter" : ""
+        },
         {
         "name" : "Anubhav Marwaha",
         "imageurl" : "contestant/image.jpg",
@@ -80,6 +104,5 @@
         "github" : "https://github.com/Anubhav2000",
         "twitter" : "",
         }
-       
     ]
 }
