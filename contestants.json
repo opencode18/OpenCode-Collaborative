@@ -87,6 +87,15 @@
             "facebook" : "https://www.facebook.com/druval.cr",
             "github" : "https://github.com/druvalcr28",
             "twitter" : ""
-        }
+        },
+        
+       {
+            "name" : "Tanmay Mittal",
+            "imageurl" : "",
+            "about" : "New to this developer's world",
+            "facebook" : "https://www.facebook.com/tanmay.mittal.106",
+            "github" : "https://github.com/strikertanmay",
+            "twitter" : ""  
+        }  
     ]
 }
