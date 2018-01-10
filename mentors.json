@@ -1,0 +1,21 @@
+{
+    "mentors" : [
+        {
+            "name" : "Aswanth K",
+            "imageurl" : "mentor/aswanth.jpg",
+            "about" : "Hello I'm a web developer",
+            "facebook" : "https://facebook.com/aswanth9495",
+            "github" : "https://github.com/aswanth9495",
+            "twitter" : "https://twitter.com/aswanthkoleri"
+        },
+        {
+            "name" : "Anupam Dagar",
+            "imageurl" : "mentor/anupam.jpg",
+            "about" : "Hello I'm a web developer",
+            "facebook" : "https://facebook.com/aswanth9495",
+            "github" : "https://github.com/aswanth9495",
+            "twitter" : "https://twitter.com/aswanthkoleri"
+        }
+       
+    ]
+}
