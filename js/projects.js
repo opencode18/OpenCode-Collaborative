@@ -4,7 +4,7 @@ const app=new Vue({
               projects : []
           },
           created() {
-              fetch('https://Tlazypanda.github.io/OpenCode-Collaborative/projects.json')
+              fetch('https://tlazypanda.github.io/OpenCode-Collaborative/projects.json')
             .then(response => response.json() )
             .then(json => {
                 this.projects = json.projects
