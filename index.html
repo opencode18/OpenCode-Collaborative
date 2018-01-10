@@ -94,12 +94,20 @@
     padding: 20px;
   }
 
-  .card:hover .front {
+  /*.card:hover .front {
     transform: perspective(600px) rotateY(-180deg)
   }
 
   .card:hover .back {
     transform: perspective(600px) rotateY(0deg)
+  }*/
+
+  .flipped .front{
+   transform: perspective(600px) rotateY(-180deg);
+  }
+    
+   .flipped .back{
+   transform: perspective(600px) rotateY(0deg);
   }
 
   .mentors .contestants {
@@ -184,7 +192,7 @@
           <div class="heading">
             <h1>Mentors</h1>
           </div>
-          <div class="card" v-for="mentor in mentors">
+          <div class="card" v-for="mentor in mentors" onclick="this.classList.toggle('flipped')">
             <div class="front">
               <div class="image">
                 <img v-bind:src="mentor.imageurl">
@@ -220,7 +228,7 @@
           <div class="heading">
             <h1>Participants</h1>
           </div>
-          <div class="card" v-for="contestant in contestants">
+          <div class="card" v-for="contestant in contestants" onclick="this.classList.toggle('flipped')">
             <div class="front">
               <div class="image">
                 <img v-bind:src="contestant.imageurl">
