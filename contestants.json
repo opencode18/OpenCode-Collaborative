@@ -303,6 +303,14 @@
          "facebook":"",
          "github":"https://github.com/mdmair2021",
          "twitter":""
-      }
+      },
+	{
+          "name" : "Aayush Chaudhry",
+          "imageurl" : "contestant/photo.jpg",
+          "about" : "Lets all just pretend that this is a really clever bio.",
+          "facebook" : "https://www.facebook.com/ayush.chaudhry007",
+          "github" : "https://github.com/maverick0004",
+          "twitter" : ""
+        }
    ]
 }
