@@ -126,7 +126,7 @@
 			"name": "Pratham Prakash Gupta",
 			"imageurl": "contestant/github_avatar.jpg",
 			"about": "Error 404! Not Found",
-			"facebook": "www.facebook.com/prathamprakash29",
+			"facebook": "https://www.facebook.com/prathamprakash29",
 			"github": "https://github.com/prathamprakash29",
 			"twitter": ""
 		},
@@ -146,6 +146,12 @@
 			"github": "https://github.com/Anubhav2000",
 			"twitter": ""
 		},
+	    "name": "Tushaar Kumar",
+			"imageurl": "contestant/image1.jpg",
+			"about": "New in open source",
+			"facebook": "https://www.facebook.com/tushaar.kumar.98",
+			"github": "https://github.com/ToughDude",
+			"twitter": ""
 		{
 		    "name": "Ayush Gupta",
 			"imageurl": "contestant/ayush.png",
