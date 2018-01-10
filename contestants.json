@@ -228,7 +228,9 @@
 	 "name":"Pulkit Goel",
          "imageurl":"contestant/pulkit.jpeg",
          "about":"Yup, that's my profile pic",
-         "github":"https://github.com/Tachyon01" 
+         "facebook":"",
+	 "github":"https://github.com/Tachyon01" 
+	 "twitter":""
       }
    ]
 }
