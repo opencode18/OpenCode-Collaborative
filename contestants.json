@@ -121,6 +121,14 @@
          "twitter":""
       },
       {
+	"name":"Nilotpal Pramanik",
+         "imageurl":"contestant/nilotpal.jpg",
+         "about":"Nice to meet you:)",
+         "facebook":"",
+         "github":"https://github.com/goodday451999",
+         "twitter":""
+      },
+      {
          "name":"Pratham Prakash Gupta",
          "imageurl":"contestant/github_avatar.jpg",
          "about":"Error 404! Not Found",
@@ -223,23 +231,6 @@
          "github":"https://github.com/amriteshbhaskar",
          "twitter":""
 	   
-      },
-      {
-	 "name":"Tanmay Mittal",
-         "imageurl":"contestant/tanmay.jpeg",
-         "about":"New to this Developer's World",
-         "facebook":"https://www.facebook.com/tanmay.mittal.106",
-         "github":"https://github.com/strikertanmay",
-         "twitter":""
-	   
-      },
-      {
-		"name":"Shyam K Kotecha",
-		"imageurl":"contestant/pic.png",
-	        "about":"Newbie trying to learn opensource development.",
-         	"facebook":"",
-         	"github":"https://github.com/shyam49",
-         	"twitter":""
       }
    ]
 }
