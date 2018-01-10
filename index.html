@@ -97,12 +97,16 @@
     padding: 20px;
   }
 
-  .card:hover .front {
-    transform: perspective(600px) rotateY(-180deg)
+  /*Class front-turn/back-turn is added when the card is flipped.*/
+
+  .card .front-turn{
+    transform: perspective(600px);
+    transform: rotateY(-180deg);
   }
 
-  .card:hover .back {
-    transform: perspective(600px) rotateY(0deg)
+  .card .back-turn{
+    transform: perspective(600px);
+    transform: rotateY(0deg);
   }
 
   .mentors .contestants {
@@ -273,6 +277,9 @@
 
   <!-- Custom JavaScript for this theme -->
   <script src="js/scrolling-nav.js"></script>
+
+  <!-- Custom JavaScript to handle events -->
+  <script src="js/script.js"></script>
 
 </body>
 <script src="https://unpkg.com/vue"></script>
