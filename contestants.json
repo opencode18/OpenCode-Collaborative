@@ -241,13 +241,13 @@
          	"github":"https://github.com/shyam49",
          	"twitter":""
       },
-	{
-   "name" : "Utkarsh Singh",
-   "imageurl" : "contestant/utkarsh_singh.jpg",
-   "about" : "Creaive and Passionate",
-   "facebook" : "https://facebook.com/utkarshsingh369",
-   "github" : "https://github.com/utkarshsingh99",
-   "twitter" : ""
-}  
+      {
+	   "name" : "Utkarsh Singh",
+	   "imageurl" : "contestant/utkarsh_singh.jpg",
+	   "about" : "Creaive and Passionate",
+	   "facebook" : "https://facebook.com/utkarshsingh369",
+	   "github" : "https://github.com/utkarshsingh99",
+	   "twitter" : ""
+      }  
    ]
 }
