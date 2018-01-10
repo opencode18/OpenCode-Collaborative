@@ -221,16 +221,23 @@
          "about":"Just a Beginner. but Beware!...",
          "facebook":"https://www.facebook.com/technoamritesh",
          "github":"https://github.com/amriteshbhaskar",
-         "twitter":""
-	   
+         "twitter":""	   
       },
-      {
+       {
 	 "name":"Tanmay Mittal",
          "imageurl":"contestant/tanmay.jpeg",
          "about":"New to this Developer's World",
          "facebook":"https://www.facebook.com/tanmay.mittal.106",
          "github":"https://github.com/strikertanmay",
          "twitter":""
+       },
+	{
+	 "name":"Pulkit Goel",
+         "imageurl":"contestant/pulkit.jpeg",
+         "about":"Yup, that's my profile pic",
+         "facebook":"",
+	 "github":"https://github.com/Tachyon01",
+	 "twitter":""
 	   
       },
       {
