@@ -1,84 +1,308 @@
 {
-    "contestants" : [
-        {
-            "name" : "Sneha Mishra",
-            "imageurl" : "contestant/panda.jpg",
-            "about" : "Noob help me out!!!",
-            "facebook" : "https://www.facebook.com/snehamishrabb",
-            "github" : "https://github.com/Tlazypanda",
-            "twitter" : ""
-        },
-        {
-            "name" : "Arpit Mishra",
-            "imageurl" : "contestant/Cool-avatars-anonymous-avatar.jpg",
-            "about" : "I code when I'm bored.",
-            "facebook" : "https://www.facebook.com/arpitmisraw2614",
-            "github" : "https://github.com/arpitmisraw",
-            "twitter" : ""
-        },
-        {
-            "name" : "Vishal Pani",
-            "imageurl" : "contestant/avatar.jpeg",
-            "about" : "An A.I invasion will probably make me laugh.",
-            "facebook" : "https://www.facebook.com/vishal.pani",
-            "github" : "https://github.com/falconis",
-            "twitter" : ""
-        },
-        {
-            "name" : "Madhur Gupta",
-            "imageurl" : "contestant/myimage.jpg",
-            "about" : "A wanna-be Web Developer.",
-            "facebook" : "https://www.facebook.com/madhurguptaiiita",
-            "github" : "https://github.com/madhur1998",
-            "twitter" : ""
-        },
-        {
-            "name" : "Jigar Chavada",
-            "imageurl" : "contestant/jsc39.jpeg",
-            "about" : "Eat Sleep Code Repeat",
-            "facebook" : "https://www.facebook.com/jsc3998",
-            "github" : "https://github.com/Jigar3",
-            "twitter" : ""
-        },
-        {
-            "name" : "Abhishek Singh saini",
-            "imageurl" : "contestant/profile.jpg",
-            "about" : "I am an enthusiastic coder & developer",
-            "facebook" : "https://www.facebook.com/Abhitaker4",
-            "github" : "https://github.com/AbhiTaker",
-            "twitter" : "https://twitter.com/Abhi_saini_AS"
-        },
-        {
-            "name" : "Atisaya Jain",
-            "imageurl" : "contestant/atisayajain.jpg",
-            "about" : "Learning how to learn!",
-            "facebook" : "https://www.facebook.com/atisayajain",
-            "github" : "https://github.com/atisayajain",
-            "twitter" : "https://twitter.com/atisayajain"
-        },
-        {
-            "name" : "Yash Rathore",
-            "imageurl" : "contestant/Default-gitUserAvatar.jpeg",
-            "about" : "Who? what?! where?!!",
-            "facebook" : "https://www.facebook.com/yash.re.10",
-            "github" : "https://github.com/Re42",
-            "twitter" : ""
-        },
-        {
-            "name" : "Praful Tondomker",
-            "imageurl" : "contestant/ImageSS.jpg",
-            "about" : "Who? what?! where?!!",
-            "facebook" : "https://www.facebook.com/saisathypraful.tondomker",
-            "github" : "https://github.com/SSPrafulTondomker",
-            "twitter" : ""
-        },
-        {
-            "name" : "Aayush Joglekar",
-            "imageurl" : "contestant/aj.jpeg",
-            "about" : "Absolutely awkward, proud nerd & geek, decreaser of world suck.",
-            "facebook" : "https://www.facebook.com/joglekaraayush",
-            "github" : "https://github.com/aayushjoglekar",
-            "twitter" : "https://github.com/aayushjoglekar"
-        }
-    ]
+   "contestants":[
+      {
+         "name":"Sneha Mishra",
+         "imageurl":"contestant/panda.jpg",
+         "about":"Noob help me out!!!",
+         "facebook":"https://www.facebook.com/snehamishrabb",
+         "github":"https://github.com/Tlazypanda",
+         "twitter":""
+      },
+	   
+      {
+         "name":"Arpit Mishra",
+         "imageurl":"contestant/Cool-avatars-anonymous-avatar.jpg",
+         "about":"I code when I'm bored.",
+         "facebook":"https://www.facebook.com/arpitmisraw2614",
+         "github":"https://github.com/arpitmisraw",
+         "twitter":""
+      },
+      {
+         "name":"Vishal Pani",
+         "imageurl":"contestant/avatar.jpeg",
+         "about":"An A.I invasion will probably make me laugh.",
+         "facebook":"https://www.facebook.com/vishal.pani",
+         "github":"https://github.com/falconis",
+         "twitter":""
+      },
+      {
+         "name":"Madhur Gupta",
+         "imageurl":"contestant/myimage.jpg",
+         "about":"A wanna-be Web Developer.",
+         "facebook":"https://www.facebook.com/madhurguptaiiita",
+         "github":"https://github.com/madhur1998",
+         "twitter":""
+      },
+      {
+         "name":"Jigar Chavada",
+         "imageurl":"contestant/jsc39.jpeg",
+         "about":"Eat Sleep Code Repeat",
+         "facebook":"https://www.facebook.com/jsc3998",
+         "github":"https://github.com/Jigar3",
+         "twitter":""
+      },
+      {
+         "name":"Vivek Raj",
+         "imageurl":"contestant/me1.jpg",
+         "about":"A Worst web-developer",
+         "facebook":"https://www.facebook.com/profile.php?id=100005118040716",
+         "github":"https://github.com/swaager",
+         "twitter":""
+      },
+      {
+         "name":"Abhishek Singh saini",
+         "imageurl":"contestant/profile.jpg",
+         "about":"I am an enthusiastic coder & developer",
+         "facebook":"https://www.facebook.com/Abhitaker4",
+         "github":"https://github.com/AbhiTaker",
+         "twitter":"https://twitter.com/Abhi_saini_AS"
+      },
+      {
+         "name":"Atisaya Jain",
+         "imageurl":"contestant/atisayajain.jpg",
+         "about":"Learning how to learn!",
+         "facebook":"https://www.facebook.com/atisayajain",
+         "github":"https://github.com/atisayajain",
+         "twitter":"https://twitter.com/atisayajain"
+      },
+      {
+         "name":"Yash Rathore",
+         "imageurl":"contestant/Default-gitUserAvatar.jpeg",
+         "about":"Who? what?! where?!!",
+         "facebook":"https://www.facebook.com/yash.re.10",
+         "github":"https://github.com/Re42",
+         "twitter":""
+      },
+      {
+         "name":"Abhishek Sharma",
+         "imageurl":"contestant/IMG_20180103_205533.jpg",
+         "about":"The lazy one",
+         "facebook":"https://www.facebook.com/profile.php?id=100006277743199",
+         "github":"https://github.com/abhishhh1",
+         "twitter":"https://twitter.com/abhishhh1"
+      },
+      {
+         "name":"Praful Tondomker",
+         "imageurl":"contestant/ImageSS.jpg",
+         "about":"Who? what?! where?!!",
+         "facebook":"https://www.facebook.com/saisathypraful.tondomker",
+         "github":"https://github.com/SSPrafulTondomker",
+         "twitter":""
+      },
+      {
+         "name":"Aayush Joglekar",
+         "imageurl":"contestant/aj.jpeg",
+         "about":"Absolutely awkward, proud nerd & geek, decreaser of world suck.",
+         "facebook":"https://www.facebook.com/joglekaraayush",
+         "github":"https://github.com/aayushjoglekar",
+         "twitter":"https://github.com/aayushjoglekar"
+      },
+      {
+         "name":"Naman Tiwari",
+         "imageurl":"contestant/namnam.jpg",
+         "about":"When in doubt, use brute force!",
+         "facebook":"https://www.facebook.com/namantw",
+         "github":"https://github.com/namantw",
+         "twitter":""
+      },
+      {
+         "name":"Kaushtub Rawat",
+         "imageurl":"contestant/IMG_20170611_132210.jpg",
+         "about":"There's nothing like 'slightly wrong' and 'nearly correct' in coding",
+         "facebook":"https://www.facebook.com/profile.php?id=100007203708174",
+         "github":"https://github.com/marshallKR7",
+         "twitter":""
+      },
+      {
+         "name":"Govind Dixit",
+         "imageurl":"contestant/govind.jpg",
+         "about":"Is someone seeing?",
+         "facebook":"https://www.facebook.com/govinddixit05",
+         "github":"https://github.com/GOVINDDIXIT",
+         "twitter":""
+      },
+      {
+         "name":"Druval CR",
+         "imageurl":"contestant/druval.jpg",
+         "about":"New to OpenSource",
+         "facebook":"https://www.facebook.com/druval.cr",
+         "github":"https://github.com/druvalcr28",
+         "twitter":""
+      },
+      {
+	 "name":"Nilotpal Pramanik",
+         "imageurl":"contestant/nilotpal.jpg",
+         "about":"Nice to meet you:)",
+         "facebook":"",
+         "github":"https://github.com/goodday451999",
+         "twitter":""
+      },
+      {
+         "name":"Pratham Prakash Gupta",
+         "imageurl":"contestant/github_avatar.jpg",
+         "about":"Error 404! Not Found",
+         "facebook":"www.facebook.com/prathamprakash29",
+         "github":"https://github.com/prathamprakash29",
+         "twitter":""
+      },
+      {
+         "name":"Ananya Agrawal",
+         "imageurl":"contestant/ananya.jpg",
+         "about":"Help me learn !!",
+         "facebook":"https://www.facebook.com/ananya.agrawal1251999",
+         "github":"https://github.com/ananya-agrawal",
+         "twitter":""
+      },
+      {
+         "name":"Anubhav Marwaha",
+         "imageurl":"contestant/images.png",
+         "about":"Coding is the new heaven",
+         "facebook":"https://www.facebook.com/anubhav.marwaha",
+         "github":"https://github.com/Anubhav2000",
+         "twitter":""
+      },
+      {
+         "name":"Tushaar Kumar",
+         "imageurl":"contestant/image1.jpg",
+         "about":"New in open source",
+         "facebook":"https://www.facebook.com/tushaar.kumar.98",
+         "github":"https://github.com/ToughDude",
+         "twitter":""
+      },
+      {
+         "name":"Ayush Gupta",
+         "imageurl":"contestant/ayush.png",
+         "about":"Consectatio Excellentiae",
+         "facebook":"https://www.facebook.com/ayush926",
+         "github":"https://github.com/AK-007"
+      },
+      {
+         "name":"Nityananda Gohain",
+         "imageurl":"contestant/nitya.jpeg",
+         "about":"Code Explorer! :)",
+         "facebook":"https://www.facebook.com/nityanandagohain",
+         "github":"https://github.com/nityanandagohain",
+         "twitter":""
+      },
+      {
+         "name":"Nikita Jain",
+         "imageurl":"contestant/img.jpg",
+         "about":"",
+         "facebook":"",
+         "github":"https://github.com/nikki1016",
+         "twitter":""
+      },
+      {
+         "name":"Abhinav Kumar Srivastava",
+         "imageurl":"contestant/abhinav.jpg",
+         "about":"Yet another one, but different",
+         "facebook":"",
+         "github":"https://github.com/ProBeta1",
+         "twitter":""
+      },
+      {
+         "name":"Aditya Raj",
+         "imageurl":"contestant/aditya-raj.jpg",
+         "about":"Feeling open sourced!",
+         "facebook":"",
+         "github":"https://github.com/brain-sick",
+         "twitter":""
+      },
+      {
+         "name":"Pranjal Gupta",
+         "imageurl":" contestant/IMG_20171225_183446.jpg",
+         "about":"",
+         "facebook":"https://www.facebook.com/pranjal.gupta.562",
+         "github":"https://github.com/pranjalg2308",
+         "twitter":""
+      },
+      {
+         "name":"Arsh Panghal",
+         "imageurl":"contestant/arshjat.jpg",
+         "about":"Interested in full stack web developing!",
+         "facebook":"https://www.facebook.com/arsh.panghal",
+         "github":"https://github.com/arshjat",
+         "twitter":""
+      },
+      {
+         "name":"Gaurav Pandey",
+         "imageurl":"contestant/dexter.jpeg",
+         "about":"Still a Beginner",
+         "facebook":"",
+         "github":"https://github.com/gau1rav",
+         "twitter":""
+      },
+      {
+         "name":"Amritesh Bhaskar",
+         "imageurl":"contestant/amy.jpeg",
+         "about":"Just a Beginner. but Beware!...",
+         "facebook":"https://www.facebook.com/technoamritesh",
+         "github":"https://github.com/amriteshbhaskar",
+         "twitter":""
+      },
+      {
+         "name":"Tanmay Mittal",
+         "imageurl":"contestant/tanmay.jpeg",
+         "about":"New to this Developer's World",
+         "facebook":"https://www.facebook.com/tanmay.mittal.106",
+         "github":"https://github.com/strikertanmay",
+         "twitter":""
+      },
+      {
+         "name":"Pulkit Goel",
+         "imageurl":"contestant/pulkit.jpeg",
+         "about":"Yup, that's my profile pic",
+         "facebook":"",
+         "github":"https://github.com/Tachyon01",
+         "twitter":""
+      },
+      {
+         "name":"Esha Jaiswal",
+         "imageurl":"contestant/esha.jpg",
+         "about":"Just Learning",
+         "facebook":"https://www.facebook.com/esha.jaiswal.52",
+         "github":"https://github.com/Esha23",
+         "twitter":""
+      },
+      {
+         "name":"Shyam K Kotecha",
+         "imageurl":"contestant/pic.png",
+         "about":"Newbie trying to learn opensource development.",
+         "facebook":"",
+         "github":"https://github.com/shyam49",
+         "twitter":""
+      },
+      {
+         "name":"Utkarsh Singh",
+         "imageurl":"contestant/utkarsh_singh.jpg",
+         "about":"Creaive and Passionate",
+         "facebook":"https://facebook.com/utkarshsingh369",
+         "github":"https://github.com/utkarshsingh99",
+         "twitter":""
+      },
+      {
+         "name":"Komal Bhadani",
+         "imageurl":"contestant/Pic.jpg",
+         "about":"Everything seems new!!",
+         "facebook":"",
+         "github":"https://github.com/KomalBhadani27",
+         "twitter":""
+      },
+      {
+         "name":"Aditi Aggarwal",
+         "imageurl":"contestant/aditi.jpg",
+         "about":"just learning opencode",
+         "facebook":"",
+         "github":"https://github.com/adiagg2000",
+         "twitter":""
+      },
+      {
+         "name":"Mohammad Amir",
+         "imageurl":"contestant/amir.jpg",
+         "about":"New to Opensource",
+         "facebook":"",
+         "github":"https://github.com/mdmair2021",
+         "twitter":""
+      }
+   ]
 }
