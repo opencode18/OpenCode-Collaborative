@@ -80,5 +80,13 @@
             "github" : "https://github.com/aayushjoglekar",
             "twitter" : "https://github.com/aayushjoglekar"
         }
+        {
+            "name" : "Naman Tiwari",
+            "imageurl" : "contestant/namnam.jpg",
+            "about" : "When in doubt, use brute force!",
+            "facebook" : "https://www.facebook.com/namantw",
+            "github" : "https://github.com/namantw",
+            "twitter" : ""
+        }
     ]
 }
