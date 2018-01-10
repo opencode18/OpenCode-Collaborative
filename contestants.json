@@ -176,12 +176,36 @@
          "twitter":""
       },
       {
-         "name": "Aditya Raj",
+       "name": "Abhinav Kumar Srivastava",
+	    "imageurl":"contestant/abhinav.jpg",
+	    "about":"Yet another one, but different",
+	    "facebook":"",
+	    "github":"https://github.com/ProBeta1",
+	    "twitter":""
+      },
+     {
+      "name": "Aditya Raj",
 			"imageurl": "contestant/aditya-raj.jpg",
 			"about": "Feeling open sourced!",
 			"facebook": "",
 			"github": "https://github.com/brain-sick",
 			"twitter": ""
+      },	    
+      {
+        "name":"Arsh Panghal",
+        "imageurl":"contestant/arshjat.jpg",
+        "about":"Interested in full stack web developing!",
+        "facebook":"https://www.facebook.com/arsh.panghal",
+        "github":"https://github.com/arshjat",
+        "twitter":""
+      },
+      {
+         "name":"Gaurav Pandey",
+         "imageurl":"contestant/dexter.jpeg",
+         "about":"Still a Beginner",
+         "facebook":"",
+         "github":"https://github.com/gau1rav",
+         "twitter":""
       }
    ]
 }
