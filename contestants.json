@@ -80,6 +80,14 @@
             "github" : "https://github.com/aayushjoglekar",
             "twitter" : "https://github.com/aayushjoglekar"
         },
+        {
+            "name" : "Govind Dixit",
+            "imageurl" : "contestant/govind.jpg",
+            "about" : "Is someone seeing?",
+            "facebook" : "https://www.facebook.com/govinddixit05",
+            "github" : "https://github.com/GOVINDDIXIT",
+            "twitter" : ""
+         }, 
          {
             "name" : "Druval CR",
             "imageurl" : "contestant/druval.jpg",
