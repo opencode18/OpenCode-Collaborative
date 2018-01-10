@@ -31,6 +31,14 @@
             "facebook" : "https://www.facebook.com/jsc3998",
             "github" : "https://github.com/Jigar3",
             "twitter" : ""
+        },
+        {
+            "name" : "Yash Rathore",
+            "imageurl" : "contestant/Default-gitUserAvatar.jpeg",
+            "about" : "Who? what?! where?!!",
+            "facebook" : "https://www.facebook.com/yash.re.10",
+            "github" : "https://github.com/Re42",
+            "twitter" : ""
         }
     ]
 }
