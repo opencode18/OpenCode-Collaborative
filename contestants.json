@@ -25,6 +25,14 @@
             "twitter" : ""
         },
         {
+            "name" : "Madhur Gupta",
+            "imageurl" : "contestant/myimage.jpg",
+            "about" : "A wanna-be Web Developer.",
+            "facebook" : "https://www.facebook.com/madhurguptaiiita",
+            "github" : "https://github.com/madhur1998",
+            "twitter" : ""
+        },
+        {
             "name" : "Jigar Chavada",
             "imageurl" : "contestant/jsc39.jpeg",
             "about" : "Eat Sleep Code Repeat",
@@ -39,6 +47,14 @@
             "facebook" : "https://www.facebook.com/Abhitaker4",
             "github" : "https://github.com/AbhiTaker",
             "twitter" : "https://twitter.com/Abhi_saini_AS"
+        },
+        {
+            "name" : "Atisaya Jain",
+            "imageurl" : "contestant/atisayajain.jpg",
+            "about" : "Learning how to learn!",
+            "facebook" : "https://www.facebook.com/atisayajain",
+            "github" : "https://github.com/atisayajain",
+            "twitter" : "https://twitter.com/atisayajain"
         }
         
     ]
