@@ -166,6 +166,73 @@
          "facebook":"https://www.facebook.com/nityanandagohain",
          "github":"https://github.com/nityanandagohain",
          "twitter":""
+      },
+      {
+         "name":"Nikita Jain",
+         "imageurl":"contestant/img.jpg",
+         "about":"",
+         "facebook":"",
+         "github":"https://github.com/nikki1016",
+         "twitter":""
+      },
+      {
+       "name": "Abhinav Kumar Srivastava",
+	    "imageurl":"contestant/abhinav.jpg",
+	    "about":"Yet another one, but different",
+	    "facebook":"",
+	    "github":"https://github.com/ProBeta1",
+	    "twitter":""
+      },
+     {
+      "name": "Aditya Raj",
+			"imageurl": "contestant/aditya-raj.jpg",
+			"about": "Feeling open sourced!",
+			"facebook": "",
+			"github": "https://github.com/brain-sick",
+			"twitter": ""
+      },
+      {
+	       "name":"Pranjal Gupta",
+         "imageurl":" contestant/IMG_20171225_183446.jpg",
+         "about":"",
+         "facebook":"https://www.facebook.com/pranjal.gupta.562",
+         "github":"https://github.com/pranjalg2308",
+         "twitter":""   
+      },	    
+      {
+        "name":"Arsh Panghal",
+        "imageurl":"contestant/arshjat.jpg",
+        "about":"Interested in full stack web developing!",
+        "facebook":"https://www.facebook.com/arsh.panghal",
+        "github":"https://github.com/arshjat",
+        "twitter":""
+      },
+      {
+         "name":"Gaurav Pandey",
+         "imageurl":"contestant/dexter.jpeg",
+         "about":"Still a Beginner",
+         "facebook":"",
+         "github":"https://github.com/gau1rav",
+         "twitter":""
+      },
+      {
+	 "name":"Amritesh Bhaskar",
+         "imageurl":"contestant/amy.jpeg",
+         "about":"Just a Beginner. but Beware!...",
+         "facebook":"https://www.facebook.com/technoamritesh",
+         "github":"https://github.com/amriteshbhaskar",
+         "twitter":""
+	   
+      },
+      {
+	 "name":"Tanmay Mittal",
+         "imageurl":"contestant/tanmay.jpeg",
+         "about":"New to this Developer's World",
+         "facebook":"https://www.facebook.com/tanmay.mittal.106",
+         "github":"https://github.com/strikertanmay",
+         "twitter":""
+	   
       }
+	
    ]
 }
