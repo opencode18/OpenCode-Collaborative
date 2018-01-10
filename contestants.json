@@ -63,6 +63,14 @@
             "facebook" : "https://www.facebook.com/yash.re.10",
             "github" : "https://github.com/Re42",
             "twitter" : ""
+        },
+        {
+            "name" : "Aayush Joglekar",
+            "imageurl" : "contestant/aj.jpeg",
+            "about" : "Absolutely awkward, proud nerd & geek, decreaser of world suck.",
+            "facebook" : "https://www.facebook.com/joglekaraayush",
+            "github" : "https://github.com/aayushjoglekar",
+            "twitter" : "https://github.com/aayushjoglekar"
         }
         
     ]
