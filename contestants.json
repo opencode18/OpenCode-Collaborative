@@ -71,7 +71,14 @@
             "facebook" : "https://www.facebook.com/joglekaraayush",
             "github" : "https://github.com/aayushjoglekar",
             "twitter" : "https://github.com/aayushjoglekar"
+        },
+        {
+            "name" : "Rohan Shekhawat",
+            "imageurl" : "contestant/Default-gitUserAvatar.jpeg",
+            "about" : "nobbiee!",
+            "facebook" : "https://www.facebook.com/shekhawatrohan23",
+            "github" : "https://github.com/RohanShekhawat",
+            "twitter" : ""
         }
-        
     ]
 }
