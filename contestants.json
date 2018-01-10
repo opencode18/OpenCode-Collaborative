@@ -182,6 +182,14 @@
 			"facebook": "",
 			"github": "https://github.com/brain-sick",
 			"twitter": ""
-      }
+      },
+	   {
+	   "name":"Gaurav Pandey"
+		   "imageurl":"contestant/dexter.jpeg",
+		   "about":"Still a Beginner",
+		   "facebook":"",
+		   "github":"https://github.com/gau1rav",
+		   "twitter":""
+	   }
    ]
 }
