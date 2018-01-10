@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <title>OpenCode</title>
+  <!--Favicon-->
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="images/favicon/manifest.json">
+  <link rel="shortcut icon" href="images/favicon/favicon.ico">
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/scrolling-nav.css" rel="stylesheet">
-    <!-- Font awesome for social icons  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>OpenCode</title>
 
-  </head>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+  <!-- Font awesome for social icons  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
 <style>
   /* structure css code */
 
@@ -32,177 +39,228 @@
     color: #fff;
     cursor: pointer;
     display: inline-block;
- }
- .card .front .image {
-   width :100%;
-   height: 300px;
-   background: #bd1036;
- }
- .card .back .about {
-    width : 100%;
+  }
+
+  .card .front .image {
+    width: 100%;
+    height: 300px;
+    background: #bd1036;
+  }
+
+  .card .back .about {
+    width: 100%;
     height: 250px;
     background: #333;
     text-align: justify;
+  }
 
- }
- .card .back .about h3 {
-   text-align: center;
+  .card .back .about h3 {
+    text-align: center;
+  }
 
- }
- .card .back .social {
-   font-size: 50px;
- }
- .card .front .image img {
-   width : 100%;
-   height :100%;
- }
+  .card .back .social {
+    font-size: 50px;
+  }
 
-     .card .front {
-     position: absolute;
-     width: 100%;
-     height: 100%;
-     background: #333;
-     backface-visibility: hidden;
-     transform: perspective(600px) rotateY(0deg);
-     transition: transform 0.55s linear
- }
- .card .front .name {
-    font-size  : 20px;
- }
+  .card .front .image img {
+    width: 100%;
+    height: 100%;
+  }
 
-     .card .back {
-     position: absolute;
-     width: 100%;
-     height: 100%;
-     background: #333;
-     backface-visibility: hidden;
-     transform: perspective(600px) rotateY(180deg);
-     transition: transform 0.55s linear;
-     padding : 20px;
- }
+  .card .front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    backface-visibility: hidden;
+    transform: perspective(600px) rotateY(0deg);
+    transition: transform 0.55s linear
+  }
 
-     .card:hover .front {
-     transform: perspective(600px) rotateY(-180deg)
- }
+  .card .front .name {
+    font-size: 20px;
+  }
 
-     .card:hover .back {
-     transform: perspective(600px) rotateY(0deg)
- }
- .mentors .contestants {
-   width : 100%;
-   text-align: center;
- }
+  .card .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    backface-visibility: hidden;
+    transform: perspective(600px) rotateY(180deg);
+    transition: transform 0.55s linear;
+    padding: 20px;
+  }
 
- .mentors .contestants  .heading {
-   text-align: left;
- }
- .mentors .back .social a {
-  color : #fff ;
- }
- .contestants .back .social a {
-  color : #fff ;
- }
+  .card:hover .front {
+    transform: perspective(600px) rotateY(-180deg)
+  }
 
+  .card:hover .back {
+    transform: perspective(600px) rotateY(0deg)
+  }
 
+  .mentors .contestants {
+    width: 100%;
+    text-align: center;
+  }
+
+  .mentors .contestants .heading {
+    text-align: left;
+  }
+
+  .mentors .back .social a {
+    color: #fff;
+  }
+
+  .contestants .back .social a {
+    color: #fff;
+  }
 </style>
-  <body id="page-top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">OpenCode</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Mentors</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Participants</a>
-            </li>
-          </ul>
-        </div>
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">OpenCode</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#services">Mentors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Participants</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <header class="bg-primary text-white">
-      <div class="container text-center">
-        <h1>OpenCode</h1>
-        <p class="lead">IIIT Allahabad's very own mini GSOC!</p>
-      </div>
-    </header>
+  <header class="bg-primary text-white">
+    <div class="container text-center">
+      <h1>OpenCode</h1>
+      <p class="lead">IIIT Allahabad's very own mini GSOC!</p>
+    </div>
+  </header>
 
-    <section id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>About this event</h2>
-            <p class="lead">Opencode is an open source event aimed to raise awareness about open source. It is a month long event where participants contribute to different projects and earn points simultaneously. A minified version of GSOC, OpenCode is organised by the FOSS wing of IIIT-Allahabad's technical society, Geekhaven.</p>
-            <!-- <ul>
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>About this event</h2>
+          <p class="lead">Opencode is an open source event aimed to raise awareness about open source. It is a month long event where participants
+            contribute to different projects and earn points simultaneously. A minified version of GSOC, OpenCode is organised
+            by the FOSS wing of IIIT-Allahabad's technical society, Geekhaven.</p>
+          <!-- <ul>
               <li>Clickable nav links that smooth scroll to page sections</li>
               <li>Responsive behavior when clicking nav links perfect for a one page website</li>
               <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
               <li>Minimal custom CSS so you are free to explore your own unique design options</li>
             </ul> -->
-          </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="services" class="bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="mentors" id="mentors">
-         <div class="heading"><h1>Mentors</h1></div>
+  <section id="services" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="mentors" id="mentors">
+          <div class="heading">
+            <h1>Mentors</h1>
+          </div>
           <div class="card" v-for="mentor in mentors">
-              <div class="front"><div class="image"><img v-bind:src="mentor.imageurl"></div><div class="name">{{ mentor.name }}</div></div>
-              <div class="back"><div class="about"><h3>About me</h3>{{ mentor.about }}</div><div class="social"><a v-bind:href="mentor.facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a> <a v-bind:href="mentor.github"><i class="fa fa-github" aria-hidden="true"></i></a> <a v-bind:href="mentor.twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></div></div>
+            <div class="front">
+              <div class="image">
+                <img v-bind:src="mentor.imageurl">
+              </div>
+              <div class="name">{{ mentor.name }}</div>
+            </div>
+            <div class="back">
+              <div class="about">
+                <h3>About me</h3>{{ mentor.about }}</div>
+              <div class="social">
+                <a v-bind:href="mentor.facebook">
+                  <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                </a>
+                <a v-bind:href="mentor.github">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a v-bind:href="mentor.twitter">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
           </div>
 
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contestants" id="contestants">
+          <div class="heading">
+            <h1>Participants</h1>
+          </div>
+          <div class="card" v-for="contestant in contestants">
+            <div class="front">
+              <div class="image">
+                <img v-bind:src="contestant.imageurl">
+              </div>
+              <div class="name">{{ contestant.name }}</div>
+            </div>
+            <div class="back">
+              <div class="about">
+                <h3>About me</h3>{{ contestant.about }}</div>
+              <div class="social">
+                <a v-bind:href="contestant.facebook">
+                  <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                </a>
+                <a v-bind:href="contestant.github">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a v-bind:href="contestant.twitter">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
+  </section>
 
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="contestants" id="contestants">
-            <div class="heading"><h1>Participants</h1></div>
-             <div class="card" v-for="contestant in contestants">
-                 <div class="front"><div class="image"><img v-bind:src="contestant.imageurl"></div><div class="name">{{ contestant.name }}</div></div>
-                 <div class="back"><div class="about"><h3>About me</h3>{{ contestant.about }}</div><div class="social"><a v-bind:href="contestant.facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a> <a v-bind:href="contestant.github"><i class="fa fa-github" aria-hidden="true"></i></a> <a v-bind:href="contestant.twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></div></div>
-             </div>
-        </div>
-      </div>
-    </section>
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">OpenCode</p>
+    </div>
+    <!-- /.container -->
+  </footer>
 
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">OpenCode</p>
-      </div>
-      <!-- /.container -->
-    </footer>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scrolling-nav.js"></script>
 
-    <!-- Custom JavaScript for this theme -->
-    <script src="js/scrolling-nav.js"></script>
-
-  </body>
-  <script src="https://unpkg.com/vue"></script>
-  <script src="js/mentor.js"></script>
-  <script src="js/contestant.js"></script>
+</body>
+<script src="https://unpkg.com/vue"></script>
+<script src="js/mentor.js"></script>
+<script src="js/contestant.js"></script>
 
 </html>
