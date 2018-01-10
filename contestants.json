@@ -33,6 +33,7 @@
             "twitter" : ""
         },
         {
+
             "name" : "Jigar Chavada",
             "imageurl" : "contestant/jsc39.jpeg",
             "about" : "Eat Sleep Code Repeat",
@@ -41,6 +42,14 @@
             "twitter" : ""
         },
         {
+            "name" : "Vivek Raj",
+            "imageurl" : "contestant/me1.jpg",
+            "about" : "A Worst web-developer",
+            "facebook" : "https://www.facebook.com/profile.php?id=100005118040716",
+            "github" : "https://github.com/swaager",
+            "twitter" : ""
+        },
+        { 
             "name" : "Abhishek Singh saini",
             "imageurl" : "contestant/profile.jpg",
             "about" : "I am an enthusiastic coder & developer",
@@ -49,6 +58,7 @@
             "twitter" : "https://twitter.com/Abhi_saini_AS"
         },
         {
+
             "name" : "Atisaya Jain",
             "imageurl" : "contestant/atisayajain.jpg",
             "about" : "Learning how to learn!",
