@@ -79,6 +79,14 @@
             "facebook" : "https://www.facebook.com/joglekaraayush",
             "github" : "https://github.com/aayushjoglekar",
             "twitter" : "https://github.com/aayushjoglekar"
+        },
+         {
+            "name" : "Aadya Mishra",
+            "imageurl" : "contestant/Default-gitUserAvatar.jpeg",
+            "about" : "Noob, enthusiastic learner!",
+            "facebook" : "https://www.facebook.com/aadya.mishra.583",
+            "github" : "https://github.com/Panda2498",
+            "twitter" : ""
         }
     ]
 }
