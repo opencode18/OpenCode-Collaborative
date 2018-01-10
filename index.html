@@ -32,18 +32,13 @@
   .card {
     width: 300px;
     height: 350px;
-    background: #fff;
+    background: #f8f9fa;
     position: relative;
     margin: 10px;
     text-align: center;
     color: #fff;
     cursor: pointer;
     display: inline-block;
-  }
-
-  /* Added services card because different background color of services section */
-  #services .card{
-    background: #f8f9fa;
   }
 
   .card .front .image {
@@ -97,16 +92,12 @@
     padding: 20px;
   }
 
-  /*Class front-turn/back-turn is added when the card is flipped.*/
-
-  .card .front-turn{
-    transform: perspective(600px);
-    transform: rotateY(-180deg);
+  .card:hover .front {
+    transform: perspective(600px) rotateY(-180deg)
   }
 
-  .card .back-turn{
-    transform: perspective(600px);
-    transform: rotateY(0deg);
+  .card:hover .back {
+    transform: perspective(600px) rotateY(0deg)
   }
 
   .mentors .contestants {
@@ -120,22 +111,11 @@
 
   .mentors .back .social a {
     color: #fff;
-    transition: all 200ms ease-in-out;
   }
 
   .contestants .back .social a {
     color: #fff;
-    transition: all 200ms ease-in-out;
   }
-
-  .contestants .back .social a:hover,
-  .mentors .back .social a:hover {
-    color: lightblue;
-    transition: all 200ms ease-in-out;
-  }
-
-
-  
 </style>
 
 <body id="page-top">
@@ -277,9 +257,6 @@
 
   <!-- Custom JavaScript for this theme -->
   <script src="js/scrolling-nav.js"></script>
-
-  <!-- Custom JavaScript to handle events -->
-  <script src="js/script.js"></script>
 
 </body>
 <script src="https://unpkg.com/vue"></script>
