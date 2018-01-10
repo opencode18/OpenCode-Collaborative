@@ -31,6 +31,14 @@
             "facebook" : "https://www.facebook.com/jsc3998",
             "github" : "https://github.com/Jigar3",
             "twitter" : ""
+        },
+        {
+            "name" : "Atisaya Jain",
+            "imageurl" : "contestant/atisayajain.jpg",
+            "about" : "Learning how to learn!",
+            "facebook" : "https://www.facebook.com/atisayajain",
+            "github" : "https://github.com/atisayajain",
+            "twitter" : "https://twitter.com/atisayajain"
         }
     ]
 }
