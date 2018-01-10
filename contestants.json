@@ -191,5 +191,13 @@
          "github":"https://github.com/arshjat",
          "twitter":""
 	},
+	   {
+         "name":"Utkarsh Singh",
+         "imageurl":"contestant/utkarsh_singh.jpg",
+         "about":"Front-end web developer!",
+         "facebook":"https://www.facebook.com/utkarshsingh360",
+         "github":"https://github.com/utkarshsingh99",
+         "twitter":""
+      }
    ]
 }
