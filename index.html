@@ -81,13 +81,21 @@
      padding : 20px;
  }
 
-     .card:hover .front {
+     /*.card:hover .front {
      transform: perspective(600px) rotateY(-180deg)
  }
 
      .card:hover .back {
      transform: perspective(600px) rotateY(0deg)
- }
+ }*/
+
+ .flipped .front{
+  transform: perspective(600px) rotateY(-180deg);
+}
+  
+  .flipped .back{
+  transform: perspective(600px) rotateY(0deg);
+}
  .mentors .contestants {
    width : 100%;
    text-align: center;
@@ -159,7 +167,7 @@
         <div class="row">
           <div class="mentors" id="mentors">
          <div class="heading"><h1>Mentors</h1></div>
-          <div class="card" v-for="mentor in mentors">
+          <div class="card" v-for="mentor in mentors" onclick="this.classList.toggle('flipped')">
               <div class="front"><div class="image"><img v-bind:src="mentor.imageurl"></div><div class="name">{{ mentor.name }}</div></div>
               <div class="back"><div class="about"><h3>About me</h3>{{ mentor.about }}</div><div class="social"><a v-bind:href="mentor.facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a> <a v-bind:href="mentor.github"><i class="fa fa-github" aria-hidden="true"></i></a> <a v-bind:href="mentor.twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></div></div>
           </div>
@@ -174,7 +182,7 @@
         <div class="row">
           <div class="contestants" id="contestants">
             <div class="heading"><h1>Participants</h1></div>
-             <div class="card" v-for="contestant in contestants">
+             <div class="card" v-for="contestant in contestants" onclick="this.classList.toggle('flipped')">
                  <div class="front"><div class="image"><img v-bind:src="contestant.imageurl"></div><div class="name">{{ contestant.name }}</div></div>
                  <div class="back"><div class="about"><h3>About me</h3>{{ contestant.about }}</div><div class="social"><a v-bind:href="contestant.facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a> <a v-bind:href="contestant.github"><i class="fa fa-github" aria-hidden="true"></i></a> <a v-bind:href="contestant.twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></div></div>
              </div>
@@ -199,7 +207,6 @@
 
     <!-- Custom JavaScript for this theme -->
     <script src="js/scrolling-nav.js"></script>
-
   </body>
   <script src="https://unpkg.com/vue"></script>
   <script src="js/mentor.js"></script>
