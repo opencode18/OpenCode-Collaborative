@@ -15,7 +15,106 @@
             "facebook" : "https://facebook.com/aswanth9495",
             "github" : "https://github.com/aswanth9495",
             "twitter" : "https://twitter.com/aswanthkoleri"
-        }
-       
+        },
+        {
+            "name" : "Mubaris NK",
+            "imageurl" : "https://avatars3.githubusercontent.com/u/13871723?s=460&v=4",
+            "about" : "",
+            "facebook" : "",
+            "github" : "",
+            "twitter" : ""
+        },
+        {
+            "name" : "Ayush Gupta",
+            "imageurl" : "https://avatars3.githubusercontent.com/u/21157929?s=460&v=4"
+        },
+        {
+            "name" : "Siddhant Srivastav",
+            "imageurl" : "https://avatars1.githubusercontent.com/u/20617436?s=460&v=4",
+            "about" : "",
+            "facebook" : "",
+            "github" : "",
+            "twitter" : ""
+        },
+        {   "name" : "Pradeep Gangwar",
+            "imageurl" : "https://avatars3.githubusercontent.com/u/21259802?s=460&v=4",
+            "about" : "",
+            "facebook" : "",
+            "github" : "",
+            "twitter" : ""
+            
+        },
+        {   "name" : "Gagan Ganpathy",
+            "imageurl" : "https://avatars1.githubusercontent.com/u/22097366?s=460&v=4",
+            "about" : "",
+            "facebook" : "",
+            "github" : "",
+            "twitter" : ""
+        },
+        {   "name" : "Shreyansh Dwivedi",
+            "imageurl" : "https://avatars0.githubusercontent.com/u/25428397?s=460&v=4",
+            "about" : "",
+            "facebook" : "",
+            "github" : "",
+            "twitter" : ""
+        },
+        {   "name" : "Ravi Charan",
+            "imageurl" : "",
+            "about" : "",
+            "facebook" : "",
+            "github" : "",
+            "twitter" : ""
+            #I couldn't find his Github profile
+        },
+        {   "name" : "Arindam Das Modak",
+            "imageurl" : "https://avatars1.githubusercontent.com/u/21157582?s=460&v=4",
+            "about" : "",
+            "facebook" : "",
+            "github" : "",
+            "twitter" : ""
+        },
+        {   "name" : "Abhishek Deora",
+            "imageurl" : "https://avatars2.githubusercontent.com/u/9638595?s=460&v=4",
+            "about" : "",
+            "facebook" : "",
+            "github" : "",
+            "twitter" : ""
+        },
+        {   "name" : "Rahul Arulkumaran",
+            "imageurl" : "https://avatars3.githubusercontent.com/u/26206171?s=460&v=4",
+            "about" : "",
+            "facebook" : "",
+            "github" : "",
+            "twitter" : ""
+            
+        },
+        {   "name" : "Saicharan Reddy",
+            "imageurl" : "https://avatars3.githubusercontent.com/u/25197147?s=460&v=4",
+            "about" : "",
+            "facebook" : "",
+            "github" : "",
+            "twitter" : ""
+        },
+        {   "name" : "Gautham",
+            "imageurl" : "https://avatars0.githubusercontent.com/u/12110844?s=460&v=4",
+            "about" : "",
+            "facebook" : "",
+            "github" : "",
+            "twitter" : ""
+        },
+        {   "name" : "Harshit Jain",
+            "imageurl" : "https://avatars3.githubusercontent.com/u/21063357?s=460&v=4",
+            "about" : "",
+            "facebook" : "",
+            "github" : "",
+            "twitter" : ""
+        },
+        {   "name" : "Aswin VB",
+            "imageurl" : "https://avatars0.githubusercontent.com/u/25057819?s=460&v=4",
+            "about" : "",
+            "facebook" : "",
+            "github" : "",
+            "twitter" : ""
+        },
     ]
 }
