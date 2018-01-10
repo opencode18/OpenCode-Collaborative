@@ -80,15 +80,7 @@
             "github" : "https://github.com/aayushjoglekar",
             "twitter" : "https://github.com/aayushjoglekar"
         },
-        {
-            "name" : "Aayush Chaudhry",
-            "imageurl" : "contestant/photo.jpg",
-            "about" : "Lets all just pretend that this is a really clever bio.",
-            "facebook" : "https://www.facebook.com/ayush.chaudhry007",
-            "github" : "https://github.com/maverick0004",
-            "twitter" : ""
-        },
-        {
+         {
             "name" : "Druval CR",
             "imageurl" : "contestant/druval.jpg",
             "about" : "New to OpenSource",
@@ -103,6 +95,14 @@
            "facebook" : "www.facebook.com/prathamprakash29",
            "github" : "https://github.com/prathamprakash29",
            "twitter" : ""
+        },
+        {
+        "name" : "Anubhav Marwaha",
+        "imageurl" : "contestant/image.jpg",
+        "about" : "Coding is the new heaven",
+        "facebook" : "https://www.facebook.com/anubhav.marwaha",
+        "github" : "https://github.com/Anubhav2000",
+        "twitter" : "",
         }
     ]
 }
