@@ -98,7 +98,9 @@
             </div>
             <div class="back">
               <div class="about">
-                <h3>About me</h3>{{ mentor.about }}</div>
+                <h3>About me</h3>
+                  <hr class="card-underline">
+                <p>{{ mentor.about }}</p></div>
               <div class="social">
                 <a v-bind:href="mentor.facebook">
                   <i class="fa fa-facebook-official" aria-hidden="true"></i>
@@ -134,7 +136,7 @@
             </div>
             <div class="back">
               <div class="about">
-                <h3>About me</h3>{{ contestant.about }}</div>
+                <h3>About me</h3><hr class="card-underline"><p>{{ contestant.about }}</p></div>
               <div class="social">
                 <a v-bind:href="contestant.facebook">
                   <i class="fa fa-facebook-official" aria-hidden="true"></i>
