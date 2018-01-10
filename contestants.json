@@ -1,5 +1,6 @@
 {
-	"contestants": [{
+    "contestants" : [
+       {
 			"name": "Sneha Mishra",
 			"imageurl": "contestant/panda.jpg",
 			"about": "Noob help me out!!!",
@@ -97,6 +98,14 @@
 			"github": "https://github.com/namantw",
 			"twitter": ""
 		},
+    {
+      "name" : "Kaushtub Rawat",
+      "imageurl" : "contestant/IMG_20170611_132210.jpg",
+      "about" : "There's nothing like 'slightly wrong' and 'nearly correct' in coding",
+      "facebook" : "https://www.facebook.com/profile.php?id=100007203708174",
+      "github" : "https://github.com/marshallKR7",
+      "twitter" : ""
+    },
 		{
 			"name": "Govind Dixit",
 			"imageurl": "contestant/govind.jpg",
@@ -137,5 +146,5 @@
 			"github": "https://github.com/Anubhav2000",
 			"twitter": ""
 		}
-	]
+    ]
 }
