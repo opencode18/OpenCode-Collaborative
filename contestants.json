@@ -422,6 +422,14 @@
          "facebook":"",
          "github":"https://github.com/NeroIS",
          "twitter":""
-    	}
+    	},
+	   {
+		   "name":"Sonal Agarwal",
+		   "imageurl":"contestant/sonal.jpg",
+		   "about":"exploring opencode",
+		   "facebook":"https://www.facebook.com/profile.php?id=100020936690477",
+		   "github":"https://github.com/agarwalsonal479",
+		   "twitter":""
+	   },
    ]
 }
