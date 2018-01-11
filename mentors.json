@@ -1,6 +1,22 @@
 {
     "mentors" : [
         {
+            "name" : "Aswin VB",
+            "imageurl" : "mentor/aswin.jpeg",
+            "about" : "Im commited",
+            "facebook" : "",
+            "github" : "",
+            "twitter" : ""
+        },
+        {
+            "name" : "Gautham Santhosh",
+            "imageurl" : "mentor/gautham.jpeg",
+            "about" : "Don't text me on fb about issues,use zulip",
+            "facebook" : "https://www.facebook.com/gauthamzz",
+            "github" : "https://github.com/gauthamzz",
+            "twitter" : "https://twitter.com/gauthamzzz"
+        },
+        {
             "name" : "Aswanth K",
             "imageurl" : "mentor/aswanth.jpg",
             "about" : "Hello I'm a web developer",
@@ -105,28 +121,12 @@
             "twitter" : ""
         },
         {
-            "name" : "Gautham Santhosh",
-            "imageurl" : "mentor/gautham.jpeg",
-            "about" : "",
-            "facebook" : "",
-            "github" : "",
-            "twitter" : ""
-        },
-        {
             "name" : "Harshit Jain",
             "imageurl" : "mentor/harshit.png",
             "about" : "",
             "facebook" : "",
             "github" : "",
             "twitter" : ""
-        },
-        {
-            "name" : "Aswin VB",
-            "imageurl" : "mentor/aswin.jpeg",
-            "about" : "",
-            "facebook" : "",
-            "github" : "",
-            "twitter" : ""
-        } 
+        }
     ]
 }
