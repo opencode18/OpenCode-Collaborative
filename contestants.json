@@ -335,6 +335,14 @@
           "facebook" : "https://www.facebook.com/axit55",
           "github" : "https://github.com/permanent-bnsl",
           "twitter" : "https://twitter.com/permanent_bnsl"
-	}
+	},
+   {
+      "name" : "Anshuman Verma",
+      "imageurl" : "/contestant/anshumanv",
+      "about" : "Football | Anime",
+      "facebook" : "https://www.facebook.com/anshumanv12",
+      "github" : "https://github.com/anshumanv",
+      "twitter" : "https://twitter.com/Anshumaniac12"
+    }
    ]
 }
