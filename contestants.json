@@ -478,6 +478,15 @@
          "facebook":"",
          "github":"https://github.com/NeroIS",
          "twitter":""
-    	}
+    	},
+	{
+          "name" : "Shivansh Srivastava",
+          "imageurl" : "contestant/shivansh.jpg",
+          "about" : "The Optimist",
+          "college" : "",
+          "facebook" : "",
+          "github" : "https://github.com/Shivansh1805",
+          "twitter": ""
+        }
    ]
 }
