@@ -532,6 +532,15 @@
          "facebook":"https://www.facebook.com/profile.php?id=100008722324295",
          "github":"https://github.com/aryan-harsh",
          "twitter":""
+      },
+      {
+         "name":"Niharika Shrivastava",
+         "imageurl":"contestant/niharika.png",
+         "about":"Going with the flow",
+         "college":"IIIT Allahabad",
+         "facebook":"",
+         "github":"https://github.com/OrionStar25",
+         "twitter":""
       }
 
    ]
