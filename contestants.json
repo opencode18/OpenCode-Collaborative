@@ -44,7 +44,6 @@
             "twitter" : ""
         },
         {
-<<<<<<< HEAD
             "name" : "Vivek Raj",
             "imageurl" : "contestant/me1.jpg",
             "about" : "A Worst web-developer",
@@ -52,14 +51,13 @@
             "github" : "https://github.com/swaager",
             "twitter" : ""
         },
-======= { 
+        { 
             "name" : "Atisaya Jain",
             "imageurl" : "contestant/atisayajain.jpg",
             "about" : "Learning how to learn!",
             "facebook" : "https://www.facebook.com/atisayajain",
             "github" : "https://github.com/atisayajain",
             "twitter" : "https://twitter.com/atisayajain"
->>>>>>> upstream/master
         }
     ]
 }
