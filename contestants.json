@@ -407,7 +407,14 @@
       	  "facebook" : "https://www.facebook.com/adesh.shukla.790",
       	  "github" : "https://github.com/aadixiiita",
       	  "twitter" : ""
-    	}
-
+    	},
+	{
+       	  "name" : "Ashray Sinha",
+      	  "imageurl" : "contestant/my_photo.png",
+      	  "about" : "Eat sleep code repeat",
+      	  "facebook" : "https://www.facebook.com/ashray.sinha.5",
+      	  "github" : "https://github.com/ashraysinha6069",
+      	  "twitter" : ""
+    	},
    ]
 }
