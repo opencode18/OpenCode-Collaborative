@@ -461,6 +461,16 @@
          "facebook":"",
          "github":"https://github.com/NeroIS",
          "twitter":""
+
+    	},
+	   {
+         "name":"Shantam Shrestha",
+         "imageurl":"",
+         "about":"I am a rookie",
+         "facebook":"https://www.facebook.com/shantam.shrestha",
+         "github":"https://github.com/shantam0810",
+         "twitter":"https://twitter.com/shant0810"
+    	}
 	},
 	 {
          "name":"Aadya Mishra",
@@ -470,5 +480,6 @@
          "github":"https://github.com/Panda2498",
          "twitter":""
       }
+
    ]
 }
