@@ -523,6 +523,15 @@
          "facebook":"https://www.facebook.com/ranjan.binwani",
          "github":"https://github.com/ranjanbinwani",
          "twitter" : ""
+      }, 
+	   {
+         "name":"Harsh Aryan",
+         "imageurl":"contestant/aryan-harsh.jpg",
+         "about":"Learning how to learn to code",
+         "college":"IIIT Allahabad",
+         "facebook":"https://www.facebook.com/profile.php?id=100008722324295",
+         "github":"https://github.com/aryan-harsh",
+         "twitter":""
       }
 
    ]
