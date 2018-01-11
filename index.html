@@ -163,7 +163,8 @@
           <div class="card" v-for="project in projects" onclick="this.classList.toggle('flipped')">
             <div class="front">
               
-              <div class="name">{{ project.name }}</div>
+              <div class="name">{{ project.name }}
+	      <h3>Mentored by</h3>{{ project.mentors }}</div>
             </div>
             <div class="back">
               <div class="about">
