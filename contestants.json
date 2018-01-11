@@ -87,16 +87,15 @@
             "facebook" : "https://www.facebook.com/druval.cr",
             "github" : "https://github.com/druvalcr28",
             "twitter" : ""
-        }
-    ]
-},
-   {
+        },
+        {
             "name" : "Divy Khare",
             "imageurl" : "contestant/me.jpg",
             "about" : "Learning OpenSource",
             "facebook" : "https://www.facebook.com/divy.khare.3",
             "github" : "https://github.com/Divy123",
-            "twitter" : ""
+            "twitter" : "",
+            "college":"Indian Institute Of Information Technology,Lucknow"
         }
     ]
 }
