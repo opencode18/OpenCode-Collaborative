@@ -9,6 +9,15 @@
          "github":"https://github.com/Tlazypanda",
          "twitter":""
       }, 
+	   {
+         "name":"Senky Bansal",
+         "imageurl":"contestant/senky.jpg",
+         "about":"The devil",
+         "college":"iiit allahabad",
+         "facebook":"https://www.facebook.com/profile.php?id=100009153186454",
+         "github":"https://github.com/DEVILCODER-SB99",
+         "twitter":"https://twitter.com"
+      },
      {
          "name":"Prince Kumar",
          "imageurl":"contestant/princejvm.jpg",
@@ -274,6 +283,14 @@
          "facebook":"https://www.facebook.com/arsh.panghal",
          "github":"https://github.com/arshjat",
          "twitter":""
+	    },
+	   {
+         "name":"Naga Meher Chand Pulavarty",
+         "imageurl":"contestant/kirito.jpg",
+         "about":"Normal is Boring....",
+         "facebook":"https://www.facebook.com/meher.rocks123",
+         "github":"https://github.com/blaze17280",
+         "twitter":""	   
       },
       {
          "name":"Gaurav Pandey",
@@ -480,6 +497,15 @@
          "facebook":"",
          "github":"https://github.com/NeroIS",
          "twitter":""
-    	}
+    	},
+      {
+         "name" : "Ranjan Binwani",
+         "imageurl" : "contestant/ranjan.jpeg",
+         "about" : "Always learning",
+         "college" : "Birla Institute of Technology, Mesra",
+         "facebook":"https://www.facebook.com/ranjan.binwani",
+         "github":"https://github.com/ranjanbinwani",
+         "twitter" : ""
+      }
    ]
 }
