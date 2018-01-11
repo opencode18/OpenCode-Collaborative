@@ -327,16 +327,7 @@
          "github":"https://github.com/mdmair2021",
          "twitter":""
       },
-      {
-
-         "name":"Ashray Sinha",
-         "imageurl":"contestant/my_photo",
-         "about":"Eat Sleep Code Repeat",
-         "facebook":"https://www.facebook.com/ashray.sinha.5",
-         "github":"https://github.com/ashraysinha6069",
-         "twitter":""
-      }   
-
+      {   
           "name" : "Aayush Chaudhry",
           "imageurl" : "contestant/photo.jpg",
           "about" : "Lets all just pretend that this is a really clever bio.",
@@ -415,6 +406,6 @@
       	  "facebook" : "https://www.facebook.com/ashray.sinha.5",
       	  "github" : "https://github.com/ashraysinha6069",
       	  "twitter" : ""
-    	},
+    	}
    ]
 }
