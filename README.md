@@ -35,7 +35,8 @@ To add yourself to student section you need to open the file `contestants.json` 
         &nbsp;&nbsp;     "about" : "Hello I'm a web developer",  
         &nbsp;&nbsp;     "facebook" : "url",  
         &nbsp;&nbsp;     "github" : "url",  
-        &nbsp;&nbsp;     "twitter" : "url"  
+        &nbsp;&nbsp;     "twitter" : "url",
+        &nbsp;&nbsp;     "referral" : "who refered you?" 
         }
         
 
@@ -66,6 +67,8 @@ Please help us follow the best practice to make it easy for the reviewer as well
 
 * Avoid duplicate PRs, if need be comment on the older PR with the PR number of the follow-up (new PR) and close the obsolete PR yourself.
 
+### Referrals
+Participants can invite their friends to Opencode and ask them to add your github username as referral.You will get an extra 10 points for each refferal.
 
 ## Tutorials
 ### Git/Github
