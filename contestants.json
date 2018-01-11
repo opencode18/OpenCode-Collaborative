@@ -304,15 +304,15 @@
          "github":"https://github.com/mdmair2021",
          "twitter":""
       },
-	{
+      {
           "name" : "Aayush Chaudhry",
           "imageurl" : "contestant/photo.jpg",
           "about" : "Lets all just pretend that this is a really clever bio.",
           "facebook" : "https://www.facebook.com/ayush.chaudhry007",
           "github" : "https://github.com/maverick0004",
           "twitter" : ""
-        },
-	{
+       },
+       {
           "name" : "Priyesh Kumar",
           "imageurl" : "contestant/16priyesh.jpg",
           "about" : "learning open source development",
@@ -335,8 +335,16 @@
           "facebook" : "https://www.facebook.com/axit55",
           "github" : "https://github.com/permanent-bnsl",
           "twitter" : "https://twitter.com/permanent_bnsl"
-	},
-   	{
+       },
+       {
+          "name" : "Akshay Nandwana",
+          "imageurl" : "contestant/anandwana001.png",
+          "about" : "Android Dev init",
+          "facebook" : "https://www.facebook.com/anandwana001",
+          "github" : "https://github.com/anandwana001",
+          "twitter" : "https://twitter.com/akshay81844"
+       },
+       {
       	  "name" : "Anshuman Verma",
       	  "imageurl" : "/contestant/anshumanv",
       	  "about" : "Football | Anime",
