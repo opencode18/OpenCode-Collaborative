@@ -342,16 +342,24 @@
           "facebook" : "https://www.facebook.com/axit55",
           "github" : "https://github.com/permanent-bnsl",
           "twitter" : "https://twitter.com/permanent_bnsl"
-       },
-       {
+        },
+        {
+          "name" : "Ravi Shyam",
+          "imageurl" : "/contestant/ravi.jpg",
+          "about" : "sleepy head",
+          "facebook" : "https://www.facebook.com/RaVi.UrF.SuRaJ.oO",
+          "github" : "https://github.com/justFaGit",
+          "twitter": ""
+        },
+        {
           "name" : "Akshay Nandwana",
           "imageurl" : "contestant/anandwana001.png",
           "about" : "Android Dev init",
           "facebook" : "https://www.facebook.com/anandwana001",
           "github" : "https://github.com/anandwana001",
           "twitter" : "https://twitter.com/akshay81844"
-       },
-       {
+        },
+        {
       	  "name" : "Anshuman Verma",
       	  "imageurl" : "/contestant/anshumanv",
       	  "about" : "Football | Anime",
