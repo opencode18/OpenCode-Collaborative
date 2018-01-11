@@ -9,9 +9,9 @@ Like us on [Facebook](https://www.facebook.com/opencodeiiita/)
 ## Adding a mentor
 To add a mentor open `mentors.json` and please maintain the following format EXACTLY (replacing values where indicated):
 >   {  
-        &nbsp;&nbsp;     "name" : "Mentors Name",  
-        &nbsp;&nbsp;     "imageurl" : "mentor/image.jpg",  
-        &nbsp;&nbsp;     "about" : "Hello I'm a web developer", 
+        &nbsp;&nbsp;     "name" : "Mentors Name",    
+        &nbsp;&nbsp;     "imageurl" : "mentor/image.jpg",    
+        &nbsp;&nbsp;     "about" : "Hello I'm a web developer",   
         &nbsp;&nbsp;     "facebook" : "url",  
         &nbsp;&nbsp;     "github" : "url",  
         &nbsp;&nbsp;     "twitter" : "url"  
@@ -36,8 +36,8 @@ To add yourself to student section you need to open the file `contestants.json` 
 >   {  
         &nbsp;&nbsp;     "name" : "Name",  
         &nbsp;&nbsp;     "imageurl" : "contestant/avatar.jpg",  
-        &nbsp;&nbsp;     "about" : "Hello I'm a web developer", 
-        &nbsp;&nbsp;     "college" : "My college", 
+        &nbsp;&nbsp;     "about" : "Hello I'm a web developer",  
+        &nbsp;&nbsp;     "college" : "My college",  
         &nbsp;&nbsp;     "facebook" : "url",  
         &nbsp;&nbsp;     "github" : "url",  
         &nbsp;&nbsp;     "twitter" : "url"  
