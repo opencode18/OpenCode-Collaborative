@@ -311,6 +311,14 @@
           "facebook" : "https://www.facebook.com/ayush.chaudhry007",
           "github" : "https://github.com/maverick0004",
           "twitter" : ""
+        },
+	{
+          "name" : "Priyesh Kumar",
+          "imageurl" : "contestant/16priyesh.jpg",
+          "about" : "learning open source development",
+          "facebook" : "",
+          "github" : "https://github.com/16priyesh",
+          "twitter" : ""
         }
    ]
 }
