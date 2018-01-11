@@ -319,6 +319,14 @@
           "facebook" : "",
           "github" : "https://github.com/16priyesh",
           "twitter" : ""
-        }
+        },
+    {
+      "name" : "Anshuman Verma",
+      "imageurl" : "/contestant/anshumanv",
+      "about" : "Football | Anime",
+      "facebook" : "https://www.facebook.com/anshumanv12",
+      "github" : "https://github.com/anshumanv",
+      "twitter" : "https://twitter.com/Anshumaniac12"
+    }
    ]
 }
