@@ -89,4 +89,15 @@
             "twitter" : ""
         }
     ]
+},
+   {
+            "name" : "Divy Khare",
+            "imageurl" : "contestant/me.jpg",
+            "about" : "Learning OpenSource",
+            "facebook" : "https://www.facebook.com/divy.khare.3",
+            "github" : "https://github.com/Divy123",
+            "twitter" : ""
+        }
+    ]
 }
+
