@@ -499,13 +499,22 @@
          "twitter":""
     	},
 	{
+          "name" : "Shivansh Srivastava",
+          "imageurl" : "ironman.jpg",
+          "about" : "The Optimist",
+          "college" : "",
+          "facebook" : "",
+          "github" : "https://github.com/Shivansh1805",
+          "twitter": ""
+        },
+	{
          "name":"sangeeta meena",
          "imageurl":"contestant/sangeeta.jpg",
          "about":"learning opencode",
          "facebook":"",
          "github":"https://github.com/IIT2017032",
          "twitter":""
-    	}
+    	},
       {
          "name" : "Ranjan Binwani",
          "imageurl" : "contestant/ranjan.jpeg",
@@ -515,5 +524,6 @@
          "github":"https://github.com/ranjanbinwani",
          "twitter" : ""
       }
+
    ]
 }
