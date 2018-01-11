@@ -410,7 +410,7 @@
            "github" : "https://github.com/permanent-bnsl",
            "twitter" : "https://twitter.com/permanent_bnsl"
         },
-        {
+  	{
           "name" : "Ravi Shyam",
           "imageurl" : "contestant/ravi.jpg",
           "about" : "sleepy head",
@@ -454,6 +454,14 @@
       	  "github" : "https://github.com/aadixiiita",
       	  "twitter" : ""
     	},
+	    {
+      	  "name" : "Gaurav Kumar",
+      	  "imageurl" : "",
+      	  "about" : "I am a Rookie",
+      	  "facebook" : "https://www.facebook.com/kg674",
+      	  "github" : "https://github.com/kgauravk",
+      	  "twitter" : ""
+    	}, 
       {
          "name":"Ankit Kripal",
          "imageurl":"contestant/akira.jpg",
@@ -461,8 +469,8 @@
          "facebook":"",
          "github":"https://github.com/NeroIS",
          "twitter":""
-	},
-	 {
+	     },
+	     {
          "name":"Aadya Mishra",
          "imageurl":"contestant/IMG_20171105_130131_419.jpg",
          "about":"Noob! Here to learn! Enthusiastic learner!",
