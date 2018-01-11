@@ -391,7 +391,7 @@
       	  "github" : "https://github.com/anshumanv",
       	  "twitter" : "https://twitter.com/Anshumaniac12"
     	},
-  	{
+    	{
        	  "name" : "Adesh Shukla",
       	  "imageurl" : "contestant/26114314_2003579423234176_4039171765716067095_o.jpg",
       	  "about" : "Lets Open the Code",
@@ -408,12 +408,20 @@
       	  "twitter" : ""
     	},
       {
+          "name" : "Nabeel Jawahir",
+          "imageurl" : "contestant/nab331.jpg",
+          "about" : "ganggang",
+          "facebook" : "https://www.facebook.com/nab331",
+          "github" : "https://github.com/nab331",
+          "twitter" : ""
+    	},
+      {
          "name":"Ankit Kripal",
          "imageurl":"contestant/akira.jpg",
          "about":"The worst one.",
          "facebook":"",
          "github":"https://github.com/NeroIS",
          "twitter":""
-	}
+    	}
    ]
 }
