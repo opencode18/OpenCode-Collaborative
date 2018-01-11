@@ -1,6 +1,22 @@
 {
     "mentors" : [
         {
+            "name" : "Aswin VB",
+            "imageurl" : "mentor/aswin.jpeg",
+            "about" : "Im commited",
+            "facebook" : "",
+            "github" : "",
+            "twitter" : ""
+        },
+        {
+            "name" : "Gautham Santhosh",
+            "imageurl" : "mentor/gautham.jpeg",
+            "about" : "Don't text me on fb about issues,use zulip",
+            "facebook" : "https://www.facebook.com/gauthamzz",
+            "github" : "https://github.com/gauthamzz",
+            "twitter" : "https://twitter.com/gauthamzzz"
+        },
+        {
             "name" : "Aswanth K",
             "imageurl" : "mentor/aswanth.jpg",
             "about" : "Hello I'm a web developer",
@@ -18,7 +34,7 @@
         },
         {
             "name" : "Mubaris NK",
-            "imageurl" : "mentor/mubaris.jpg",
+            "imageurl" : "mentor/mubaris.jpeg",
             "about" : "",
             "facebook" : "",
             "github" : "",
@@ -26,7 +42,7 @@
         },
         {
             "name" : "Ayush Gupta",
-            "imageurl" : "mentor/ayush.jpg",
+            "imageurl" : "mentor/ayush.jpeg",
             "about" : "",
             "facebook" : "",
             "github" : "",
@@ -34,7 +50,7 @@
         },
         {
             "name" : "Siddhant Srivastav",
-            "imageurl" : "mentor/siddhant.jpg",
+            "imageurl" : "mentor/siddhant.jpeg",
             "about" : "",
             "facebook" : "",
             "github" : "",
@@ -42,7 +58,7 @@
         },
         {
             "name" : "Pradeep Gangwar",
-            "imageurl" : "mentor/pradeep.jpg",
+            "imageurl" : "mentor/pradeep.jpeg",
             "about" : "",
             "facebook" : "",
             "github" : "",
@@ -50,7 +66,7 @@
         },
         {
             "name" : "Gagan Ganapathy",
-            "imageurl" : "mentor/gagan.jpg",
+            "imageurl" : "mentor/gagan.jpeg",
             "about" : "",
             "facebook" : "",
             "github" : "",
@@ -58,7 +74,7 @@
         },
         {
             "name" : "Shreyansh Dwivedi",
-            "imageurl" : "mentor/shreyansh.jpg",
+            "imageurl" : "mentor/shreyansh.jpeg",
             "about" : "",
             "facebook" : "",
             "github" : "",
@@ -66,7 +82,7 @@
         },
         {
             "name" : "Ravi Charan",
-            "imageurl" : "mentor/ravi.jpg",
+            "imageurl" : "mentor/ravi.jpeg",
             "about" : "",
             "facebook" : "",
             "github" : "",
@@ -74,7 +90,7 @@
         },
         {
             "name" : "Arindam Das Modak",
-            "imageurl" : "mentor/arindam.jpg",
+            "imageurl" : "mentor/arindam.png",
             "about" : "",
             "facebook" : "",
             "github" : "",
@@ -82,7 +98,7 @@
         },
         {
             "name" : "Abhishek Deora",
-            "imageurl" : "mentor/abhishek.jpg",
+            "imageurl" : "mentor/abhishek.jpeg",
             "about" : "",
             "facebook" : "",
             "github" : "",
@@ -90,7 +106,7 @@
         },
         {
             "name" : "Rahul Arulkumaran",
-            "imageurl" : "mentor/rahul.jpg",
+            "imageurl" : "mentor/rahul.jpeg",
             "about" : "",
             "facebook" : "",
             "github" : "",
@@ -98,15 +114,7 @@
         },
         {
             "name" : "Saicharan Reddy",
-            "imageurl" : "mentor/saicharan.jpg",
-            "about" : "",
-            "facebook" : "",
-            "github" : "",
-            "twitter" : ""
-        },
-        {
-            "name" : "Gautham Santhosh",
-            "imageurl" : "mentor/gautham.jpg",
+            "imageurl" : "mentor/saicharan.jpeg",
             "about" : "",
             "facebook" : "",
             "github" : "",
@@ -114,19 +122,11 @@
         },
         {
             "name" : "Harshit Jain",
-            "imageurl" : "mentor/harshit.jpg",
+            "imageurl" : "mentor/harshit.png",
             "about" : "",
             "facebook" : "",
             "github" : "",
             "twitter" : ""
-        },
-        {
-            "name" : "Aswin VB",
-            "imageurl" : "mentor/aswin.jpg",
-            "about" : "",
-            "facebook" : "",
-            "github" : "",
-            "twitter" : ""
-        } 
+        }
     ]
 }
