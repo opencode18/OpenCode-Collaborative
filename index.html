@@ -32,28 +32,34 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style type="text/css">
-  
+
 ::-webkit-scrollbar {
     width: 20px;
 }
 
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+    background: #f1f1f1;
 }
- 
+
 
 ::-webkit-scrollbar-thumb {
-    background: #888; 
+    background: #888;
     border-radius: 15px ;
 }
 
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+    background: #555;
 }
+
   </style>
-  
+  <style type="text/css">
+  @media screen and (max-width: 780px) {
+    div.mentors, div.contestants{margin-left: 120px;}
+    h1.center-text{margin-left: 30px;}
+    }
+  </style>
 </head>
 
 <body id="page-top">
@@ -87,13 +93,13 @@
 
    <div class="row logo">
       <img src="images/OpenCode.png" alt="Opencode Logo" class="hero-logo">
-    
+
    </div>
 
    <div class="row title">
     <h1 class="hero-title">&nbsp;OPENCODE</h1>
 
-  
+
  </div>
  <hr class="card-underline">
  <div class="row quote">
@@ -125,7 +131,7 @@
       <div class="row">
         <div class="mentors" id="mentors">
           <div class="heading">
-            <h1>Mentors</h1>
+            <h1 class="center-text">Mentors</h1>
           </div>
           <div class="card" v-for="mentor in alphaSort(mentors)" onclick="this.classList.toggle('flipped')">
             <div class="front">
@@ -163,7 +169,7 @@
       <div class="row">
         <div class="contestants" id="contestants">
           <div class="heading">
-            <h1>Participants</h1>
+            <h1 class="center-text">Participants</h1>
           </div>
           <div class="card" v-for="contestant in alphaSort(contestants)" onclick="this.classList.toggle('flipped')">
             <div class="front">
