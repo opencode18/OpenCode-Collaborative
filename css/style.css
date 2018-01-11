@@ -156,3 +156,92 @@
   height : 5vh!important;
 }
 
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+header{
+  height:auto;
+  width:100%;
+  background-color:#222;
+  padding:100px 0px 20px 0;
+  position: relative;
+}
+
+header .row{
+  text-align: center;
+  height:auto;
+  
+}
+
+
+.logo img{
+  height:230px;
+  width:auto;
+  margin:0 auto;
+  display: inline-block;
+}
+
+.row.title{
+  text-align: center;
+  color:white;
+  margin:20px 0;
+  
+}
+
+.hero-title{
+  
+  margin:0 auto;
+  font-size:33px;
+  letter-spacing: 8px;
+  font-weight:300;
+  
+}
+
+header .card-underline{
+  width:35%;
+  margin:0 auto;
+  background-color:white;
+
+}
+
+.hero-quote{
+  color:white;
+  font-size:25px;
+  width:100%;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  background: -webkit-linear-gradient(45deg, #ee0979, #ff6a00);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.row.quote{
+  margin:20px 0;
+}
+
+#snow{
+  background-image:
+          url(https://image.ibb.co/k0aqx6/snow.png), 
+          url(https://image.ibb.co/eCahc6/snow1.png), 
+          url(https://image.ibb.co/bOboH6/snow2.png);
+  width: 100%;
+  height:100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index:2;
+  animation: snow 20s linear infinite;
+  opacity:0.5;
+}
+@keyframes snow {
+   from {background-position: 0px 0px, 0px 0px, 0px 0px;}
+   to {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+
