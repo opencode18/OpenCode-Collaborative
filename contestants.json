@@ -32,7 +32,7 @@
          "github":"https://github.com/arpitmisraw",
          "twitter":""
       },
-	   {
+      {
          "name":"Anmol Chugh",
          "imageurl":"contestant/IMG_20180103_205533.jpg",
          "about":"I am a high-functioning SOCIOPATH",
@@ -369,7 +369,7 @@
         },
         {
           "name" : "Ravi Shyam",
-          "imageurl" : "/contestant/ravi.jpg",
+          "imageurl" : "contestant/ravi.jpg",
           "about" : "sleepy head",
           "facebook" : "https://www.facebook.com/RaVi.UrF.SuRaJ.oO",
           "github" : "https://github.com/justFaGit",
@@ -385,21 +385,20 @@
         },
         {
       	  "name" : "Anshuman Verma",
-      	  "imageurl" : "/contestant/anshumanv",
+      	  "imageurl" : "contestant/anshumanv",
       	  "about" : "Football | Anime",
       	  "facebook" : "https://www.facebook.com/anshumanv12",
       	  "github" : "https://github.com/anshumanv",
       	  "twitter" : "https://twitter.com/Anshumaniac12"
     	},
-  	{
+    	{
        	  "name" : "Adesh Shukla",
       	  "imageurl" : "contestant/26114314_2003579423234176_4039171765716067095_o.jpg",
       	  "about" : "Lets Open the Code",
       	  "facebook" : "https://www.facebook.com/adesh.shukla.790",
       	  "github" : "https://github.com/aadixiiita",
       	  "twitter" : ""
-    	}
-
+    	},
       {
           "name" : "Nabeel Jawahir",
           "imageurl" : "contestant/nab331.jpg",
@@ -407,6 +406,14 @@
           "facebook" : "https://www.facebook.com/nab331",
           "github" : "https://github.com/nab331",
           "twitter" : ""
-      }
+    	},
+      {
+         "name":"Ankit Kripal",
+         "imageurl":"contestant/akira.jpg",
+         "about":"The worst one.",
+         "facebook":"",
+         "github":"https://github.com/NeroIS",
+         "twitter":""
+    	}
    ]
 }
