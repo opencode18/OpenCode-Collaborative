@@ -478,6 +478,14 @@
          "facebook":"",
          "github":"https://github.com/NeroIS",
          "twitter":""
+    	},
+	{
+          "name" : "Gaurav Kumar",
+          "imageurl" : "",
+          "about" : "I am Rookie",
+          "facebook" : "https://www.facebook.com/kg674",
+          "github" : "https://github.com/kgauravk",
+          "twitter" : ""
     	}
    ]
 }
