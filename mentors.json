@@ -135,7 +135,15 @@
             "facebook" : "https://www.facebook.com/nab331",
             "github" : "https://github.com/nab331",
             "twitter" : ""
-        }
+        },
+        {
+            "name" : "Aditya Goel",
+            "imageurl" : "mentor/Aditya.png",
+            "about" : "Veni Vidi Vici",
+            "facebook" : "https://www.facebook.com/aditya.goel.311",
+            "github" : "http://github.com/Ellusionists",
+            "twitter" : "https://twitter.com/itsAdityaGoel"
+        },
 
     ]
 }
