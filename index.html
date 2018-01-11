@@ -221,7 +221,10 @@
             </div>
             <div class="back">
               <div class="about">
-                <h3>About project</h3>{{ project.about }}</div>
+                <p class="project-name">ABOUT PROJECT</p>
+                <hr class="card-underline">
+                <p class="about-project">{{ project.about }}</p>
+              </div>
               <div class="social">
 
                 <a v-bind:href="project.github">

@@ -17,7 +17,7 @@
 .projects .card-underline{
     margin:0;
 }
-.projects .card .front .project .project-name{
+.project-name{
     text-transform: uppercase;
     font-size:14.5px;
     text-align: center;
@@ -51,4 +51,21 @@
 
 .projects .card .front .name{
     color:white;
+}
+
+.about-project{
+    font-size:15px;
+
+}
+
+.projects .card .back{
+    padding:3px;
+}
+
+.projects .card .back .card-underline{
+    margin-bottom:5px;
+}
+
+.projects .social i{
+    color:white
 }
