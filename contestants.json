@@ -8,6 +8,14 @@
          "facebook":"https://www.facebook.com/snehamishrabb",
          "github":"https://github.com/Tlazypanda",
          "twitter":""
+      }, 
+     {
+         "name":"Prince Kumar",
+         "imageurl":"contestant/princejvm.jpg",
+         "about":"A simple guy seeking for perfection time to time",
+         "facebook":"https://www.facebook.com/princejvm",
+         "github":"https://github.com/princejvm",
+         "twitter":"https://twitter.com/princejvm_c"
       },
       {
          "name":"Suras Kumar Nayak",
@@ -26,7 +34,7 @@
          "github":"https://github.com/arpitmisraw",
          "twitter":""
       },
-	   {
+      {
          "name":"Anmol Chugh",
          "imageurl":"contestant/IMG_20180103_205533.jpg",
          "about":"I am a high-functioning SOCIOPATH",
@@ -405,7 +413,7 @@
         },
         {
           "name" : "Ravi Shyam",
-          "imageurl" : "/contestant/ravi.jpg",
+          "imageurl" : "contestant/ravi.jpg",
           "about" : "sleepy head",
           "college" : "",
           "facebook" : "https://www.facebook.com/RaVi.UrF.SuRaJ.oO",
