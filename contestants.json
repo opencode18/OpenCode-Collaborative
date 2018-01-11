@@ -32,7 +32,7 @@
          "github":"https://github.com/arpitmisraw",
          "twitter":""
       },
-	   {
+      {
          "name":"Anmol Chugh",
          "imageurl":"contestant/IMG_20180103_205533.jpg",
          "about":"I am a high-functioning SOCIOPATH",
@@ -369,7 +369,7 @@
         },
         {
           "name" : "Ravi Shyam",
-          "imageurl" : "/contestant/ravi.jpg",
+          "imageurl" : "contestant/ravi.jpg",
           "about" : "sleepy head",
           "facebook" : "https://www.facebook.com/RaVi.UrF.SuRaJ.oO",
           "github" : "https://github.com/justFaGit",
@@ -385,7 +385,7 @@
         },
         {
       	  "name" : "Anshuman Verma",
-      	  "imageurl" : "/contestant/anshumanv",
+      	  "imageurl" : "contestant/anshumanv",
       	  "about" : "Football | Anime",
       	  "facebook" : "https://www.facebook.com/anshumanv12",
       	  "github" : "https://github.com/anshumanv",
@@ -407,5 +407,13 @@
       	  "github" : "https://github.com/ashraysinha6069",
       	  "twitter" : ""
     	}
+      {
+         "name":"Ankit Kripal",
+         "imageurl":"contestant/akira.jpg",
+         "about":"The worst one.",
+         "facebook":"",
+         "github":"https://github.com/NeroIS",
+         "twitter":""
+	}
    ]
 }
