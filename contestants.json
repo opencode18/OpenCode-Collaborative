@@ -319,6 +319,14 @@
           "facebook" : "",
           "github" : "https://github.com/16priyesh",
           "twitter" : ""
-        }
+        },
+	{
+          "name" : "Akshit Bansal",
+          "imageurl" : "contestant/foto.jpg",
+          "about" : "I am a Rookie.",
+          "facebook" : "https://www.facebook.com/axit55",
+          "github" : "https://github.com/permanent-bnsl",
+          "twitter" : "https://twitter.com/permanent_bnsl"
+	}
    ]
 }
