@@ -9,7 +9,14 @@
          "github":"https://github.com/Tlazypanda",
          "twitter":""
       },
-	   
+      {
+         "name":"Suras Kumar Nayak",
+         "imageurl":"contestant/surasnayak.jpg",
+         "about":"I love my friends the most!!",
+         "facebook":"https://www.facebook.com/suras.nayak",
+         "github":"https://github.com/surasnayak",
+         "twitter":""
+      },
       {
          "name":"Arpit Mishra",
          "imageurl":"contestant/Cool-avatars-anonymous-avatar.jpg",
@@ -17,6 +24,14 @@
          "college":"",
          "facebook":"https://www.facebook.com/arpitmisraw2614",
          "github":"https://github.com/arpitmisraw",
+         "twitter":""
+      },
+	   {
+         "name":"Anmol Chugh",
+         "imageurl":"contestant/IMG_20180103_205533.jpg",
+         "about":"I am a high-functioning SOCIOPATH",
+         "facebook":"https://www.facebook.com/anmol.chugh.92",
+         "github":"https://github.com/techac",
          "twitter":""
       },
       {
@@ -37,6 +52,7 @@
          "github":"https://github.com/madhur1998",
          "twitter":""
       },
+      "college" : "",
       {
          "name":"Jigar Chavada",
          "imageurl":"contestant/jsc39.jpeg",
@@ -342,7 +358,7 @@
          "github":"https://github.com/mdmair2021",
          "twitter":""
       },
-	{
+      {
           "name" : "Aayush Chaudhry",
           "imageurl" : "contestant/photo.jpg",
           "about" : "Lets all just pretend that this is a really clever bio.",
@@ -350,8 +366,8 @@
           "facebook" : "https://www.facebook.com/ayush.chaudhry007",
           "github" : "https://github.com/maverick0004",
           "twitter" : ""
-        },
-	{
+       },
+       {
           "name" : "Priyesh Kumar",
           "imageurl" : "contestant/16priyesh.jpg",
           "about" : "learning open source development",
@@ -369,14 +385,59 @@
           "github" : "https://github.com/im-adi",
           "twitter" : ""
         },
-	{
-          "name" : "Akshit Bansal",
-          "imageurl" : "contestant/foto.jpg",
-          "about" : "I am a Rookie.",
-          "college":"",
-          "facebook" : "https://www.facebook.com/axit55",
-          "github" : "https://github.com/permanent-bnsl",
-          "twitter" : "https://twitter.com/permanent_bnsl"
-	}
+        {
+           "name" : "Akshit Bansal",
+           "imageurl" : "contestant/foto.jpg",
+           "about" : "I am a Rookie.",
+           "college" : "",
+           "facebook" : "https://www.facebook.com/axit55",
+           "github" : "https://github.com/permanent-bnsl",
+           "twitter" : "https://twitter.com/permanent_bnsl"
+        },
+        {
+           "name" : "Muskan Chugh",
+           "imageurl" : "contestant/avatar.png",
+           "about" : "I am a Rookie.",
+           "college" : "",
+           "facebook" : "https://www.facebook.com/axit55",
+           "github" : "https://github.com/permanent-bnsl",
+           "twitter" : "https://twitter.com/permanent_bnsl"
+        },
+        {
+          "name" : "Ravi Shyam",
+          "imageurl" : "/contestant/ravi.jpg",
+          "about" : "sleepy head",
+          "college" : "",
+          "facebook" : "https://www.facebook.com/RaVi.UrF.SuRaJ.oO",
+          "github" : "https://github.com/justFaGit",
+          "twitter": ""
+        },
+        {
+          "name" : "Akshay Nandwana",
+          "imageurl" : "contestant/anandwana001.png",
+          "about" : "Android Dev init",
+          "college" : "",
+          "facebook" : "https://www.facebook.com/anandwana001",
+          "github" : "https://github.com/anandwana001",
+          "twitter" : "https://twitter.com/akshay81844"
+        },
+        {
+      	  "name" : "Anshuman Verma",
+      	  "imageurl" : "/contestant/anshumanv",
+          "about" : "Football | Anime",
+          "college" : "",
+      	  "facebook" : "https://www.facebook.com/anshumanv12",
+      	  "github" : "https://github.com/anshumanv",
+      	  "twitter" : "https://twitter.com/Anshumaniac12"
+    	},
+  	{
+       	  "name" : "Adesh Shukla",
+      	  "imageurl" : "contestant/26114314_2003579423234176_4039171765716067095_o.jpg",
+          "about" : "Lets Open the Code",
+          "college" : "",
+      	  "facebook" : "https://www.facebook.com/adesh.shukla.790",
+      	  "github" : "https://github.com/aadixiiita",
+      	  "twitter" : ""
+    	}
    ]
 }
