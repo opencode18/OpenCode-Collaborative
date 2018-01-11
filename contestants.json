@@ -532,7 +532,18 @@
          "facebook":"https://www.facebook.com/profile.php?id=100008722324295",
          "github":"https://github.com/aryan-harsh",
          "twitter":""
+      },
+	     {
+         "name":"Ambuj Krishna Agrawal",
+         "imageurl":"contestant/avatar.jpg",
+         "about":"It's a trap!",
+         "college":"IIIT Allahabad",
+         "facebook":"https://www.facebook.com/ambuj.agrawal.1",
+         "github":"https://github.com/cuz789",
+         "twitter":""
       }
+
+	   
 
    ]
 }
