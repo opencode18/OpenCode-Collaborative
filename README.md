@@ -40,8 +40,8 @@ To add yourself to student section you need to open the file `contestants.json` 
         &nbsp;&nbsp;     "college" : "My college",  
         &nbsp;&nbsp;     "facebook" : "url",  
         &nbsp;&nbsp;     "github" : "url",  
-        &nbsp;&nbsp;     "twitter" : "url",
-        &nbsp;&nbsp;     "referral" : "who refered you?" 
+        &nbsp;&nbsp;     "twitter" : "url",  
+        &nbsp;&nbsp;     "referral" : "who refered you?"   
         }
         
 

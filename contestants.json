@@ -483,7 +483,8 @@
        {
        	  "name" : "Ashray Sinha",
       	  "imageurl" : "contestant/my_photo.png",
-      	  "about" : "Eat sleep code repeat",
+          "about" : "Eat sleep code repeat",
+          "college" : "",
       	  "facebook" : "https://www.facebook.com/ashray.sinha.5",
       	  "github" : "https://github.com/ashraysinha6069",
       	  "twitter" : ""
@@ -492,6 +493,7 @@
          "name":"Ankit Kripal",
          "imageurl":"contestant/akira.jpg",
          "about":"The worst one.",
+         "college" : "",
          "facebook":"",
          "github":"https://github.com/NeroIS",
          "twitter":""
