@@ -335,13 +335,21 @@
           "github" : "https://github.com/im-adi",
           "twitter" : ""
         },
-	{
-          "name" : "Akshit Bansal",
-          "imageurl" : "contestant/foto.jpg",
-          "about" : "I am a Rookie.",
-          "facebook" : "https://www.facebook.com/axit55",
-          "github" : "https://github.com/permanent-bnsl",
-          "twitter" : "https://twitter.com/permanent_bnsl"
+        {
+           "name" : "Akshit Bansal",
+           "imageurl" : "contestant/foto.jpg",
+           "about" : "I am a Rookie.",
+           "facebook" : "https://www.facebook.com/axit55",
+           "github" : "https://github.com/permanent-bnsl",
+           "twitter" : "https://twitter.com/permanent_bnsl"
+        },
+        {
+           "name" : "Muskan Chugh",
+           "imageurl" : "contestant/avatar.png",
+           "about" : "I am a Rookie.",
+           "facebook" : "https://www.facebook.com/axit55",
+           "github" : "https://github.com/permanent-bnsl",
+           "twitter" : "https://twitter.com/permanent_bnsl"
         },
         {
           "name" : "Ravi Shyam",
@@ -367,8 +375,8 @@
       	  "github" : "https://github.com/anshumanv",
       	  "twitter" : "https://twitter.com/Anshumaniac12"
     	},
-	{
-      	  "name" : "Adesh Shukla",
+  	  {
+       	  "name" : "Adesh Shukla",
       	  "imageurl" : "contestant/26114314_2003579423234176_4039171765716067095_o.jpg",
       	  "about" : "Lets Open the Code",
       	  "facebook" : "https://www.facebook.com/adesh.shukla.790",
