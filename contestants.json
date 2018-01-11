@@ -9,6 +9,15 @@
          "twitter":""
       },
 	   
+     {
+         "name":"Prince Kumar",
+         "imageurl":"contestant/princejvm.jpg",
+         "about":"A simple guy seeking for perfection time to time",
+         "facebook":"https://www.facebook.com/princejvm",
+         "github":"https://github.com/princejvm",
+         "twitter":"https://twitter.com/princejvm_c"
+      },
+	   
       {
          "name":"Arpit Mishra",
          "imageurl":"contestant/Cool-avatars-anonymous-avatar.jpg",
