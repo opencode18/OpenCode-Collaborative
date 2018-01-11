@@ -343,6 +343,14 @@
       "facebook" : "https://www.facebook.com/anshumanv12",
       "github" : "https://github.com/anshumanv",
       "twitter" : "https://twitter.com/Anshumaniac12"
+    },
+	{
+      "name" : "Akshay Nandwana",
+      "imageurl" : "contestant/anandwana001.png",
+      "about" : "Android Dev init",
+      "facebook" : "https://www.facebook.com/anandwana001",
+      "github" : "https://github.com/anandwana001",
+      "twitter" : "https://twitter.com/akshay81844"
     }
    ]
 }
