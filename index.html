@@ -17,6 +17,9 @@
 
   <title>OpenCode</title>
 
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -29,43 +32,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <style>
-  .img-responsive {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-  #logo{
-    margin: 0 auto;
-  }
-
-  #specify-height{
-    height:10px;
-  }
-
-  #animate-img{
-    animation: animate-blink 3s infinite,
-               animate-scale 6s infinite;
-  }
-
-  #give-color{
-    background:#343a40;
-  }
-
-  @keyframes animate-blink{
-    0%{opacity:0;}
-    50%{opacity:1;}
-    100%{opacity:0;}
-  }
-
-  @keyframes animate-scale{
-    0%{transform: scale(0);}
-    50%{transform: scale(.7);}
-    100%{transform:scale(0);}
-  }
-
-  </style>
+  
 </head>
 
 <body id="page-top">
@@ -94,18 +61,24 @@
     </div>
   </nav>
 
-  <header id="specify-height" class="bg-primary text-white">
-    <div class="container text-center">
-      <h1>OpenCode</h1>
-      <p class="lead">IIIT Allahabad's very own mini GSOC!</p>
-    </div>
-  </header>
+ <header>
+   <div id="snow"></div>
 
-  <div id="give-color" class="row">
-    <div id="logo" class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-8 col-xs-offset-2">
-      <img id="animate-img" src="images/SVG.svg" class="img-responsive">
-    </div>
-  </div>
+   <div class="row logo">
+      <img src="images/OpenCode.png" alt="Opencode Logo" class="hero-logo">
+    
+   </div>
+
+   <div class="row title">
+    <h1 class="hero-title">&nbsp;OPENCODE</h1>
+
+  
+ </div>
+ <hr class="card-underline">
+ <div class="row quote">
+   <p class="hero-quote">IIIT Allahabad's very own mini GSOC!</p>
+ </div>
+ </header>
 
   <section id="about">
     <div class="container">
