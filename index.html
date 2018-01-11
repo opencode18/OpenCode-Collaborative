@@ -89,7 +89,7 @@
           <div class="heading">
             <h1>Mentors</h1>
           </div>
-          <div class="card" v-for="mentor in mentors" onclick="this.classList.toggle('flipped')">
+          <div class="card" v-for="mentor in alphaSort(mentors)" onclick="this.classList.toggle('flipped')">
             <div class="front">
               <div class="image">
                 <img v-bind:src="mentor.imageurl">
@@ -127,7 +127,7 @@
           <div class="heading">
             <h1>Participants</h1>
           </div>
-          <div class="card" v-for="contestant in contestants" onclick="this.classList.toggle('flipped')">
+          <div class="card" v-for="contestant in alphaSort(contestants)" onclick="this.classList.toggle('flipped')">
             <div class="front">
               <div class="image">
                 <img v-bind:src="contestant.imageurl">
@@ -222,6 +222,11 @@
 
   <!-- Custom JavaScript for this theme -->
   <script src="js/scrolling-nav.js"></script>
+
+   
+
+   
+
 
 
 
