@@ -133,6 +133,7 @@
     color: lightblue;
   }
   .projects .front .name{
+     margin-top:7px;
      font-size: 15px;
      width: 190px;
      height: 225px;
