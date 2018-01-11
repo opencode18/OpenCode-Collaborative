@@ -28,6 +28,44 @@
   <link rel="stylesheet" href="css/simple-line-icons.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+  .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+  #logo{
+    margin: 0 auto;
+  }
+
+  #specify-height{
+    height:10px;
+  }
+
+  #animate-img{
+    animation: animate-blink 3s infinite,
+               animate-scale 6s infinite;
+  }
+
+  #give-color{
+    background:#343a40;
+  }
+
+  @keyframes animate-blink{
+    0%{opacity:0;}
+    50%{opacity:1;}
+    100%{opacity:0;}
+  }
+
+  @keyframes animate-scale{
+    0%{transform: scale(0);}
+    50%{transform: scale(.7);}
+    100%{transform:scale(0);}
+  }
+
+  </style>
 </head>
 
 <body id="page-top">
@@ -56,12 +94,18 @@
     </div>
   </nav>
 
-  <header class="bg-primary text-white">
+  <header id="specify-height" class="bg-primary text-white">
     <div class="container text-center">
       <h1>OpenCode</h1>
       <p class="lead">IIIT Allahabad's very own mini GSOC!</p>
     </div>
   </header>
+
+  <div id="give-color" class="row">
+    <div id="logo" class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-8 col-xs-offset-2">
+      <img id="animate-img" src="images/SVG.svg" class="img-responsive">
+    </div>
+  </div>
 
   <section id="about">
     <div class="container">
@@ -160,7 +204,7 @@
 			<!-- <div class=""> -->
 				<div class="col-md-12 text-center">
 					<div>
-        
+
           </div>
 
           <p>Created with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://geekhaven.iiita.ac.in/foss/" target="_blank">FOSS</a></p>
@@ -201,22 +245,22 @@
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<ul class= "list-inline" style="float: right; margin-right: 0px ;">
-						
+
 						<li class="list-inline-item"><a href="https://github.com/fossiiita" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true" style="font-size: 40px"></i></a></li>
 						<li class="list-inline-item"><a href="mailto:iit2015113@iiita.ac.in"><i class="fa fa-envelope-square" style="font-size: 40px" ></i></a></li>
 						<li class="list-inline-item"><a href="https://www.facebook.com/opencodeiiita/"><i class=" fa fa-facebook-square" style="font-size: 40px" ></i></a></li>
 					</ul>
-					
-			
-		        
-				
+
+
+
+
 					<ul class= "list-inline" style="float: left; margin-right: 0px ;">
-						
+
 						<li class="list-inline-item"><a href="https://github.com/fossiiita" target="_blank"><img class="img-responsive" id="foss" src="images/favicon/foss.png"></a></li>
 						<li class="list-inline-item"><a href="https://geekhaven.iiita.ac.in/"><img class="img-responsive" id="geek" src="images/favicon/Geekhaven.png"></a></li>
 						<li class="list-inline-item"><a href="https://www.iiita.ac.in/"><img class="img-responsive" id="iiita" src="images/favicon/iiita.png"></a></li>
 					</ul>
-					
+
 				</div>
 			</div>
 		</div>
