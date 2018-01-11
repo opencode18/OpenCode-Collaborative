@@ -39,6 +39,14 @@
             "about" : "Implementation of Data Structures and Algorithms in Go",
             "lang" : "Go",
             "github" : "https://github.com/gostudent/Algorithms"
+        }, 
+        {
+            "name" : "Anna",
+            "imageurl" : "",
+            "mentors" : "Gautham",
+            "about" : "Assistant on chrome.",
+            "lang" : "HTML Javascript CSS",
+            "github" : "https://github.com/Anna-Assistant/Anna"
         },
         {
             "name" : "Motivate",
@@ -73,12 +81,12 @@
             "github" : "https://github.com/GitHubCommunity-IIITAllahabad/ProfilePortal-Beta"
         },
         {
-            "name" : "My Broadcast",
+            "name" : "Youtube Queue Extension",
             "imageurl" : "",
             "mentors" : "Abhishek Deora",
-            "about" : "A platform to share links (tech and non-tech),create channel,subscribe,get notifications and weekly email.",
+            "about" : "chrome extension to queue youtube songs .",
             "lang" : "HTML Javascript CSS",
-            "github" : "https://github.com/adeora7/myBroadcast"
+            "github" : "https://github.com/adeora7/youtube_queue_extension"
         },
         {
             "name" : "Utlyz-CLI",
@@ -95,14 +103,6 @@
             "about" : "A python app which uses the CLI to query the definitions of a word in a dictionary.",
             "lang" : "Python",
             "github" : "https://github.com/mrsaicharan1/PyDic"
-        },
-        {
-            "name" : "Anna",
-            "imageurl" : "",
-            "mentors" : "Gautham",
-            "about" : "Assistant on chrome.",
-            "lang" : "HTML Javascript CSS",
-            "github" : "https://github.com/Anna-Assistant/Anna"
         },
         {
             "name" : "Attendance Portal",
