@@ -17,3 +17,8 @@ header {
 section {
   padding: 150px 0;
 }
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
