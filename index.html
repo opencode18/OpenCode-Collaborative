@@ -77,6 +77,9 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Participants</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -191,6 +194,38 @@
         </div>
       </div>
   </section>
+  <section id="projects" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="projects" id="projects">
+          <div class="heading">
+            <h1>Projects</h1>
+          </div>
+          <div class="card" v-for="project in projects" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              
+              <div class="name">{{ project.name }}
+	      <h4>Mentored by</h4>{{ project.mentors }}
+	      <h5>Languages Used</h5>{{ project.lang }}</div>
+            </div>
+            <div class="back">
+              <div class="about">
+                <h3>About project</h3>{{ project.about }}</div>
+              <div class="social">
+                
+                <a v-bind:href="project.github">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+</section>	  
+
 
   <!-- Footer -->
  <footer id="footer" role="contentinfo">
@@ -289,5 +324,6 @@
   <script src="https://unpkg.com/vue"></script>
   <script src="js/mentor.js"></script>
   <script src="js/contestant.js"></script>
+  <script src="js/projects.js"></script>
 
 </html>
