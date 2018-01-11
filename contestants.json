@@ -169,7 +169,7 @@
          "twitter":""
       },
       {
-	 "name":"Nilotpal Pramanik",
+	       "name":"Nilotpal Pramanik",
          "imageurl":"contestant/nilotpal.jpg",
          "about":"Nice to meet you:)",
          "college":"",
@@ -405,7 +405,7 @@
            "name" : "Muskan",
            "imageurl" : "contestant/muskan.jpg",
            "about" : "I am a contestant.",
-	   "college": "",
+	         "college": "",
            "facebook" : "",
            "github" : "https://github.com/muskan6769",
            "twitter" : ""
@@ -436,9 +436,9 @@
             "github" : "https://github.com/Panda2498",
             "twitter" : ""
         },
-	{
+	      {
       	  "name" : "Anshuman Verma",
-      	  "imageurl" : "/contestant/anshumanv",
+      	  "imageurl" : "contestant/anshumanv",
           "about" : "Football | Anime",
           "college" : "",
       	  "facebook" : "https://www.facebook.com/anshumanv12",
@@ -454,11 +454,11 @@
       	  "github" : "https://github.com/aadixiiita",
       	  "twitter" : ""
     	},
-       {
+      {
           "name" : "Swarnima Gautam",
-          "imageur1" : "/contestant/swarnima.jpg",
+          "imageur1" : "contestant/swarnima.jpg",
           "about" : "learning opencode",
-	      "college": "",
+	        "college": "",
           "facebook" : "https://www.facebook.com/swarnima.gautam.14",
           "github" : "https://github.com/Swarnima-27",
           "twitter" : ""
