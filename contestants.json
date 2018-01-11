@@ -365,7 +365,7 @@
          "github":"https://github.com/mdmair2021",
          "twitter":""
       },
-      {
+      {   
           "name" : "Aayush Chaudhry",
           "imageurl" : "contestant/photo.jpg",
           "about" : "Lets all just pretend that this is a really clever bio.",
@@ -445,7 +445,7 @@
       	  "github" : "https://github.com/anshumanv",
       	  "twitter" : "https://twitter.com/Anshumaniac12"
     	},
-  	{
+    	{
        	  "name" : "Adesh Shukla",
       	  "imageurl" : "contestant/26114314_2003579423234176_4039171765716067095_o.jpg",
           "about" : "Lets Open the Code",
@@ -454,6 +454,22 @@
       	  "github" : "https://github.com/aadixiiita",
       	  "twitter" : ""
     	},
+	{
+       	  "name" : "Ashray Sinha",
+      	  "imageurl" : "contestant/my_photo.png",
+      	  "about" : "Eat sleep code repeat",
+      	  "facebook" : "https://www.facebook.com/ashray.sinha.5",
+      	  "github" : "https://github.com/ashraysinha6069",
+      	  "twitter" : ""
+    	},
+      {
+          "name" : "Nabeel Jawahir",
+          "imageurl" : "contestant/nab331.jpg",
+          "about" : "ganggang",
+          "facebook" : "https://www.facebook.com/nab331",
+          "github" : "https://github.com/nab331",
+          "twitter" : ""
+    	},
       {
          "name":"Ankit Kripal",
          "imageurl":"contestant/akira.jpg",
@@ -461,14 +477,6 @@
          "facebook":"",
          "github":"https://github.com/NeroIS",
          "twitter":""
-	},
-	 {
-         "name":"Aadya Mishra",
-         "imageurl":"contestant/IMG_20171105_130131_419.jpg",
-         "about":"Noob! Here to learn! Enthusiastic learner!",
-         "facebook":"https://www.facebook.com/aadya.mishra.583",
-         "github":"https://github.com/Panda2498",
-         "twitter":""
-      }
+    	}
    ]
 }
