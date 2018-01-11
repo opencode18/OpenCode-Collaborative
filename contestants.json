@@ -454,7 +454,16 @@
       	  "github" : "https://github.com/aadixiiita",
       	  "twitter" : ""
     	},
-	{
+       {
+          "name" : "Swarnima Gautam",
+          "imageur1" : "/contestant/swarnima.jpg",
+          "about" : "learning opencode",
+	      "college": "",
+          "facebook" : "https://www.facebook.com/swarnima.gautam.14",
+          "github" : "https://github.com/Swarnima-27",
+          "twitter" : ""
+       },
+       {
        	  "name" : "Ashray Sinha",
       	  "imageurl" : "contestant/my_photo.png",
       	  "about" : "Eat sleep code repeat",
