@@ -398,6 +398,14 @@
       	  "facebook" : "https://www.facebook.com/adesh.shukla.790",
       	  "github" : "https://github.com/aadixiiita",
       	  "twitter" : ""
-    	}
+    	},
+      {
+         "name":"Ankit Kripal",
+         "imageurl":"contestant/akira.jpg",
+         "about":"The worst one.",
+         "facebook":"",
+         "github":"https://github.com/NeroIS",
+         "twitter":""
+}
    ]
 }
