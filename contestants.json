@@ -429,6 +429,14 @@
           "twitter" : "https://twitter.com/akshay81844"
         },
         {
+            "name" : "Aadya Mishra",
+            "imageurl" : "contestant/aadya.jpeg.jpg",
+            "about" : "Noob, enthusiastic learner!",
+            "facebook" : "https://www.facebook.com/aadya.mishra.583",
+            "github" : "https://github.com/Panda2498",
+            "twitter" : ""
+        },
+	{
       	  "name" : "Anshuman Verma",
       	  "imageurl" : "/contestant/anshumanv",
           "about" : "Football | Anime",
