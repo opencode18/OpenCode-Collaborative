@@ -454,22 +454,6 @@
       	  "github" : "https://github.com/aadixiiita",
       	  "twitter" : ""
     	},
-	{
-          "name" : "Akshit Bansal",
-          "imageurl" : "contestant/foto.jpg",
-          "about" : "I am a Rookie.",
-          "facebook" : "https://www.facebook.com/axit55",
-          "github" : "https://github.com/permanent-bnsl",
-          "twitter" : "https://twitter.com/permanent_bnsl"
-	},
-   {
-      "name" : "Anshuman Verma",
-      "imageurl" : "/contestant/anshumanv",
-      "about" : "Football | Anime",
-      "facebook" : "https://www.facebook.com/anshumanv12",
-      "github" : "https://github.com/anshumanv",
-      "twitter" : "https://twitter.com/Anshumaniac12"
-    },
        {
           "name" : "Swarnima Gautam",
           "imageur1" : "/contestant/swarnima.jpg",
@@ -478,7 +462,8 @@
           "facebook" : "https://www.facebook.com/swarnima.gautam.14",
           "github" : "https://github.com/Swarnima-27",
           "twitter" : ""
-       }
+       },
+       {
        	  "name" : "Ashray Sinha",
       	  "imageurl" : "contestant/my_photo.png",
       	  "about" : "Eat sleep code repeat",
