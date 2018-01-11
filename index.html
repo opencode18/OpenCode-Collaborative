@@ -31,6 +31,29 @@
   <link rel="stylesheet" href="css/simple-line-icons.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style type="text/css">
+  
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 15px ;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+  </style>
 
   
 </head>
@@ -64,13 +87,13 @@
  <header>
    <div id="snow"></div>
 
-
   
     <div id="give-color" class="row">
       <div id="logo" class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-8 col-xs-offset-2">
         <img id="animate-img" src="images/SVG.svg" class="img-responsive">
       </div>
     </div>
+
 
 
    <div class="row logo">
@@ -88,8 +111,6 @@
    <p class="hero-quote">IIIT Allahabad's very own mini GSOC!</p>
  </div>
  </header>
-
-
   <section id="about">
     <div class="container">
       <div class="row">
@@ -163,7 +184,7 @@
             </div>
             <div class="back">
               <div class="about">
-                <h3>About me</h3><hr class="card-underline"><p>{{ contestant.about }}</p></div>
+                <h3>About me</h3><p class="card-college">{{ contestant.college }}</p><hr class="card-underline"><p class="card-bio">{{ contestant.about }}</p></div>
               <div class="social">
                 <a v-bind:href="contestant.facebook">
                   <i class="fa fa-facebook-official" aria-hidden="true"></i>
