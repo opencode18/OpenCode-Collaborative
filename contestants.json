@@ -402,13 +402,13 @@
            "twitter" : "https://twitter.com/permanent_bnsl"
         },
         {
-           "name" : "Muskan Chugh",
-           "imageurl" : "contestant/avatar.png",
-           "about" : "I am a Rookie.",
-           "college" : "",
-           "facebook" : "https://www.facebook.com/axit55",
-           "github" : "https://github.com/permanent-bnsl",
-           "twitter" : "https://twitter.com/permanent_bnsl"
+           "name" : "Muskan",
+           "imageurl" : "contestant/muskan.jpg",
+           "about" : "I am a contestant.",
+	   "college": "",
+           "facebook" : "",
+           "github" : "https://github.com/muskan6769",
+           "twitter" : ""
         },
         {
           "name" : "Ravi Shyam",
