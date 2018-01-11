@@ -77,6 +77,9 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Participants</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#project">Projects</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -200,7 +203,7 @@
 
   <section id="projects" class="bg-light">
     <div class="container">
-      <div class="row">
+      <div class="row" id="project">
         <div class="projects">
           <div class="heading">
             <h1>Projects</h1>
@@ -210,12 +213,12 @@
             <div class="front">
 
               <div class="project">
-                
+
                   <p class="project-name">{{ project.name }}</p>
                   <hr class="card-underline">
                   <p class="project-mentored-by">Mentored by</p>
                   <p class="project-mentor">{{ project.mentors }}</p>
-                
+
               </div>
                 <div class="name">{{ project.lang }}</div>
             </div>
