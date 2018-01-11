@@ -399,5 +399,14 @@
       	  "github" : "https://github.com/aadixiiita",
       	  "twitter" : ""
     	}
+
+      {
+          "name" : "Nabeel Jawahir",
+          "imageurl" : "contestant/nab331.jpg",
+          "about" : "ganggang",
+          "facebook" : "https://www.facebook.com/nab331",
+          "github" : "https://github.com/nab331",
+          "twitter" : ""
+      }
    ]
 }
