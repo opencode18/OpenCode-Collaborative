@@ -17,6 +17,9 @@
 
   <title>OpenCode</title>
 
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -28,6 +31,8 @@
   <link rel="stylesheet" href="css/simple-line-icons.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
 </head>
 
 <body id="page-top">
@@ -56,12 +61,24 @@
     </div>
   </nav>
 
-  <header class="bg-primary text-white">
-    <div class="container text-center">
-      <h1>OpenCode</h1>
-      <p class="lead">IIIT Allahabad's very own mini GSOC!</p>
-    </div>
-  </header>
+ <header>
+   <div id="snow"></div>
+
+   <div class="row logo">
+      <img src="images/OpenCode.png" alt="Opencode Logo" class="hero-logo">
+    
+   </div>
+
+   <div class="row title">
+    <h1 class="hero-title">&nbsp;OPENCODE</h1>
+
+  
+ </div>
+ <hr class="card-underline">
+ <div class="row quote">
+   <p class="hero-quote">IIIT Allahabad's very own mini GSOC!</p>
+ </div>
+ </header>
 
   <section id="about">
     <div class="container">
@@ -89,7 +106,7 @@
           <div class="heading">
             <h1>Mentors</h1>
           </div>
-          <div class="card" v-for="mentor in mentors" onclick="this.classList.toggle('flipped')">
+          <div class="card" v-for="mentor in alphaSort(mentors)" onclick="this.classList.toggle('flipped')">
             <div class="front">
               <div class="image">
                 <img v-bind:src="mentor.imageurl">
@@ -127,7 +144,7 @@
           <div class="heading">
             <h1>Participants</h1>
           </div>
-          <div class="card" v-for="contestant in contestants" onclick="this.classList.toggle('flipped')">
+          <div class="card" v-for="contestant in alphaSort(contestants)" onclick="this.classList.toggle('flipped')">
             <div class="front">
               <div class="image">
                 <img v-bind:src="contestant.imageurl">
@@ -158,14 +175,13 @@
  <footer id="footer" role="contentinfo">
 			<div class="container">
 			<!-- <div class=""> -->
-				<div class="col-md-12 text-center">
-					<div>
-        
-          </div>
+				<!-- <div class="col-md-12 text-center"> -->
+					<!-- <div> -->
 
-          <p>Created with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://geekhaven.iiita.ac.in/foss/" target="_blank">FOSS</a></p>
+          <!-- </div> -->
 
-        </div>
+
+        <!-- </div> -->
 
 						<!-- <div class="col-md-6 to-animate"> -->
 							<!-- <h3>Contact Info</h3> -->
@@ -199,24 +215,32 @@
 						<!-- </div> -->
 			<!-- </div> -->
 			<div class="row">
-				<div class="col-md-12 text-center">
-					<ul class= "list-inline" style="float: right; margin-right: 0px ;">
-						
-						<li class="list-inline-item"><a href="https://github.com/fossiiita" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true" style="font-size: 40px"></i></a></li>
-						<li class="list-inline-item"><a href="mailto:iit2015113@iiita.ac.in"><i class="fa fa-envelope-square" style="font-size: 40px" ></i></a></li>
-						<li class="list-inline-item"><a href="https://www.facebook.com/opencodeiiita/"><i class=" fa fa-facebook-square" style="font-size: 40px" ></i></a></li>
-					</ul>
-					
-			
-		        
-				
+
+        <div class="col-md-4 text-center">
+
 					<ul class= "list-inline" style="float: left; margin-right: 0px ;">
-						
+
 						<li class="list-inline-item"><a href="https://github.com/fossiiita" target="_blank"><img class="img-responsive" id="foss" src="images/favicon/foss.png"></a></li>
 						<li class="list-inline-item"><a href="https://geekhaven.iiita.ac.in/"><img class="img-responsive" id="geek" src="images/favicon/Geekhaven.png"></a></li>
 						<li class="list-inline-item"><a href="https://www.iiita.ac.in/"><img class="img-responsive" id="iiita" src="images/favicon/iiita.png"></a></li>
 					</ul>
-					
+        </div>
+
+        <div class="col-md-4 text-center">
+
+          <p>Created with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://geekhaven.iiita.ac.in/foss/" target="_blank">FOSS</a></p>
+        </div>
+
+
+        <div class="col-md-4 text-center">
+          <ul class= "list-inline" style="float: right; margin-right: 0px ;">
+
+            <li class="list-inline-item"><a href="https://github.com/fossiiita" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true" style="font-size: 40px"></i></a></li>
+            <li class="list-inline-item"><a href="mailto:iit2015113@iiita.ac.in"><i class="fa fa-envelope-square" style="font-size: 40px" ></i></a></li>
+            <li class="list-inline-item"><a href="https://www.facebook.com/opencodeiiita/"><i class=" fa fa-facebook-square" style="font-size: 40px" ></i></a></li>
+          </ul>
+        </div>
+
 				</div>
 			</div>
 		</div>
@@ -232,6 +256,11 @@
 
   <!-- Custom JavaScript for this theme -->
   <script src="js/scrolling-nav.js"></script>
+
+
+
+
+
 
 
 
