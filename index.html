@@ -61,8 +61,11 @@
   </style>
   <style type="text/css">
   @media screen and (max-width: 780px) {
-    div.mentors, div.contestants{margin-left: 120px;}
-    h1.center-text{margin-left: 30px;}
+    div.mentors, div.contestants, div.projects{margin-left: 50px;}
+    h1#center-mentor{margin-left: 35px;}
+    h1#center-participant{margin-left: 5px;}
+    h1#center-project{margin-left: 35px;}
+
     }
   </style>
 </head>
@@ -139,7 +142,7 @@
       <div class="row">
         <div class="mentors" id="mentors">
           <div class="heading">
-            <h1 class="center-text">Mentors</h1>
+            <h1 id="center-mentor">Mentors</h1>
           </div>
           <div class="card" v-for="mentor in alphaSort(mentors)" onclick="this.classList.toggle('flipped')">
             <div class="front">
@@ -178,7 +181,7 @@
       <div class="row">
         <div class="contestants" id="contestants">
           <div class="heading">
-            <h1 class="center-text">Participants</h1>
+            <h1 id="center-participant">Participants</h1>
           </div>
           <div class="card" v-for="contestant in alphaSort(contestants)" onclick="this.classList.toggle('flipped')">
             <div class="front">
@@ -217,7 +220,7 @@
       <div class="row">
         <div class="projects">
           <div class="heading">
-            <h1>Projects</h1>
+            <h1 id="center-project">Projects</h1>
           </div>
 
           <div class="card" v-for="project in projects" onclick="this.classList.toggle('flipped')">
@@ -299,7 +302,7 @@
       <!-- </div> -->
       <div class="row">
 
-        <div class="col-md-4 text-center">
+        <div class="col-xs-12 col-md-4 text-center">
 
           <ul class="list-inline" style="float: left; margin-right: 0px ;">
 
@@ -321,7 +324,7 @@
           </ul>
         </div>
 
-        <div class="col-md-4 text-center">
+        <div class="col-xs-12 col-md-4 text-center">
 
           <p>Created with
             <i class="fa fa-heart" aria-hidden="true"></i> by
@@ -330,7 +333,7 @@
         </div>
 
 
-        <div class="col-md-4 text-center">
+        <div class="col-xs-12 col-md-4 text-center">
           <ul class="list-inline" style="float: right; margin-right: 0px ;">
 
             <li class="list-inline-item">
