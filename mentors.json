@@ -98,11 +98,7 @@
         },
         {
             "name" : "Abhishek Deora",
-<<<<<<< HEAD
-            "imageurl" : "mentor/abhishek.jepg",
-=======
             "imageurl" : "mentor/abhishek.jpeg",
->>>>>>> ffa7317dd6facd8648f02b96171d95092973825e
             "about" : "",
             "facebook" : "",
             "github" : "",
@@ -119,17 +115,6 @@
         {
             "name" : "Saicharan Reddy",
             "imageurl" : "mentor/saicharan.jpeg",
-<<<<<<< HEAD
-            "about" : "",
-            "facebook" : "",
-            "github" : "",
-            "twitter" : ""
-        },
-        {
-            "name" : "Gautham Santhosh",
-            "imageurl" : "mentor/gautham.jpeg",
-=======
->>>>>>> ffa7317dd6facd8648f02b96171d95092973825e
             "about" : "",
             "facebook" : "",
             "github" : "",
@@ -138,17 +123,6 @@
         {
             "name" : "Harshit Jain",
             "imageurl" : "mentor/harshit.png",
-<<<<<<< HEAD
-            "about" : "",
-            "facebook" : "",
-            "github" : "",
-            "twitter" : ""
-        },
-        {
-            "name" : "Aswin VB",
-            "imageurl" : "mentor/aswin.jpeg",
-=======
->>>>>>> ffa7317dd6facd8648f02b96171d95092973825e
             "about" : "",
             "facebook" : "",
             "github" : "",
