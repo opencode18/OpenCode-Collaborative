@@ -487,6 +487,15 @@
          "facebook":"",
          "github":"https://github.com/NeroIS",
          "twitter":""
-    	}
+    	},
+      {
+         "name" : "Ranjan Binwani",
+         "imageurl" : "contestant/ranjan.jpeg",
+         "about" : "Always learning",
+         "college" : "Birla Institute of Technology, Mesra",
+         "facebook":"https://www.facebook.com/ranjan.binwani",
+         "github":"https://github.com/ranjanbinwani",
+         "twitter" : ""
+      }
    ]
 }
