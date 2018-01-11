@@ -127,6 +127,15 @@
             "facebook" : "",
             "github" : "",
             "twitter" : ""
+        },
+        {
+            "name" : "Nabeel Jawahir",
+            "imageurl" : "mentor/nabeel.png",
+            "about" : "ganggang",
+            "facebook" : "https://www.facebook.com/nab331",
+            "github" : "https://github.com/nab331",
+            "twitter" : ""
         }
+
     ]
 }
