@@ -83,13 +83,13 @@
     border-radius:4px;
   }
 
-  /*.card:hover .front {
+  /* .card:hover .front {
     transform: perspective(600px) rotateY(-180deg)
   }
 
   .card:hover .back {
     transform: perspective(600px) rotateY(0deg)
-  }*/
+  } */
 
   .flipped .front{
    transform: perspective(600px) rotateY(-180deg);
