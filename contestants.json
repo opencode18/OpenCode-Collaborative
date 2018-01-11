@@ -9,6 +9,15 @@
          "github":"https://github.com/Tlazypanda",
          "twitter":""
       }, 
+	   {
+         "name":"Senky Bansal",
+         "imageurl":"contestant/senky.jpg",
+         "about":"The devil",
+         "college":"iiit allahabad",
+         "facebook":"https://www.facebook.com/profile.php?id=100009153186454",
+         "github":"https://github.com/DEVILCODER-SB99",
+         "twitter":"https://twitter.com"
+      },
      {
          "name":"Prince Kumar",
          "imageurl":"contestant/princejvm.jpg",
@@ -274,6 +283,14 @@
          "facebook":"https://www.facebook.com/arsh.panghal",
          "github":"https://github.com/arshjat",
          "twitter":""
+	    },
+	   {
+         "name":"Naga Meher Chand Pulavarty",
+         "imageurl":"contestant/kirito.jpg",
+         "about":"Normal is Boring....",
+         "facebook":"https://www.facebook.com/meher.rocks123",
+         "github":"https://github.com/blaze17280",
+         "twitter":""	   
       },
       {
          "name":"Gaurav Pandey",
@@ -436,6 +453,31 @@
             "github" : "https://github.com/Panda2498",
             "twitter" : ""
         },
+        {
+            "name" : "Aayush Joglekar",
+            "imageurl" : "contestant/aj.jpeg",
+            "about" : "Absolutely awkward, proud nerd & geek, decreaser of world suck.",
+            "facebook" : "https://www.facebook.com/joglekaraayush",
+            "github" : "https://github.com/aayushjoglekar",
+            "twitter" : "https://github.com/aayushjoglekar"
+        },
+         {
+            "name" : "Druval CR",
+            "imageurl" : "contestant/druval.jpg",
+            "about" : "New to OpenSource",
+            "facebook" : "https://www.facebook.com/druval.cr",
+            "github" : "https://github.com/druvalcr28",
+            "twitter" : ""
+        },
+        {
+            "name" : "Divy Khare",
+            "imageurl" : "contestant/me.jpg",
+            "about" : "Learning OpenSource",
+            "facebook" : "https://www.facebook.com/divy.khare.3",
+            "github" : "https://github.com/Divy123",
+            "twitter" : "",
+            "college":"Indian Institute Of Information Technology,Lucknow"
+        },
 	      {
       	  "name" : "Anshuman Verma",
       	  "imageurl" : "contestant/anshumanv",
@@ -466,7 +508,8 @@
        {
        	  "name" : "Ashray Sinha",
       	  "imageurl" : "contestant/my_photo.png",
-      	  "about" : "Eat sleep code repeat",
+          "about" : "Eat sleep code repeat",
+          "college" : "",
       	  "facebook" : "https://www.facebook.com/ashray.sinha.5",
       	  "github" : "https://github.com/ashraysinha6069",
       	  "twitter" : ""
@@ -475,10 +518,12 @@
          "name":"Ankit Kripal",
          "imageurl":"contestant/akira.jpg",
          "about":"The worst one.",
+         "college" : "",
          "facebook":"",
          "github":"https://github.com/NeroIS",
          "twitter":""
     	},
+
 	{
           "name" : "Shivansh Srivastava",
           "imageurl" : "ironman.jpg",
@@ -487,6 +532,17 @@
           "facebook" : "",
           "github" : "https://github.com/Shivansh1805",
           "twitter": ""
-        }
+        },
+      {
+         "name" : "Ranjan Binwani",
+         "imageurl" : "contestant/ranjan.jpeg",
+         "about" : "Always learning",
+         "college" : "Birla Institute of Technology, Mesra",
+         "facebook":"https://www.facebook.com/ranjan.binwani",
+         "github":"https://github.com/ranjanbinwani",
+         "twitter" : ""
+      }
+
    ]
 }
+
