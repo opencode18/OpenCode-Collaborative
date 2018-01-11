@@ -25,6 +25,17 @@
             "twitter" : ""
         },
         {
+<<<<<<< HEAD
+=======
+            "name" : "Madhur Gupta",
+            "imageurl" : "contestant/myimage.jpg",
+            "about" : "A wanna-be Web Developer.",
+            "facebook" : "https://www.facebook.com/madhurguptaiiita",
+            "github" : "https://github.com/madhur1998",
+            "twitter" : ""
+        },
+        {
+>>>>>>> upstream/master
             "name" : "Jigar Chavada",
             "imageurl" : "contestant/jsc39.jpeg",
             "about" : "Eat Sleep Code Repeat",
@@ -33,12 +44,22 @@
             "twitter" : ""
         },
         {
+<<<<<<< HEAD
             "name" : "Vivek Raj",
             "imageurl" : "contestant/me1.jpg",
             "about" : "A Worst web-developer",
             "facebook" : "https://www.facebook.com/profile.php?id=100005118040716",
             "github" : "https://github.com/swaager",
             "twitter" : ""
+        },
+======= { 
+            "name" : "Atisaya Jain",
+            "imageurl" : "contestant/atisayajain.jpg",
+            "about" : "Learning how to learn!",
+            "facebook" : "https://www.facebook.com/atisayajain",
+            "github" : "https://github.com/atisayajain",
+            "twitter" : "https://twitter.com/atisayajain"
+>>>>>>> upstream/master
         }
     ]
 }
