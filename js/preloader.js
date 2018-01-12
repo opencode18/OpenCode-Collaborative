@@ -2,7 +2,7 @@ $(document).ready(function($) {
     var Body = $('body');
     Body.addClass('preloader-site');
 });
-$(window).load(function() {
+ $(window).on('load', function () {
     $('.preloader-wrapper').fadeOut();
-    $('body').removeClass('preloader-site');
-});
+    $('body').removeClass('preloader-site');  
+ });
