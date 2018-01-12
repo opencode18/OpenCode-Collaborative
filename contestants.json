@@ -30,6 +30,17 @@
          "referral":""
       },
       {
+         "name":"Kiran Velumuri",
+         "imageurl":"contestant/kiranvelumuri.svg",
+         "about":"too Noob to code!!",
+	"college":"IIIT Allahabad",
+         "facebook":"https://www.facebook.com/kiran.velumuri",
+         "github":"https://github.com/KiranVelumuri",
+         "twitter":"",
+         "referral":"https://github.com/surasnayak"
+      },
+
+	{
          "name":"Suras Kumar Nayak",
          "imageurl":"contestant/surasnayak.jpg",
          "about":"I love my friends the most!!",
@@ -37,7 +48,8 @@
          "github":"https://github.com/surasnayak",
          "twitter":"",
          "referral":""
-      },
+      },	
+
       {
          "name":"Arpit Mishra",
          "imageurl":"contestant/Cool-avatars-anonymous-avatar.jpg",
