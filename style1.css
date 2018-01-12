@@ -10,7 +10,7 @@ body{
 }
 
 a:hover{
-  background: #f8f9fa;
+  background: -webkit-linear-gradient(45deg, #ee0979, #ff6a00);
 }
 
 #clockdiv{
@@ -26,7 +26,7 @@ a:hover{
 #clockdiv > div{
 	padding: 10px;
 	border-radius: 3px;
- 	background: #f8f9fa;
+ 	background: -webkit-linear-gradient(45deg, #ee0979, #ff6a00);
 	display: inline-block;
 }
 
