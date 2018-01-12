@@ -345,7 +345,15 @@
          "github":"https://github.com/pranjalg2308",
          "twitter":"",
          "referral":""
-      },
+      },   
+	{
+            "name" : "Nabeel Jawahir",
+            "imageurl" : "contestant/nabeel.png",
+            "about" : "ganggang",
+            "facebook" : "https://www.facebook.com/nab331",
+            "github" : "https://github.com/nab331",
+            "twitter" : ""
+        },
       {
          "name":"Arsh Panghal",
          "imageurl":"contestant/arshjat.jpg",
