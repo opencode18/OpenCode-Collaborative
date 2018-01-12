@@ -7,15 +7,27 @@
          "college":"IIIT, Allahabad",
          "facebook":"https://www.facebook.com/snehamishrabb",
          "github":"https://github.com/Tlazypanda",
-         "twitter":""
-      }, 
+         "twitter":"",
+         "referral":""
+      },
+	   {
+         "name":"Senky Bansal",
+         "imageurl":"contestant/senky.jpg",
+         "about":"The devil",
+         "college":"iiit allahabad",
+         "facebook":"https://www.facebook.com/profile.php?id=100009153186454",
+         "github":"https://github.com/DEVILCODER-SB99",
+         "twitter":"https://twitter.com",
+         "referral":""
+      },
      {
          "name":"Prince Kumar",
          "imageurl":"contestant/princejvm.jpg",
          "about":"A simple guy seeking for perfection time to time",
          "facebook":"https://www.facebook.com/princejvm",
          "github":"https://github.com/princejvm",
-         "twitter":"https://twitter.com/princejvm_c"
+         "twitter":"https://twitter.com/princejvm_c",
+         "referral":""
       },
       {
          "name":"Suras Kumar Nayak",
@@ -23,7 +35,8 @@
          "about":"I love my friends the most!!",
          "facebook":"https://www.facebook.com/suras.nayak",
          "github":"https://github.com/surasnayak",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
       {
          "name":"Arpit Mishra",
@@ -32,7 +45,8 @@
          "college":"",
          "facebook":"https://www.facebook.com/arpitmisraw2614",
          "github":"https://github.com/arpitmisraw",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
       {
          "name":"Anmol Chugh",
@@ -40,7 +54,8 @@
          "about":"I am a high-functioning SOCIOPATH",
          "facebook":"https://www.facebook.com/anmol.chugh.92",
          "github":"https://github.com/techac",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
       {
          "name":"Vishal Pani",
@@ -49,7 +64,8 @@
          "college":"IIIT, Allahabad",
          "facebook":"https://www.facebook.com/vishal.pani",
          "github":"https://github.com/falconis",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
       {
          "name":"Madhur Gupta",
@@ -58,7 +74,8 @@
          "college":"",
          "facebook":"https://www.facebook.com/madhurguptaiiita",
          "github":"https://github.com/madhur1998",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
       {
          "name":"Jigar Chavada",
@@ -67,7 +84,8 @@
          "college":"",
          "facebook":"https://www.facebook.com/jsc3998",
          "github":"https://github.com/Jigar3",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
       {
          "name":"Vivek Raj",
@@ -76,7 +94,8 @@
          "college":"",
          "facebook":"https://www.facebook.com/profile.php?id=100005118040716",
          "github":"https://github.com/swaager",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
       {
          "name":"Abhishek Singh saini",
@@ -85,7 +104,8 @@
          "college":"",
          "facebook":"https://www.facebook.com/Abhitaker4",
          "github":"https://github.com/AbhiTaker",
-         "twitter":"https://twitter.com/Abhi_saini_AS"
+         "twitter":"https://twitter.com/Abhi_saini_AS",
+         "referral":""
       },
       {
          "name":"Atisaya Jain",
@@ -94,7 +114,8 @@
          "college":"",
          "facebook":"https://www.facebook.com/atisayajain",
          "github":"https://github.com/atisayajain",
-         "twitter":"https://twitter.com/atisayajain"
+         "twitter":"https://twitter.com/atisayajain",
+         "referral":""
       },
       {
          "name":"Yash Rathore",
@@ -103,7 +124,8 @@
          "college":"",
          "facebook":"https://www.facebook.com/yash.re.10",
          "github":"https://github.com/Re42",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
       {
          "name":"Abhishek Sharma",
@@ -112,7 +134,8 @@
          "college":"",
          "facebook":"https://www.facebook.com/profile.php?id=100006277743199",
          "github":"https://github.com/abhishhh1",
-         "twitter":"https://twitter.com/abhishhh1"
+         "twitter":"https://twitter.com/abhishhh1",
+         "referral":""
       },
       {
          "name":"Praful Tondomker",
@@ -121,7 +144,8 @@
          "college":"",
          "facebook":"https://www.facebook.com/saisathypraful.tondomker",
          "github":"https://github.com/SSPrafulTondomker",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
       {
          "name":"Aayush Joglekar",
@@ -130,7 +154,8 @@
          "college":"IIIT, Allahabad",
          "facebook":"https://www.facebook.com/joglekaraayush",
          "github":"https://github.com/aayushjoglekar",
-         "twitter":"https://github.com/aayushjoglekar"
+         "twitter":"https://github.com/aayushjoglekar",
+         "referral":""
       },
       {
          "name":"Naman Tiwari",
@@ -139,7 +164,8 @@
          "college":"",
          "facebook":"https://www.facebook.com/namantw",
          "github":"https://github.com/namantw",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
       {
          "name":"Kaushtub Rawat",
@@ -148,7 +174,8 @@
          "college":"",
          "facebook":"https://www.facebook.com/profile.php?id=100007203708174",
          "github":"https://github.com/marshallKR7",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
       {
          "name":"Govind Dixit",
@@ -157,7 +184,8 @@
          "college":"",
          "facebook":"https://www.facebook.com/govinddixit05",
          "github":"https://github.com/GOVINDDIXIT",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
       {
          "name":"Druval CR",
@@ -166,16 +194,18 @@
          "college":"",
          "facebook":"https://www.facebook.com/druval.cr",
          "github":"https://github.com/druvalcr28",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
       {
-	 "name":"Nilotpal Pramanik",
+	       "name":"Nilotpal Pramanik",
          "imageurl":"contestant/nilotpal.jpg",
          "about":"Nice to meet you:)",
          "college":"",
          "facebook":"",
          "github":"https://github.com/goodday451999",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
       {
          "name":"Pratham Prakash Gupta",
@@ -184,7 +214,8 @@
          "college":"",
          "facebook":"www.facebook.com/prathamprakash29",
          "github":"https://github.com/prathamprakash29",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
       {
          "name":"Ananya Agrawal",
@@ -193,7 +224,8 @@
          "college":"",
          "facebook":"https://www.facebook.com/ananya.agrawal1251999",
          "github":"https://github.com/ananya-agrawal",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
       {
          "name":"Anubhav Marwaha",
@@ -202,7 +234,8 @@
          "college":"",
          "facebook":"https://www.facebook.com/anubhav.marwaha",
          "github":"https://github.com/Anubhav2000",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
       {
          "name":"Tushaar Kumar",
@@ -211,7 +244,8 @@
          "college":"",
          "facebook":"https://www.facebook.com/tushaar.kumar.98",
          "github":"https://github.com/ToughDude",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
       {
          "name":"Ayush Gupta",
@@ -219,7 +253,8 @@
          "about":"Consectatio Excellentiae",
          "college":"",
          "facebook":"https://www.facebook.com/ayush926",
-         "github":"https://github.com/AK-007"
+         "github":"https://github.com/AK-007",
+         "referral":""
       },
       {
          "name":"Nityananda Gohain",
@@ -228,7 +263,8 @@
          "college":"",
          "facebook":"https://www.facebook.com/nityanandagohain",
          "github":"https://github.com/nityanandagohain",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
       {
          "name":"Nikita Jain",
@@ -237,7 +273,8 @@
          "college":"",
          "facebook":"",
          "github":"https://github.com/nikki1016",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
       {
          "name":"Abhinav Kumar Srivastava",
@@ -246,7 +283,8 @@
          "college":"",
          "facebook":"",
          "github":"https://github.com/ProBeta1",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
       {
          "name":"Aditya Raj",
@@ -255,7 +293,8 @@
          "college":"",
          "facebook":"",
          "github":"https://github.com/brain-sick",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
       {
          "name":"Pranjal Gupta",
@@ -264,7 +303,8 @@
          "college":"",
          "facebook":"https://www.facebook.com/pranjal.gupta.562",
          "github":"https://github.com/pranjalg2308",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
       {
          "name":"Arsh Panghal",
@@ -273,7 +313,17 @@
          "college":"",
          "facebook":"https://www.facebook.com/arsh.panghal",
          "github":"https://github.com/arshjat",
-         "twitter":""
+         "twitter":"",
+         "referral":""
+	    },
+	   {
+         "name":"Naga Meher Chand Pulavarty",
+         "imageurl":"contestant/kirito.jpg",
+         "about":"Normal is Boring....",
+         "facebook":"https://www.facebook.com/meher.rocks123",
+         "github":"https://github.com/blaze17280",
+         "twitter":"",
+         "referral":""
       },
       {
          "name":"Gaurav Pandey",
@@ -282,7 +332,8 @@
          "college":"",
          "facebook":"",
          "github":"https://github.com/gau1rav",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
       {
          "name":"Amritesh Bhaskar",
@@ -291,7 +342,8 @@
          "college":"",
          "facebook":"https://www.facebook.com/technoamritesh",
          "github":"https://github.com/amriteshbhaskar",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
       {
          "name":"Tanmay Mittal",
@@ -300,7 +352,8 @@
          "college":"",
          "facebook":"https://www.facebook.com/tanmay.mittal.106",
          "github":"https://github.com/strikertanmay",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
       {
          "name":"Pulkit Goel",
@@ -309,7 +362,8 @@
          "college":"",
          "facebook":"",
          "github":"https://github.com/Tachyon01",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
       {
          "name":"Esha Jaiswal",
@@ -318,7 +372,8 @@
          "college":"",
          "facebook":"https://www.facebook.com/esha.jaiswal.52",
          "github":"https://github.com/Esha23",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
       {
          "name":"Shyam K Kotecha",
@@ -327,7 +382,8 @@
          "college":"",
          "facebook":"",
          "github":"https://github.com/shyam49",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
       {
          "name":"Utkarsh Singh",
@@ -336,7 +392,8 @@
          "college":"",
          "facebook":"https://facebook.com/utkarshsingh369",
          "github":"https://github.com/utkarshsingh99",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
       {
          "name":"Komal Bhadani",
@@ -345,7 +402,8 @@
          "college":"",
          "facebook":"",
          "github":"https://github.com/KomalBhadani27",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
       {
          "name":"Aditi Aggarwal",
@@ -354,7 +412,8 @@
          "college":"",
          "facebook":"",
          "github":"https://github.com/adiagg2000",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
       {
          "name":"Mohammad Amir",
@@ -363,16 +422,18 @@
          "college":"",
          "facebook":"",
          "github":"https://github.com/mdmair2021",
-         "twitter":""
+         "twitter":"",
+         "referral":""
       },
-      {   
+      {
           "name" : "Aayush Chaudhry",
           "imageurl" : "contestant/photo.jpg",
           "about" : "Lets all just pretend that this is a really clever bio.",
           "college":"IIIT, Allahabad",
           "facebook" : "https://www.facebook.com/ayush.chaudhry007",
           "github" : "https://github.com/maverick0004",
-          "twitter" : ""
+          "twitter" : "",
+          "referral":""
        },
        {
           "name" : "Priyesh Kumar",
@@ -381,7 +442,8 @@
           "college":"",
           "facebook" : "",
           "github" : "https://github.com/16priyesh",
-          "twitter" : ""
+          "twitter" : "",
+          "referral":""
         },
         {
           "name" : "Aditya Sharma",
@@ -390,7 +452,8 @@
           "college":"IIIT, Allahabad",
           "facebook" : "https://www.facebook.com/292000aditya",
           "github" : "https://github.com/im-adi",
-          "twitter" : ""
+          "twitter" : "",
+          "referral":""
         },
         {
            "name" : "Akshit Bansal",
@@ -399,16 +462,18 @@
            "college" : "",
            "facebook" : "https://www.facebook.com/axit55",
            "github" : "https://github.com/permanent-bnsl",
-           "twitter" : "https://twitter.com/permanent_bnsl"
+           "twitter" : "https://twitter.com/permanent_bnsl",
+           "referral":""
         },
         {
            "name" : "Muskan",
            "imageurl" : "contestant/muskan.jpg",
            "about" : "I am a contestant.",
-	   "college": "",
+	         "college": "",
            "facebook" : "",
            "github" : "https://github.com/muskan6769",
-           "twitter" : ""
+           "twitter" : "",
+           "referral":""
         },
         {
           "name" : "Ravi Shyam",
@@ -417,7 +482,8 @@
           "college" : "",
           "facebook" : "https://www.facebook.com/RaVi.UrF.SuRaJ.oO",
           "github" : "https://github.com/justFaGit",
-          "twitter": ""
+          "twitter": "",
+          "referral":""
         },
         {
           "name" : "Akshay Nandwana",
@@ -426,7 +492,8 @@
           "college" : "",
           "facebook" : "https://www.facebook.com/anandwana001",
           "github" : "https://github.com/anandwana001",
-          "twitter" : "https://twitter.com/akshay81844"
+          "twitter" : "https://twitter.com/akshay81844",
+          "referral":""
         },
         {
             "name" : "Aadya Mishra",
@@ -434,16 +501,18 @@
             "about" : "Noob, enthusiastic learner!",
             "facebook" : "https://www.facebook.com/aadya.mishra.583",
             "github" : "https://github.com/Panda2498",
-            "twitter" : ""
+            "twitter" : "",
+            "referral":""
         },
-	{
+	      {
       	  "name" : "Anshuman Verma",
-      	  "imageurl" : "/contestant/anshumanv",
+      	  "imageurl" : "contestant/anshumanv",
           "about" : "Football | Anime",
           "college" : "",
       	  "facebook" : "https://www.facebook.com/anshumanv12",
       	  "github" : "https://github.com/anshumanv",
-      	  "twitter" : "https://twitter.com/Anshumaniac12"
+      	  "twitter" : "https://twitter.com/Anshumaniac12",
+          "referral":""
     	},
     	{
        	  "name" : "Adesh Shukla",
@@ -452,23 +521,97 @@
           "college" : "",
       	  "facebook" : "https://www.facebook.com/adesh.shukla.790",
       	  "github" : "https://github.com/aadixiiita",
-      	  "twitter" : ""
+      	  "twitter" : "",
+          "referral":""
     	},
-	{
+      {
+          "name" : "Swarnima Gautam",
+          "imageur1" : "contestant/swarnima.jpg",
+          "about" : "learning opencode",
+	        "college": "",
+          "facebook" : "https://www.facebook.com/swarnima.gautam.14",
+          "github" : "https://github.com/Swarnima-27",
+          "twitter" : "",
+          "referral":""
+       },
+       {
        	  "name" : "Ashray Sinha",
       	  "imageurl" : "contestant/my_photo.png",
-      	  "about" : "Eat sleep code repeat",
+          "about" : "Eat sleep code repeat",
+          "college" : "",
       	  "facebook" : "https://www.facebook.com/ashray.sinha.5",
       	  "github" : "https://github.com/ashraysinha6069",
-      	  "twitter" : ""
+      	  "twitter" : "",
+          "referral":""
     	},
       {
          "name":"Ankit Kripal",
          "imageurl":"contestant/akira.jpg",
          "about":"The worst one.",
+         "college" : "",
          "facebook":"",
          "github":"https://github.com/NeroIS",
-         "twitter":""
-    	}
+         "twitter":"",
+         "referral":""
+    	},
+	{
+          "name" : "Shivansh Srivastava",
+          "imageurl" : "ironman.jpg",
+          "about" : "The Optimist",
+          "college" : "",
+          "facebook" : "",
+          "github" : "https://github.com/Shivansh1805",
+          "twitter": "",
+          "referral":""
+        },
+	{
+         "name":"sangeeta meena",
+         "imageurl":"contestant/sangeeta.jpg",
+         "about":"learning opencode",
+         "facebook":"",
+         "github":"https://github.com/IIT2017032",
+         "twitter":"",
+         "referral":""
+    	},
+      {
+         "name" : "Ranjan Binwani",
+         "imageurl" : "contestant/ranjan.jpeg",
+         "about" : "Always learning",
+         "college" : "Birla Institute of Technology, Mesra",
+         "facebook":"https://www.facebook.com/ranjan.binwani",
+         "github":"https://github.com/ranjanbinwani",
+         "twitter" : "",
+         "referral":""
+      }, 
+	   {
+         "name":"Harsh Aryan",
+         "imageurl":"contestant/aryan-harsh.jpg",
+         "about":"Learning how to learn to code",
+         "college":"IIIT Allahabad",
+         "facebook":"https://www.facebook.com/profile.php?id=100008722324295",
+         "github":"https://github.com/aryan-harsh",
+         "twitter":"",
+         "referral":""
+      },
+      {
+          "name":"Ashwin Samudre",
+          "imageurl":"contestant/kiryo.png",
+          "about":"Optimize.",
+          "college":"Pune Institute of Computer Technology, Pune",
+          "facebook":"",
+          "github":"https://github.com/kiryteo",
+          "twitter":"",
+         "referral":""
+       },
+       {
+         "name":"Niharika Shrivastava",
+         "imageurl":"contestant/niharika.png",
+         "about":"Going with the flow",
+         "college":"IIIT Allahabad",
+         "facebook":"",
+         "github":"https://github.com/OrionStar25",
+         "twitter":"",
+         "referral":""
+      }
    ]
 }
