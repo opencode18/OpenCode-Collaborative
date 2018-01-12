@@ -36,19 +36,13 @@
      ::-webkit-scrollbar {
       width: 20px;
     }
-
-
     ::-webkit-scrollbar-track {
       background: #f1f1f1;
     }
-
-
     ::-webkit-scrollbar-thumb {
       background: #888;
       border-radius: 15px;
     }
-
-
     ::-webkit-scrollbar-thumb:hover {
       background: #555;
     }
@@ -76,6 +70,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Participants</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#works">Projects</a>
           </li>
         </ul>
       </div>
@@ -198,15 +195,15 @@
       </div>
   </section>
 
-  <section id="projects" class="bg-light">
+  <section id="works" class="bg-light">
     <div class="container">
       <div class="row">
-        <div class="projects">
+        <div class="projects" id="projects">
           <div class="heading">
             <h1>Projects</h1>
           </div>
 
-          <div class="card" v-for="project in projects" onclick="this.classList.toggle('flipped')">
+          <div class="card" v-for="project in alphaSort(projects)" onclick="this.classList.toggle('flipped')">
             <div class="front">
 
               <div class="project">
@@ -261,24 +258,17 @@
 								</li> -->
 
       <!-- <div class="row">
-
 							<div class="col-md-4">
-
 									<h4 class="contact_head">Faheem Zunjani</h4>
 										<i class="icon-envelope contact_icon"></i><span>iit2015113@iiita.ac.in</span>
-
 									</div>
 									<div class="col-md-4">
 								<i class="icon-globe contact_icon"></i> <a href="http://fossiiita.github.io" target="_blank">fossiiita.github.io</a>
 							</div>
-
-
 									<div class="col-md-4">
-
 									<h4 class="contact_head">Mubaris NK</h4>
 									<i class="icon-envelope contact_icon"></i><span>iit2015134@iita.ac.in</span>
 								</div>
-
 						</div> -->
 
       <!-- </div> -->
