@@ -562,7 +562,15 @@
       	  "facebook" : "https://www.facebook.com/adesh.shukla.790",
       	  "github" : "https://github.com/aadixiiita",
       	  "twitter" : "",
-          "referral":""
+	  "referral": ""
+    	},
+	 {
+          "name":"Arya Krishnan",
+	  "imageurl":"contestant/arya.jpg",
+	  "about":"learning genuinity",
+	  "facebook":"https://www.facebook.com/arya.krishnan.106",
+	  "github":"https://github.com/XIIQ",
+	  "twitter":""
     	},
       {
           "name" : "Swarnima Gautam",
