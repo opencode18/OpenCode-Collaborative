@@ -30,6 +30,46 @@
          "referral":""
       },
       {
+         "name":"Kiran Velumuri",
+         "imageurl":"contestant/kiranvelumuri.svg",
+         "about":"too Noob to code!!",
+	"college":"IIIT Allahabad",
+         "facebook":"https://www.facebook.com/kiran.velumuri",
+         "github":"https://github.com/KiranVelumuri",
+         "twitter":"",
+         "referral":"https://github.com/surasnayak"
+      },
+      {
+         "name":"Kamal Chaubey",
+         "imageurl":"contestant/kiranvelumuri.svg",
+         "about":"The swagger boy!!",
+	  "college":"IIIT Allahabad",
+         "facebook":"",
+         "github":"https://github.com/kamalchaubey1",
+         "twitter":"",
+         "referral":"https://github.com/surasnayak"
+      },   
+      {
+         "name":"Sarath",
+         "imageurl":"contestant/sarath.jpg",
+         "about":"too Noob to code!!",
+	 "college":"IIIT Allahabad",
+         "facebook":"",
+         "github":"https://github.com/KingBizzleLord",
+         "twitter":"",
+         "referral":"https://github.com/surasnayak"
+      },
+      {
+         "name":"Aquib",
+         "imageurl":"contestant/aquib.png",
+         "about":"I code People not problem!!",
+	"college":"IIIT Allahabad",
+         "facebook":"",
+         "github":"https://github.com/aquib786",
+         "twitter":"",
+         "referral":"https://github.com/surasnayak"
+      },
+	{
          "name":"Suras Kumar Nayak",
          "imageurl":"contestant/surasnayak.jpg",
          "about":"I love my friends the most!!",
@@ -37,7 +77,7 @@
          "github":"https://github.com/surasnayak",
          "twitter":"",
          "referral":""
-      },
+      },	
       {
          "name":"Arpit Mishra",
          "imageurl":"contestant/Cool-avatars-anonymous-avatar.jpg",
@@ -612,6 +652,36 @@
          "github":"https://github.com/OrionStar25",
          "twitter":"",
          "referral":""
-      }
+      },
+      {
+      	  "name" : "Ambuj Krishna Agrawal",
+      	  "imageurl" : "contestant/35086901.jpg",
+      	  "about" : "It's a trap!!",
+	  "college":"IIIT Allahabad",
+      	  "facebook" : "https://www.facebook.com/ambuj.agrawal.1",
+      	  "github" : "https://github.com/cuz789",
+      	  "twitter" : "",
+	  "referral" : ""
+      },
+      {
+      	  "name" : "Utkarsh Pankaj",
+      	  "imageurl" : "contestant/utkarsh.jpg",
+      	  "about" : "The devil arrives",
+	        "college":"IIIT Allahabad",
+      	  "facebook" : "https://www.facebook.com/pankajutkarsh02",
+      	  "github" : "https://github.com/AlphaCholera",
+      	  "twitter" : "",
+	        "referral" : ""
+      },
+      {
+      	  "name" : "Vinamer Vakunth Vansil",
+      	  "imageurl" : "contestant/22448433_1920658567974298_3506852267266230352_n.jpg",
+      	  "about" : "A Noob",
+	        "college":"IIIT Allahabad",
+      	  "facebook" : "https://www.facebook.com/vinamer",
+      	  "github" : "https://github.com/vvvinamer",
+      	  "twitter" : "",
+	        "referral" : ""
+      }  
    ]
 }
