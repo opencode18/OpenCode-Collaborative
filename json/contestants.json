@@ -39,7 +39,36 @@
          "twitter":"",
          "referral":"https://github.com/surasnayak"
       },
-
+      {
+         "name":"Kamal Chaubey",
+         "imageurl":"contestant/kiranvelumuri.svg",
+         "about":"The swagger boy!!",
+	  "college":"IIIT Allahabad",
+         "facebook":"",
+         "github":"https://github.com/kamalchaubey1",
+         "twitter":"",
+         "referral":"https://github.com/surasnayak"
+      },   
+      {
+         "name":"Sarath",
+         "imageurl":"contestant/sarath.jpg",
+         "about":"too Noob to code!!",
+	 "college":"IIIT Allahabad",
+         "facebook":"",
+         "github":"https://github.com/KingBizzleLord",
+         "twitter":"",
+         "referral":"https://github.com/surasnayak"
+      },
+      {
+         "name":"Aquib",
+         "imageurl":"contestant/aquib.png",
+         "about":"I code People not problem!!",
+	"college":"IIIT Allahabad",
+         "facebook":"",
+         "github":"https://github.com/aquib786",
+         "twitter":"",
+         "referral":"https://github.com/surasnayak"
+      },
 	{
          "name":"Suras Kumar Nayak",
          "imageurl":"contestant/surasnayak.jpg",
@@ -49,7 +78,6 @@
          "twitter":"",
          "referral":""
       },	
-
       {
          "name":"Arpit Mishra",
          "imageurl":"contestant/Cool-avatars-anonymous-avatar.jpg",
@@ -534,7 +562,15 @@
       	  "facebook" : "https://www.facebook.com/adesh.shukla.790",
       	  "github" : "https://github.com/aadixiiita",
       	  "twitter" : "",
-          "referral":""
+	  "referral": ""
+    	},
+	 {
+          "name":"Arya Krishnan",
+	  "imageurl":"contestant/arya.jpg",
+	  "about":"learning genuinity",
+	  "facebook":"https://www.facebook.com/arya.krishnan.106",
+	  "github":"https://github.com/XIIQ",
+	  "twitter":""
     	},
       {
           "name" : "Swarnima Gautam",
