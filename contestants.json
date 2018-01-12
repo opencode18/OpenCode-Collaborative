@@ -38,16 +38,6 @@
          "github":"https://github.com/KiranVelumuri",
          "twitter":"",
          "referral":"https://github.com/surasnayak"
-      },
-      {
-         "name":"Kamal Chaubey",
-         "imageurl":"contestant/kiranvelumuri.svg",
-         "about":"The swagger boy!!",
-	  "college":"IIIT Allahabad",
-         "facebook":"",
-         "github":"https://github.com/kamalchaubey1",
-         "twitter":"",
-         "referral":"https://github.com/surasnayak"
       },   
       {
          "name":"Sarath",
@@ -78,6 +68,7 @@
          "twitter":"",
          "referral":""
       },	
+
       {
          "name":"Arpit Mishra",
          "imageurl":"contestant/Cool-avatars-anonymous-avatar.jpg",
@@ -690,6 +681,16 @@
       	  "github" : "https://github.com/vvvinamer",
       	  "twitter" : "",
 	        "referral" : ""
-      }  
+      },
+	   {
+   "name" : "Kumar Raju.B",
+   "imageurl" : "",
+   "about" : "Hello I'm a noobie",
+   "college" : "IIIT Allahabad",
+   "facebook" : "https://www.facebook.com/kumar.raju.940641",
+   "github" : "https://github.com/Eunoia1729",
+   "twitter" : "",
+   "referral" : ""
+}
    ]
 }
