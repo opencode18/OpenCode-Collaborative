@@ -541,7 +541,8 @@
           "facebook":"",
           "github":"https://github.com/kiryteo",
           "twitter":""
-       }
+       },
+       {
          "name":"Niharika Shrivastava",
          "imageurl":"contestant/niharika.png",
          "about":"Going with the flow",
@@ -550,6 +551,5 @@
          "github":"https://github.com/OrionStar25",
          "twitter":""
       }
-
    ]
 }
