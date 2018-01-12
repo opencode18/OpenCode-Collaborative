@@ -24,6 +24,14 @@
             "github" : "https://github.com/falconis",
             "twitter" : ""
         },
+		{
+            "name" : "Rudransh Gupta",
+            "imageurl" : "contestant/pp.jpeg",
+            "about" : "Will do my be to be the best!",
+            "facebook" : "https://www.facebook.com/vishal.pani",
+            "github" : "https://github.com/falconis",
+            "twitter" : ""
+        },
         {
             "name" : "Madhur Gupta",
             "imageurl" : "contestant/myimage.jpg",
@@ -36,8 +44,8 @@
             "name" : "Jigar Chavada",
             "imageurl" : "contestant/jsc39.jpeg",
             "about" : "Eat Sleep Code Repeat",
-            "facebook" : "https://www.facebook.com/jsc3998",
-            "github" : "https://github.com/Jigar3",
+            "facebook" : "https://www.facebook.com/rudransh.gupta.161",
+            "github" : "https://github.com/hacker1x1x1",
             "twitter" : ""
         },
         {
