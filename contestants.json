@@ -561,7 +561,8 @@
           "college" : "",
       	  "facebook" : "https://www.facebook.com/adesh.shukla.790",
       	  "github" : "https://github.com/aadixiiita",
-      	  "twitter" : ""
+      	  "twitter" : "",
+	  "referral": ""
     	},
 	 {
           "name":"Arya Krishnan",
@@ -570,9 +571,6 @@
 	  "facebook":"https://www.facebook.com/arya.krishnan.106",
 	  "github":"https://github.com/XIIQ",
 	  "twitter":""
-	 }
-      	  "twitter" : "",
-          "referral":""
     	},
       {
           "name" : "Swarnima Gautam",
