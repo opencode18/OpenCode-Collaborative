@@ -10,12 +10,12 @@ body{
 }
 
 a:hover{
-  background: #487;
+  background: #fff;
 }
 
 #clockdiv{
 	font-family: sans-serif;
-	color: #fff;
+	color: #080707;
 	display: inline-block;
 	font-weight: 100;
 	text-align: center;
@@ -26,18 +26,19 @@ a:hover{
 #clockdiv > div{
 	padding: 10px;
 	border-radius: 3px;
-	background: #00BF96;
+ 	background: #fff;
 	display: inline-block;
 }
 
 #clockdiv div > span{
 	padding: 15px;
 	border-radius: 3px;
-	background: #00816A;
+	background: #fff;
 	display: inline-block;
 }
 
 .smalltext{
 	padding-top: 5px;
 	font-size: 16px;
+	color: #080707;
 }
