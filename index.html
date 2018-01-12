@@ -30,6 +30,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/simple-line-icons.css">
   <link rel="stylesheet" href="css/style.css">
+  <link href="style1.css" media="all" rel="stylesheet" />
+
   <link rel="stylesheet" href="css/projects-style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style type="text/css">
@@ -69,7 +71,7 @@
     }
   </style>
 </head>
-
+<script>var cards = document.querySelectorAll(".card");</script>
 <body id="page-top">
 
   <!-- Navigation -->
@@ -91,6 +93,9 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Participants</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#works">Projects</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -110,13 +115,23 @@
       <h1 class="hero-title">&nbsp;OPENCODE</h1>
 
 
+    </div>
+    <hr class="card-underline">
+    <div class="row quote">
+      <p class="hero-quote">IIIT Allahabad's very own mini GSOC!</p>
+    </div>
+  </header>
+<br>
+<br>
 
- </div>
- <hr class="card-underline">
- <div class="row quote">
-   <p class="hero-quote">IIIT Allahabad's very own mini GSOC!</p>
- </div>
- </header>
+
+<div id="clockdiv">
+	<div><span class="days"></span><div class="smalltext">Days</div></div>
+	<div><span class="hours"></span><div class="smalltext">Hours</div></div>
+	<div><span class="minutes"></span><div class="smalltext">Minutes</div></div>
+	<div><span class="seconds"></span><div class="smalltext">Seconds</div></div>
+</div>
+
 
   <section id="about">
     <div class="container">
@@ -215,15 +230,15 @@
       </div>
   </section>
 
-  <section id="projects" class="bg-light">
+  <section id="works" class="bg-light">
     <div class="container">
       <div class="row">
-        <div class="projects">
+        <div class="projects" id="projects">
           <div class="heading">
             <h1 id="center-project">Projects</h1>
           </div>
 
-          <div class="card" v-for="project in projects" onclick="this.classList.toggle('flipped')">
+          <div class="card" v-for="project in alphaSort(projects)" onclick="this.classList.toggle('flipped')">
             <div class="front">
 
               <div class="project">
@@ -258,7 +273,7 @@
   </section>
 
   <!-- Footer -->
-  <footer id="footer" role="contentinfo">
+  <footer id="footer" role="contentinfo" style="background: -webkit-linear-gradient(135deg, #ff6a00, #ee0979);"/>
     <div class="container">
       <!-- <div class=""> -->
       <!-- <div class="col-md-12 text-center"> -->
@@ -278,24 +293,17 @@
 								</li> -->
 
       <!-- <div class="row">
-
 							<div class="col-md-4">
-
 									<h4 class="contact_head">Faheem Zunjani</h4>
 										<i class="icon-envelope contact_icon"></i><span>iit2015113@iiita.ac.in</span>
-
 									</div>
 									<div class="col-md-4">
 								<i class="icon-globe contact_icon"></i> <a href="http://fossiiita.github.io" target="_blank">fossiiita.github.io</a>
 							</div>
-
-
 									<div class="col-md-4">
-
 									<h4 class="contact_head">Mubaris NK</h4>
 									<i class="icon-envelope contact_icon"></i><span>iit2015134@iita.ac.in</span>
 								</div>
-
 						</div> -->
 
       <!-- </div> -->
@@ -326,7 +334,7 @@
 
         <div class="col-xs-12 col-md-4 text-center">
 
-          <p>Created with
+          <p style="color:white">Created with
             <i class="fa fa-heart" aria-hidden="true"></i> by
             <a href="https://geekhaven.iiita.ac.in/foss/" target="_blank">FOSS</a>
           </p>
@@ -377,10 +385,14 @@
 
 
 
+
 </body>
 <script src="https://unpkg.com/vue"></script>
 <script src="js/mentor.js"></script>
 <script src="js/contestant.js"></script>
 <script src="js/projects.js"></script>
+<script src="countDown.js"></script>
+
+</html>
 
 </html>
