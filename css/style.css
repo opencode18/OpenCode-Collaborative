@@ -238,6 +238,10 @@ header .card-underline{
   margin:20px 0;
 }
 
+#footer{
+	height: 90px;
+}
+
 #snow{
   background-image:
           url(https://image.ibb.co/k0aqx6/snow.png), 
