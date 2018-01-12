@@ -30,11 +30,30 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/simple-line-icons.css">
   <link rel="stylesheet" href="css/style.css">
+  <link href="style1.css" media="all" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/projects-style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style type="text/css">
+     ::-webkit-scrollbar {
+      width: 20px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
 
-  
+    ::-webkit-scrollbar-thumb {
+      background: #888;
+      border-radius: 15px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+
+  </style>
+
 </head>
-
+<script>var cards = document.querySelectorAll(".card");</script>
 <body id="page-top">
 
   <!-- Navigation -->
@@ -56,29 +75,43 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Participants</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#works">Projects</a>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
 
- <header>
-   <div id="snow"></div>
+  <header>
+    <div id="snow"></div>
 
-   <div class="row logo">
+    <div class="row logo">
       <img src="images/OpenCode.png" alt="Opencode Logo" class="hero-logo">
-    
-   </div>
 
-   <div class="row title">
-    <h1 class="hero-title">&nbsp;OPENCODE</h1>
+    </div>
 
-  
- </div>
- <hr class="card-underline">
- <div class="row quote">
-   <p class="hero-quote">IIIT Allahabad's very own mini GSOC!</p>
- </div>
- </header>
+    <div class="row title">
+      <h1 class="hero-title">&nbsp;OPENCODE</h1>
+
+
+    </div>
+    <hr class="card-underline">
+    <div class="row quote">
+      <p class="hero-quote">IIIT Allahabad's very own mini GSOC!</p>
+    </div>
+  </header>
+<br>
+<br>
+
+
+<div id="clockdiv">
+	<div><span class="days"></span><div class="smalltext">Days</div></div>
+	<div><span class="hours"></span><div class="smalltext">Hours</div></div>
+	<div><span class="minutes"></span><div class="smalltext">Minutes</div></div>
+	<div><span class="seconds"></span><div class="smalltext">Seconds</div></div>
+</div>
+
 
   <section id="about">
     <div class="container">
@@ -116,8 +149,9 @@
             <div class="back">
               <div class="about">
                 <h3>About me</h3>
-                  <hr class="card-underline">
-                <p>{{ mentor.about }}</p></div>
+                <hr class="card-underline">
+                <p>{{ mentor.about }}</p>
+              </div>
               <div class="social">
                 <a v-bind:href="mentor.facebook">
                   <i class="fa fa-facebook-official" aria-hidden="true"></i>
@@ -153,7 +187,11 @@
             </div>
             <div class="back">
               <div class="about">
-                <h3>About me</h3><hr class="card-underline"><p>{{ contestant.about }}</p></div>
+                <h3>About me</h3>
+                <p class="card-college">{{ contestant.college }}</p>
+                <hr class="card-underline">
+                <p class="card-bio">{{ contestant.about }}</p>
+              </div>
               <div class="social">
                 <a v-bind:href="contestant.facebook">
                   <i class="fa fa-facebook-official" aria-hidden="true"></i>
@@ -169,82 +207,145 @@
           </div>
         </div>
       </div>
+      </div>
+  </section>
+
+  <section id="works" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="projects" id="projects">
+          <div class="heading">
+            <h1>Projects</h1>
+          </div>
+
+          <div class="card" v-for="project in alphaSort(projects)" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+
+              <div class="project">
+                
+                  <p class="project-name">{{ project.name }}</p>
+                  <hr class="card-underline">
+                  <p class="project-mentored-by">Mentored by</p>
+                  <p class="project-mentor">{{ project.mentors }}</p>
+                
+              </div>
+                <div class="name">{{ project.lang }}</div>
+            </div>
+            <div class="back">
+              <div class="about">
+                <p class="project-name">ABOUT PROJECT</p>
+                <hr class="card-underline">
+                <p class="about-project">{{ project.about }}</p>
+              </div>
+              <div class="social">
+
+                <a v-bind:href="project.github">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- Footer -->
- <footer id="footer" role="contentinfo">
-			<div class="container">
-			<!-- <div class=""> -->
-				<!-- <div class="col-md-12 text-center"> -->
-					<!-- <div> -->
+  <footer id="footer" role="contentinfo">
+    <div class="container">
+      <!-- <div class=""> -->
+      <!-- <div class="col-md-12 text-center"> -->
+      <!-- <div> -->
 
-          <!-- </div> -->
+      <!-- </div> -->
 
 
-        <!-- </div> -->
+      <!-- </div> -->
 
-						<!-- <div class="col-md-6 to-animate"> -->
-							<!-- <h3>Contact Info</h3> -->
+      <!-- <div class="col-md-6 to-animate"> -->
+      <!-- <h3>Contact Info</h3> -->
 
-								<!-- <li class="fh5co-contact-address ">
+      <!-- <li class="fh5co-contact-address ">
 									<i class="icon-home"></i>
 									5555 Love Paradise 56 New Clity 5655, <br>Excel Tower United Kingdom
 								</li> -->
 
-								<!-- <div class="row">
-
+      <!-- <div class="row">
 							<div class="col-md-4">
-
 									<h4 class="contact_head">Faheem Zunjani</h4>
 										<i class="icon-envelope contact_icon"></i><span>iit2015113@iiita.ac.in</span>
-
 									</div>
 									<div class="col-md-4">
 								<i class="icon-globe contact_icon"></i> <a href="http://fossiiita.github.io" target="_blank">fossiiita.github.io</a>
 							</div>
-
-
 									<div class="col-md-4">
-
 									<h4 class="contact_head">Mubaris NK</h4>
 									<i class="icon-envelope contact_icon"></i><span>iit2015134@iita.ac.in</span>
 								</div>
-
 						</div> -->
 
-						<!-- </div> -->
-			<!-- </div> -->
-			<div class="row">
+      <!-- </div> -->
+      <!-- </div> -->
+      <div class="row">
 
         <div class="col-md-4 text-center">
 
-					<ul class= "list-inline" style="float: left; margin-right: 0px ;">
+          <ul class="list-inline" style="float: left; margin-right: 0px ;">
 
-						<li class="list-inline-item"><a href="https://github.com/fossiiita" target="_blank"><img class="img-responsive" id="foss" src="images/favicon/foss.png"></a></li>
-						<li class="list-inline-item"><a href="https://geekhaven.iiita.ac.in/"><img class="img-responsive" id="geek" src="images/favicon/Geekhaven.png"></a></li>
-						<li class="list-inline-item"><a href="https://www.iiita.ac.in/"><img class="img-responsive" id="iiita" src="images/favicon/iiita.png"></a></li>
-					</ul>
-        </div>
-
-        <div class="col-md-4 text-center">
-
-          <p>Created with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://geekhaven.iiita.ac.in/foss/" target="_blank">FOSS</a></p>
-        </div>
-
-
-        <div class="col-md-4 text-center">
-          <ul class= "list-inline" style="float: right; margin-right: 0px ;">
-
-            <li class="list-inline-item"><a href="https://github.com/fossiiita" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true" style="font-size: 40px"></i></a></li>
-            <li class="list-inline-item"><a href="mailto:iit2015113@iiita.ac.in"><i class="fa fa-envelope-square" style="font-size: 40px" ></i></a></li>
-            <li class="list-inline-item"><a href="https://www.facebook.com/opencodeiiita/"><i class=" fa fa-facebook-square" style="font-size: 40px" ></i></a></li>
+            <li class="list-inline-item">
+              <a href="https://github.com/fossiiita" target="_blank">
+                <img class="img-responsive" id="foss" src="images/favicon/foss.png">
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://geekhaven.iiita.ac.in/">
+                <img class="img-responsive" id="geek" src="images/favicon/Geekhaven.png">
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.iiita.ac.in/">
+                <img class="img-responsive" id="iiita" src="images/favicon/iiita.png">
+              </a>
+            </li>
           </ul>
         </div>
 
-				</div>
-			</div>
-		</div>
-	</footer>
+        <div class="col-md-4 text-center">
+
+          <p>Created with
+            <i class="fa fa-heart" aria-hidden="true"></i> by
+            <a href="https://geekhaven.iiita.ac.in/foss/" target="_blank">FOSS</a>
+          </p>
+        </div>
+
+
+        <div class="col-md-4 text-center">
+          <ul class="list-inline" style="float: right; margin-right: 0px ;">
+
+            <li class="list-inline-item">
+              <a href="https://github.com/fossiiita" target="_blank">
+                <i class="fa fa-github fa-2x" aria-hidden="true" style="font-size: 40px"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="mailto:iit2015113@iiita.ac.in">
+                <i class="fa fa-envelope-square" style="font-size: 40px"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/opencodeiiita/">
+                <i class=" fa fa-facebook-square" style="font-size: 40px"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </footer>
 
 
   <!-- Bootstrap core JavaScript -->
@@ -264,9 +365,14 @@
 
 
 
-  </body>
-  <script src="https://unpkg.com/vue"></script>
-  <script src="js/mentor.js"></script>
-  <script src="js/contestant.js"></script>
+
+</body>
+<script src="https://unpkg.com/vue"></script>
+<script src="js/mentor.js"></script>
+<script src="js/contestant.js"></script>
+<script src="js/projects.js"></script>
+<script src="countDown.js"></script>
+
+</html>
 
 </html>
