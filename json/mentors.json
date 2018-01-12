@@ -97,6 +97,14 @@
             "twitter" : ""
         },
         {
+            "name" : "Yashovardhan Agrawal",
+            "imageurl" : "mentor/yashovardhanagrawal.jpg",
+            "about" : "Open Source Enthusiast",
+            "facebook" : "https://www.facebook.com/yashovardhanagrawal",
+            "github" : "https://github.com/yashovardhanagrawal",
+            "twitter" : "https://twitter.com/yashovardhan"
+        },
+        {
             "name" : "Abhishek Deora",
             "imageurl" : "mentor/abhishek.jpeg",
             "about" : "",
