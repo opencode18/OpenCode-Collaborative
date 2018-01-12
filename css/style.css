@@ -116,14 +116,19 @@ html{
     transform: perspective(600px) rotateY(0deg)
   } */
 
-  .flipped .front{
+  /* .flipped .front{
    transform: perspective(600px) rotateY(-180deg);
   }
     
    .flipped .back{
    transform: perspective(600px) rotateY(0deg);
+  } */
+  .card:hover div.front{
+    animation: twirl 5s ease-in forwards;
   }
-
+  .card:hover div.back{
+    animation: twirl-back 5s ease-in forwards;
+  }
   .mentors .contestants {
     width: 100%;
     text-align: center;
@@ -255,5 +260,17 @@ header .card-underline{
 @keyframes snow {
    from {background-position: 0px 0px, 0px 0px, 0px 0px;}
    to {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@keyframes twirl {
+  0%{ transform: rotateY(0deg);}
+  10%{ transform: rotateY(-180deg);}
+  90%{ transform: rotateY(-180deg);}
+  100% { transform: rotateY(0deg);}
+}
+@keyframes twirl-back {
+  0%{ transform: rotateY(-180deg);}
+  10%{ transform: rotateY(0deg);}
+  90%{ transform: rotateY(0deg);}
+  100% { transform: rotateY(-180deg);}
 }
 
