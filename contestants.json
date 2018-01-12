@@ -622,6 +622,16 @@
       	  "github" : "https://github.com/cuz789",
       	  "twitter" : "",
 	  "referral" : ""
+      },
+      {
+      	  "name" : "Utkarsh Pankaj",
+      	  "imageurl" : "contestant/utkarsh.jpg",
+      	  "about" : "",
+	  "college":"IIIT Allahabad",
+      	  "facebook" : "",
+      	  "github" : "https://github.com/AlphaCholera",
+      	  "twitter" : "",
+	  "referral" : ""
       }
    ]
 }
