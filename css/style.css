@@ -108,27 +108,27 @@ html{
     border-radius:4px;
   }
 
-  /* .card:hover .front {
-    transform: perspective(600px) rotateY(-180deg)
+  .flipped-back .front {
+    transform: perspective(600px) rotateY(-180deg);
   }
 
-  .card:hover .back {
-    transform: perspective(600px) rotateY(0deg)
-  } */
+  .flipped-back .back {
+    transform: perspective(600px) rotateY(0deg);
+  }
 
-  /* .flipped .front{
-   transform: perspective(600px) rotateY(-180deg);
+  .flipped .front{
+   animation: twirl 4.5s ease-in forwards;
   }
     
    .flipped .back{
-   transform: perspective(600px) rotateY(0deg);
-  } */
-  .card:hover div.front{
-    animation: twirl 5s ease-in forwards;
+   animation: twirl-back 4.5s ease-in forwards;
+  }
+  /* .card:hover div.front{
+    
   }
   .card:hover div.back{
-    animation: twirl-back 5s ease-in forwards;
-  }
+    
+  } */
   .mentors .contestants {
     width: 100%;
     text-align: center;
