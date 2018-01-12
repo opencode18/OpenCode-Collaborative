@@ -40,23 +40,41 @@
   <link rel="stylesheet" href="css/issues-style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style type="text/css">
-     ::-webkit-scrollbar {
-      width: 20px;
-    }
-    ::-webkit-scrollbar-track {
-      background: #f1f1f1;
-    }
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 15px ;
+}
 
     ::-webkit-scrollbar-thumb {
       background: #888;
       border-radius: 15px;
     }
-    ::-webkit-scrollbar-thumb:hover {
-      background: #555;
-    }
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
 
   </style>
+  <style type="text/css">
+  @media screen and (max-width: 300px) {
+    div.mentors, div.contestants, div.projects{margin-left: 14vh;}
+    h1#center-mentor{margin-left: 5vh;}
+    h1#center-participant{margin-left: 1vh;}
+    h1#center-project{margin-left: 5vh;}
 
+    }
+  </style>
 </head>
 <script>var cards = document.querySelectorAll(".card");</script>
 <body id="page-top">
@@ -93,6 +111,8 @@
 
     <div class="row logo">
       <img src="images/OpenCode.png" alt="Opencode Logo" class="hero-logo">
+
+   </div>
 
     </div>
 
@@ -142,7 +162,7 @@
       <div class="row">
         <div class="mentors" id="mentors">
           <div class="heading">
-            <h1>Mentors</h1>
+            <h1 id="center-mentor">Mentors</h1>
           </div>
           <div class="card" v-for="mentor in alphaSort(mentors)" onclick="this.classList.toggle('flipped')">
             <div class="front">
@@ -181,7 +201,7 @@
       <div class="row">
         <div class="contestants" id="contestants">
           <div class="heading">
-            <h1>Participants</h1>
+            <h1 id="center-participant">Participants</h1>
           </div>
           <div class="card" v-for="contestant in alphaSort(contestants)" onclick="this.classList.toggle('flipped')">
             <div class="front">
@@ -220,7 +240,7 @@
       <div class="row">
         <div class="projects" id="projects">
           <div class="heading">
-            <h1>Projects</h1>
+            <h1 id="center-project">Projects</h1>
           </div>
 
           <div class="card" v-for="project in alphaSort(projects)" onclick="this.classList.toggle('flipped')">
@@ -228,10 +248,10 @@
 
               <div class="project">
 
-                <p class="project-name">{{ project.name }}</p>
-                <hr class="card-underline">
-                <p class="project-mentored-by">Mentored by</p>
-                <p class="project-mentor">{{ project.mentors }}</p>
+                  <p class="project-name">{{ project.name }}</p>
+                  <hr class="card-underline">
+                  <p class="project-mentored-by">Mentored by</p>
+                  <p class="project-mentor">{{ project.mentors }}</p>
 
               </div>
               <div class="name">{{ project.lang }}</div>
@@ -280,9 +300,9 @@
             </div>
 
             <div class="row" id="opencode18-OpenCode-Collaborative-load-more">
-              
+
                 <button class="btn btn-danger" onclick="loadMoreIssues('opencode18', 'OpenCode-Collaborative')">Load more</button>
-              
+
              </div>
           </div>
 
@@ -303,9 +323,9 @@
             </div>
 
             <div class="row" id="opencode18-CodeStash-load-more">
-              
+
                 <button class="btn btn-danger" onclick="loadMoreIssues('opencode18', 'CodeStash')">Load more</button>
-              
+
              </div>
           </div>
 
@@ -354,7 +374,7 @@
       <!-- </div> -->
       <div class="row">
 
-        <div class="col-md-4 text-center">
+        <div class="col-xs-12 col-md-4 text-center">
 
           <ul class="list-inline" style="float: left; margin-right: 0px ;">
 
@@ -376,7 +396,7 @@
           </ul>
         </div>
 
-        <div class="col-md-4 text-center">
+        <div class="col-xs-12 col-md-4 text-center">
 
           <p style="color:white">Created with
             <i class="fa fa-heart" aria-hidden="true"></i> by
@@ -385,7 +405,7 @@
         </div>
 
 
-        <div class="col-md-4 text-center">
+        <div class="col-xs-12 col-md-4 text-center">
           <ul class="list-inline" style="float: right; margin-right: 0px ;">
 
             <li class="list-inline-item">
@@ -476,4 +496,3 @@
 <script src="countDown.js"></script>
 
 </html>
-
