@@ -8,7 +8,7 @@
          "facebook":"https://www.facebook.com/snehamishrabb",
          "github":"https://github.com/Tlazypanda",
          "twitter":""
-      }, 
+      },
 	   {
          "name":"Senky Bansal",
          "imageurl":"contestant/senky.jpg",
@@ -290,7 +290,7 @@
          "about":"Normal is Boring....",
          "facebook":"https://www.facebook.com/meher.rocks123",
          "github":"https://github.com/blaze17280",
-         "twitter":""	   
+         "twitter":""
       },
       {
          "name":"Gaurav Pandey",
@@ -382,7 +382,7 @@
          "github":"https://github.com/mdmair2021",
          "twitter":""
       },
-      {   
+      {
           "name" : "Aayush Chaudhry",
           "imageurl" : "contestant/photo.jpg",
           "about" : "Lets all just pretend that this is a really clever bio.",
@@ -523,7 +523,7 @@
          "facebook":"https://www.facebook.com/ranjan.binwani",
          "github":"https://github.com/ranjanbinwani",
          "twitter" : ""
-      }, 
+      },
 	   {
          "name":"Harsh Aryan",
          "imageurl":"contestant/aryan-harsh.jpg",
@@ -532,7 +532,24 @@
          "facebook":"https://www.facebook.com/profile.php?id=100008722324295",
          "github":"https://github.com/aryan-harsh",
          "twitter":""
+      },
+      {
+          "name":"Ashwin Samudre",
+          "imageurl":"contestant/kiryo.png",
+          "about":"Optimize.",
+          "college":"Pune Institute of Computer Technology, Pune",
+          "facebook":"",
+          "github":"https://github.com/kiryteo",
+          "twitter":""
+       },
+       {
+         "name":"Niharika Shrivastava",
+         "imageurl":"contestant/niharika.png",
+         "about":"Going with the flow",
+         "college":"IIIT Allahabad",
+         "facebook":"",
+         "github":"https://github.com/OrionStar25",
+         "twitter":""
       }
-
    ]
 }
