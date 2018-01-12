@@ -13,6 +13,10 @@
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
   <link rel="manifest" href="images/favicon/manifest.json">
   <link rel="shortcut icon" href="images/favicon/favicon.ico">
+  <link href="style.css" media="all" rel="stylesheet" />
+  <script src="countDown.js"></script>
+
+
 
 
   <title>OpenCode</title>
@@ -27,6 +31,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/simple-line-icons.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="style.css" media="all" rel="stylesheet" />
+  <script src="countDown.js"></script>
+
 </head>
 <style>
   /* structure css code */
@@ -41,6 +48,10 @@
     color: #fff;
     cursor: pointer;
     display: inline-block;
+  }
+    p {
+    text-align: center;
+    font-size: 60px;
   }
 
   .card .front .image {
@@ -67,6 +78,10 @@
   .card .front .image img {
     width: 100%;
     height: 100%;
+  }
+    p {
+    text-align: center;
+    font-size: 60px;
   }
 
   .card .front {
@@ -125,12 +140,7 @@
   .mentors .back .social a:hover {
     color: lightblue;
   }
-  .contestants .back .social a {
-    color: #fff;
-  }
-  .contestants .back .social a:hover {
-    color: lightblue;
-  }
+  
 </style>
 
 <body id="page-top">
@@ -158,6 +168,7 @@
       </div>
     </div>
   </nav>
+  
 
   <header class="bg-primary text-white">
     <div class="container text-center">
@@ -165,6 +176,7 @@
       <p class="lead">IIIT Allahabad's very own mini GSOC!</p>
     </div>
   </header>
+
 
   <section id="about">
     <div class="container">
@@ -184,8 +196,18 @@
       </div>
     </div>
   </section>
+  
+<div id="clockdiv">
+	<div><span class="days"></span><div class="smalltext">Days</div></div>
+	<div><span class="hours"></span><div class="smalltext">Hours</div></div>
+	<div><span class="minutes"></span><div class="smalltext">Minutes</div></div>
+	<div><span class="seconds"></span><div class="smalltext">Seconds</div></div>
+</div>
+
+
 
   <section id="services" class="bg-light">
+
     <div class="container">
       <div class="row">
         <div class="mentors" id="mentors">
@@ -328,5 +350,9 @@
 <script src="https://unpkg.com/vue"></script>
 <script src="js/mentor.js"></script>
 <script src="js/contestant.js"></script>
+<script src="countDown.js"></script>
+
+
+
 
 </html>
