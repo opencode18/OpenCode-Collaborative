@@ -1,0 +1,202 @@
+.issues{
+    height:auto;
+    width:100%;
+    
+    padding:50px 0;
+    font-size:40px;
+    font-family: 'Lato';
+ 
+    background-color:white;
+
+    
+}
+
+.issues .container{
+   
+    margin:30px auto 0 auto!important;
+    border-radius:5px;
+    padding:10px;
+    
+}
+
+.issues .project-title{
+    
+  background: #e9e7df; /* fallback for old browsers */
+  
+    
+    font-size:18px;
+    padding:10px;
+    border-radius:5px;
+    margin:3px 0;
+    color:#333;
+    font-weight:300;
+    text-transform:uppercase;
+    outline:none!important;
+    border:none!important;
+    font-family: 'Lato'!important;
+    transition: all 200ms ease-in-out;
+}
+
+.issues .project-title.ui-state-active{
+    background: #ee0979; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ee0979, #ff6a00); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ee0979, #ff6a00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: all 200ms ease-in-out;
+
+    color:white;
+    font-weight:500;
+}
+
+.issues .project-title.ui-state-active i{
+    color:#ffffff!important;
+    margin-right:10px;
+    
+}
+
+
+.issues .project-title i{
+    color:#555;
+    margin-right:10px;
+    
+}
+
+
+.issues .project-title i.fa-github{
+    
+    font-size:120%;
+    float: right;
+    color:#222;
+}
+
+.issues .project-issues-list{
+    
+    background-color:#222;
+    padding:40px 0;
+    width:100%;
+    margin:3px 0;
+    border-radius:5px;
+    color:white;
+}
+
+
+.issues .project-issues-list.container{
+    
+    margin:0 auto!important;
+    border-radius:5px;
+    padding:10px;
+    
+}
+
+.issues .project-issues-list .col{
+    
+    height:auto;
+    padding:10px!important;
+    
+}
+
+.issues .project-issues-list .row{
+    height:auto;
+   
+    margin:5px 0;
+}
+
+
+.issues .project-issues-list .issue{
+   
+   
+    width:100%;
+    height:210px;
+    background-color: white;
+    border-radius:4px;
+    color:#222;
+    font-size:20px;
+    padding:15px;
+    font-family: 'Lato';
+    
+}
+
+
+.issues .project-issues-list .btn.btn-danger{
+   
+   
+    height:40px;
+    width:auto;
+    font-size:15px!important;
+    font-family: 'Lato';
+    text-transform: uppercase;
+    font-weight: 700;
+    outline:none;
+    cursor: pointer;
+    background: #ee0979; /* fallback for old browsers */
+    background: -webkit-linear-gradient(135deg, #ee0979, #ff6a00); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(135deg, #ee0979, #ff6a00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin:0 auto!important;
+    
+}
+
+@media only screen and (max-width:800px){
+
+    .issues .project-title{
+        font-size:12px!important;
+    }
+}
+
+.issues .project-issues-list .issue blockquote{
+    
+        padding: 10px 20px;
+        margin: 0 0 20px;
+        font-size: 17.5px;
+        border-left: 3px outset #ff6a00;
+        
+    
+}
+
+.issues .project-issues-list .issue blockquote footer{
+    
+   font-weight:300;
+
+}
+
+.label-btn{
+    font-family:'Lato';
+    font-size:10px!important;
+    text-transform: uppercase;
+    color:white!important;
+    background-color:#222!important;
+    display: inline-block;
+    padding:2px 5px!important;
+    font-weight:700!important;
+}
+
+.comment-btn{
+    display: block;
+    color:white!important;
+    width:70px;
+    margin-top:5px;
+    padding:2px!important;
+
+
+}
+
+
+
+/* REUSABLE TITLES */
+.section-title{
+    color:#222;
+    text-align: center;
+    margin:0 auto;
+    font-weight:300;
+}
+
+.section-title:after{
+    content: '';
+    display: block;
+    height:2px;
+    width:70px;
+    margin:0 auto;
+    background: #ee0979; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ee0979, #ff6a00); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ee0979, #ff6a00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
