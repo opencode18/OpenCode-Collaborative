@@ -10,7 +10,7 @@ body{
 }
 
 a:hover{
-  background: #fff;
+  background: #4077d7;
 }
 
 #clockdiv{
@@ -26,14 +26,14 @@ a:hover{
 #clockdiv > div{
 	padding: 10px;
 	border-radius: 3px;
- 	background: #fff;
+ 	background: #4077d7;
 	display: inline-block;
 }
 
 #clockdiv div > span{
 	padding: 15px;
 	border-radius: 3px;
-	background: #fff;
+	background: #4077d7;
 	display: inline-block;
 }
 
