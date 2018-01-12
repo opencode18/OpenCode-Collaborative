@@ -27,5 +27,3 @@
   });
 
 })(jQuery); // End of use strict
-
-var cards = document.querySelectorAll(".card");
