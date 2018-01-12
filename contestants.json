@@ -399,7 +399,8 @@
       	  "github" : "https://github.com/aadixiiita",
       	  "twitter" : ""
     	},
-	 {"name":"Arya Krishnan",
+	 {
+          "name":"Arya Krishnan",
 	  "imageurl":"contestant/arya.jpg",
 	  "about":"learning genuinity",
 	  "facebook":"https://www.facebook.com/arya.krishnan.106",
