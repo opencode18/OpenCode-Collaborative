@@ -9,8 +9,7 @@
          "github":"https://github.com/Tlazypanda",
          "twitter":"",
          "referral":""
-        
-      }, 
+      },
 	   {
          "name":"Senky Bansal",
          "imageurl":"contestant/senky.jpg",
@@ -426,7 +425,7 @@
          "twitter":"",
          "referral":""
       },
-      {   
+      {
           "name" : "Aayush Chaudhry",
           "imageurl" : "contestant/photo.jpg",
           "about" : "Lets all just pretend that this is a really clever bio.",
@@ -593,7 +592,26 @@
          "github":"https://github.com/aryan-harsh",
          "twitter":"",
          "referral":""
+      },
+      {
+          "name":"Ashwin Samudre",
+          "imageurl":"contestant/kiryo.png",
+          "about":"Optimize.",
+          "college":"Pune Institute of Computer Technology, Pune",
+          "facebook":"",
+          "github":"https://github.com/kiryteo",
+          "twitter":"",
+         "referral":""
+       },
+       {
+         "name":"Niharika Shrivastava",
+         "imageurl":"contestant/niharika.png",
+         "about":"Going with the flow",
+         "college":"IIIT Allahabad",
+         "facebook":"",
+         "github":"https://github.com/OrionStar25",
+         "twitter":"",
+         "referral":""
       }
-
    ]
 }
