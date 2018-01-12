@@ -532,7 +532,15 @@
          "facebook":"https://www.facebook.com/profile.php?id=100008722324295",
          "github":"https://github.com/aryan-harsh",
          "twitter":""
+      },
+      {
+	"name" : "Name",
+	"imageurl" : "contestant/cbrnrd.jpg",
+	"about" : "High school student who loves to code",
+	"college" : "Landon school (High school)",
+	"facebook" : "",
+	"github" : "https://github.com/cbrnrd",
+	"twitter" : ""
       }
-
    ]
 }
