@@ -14,8 +14,8 @@ html{
     cursor: pointer;
     display: inline-block;
     margin: 17px;
-    transition:transform 1s;
-    transform-style:preserve-3d;
+/*     transition:transform 1s;
+    transform-style:preserve-3d; */
 
   }
 
