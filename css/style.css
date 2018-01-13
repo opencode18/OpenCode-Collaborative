@@ -13,6 +13,8 @@ html{
     color: #fff;
     cursor: pointer;
     display: inline-block;
+    transition:transform 1s;
+    transform-style:preserve-3d;
     
   }
 
@@ -72,8 +74,7 @@ html{
     height: 95%;
     
     backface-visibility: hidden;
-    transform: perspective(600px) rotateY(0deg);
-    transition: transform 0.55s linear;
+   
     border-radius:3px;
   }
 
@@ -116,19 +117,10 @@ html{
     transform: perspective(600px) rotateY(0deg);
   }
 
-  .flipped .front{
-   animation: twirl 4.5s ease-in forwards;
+ 
+  .card.flipped {
+    transform: rotateY( 180deg );
   }
-    
-   .flipped .back{
-   animation: twirl-back 4.5s ease-in forwards;
-  }
-  /* .card:hover div.front{
-    
-  }
-  .card:hover div.back{
-    
-  } */
   .mentors .contestants {
     width: 100%;
     text-align: center;
