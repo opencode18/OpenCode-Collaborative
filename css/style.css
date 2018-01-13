@@ -108,22 +108,27 @@ html{
     border-radius:4px;
   }
 
-  /*.card:hover .front {
-    transform: perspective(600px) rotateY(-180deg)
+  .flipped-back .front {
+    transform: perspective(600px) rotateY(-180deg);
   }
 
-  .card:hover .back {
-    transform: perspective(600px) rotateY(0deg)
-  }*/
+  .flipped-back .back {
+    transform: perspective(600px) rotateY(0deg);
+  }
 
   .flipped .front{
-   transform: perspective(600px) rotateY(-180deg);
+   animation: twirl 4.5s ease-in forwards;
   }
     
    .flipped .back{
-   transform: perspective(600px) rotateY(0deg);
+   animation: twirl-back 4.5s ease-in forwards;
   }
-
+  /* .card:hover div.front{
+    
+  }
+  .card:hover div.back{
+    
+  } */
   .mentors .contestants {
     width: 100%;
     text-align: center;
@@ -238,6 +243,37 @@ header .card-underline{
   margin:20px 0;
 }
 
+#footer{
+	height: 90px;
+}
+#star-box,#fork-box
+{ 
+  padding: 7px;
+  outline: none;
+  user-select: none;
+  border-radius: 5px 0px 0px 5px;
+  background-color: #6B6F74;
+  color: white;
+}
+#star,#fork
+{
+ 
+  padding: 7px;
+  outline: none;
+  user-select: none;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #D3AD7D;
+  color: #14100C;
+}
+.st,.fo
+{
+  position: relative;
+  top: 50%;
+  transform: translate(0%,-50%);
+  margin-left: 10px;
+  left: 60%;
+}
+
 #snow{
   background-image:
           url(https://image.ibb.co/k0aqx6/snow.png), 
@@ -255,5 +291,17 @@ header .card-underline{
 @keyframes snow {
    from {background-position: 0px 0px, 0px 0px, 0px 0px;}
    to {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@keyframes twirl {
+  0%{ transform: rotateY(0deg);}
+  10%{ transform: rotateY(-180deg);}
+  90%{ transform: rotateY(-180deg);}
+  100% { transform: rotateY(0deg);}
+}
+@keyframes twirl-back {
+  0%{ transform: rotateY(-180deg);}
+  10%{ transform: rotateY(0deg);}
+  90%{ transform: rotateY(0deg);}
+  100% { transform: rotateY(-180deg);}
 }
 
