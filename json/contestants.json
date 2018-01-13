@@ -708,6 +708,17 @@
       	  "github" : "https://github.com/vvvinamer",
       	  "twitter" : "",
 	        "referral" : ""
+      }  ,
+       {
+      	  "name" : "Ashish Agarwala",
+      	  "imageurl" : "ashishagarwal.jpg",
+      	  "about" : "A Noob",
+	        "college":"NIT Durgapur",
+      	  "facebook" : "",
+      	  "github" : "https://github.com/ashish4321",
+      	  "twitter" : "",
+	        "referral" : ""
       }  
+
    ]
 }
