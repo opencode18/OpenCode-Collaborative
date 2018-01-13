@@ -303,6 +303,33 @@ header .card-underline{
 #footer{
 	height: 90px;
 }
+#star-box,#fork-box
+{ 
+  padding: 7px;
+  outline: none;
+  user-select: none;
+  border-radius: 5px 0px 0px 5px;
+  background-color: #6B6F74;
+  color: white;
+}
+#star,#fork
+{
+ 
+  padding: 7px;
+  outline: none;
+  user-select: none;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #D3AD7D;
+  color: #14100C;
+}
+.st,.fo
+{
+  position: relative;
+  top: 50%;
+  transform: translate(0%,-50%);
+  margin-left: 10px;
+  left: 60%;
+}
 
 #snow{
   background-image:
