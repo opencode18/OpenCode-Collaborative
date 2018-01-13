@@ -13,7 +13,7 @@ html{
     color: #fff;
     cursor: pointer;
     display: inline-block;
-    
+    margin: 17px;
   }
 
   .card .front .image {
@@ -26,7 +26,7 @@ html{
   .card .back .about {
     width: 100%;
     height: 80%;
-    background: #333;
+    /* background: #333; */
     text-align: center;
   }
 
@@ -35,9 +35,20 @@ html{
     font-size:20px;
     text-transform: uppercase;
   }
-
+  
   .card .back .social {
+    position: relative;
+    top: -8%;
+    border: 1px solid rgb(17, 16, 15);
     font-size: 30px;
+    padding:5px 0;
+    text-transform: uppercase;
+    background: #222;
+    box-shadow: 0px 5px 5px  rgba(28, 31, 32,0.5) ;
+  }
+
+  .card .back{
+    box-shadow: 0px 5px 5px  rgba(28, 31, 32,0.5) ;
   }
 
   .card .back .about p.card-college{
@@ -63,6 +74,7 @@ html{
   .card .front .image img {
     width: 100%;
     height: 100%;
+    border: 1px solid rgb(61, 17, 0);
     /* border-radius:5px; */
   }
 
@@ -73,7 +85,7 @@ html{
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    transform: perspective(600px) rotateY(0deg);
+    /* transform: perspective(600px) rotateY(0deg); */
     transition: transform 0.55s linear;
     /* border-radius:3px; */
   }
@@ -86,11 +98,11 @@ html{
     
     position: absolute;
     width: 5%;
-    height: 5%;
-    top: 75%;
-    left: 100%;
-    background: rgb(158, 50, 0);
-    border: 1px solid rgb(107, 32, 0);
+    height: 20%;
+    top: -20%;
+    left: 96%;
+    background: rgb(85, 23, 0);
+    border: 1px solid rgb(85, 23, 0);
     /* box-shadow: -30px -10px 0px  rgb(135, 149, 158)  inset; */
     clip-path: polygon(0% 0%,0% 100%,100% 100%);/* 3 vertices made and postion relative to 0 0 are taken as argument*/
     z-index: 5;
@@ -99,11 +111,11 @@ html{
     
     position: absolute;
     width: 5%;
-    height: 5%;
-    top: 75%;
-    right: 100%;
-    background: rgb(158, 50, 0);
-    border: 1px solid rgb(107, 32, 0);
+    height: 20%;
+    top: -20%;
+    right: 96%;
+    background: rgb(85, 23, 0);
+    border: 1px solid rgb(85, 23, 0);
     /* box-shadow: -30px -10px 0px  rgb(135, 149, 158)  inset; */
     clip-path: polygon(100% 0%,100% 100%,0% 100%);/* 3 vertices made and postion relative to 0 0 are taken as argument*/
     z-index: 5;
@@ -114,7 +126,7 @@ html{
     position: relative;
     right:5%;
     width:110%;
-    border: 1px solid rgb(158, 50, 0);
+    border: 1px solid rgb(85, 23, 0);
     font-size: 12px;
     /* border-radius:3px; */
     padding:15px 0;
@@ -122,7 +134,7 @@ html{
     text-transform: uppercase;
     
     background: -webkit-linear-gradient(45deg, #ee0979, #ff6a00);
-
+    box-shadow: 0px 5px 5px  rgba(28, 31, 32,0.5) ;
     
   }
 
@@ -132,7 +144,9 @@ html{
     height: 95%; */
     width: 100%;
     height: 100%;
-    background: #333;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/cardback.png");
+    background-size: cover;
+    background-position: center;
     backface-visibility: hidden;
     transform: perspective(600px) rotateY(180deg);
     transition: transform 0.55s linear;
@@ -146,6 +160,13 @@ html{
 
   .card:hover .back {
     transform: perspective(600px) rotateY(0deg)
+  } */
+  /* .flipped-back .front {
+    transform: perspective(600px) rotateY(-180deg);
+  }
+
+  .flipped-back .back {
+    transform: perspective(600px) rotateY(0deg);
   } */
 
   .flipped .front{
@@ -173,17 +194,21 @@ html{
   
   .mentors .back .social a {
     color: #fff;
-    margin:0 4px;
+    /* margin:0 4px; */
+    z-index: 4;
   }
   .mentors .back .social a:hover {
     color: lightblue;
+    z-index: 4;
   }
   .contestants .back .social a {
     color: #fff;
-    margin:0 4px;
+    /* margin:0 4px; */
+    z-index: 4;
   }
   .contestants .back .social a:hover {
     color: lightblue;
+    z-index: 4;
   }
  .bg-primary {
      
@@ -275,6 +300,10 @@ header .card-underline{
   margin:20px 0;
 }
 
+#footer{
+	height: 90px;
+}
+
 #snow{
   background-image:
           url(https://image.ibb.co/k0aqx6/snow.png), 
@@ -285,7 +314,7 @@ header .card-underline{
   position: absolute;
   top: 0;
   left: 0;
-  z-index:2;
+  /* z-index:1; */
   animation: snow 20s linear infinite;
   opacity:0.5;
 }
