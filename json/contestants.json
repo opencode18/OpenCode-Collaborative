@@ -718,6 +718,16 @@
       	  "github" : "https://github.com/shivhek25",
       	  "twitter" : "",
 	        "referral" : ""
+      }  ,
+	    {
+      	  "name" : "Shantam Shrestha",
+      	  "imageurl" : "logan.jfif",
+      	  "about" : "I am a rookie",
+	   "college":"IIIT Allahabad",
+      	  "facebook" : "https://www.facebook.com/shantam.shrestha",
+      	  "github" : "https://github.com/shantam0810",
+      	  "twitter" : "https://twitter.com/shant0810",
+	        "referral" : ""
       }  
    ]
 }
