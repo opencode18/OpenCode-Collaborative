@@ -109,6 +109,7 @@ html{
     /* box-shadow: -30px -10px 0px  rgb(135, 149, 158)  inset; */
     clip-path: polygon(0% 0%,0% 100%,100% 100%);/* 3 vertices made and postion relative to 0 0 are taken as argument*/
     z-index: 5;
+    backface-visibility: hidden;
   }
   .card .front .triangle-left{
     
@@ -122,6 +123,7 @@ html{
     /* box-shadow: -30px -10px 0px  rgb(135, 149, 158)  inset; */
     clip-path: polygon(100% 0%,100% 100%,0% 100%);/* 3 vertices made and postion relative to 0 0 are taken as argument*/
     z-index: 5;
+    backface-visibility: hidden;
   }
   .card .front .name {
     
@@ -135,7 +137,7 @@ html{
     padding:15px 0;
     font-weight:bold;
     text-transform: uppercase;
-    
+    backface-visibility: hidden;
     background: -webkit-linear-gradient(45deg, #ee0979, #ff6a00);
     box-shadow: 0px 5px 5px  rgba(28, 31, 32,0.5) ;
     
