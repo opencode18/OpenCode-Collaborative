@@ -58,7 +58,7 @@
          "github":"https://github.com/kamalchaubey1",
          "twitter":"",
          "referral":"https://github.com/surasnayak"
-      },   
+      },
       {
          "name":"Sarath",
          "imageurl":"contestant/sarath.jpg",
@@ -87,7 +87,7 @@
          "github":"https://github.com/surasnayak",
          "twitter":"",
          "referral":""
-      },	
+      },
       {
          "name":"Arpit Mishra",
          "imageurl":"contestant/Cool-avatars-anonymous-avatar.jpg",
@@ -355,7 +355,7 @@
          "github":"https://github.com/pranjalg2308",
          "twitter":"",
          "referral":""
-      },   
+      },
 	{
             "name" : "Nabeel Jawahir",
             "imageurl" : "contestant/nabeel.png",
@@ -648,7 +648,7 @@
          "github":"https://github.com/ranjanbinwani",
          "twitter" : "",
          "referral":""
-      }, 
+      },
 	   {
          "name":"Harsh Aryan",
          "imageurl":"contestant/aryan-harsh.jpg",
@@ -718,6 +718,35 @@
       	  "github" : "https://github.com/shivhek25",
       	  "twitter" : "",
 	        "referral" : ""
-      }  
+      },
+	{
+         "name":"Likhitha mannam",
+         "imageurl":"contestant/image.jpg",
+         "about":"keep going",
+         "facebook":"",
+         "github":"https://github.com/likhithamannam",
+         "twitter":"",
+         "referral":""
+      } ,
+      {
+      	  "name" : "Ashish Agarwala",
+      	  "imageurl" : "ashishagarwal.jpg",
+      	  "about" : "A Noob",
+	        "college":"NIT Durgapur",
+      	  "facebook" : "",
+      	  "github" : "https://github.com/ashish4321",
+      	  "twitter" : "",
+	      "referral" : ""
+      },
+      {
+          "name" : "Maanas Vohra",
+          "imageurl" : "contestant/maanas.jpg",
+          "about" : "A professional procastinator",
+          "college" : "Indian Institute of Information Technology, Allahabad",
+          "facebook" : "https://www.facebook.com/maanas.vohra",
+          "github" : "https://github.com/MaanasVohra",
+          "twitter" : "",
+          "referral" : ""
+      }
    ]
 }
