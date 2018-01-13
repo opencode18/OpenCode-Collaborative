@@ -709,7 +709,7 @@
       	  "twitter" : "",
 	        "referral" : ""
       }  ,
-       {
+      {
       	  "name" : "Ashish Agarwala",
       	  "imageurl" : "ashishagarwal.jpg",
       	  "about" : "A Noob",
@@ -719,6 +719,5 @@
       	  "twitter" : "",
 	      "referral" : ""
       }  
-
    ]
 }
