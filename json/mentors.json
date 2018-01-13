@@ -97,6 +97,14 @@
             "twitter" : ""
         },
         {
+            "name" : "Yashovardhan Agrawal",
+            "imageurl" : "mentor/yashovardhanagrawal.jpg",
+            "about" : "Open Source Enthusiast",
+            "facebook" : "https://www.facebook.com/yashovardhanagrawal",
+            "github" : "https://github.com/yashovardhanagrawal",
+            "twitter" : "https://twitter.com/yashovardhan"
+        },
+        {
             "name" : "Abhishek Deora",
             "imageurl" : "mentor/abhishek.jpeg",
             "about" : "",
@@ -126,14 +134,6 @@
             "about" : "",
             "facebook" : "",
             "github" : "",
-            "twitter" : ""
-        },
-        {
-            "name" : "Nabeel Jawahir",
-            "imageurl" : "mentor/nabeel.png",
-            "about" : "ganggang",
-            "facebook" : "https://www.facebook.com/nab331",
-            "github" : "https://github.com/nab331",
             "twitter" : ""
         },
         {
