@@ -50,29 +50,20 @@
     background: #f1f1f1;
 }
 
-<<<<<<< HEAD
-=======
 
 ::-webkit-scrollbar-thumb {
     background: #888;
     border-radius: 15px ;
 }
 
->>>>>>> f726f7ddc8d5b09510e8c58a60a48b57989b3195
     ::-webkit-scrollbar-thumb {
       background: #888;
       border-radius: 15px;
     }
-<<<<<<< HEAD
-    ::-webkit-scrollbar-thumb:hover {
-      background: #555;
-    }
-=======
 
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
->>>>>>> f726f7ddc8d5b09510e8c58a60a48b57989b3195
 
   </style>
   <style type="text/css">
@@ -206,22 +197,15 @@
               <div class="image">
                 <img v-bind:src="mentor.imageurl">
               </div>
-              <div class="name">
-                <div class="triangle-left"></div>
-                <div class="triangle-right"></div>
-                {{ mentor.name }}</div>
+              <div class="name">{{ mentor.name }}</div>
             </div>
             <div class="back">
-              <!-- <div class="snow-card"></div> -->
               <div class="about">
-                <div id="snow"></div>
                 <h3>About me</h3>
                 <hr class="card-underline">
                 <p>{{ mentor.about }}</p>
               </div>
               <div class="social">
-                <div class="triangle-left"></div>
-                <div class="triangle-right"></div>
                 <a v-bind:href="mentor.facebook">
                   <i class="fa fa-facebook-official" aria-hidden="true"></i>
                 </a>
@@ -252,23 +236,16 @@
               <div class="image">
                 <img v-bind:src="contestant.imageurl">
               </div>
-              <div class="name">
-                <div class="triangle-left"></div>
-                <div class="triangle-right"></div>
-                {{ contestant.name }}</div>
+              <div class="name">{{ contestant.name }}</div>
             </div>
             <div class="back">
-              <!-- <div id="snow"></div> -->
               <div class="about">
-                  <div id="snow"></div>
                 <h3>About me</h3>
                 <p class="card-college">{{ contestant.college }}</p>
                 <hr class="card-underline">
                 <p class="card-bio">{{ contestant.about }}</p>
               </div>
               <div class="social">
-                <div class="triangle-left"></div>
-                <div class="triangle-right"></div>
                 <a v-bind:href="contestant.facebook">
                   <i class="fa fa-facebook-official" aria-hidden="true"></i>
                 </a>
@@ -296,6 +273,7 @@
 
           <div class="card" v-for="project in alphaSort(projects)" onclick="this.classList.toggle('flipped')">
             <div class="front">
+
               <div class="project">
 
                   <p class="project-name">{{ project.name }}</p>
@@ -304,22 +282,16 @@
                   <p class="project-mentor">{{ project.mentors }}</p>
 
               </div>
-              <div class="name">
-                <div class="triangle-left"></div>
-                <div class="triangle-right"></div>
-                {{ project.lang }}</div>
+              <div class="name">{{ project.lang }}</div>
             </div>
             <div class="back">
-              <!-- <div id="snow"></div> -->
               <div class="about">
-                <div id="snow"></div>
                 <p class="project-name">ABOUT PROJECT</p>
                 <hr class="card-underline">
                 <p class="about-project">{{ project.about }}</p>
               </div>
               <div class="social">
-                <div class="triangle-left"></div>
-                <div class="triangle-right"></div>
+
                 <a v-bind:href="project.github">
                   <i class="fa fa-github" aria-hidden="true"></i>
                 </a>
@@ -544,17 +516,12 @@
 
 
 
-
 </body>
 <script src="https://unpkg.com/vue"></script>
 <script src="js/mentor.js"></script>
 <script src="js/contestant.js"></script>
 <script src="js/projects.js"></script>
-<<<<<<< HEAD
-</html>
-=======
 <script src="countDown.js"></script>
 <script src="js/apicall.js"></script>
 <script src="js/popup.js"></script>
 </html>
->>>>>>> f726f7ddc8d5b09510e8c58a60a48b57989b3195
