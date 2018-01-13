@@ -708,6 +708,16 @@
       	  "github" : "https://github.com/vvvinamer",
       	  "twitter" : "",
 	        "referral" : ""
+      },
+      {
+      	  "name" : "Shivam Singhal",
+      	  "imageurl" : "contestant/shivam.jpg",
+      	  "about" : "Stay Hungry, Stay Foolish.",
+	        "college":"NIT Durgapur",
+      	  "facebook" : "https://www.facebook.com/profile.php?id=100006888462062&ref=br_rs",
+      	  "github" : "https://github.com/shivhek25",
+      	  "twitter" : "",
+	        "referral" : ""
       }  
    ]
 }
