@@ -758,7 +758,7 @@
 ,      	  "github" : "https://github.com/ashish4321",
       	  "twitter" : "",
 	      "referral" : ""
-      },
+]      },
       {
           "name" : "Maanas Vohra",
           "imageurl" : "contestant/maanas.jpg",
@@ -817,6 +817,6 @@
            "github" : "https://github.com/masterchef2209",
            "twitter" : "",
            "referral" : ""
-
+	}
    ]
 }
