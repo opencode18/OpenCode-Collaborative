@@ -767,5 +767,15 @@
          "twitter":"https://twitter.com/Ros_Anshu",
          "referral":""
       } ,
+	{
+          "name" : "Priyanka Choubey",
+          "imageurl" : "contestant/priyanka.jpg",
+          "about" : "Always Exploring",
+          "college" : "Indian Institute of Information Technology, Allahabad",
+          "facebook" : "https://www.facebook.com/profile.php?id=100004553978615",
+          "github" : "https://github.com/priyanka-choubey",
+          "twitter" : "",
+          "referral" : ""
+      }
    ]
 }

@@ -6,10 +6,10 @@
     background: #cb2d3e;  /* fallback for old browsers */
     background: -webkit-linear-gradient(45deg, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(45deg, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    border: 1px solid rgb(85, 23, 0);
     padding:5px 0;
-    height:74%;
-    border-radius:3px;
+    height:80%;
+    /* border-radius:3px; */
     color:white;
     font-family: 'Lato';
 }
@@ -68,4 +68,7 @@
 
 .projects .social i{
     color:white
+}
+.projects .social{
+    background:white
 }
