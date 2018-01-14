@@ -767,6 +767,16 @@
           "github" : "https://github.com/priyanka-choubey",
           "twitter" : "",
           "referral" : ""
-      }
+      },
+	{
+          "name" : "Gaurav Kumar",
+          "imageurl" : "contestant/dbz.jpg",
+          "about" : "I am Rookie",
+          "college" : "Indian Institute of Information Technology, Allahabad",
+          "facebook" : "https://www.facebook.com/kg674",
+          "github" : "https://github.com/kgauravk",
+          "twitter" : "",
+          "referral" : ""
+      },
    ]
 }
