@@ -232,11 +232,15 @@ html{
 }
 
 header{
-  height:auto;
+  height: auto;
   width:100%;
   background-color:#222;
   padding:100px 0px 20px 0;
   position: relative;
+  background: url(../images/header_back_final.jpg);
+  height:550px;
+  width:1516px;
+  background-size :1516px 550px;
 }
 
 header .row{
