@@ -1,7 +1,15 @@
 html{
   overflow-x: hidden;
 }
-
+#mentors{
+	text-align:left;
+}
+#contestants{
+	text-align: left;
+}
+#projects {
+	text-align: left;
+}
 .card {
     width: 200px;
     height: 235px;
