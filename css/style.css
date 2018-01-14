@@ -342,7 +342,8 @@ footer p{
 }
 #star,#fork
 {
- 
+  position: relative;
+  right: 5px;
   padding: 7px;
   outline: none;
   user-select: none;
@@ -350,13 +351,16 @@ footer p{
   background-color: #D3AD7D;
   color: #14100C;
 }
+
 .st,.fo
 {
-  position: relative;
-  top: 50%;
-  transform: translate(0%,-50%);
-  margin-left: 10px;
-  left: 60%;
+  padding-top: 5%;
+}
+
+.space
+{
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #snow{
