@@ -767,6 +767,16 @@
           "github" : "https://github.com/priyanka-choubey",
           "twitter" : "",
           "referral" : ""
+      },
+	   {
+          "name" : "Shantam Shrestha",
+          "imageurl" : "contestant/logan.jfif",
+          "about" : "I love development(app or web)",
+          "college" : "Indian Institute of Information Technology, Allahabad",
+          "facebook" : "https://www.facebook.com/shantam.shrestha",
+          "github" : "https://github.com/shantam0810",
+          "twitter" : "htttps://twitter.com/shant0810",
+          "referral" : ""
       }
    ]
 }
