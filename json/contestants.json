@@ -758,6 +758,15 @@
           "twitter" : "",
           "referral" : ""
       },
+      {
+         "name":"Anshu Kumari",
+         "imageurl":"contestant/Ros_Anshu.jpg",
+         "about":"Trying to set my vision",
+         "facebook":"https://www.facebook.com/RosAnshu",
+         "github":"https://github.com/Anshu-ros",
+         "twitter":"https://twitter.com/Ros_Anshu",
+         "referral":""
+      } ,
 	{
           "name" : "Priyanka Choubey",
           "imageurl" : "contestant/priyanka.jpg",
@@ -777,6 +786,7 @@
           "github" : "https://github.com/kgauravk",
           "twitter" : "",
           "referral" : ""
+          "referral" : "ananya"
       }
    ]
 }
