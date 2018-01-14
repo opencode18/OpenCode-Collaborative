@@ -786,6 +786,16 @@
           "github" : "https://github.com/kgauravk",
           "twitter" : "",
           "referral" : ""
+      },
+	   {
+          "name" : "Shantam Shrestha",
+          "imageurl" : "contestant/logan.jpg",
+          "about" : "I love devolopment(android and web)",
+          "college" : "Indian Institute of Information Technology, Allahabad",
+          "facebook" : "https://www.facebook.com/shantam.shrestha",
+          "github" : "https://github.com/shantam0810",
+          "twitter" : "https://twitter.com/shant0810",
+          "referral" : ""
       }
    ]
 }
