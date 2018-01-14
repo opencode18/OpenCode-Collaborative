@@ -454,14 +454,6 @@
       	  "github" : "https://github.com/aadixiiita",
       	  "twitter" : ""
     	},
-	    {
-      	  "name" : "Gaurav Kumar",
-      	  "imageurl" : "",
-      	  "about" : "I am a Rookie",
-      	  "facebook" : "https://www.facebook.com/kg674",
-      	  "github" : "https://github.com/kgauravk",
-      	  "twitter" : ""
-    	}, 
       {
          "name":"Ankit Kripal",
          "imageurl":"contestant/akira.jpg",
@@ -477,6 +469,15 @@
          "facebook":"https://www.facebook.com/aadya.mishra.583",
          "github":"https://github.com/Panda2498",
          "twitter":""
-      }
+      },
+	    {
+      	  "name" : "Gaurav Kumar",
+      	  "imageurl" : "contestant/dbz.jpg",
+      	  "about" : "I am a Rookie",
+      	  "facebook" : "https://www.facebook.com/kg674",
+      	  "github" : "https://github.com/kgauravk",
+      	  "twitter" : ""
+    	}
+	   
    ]
 }
