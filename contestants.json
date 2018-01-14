@@ -463,15 +463,7 @@
          "twitter":""
 
     	},
-	   {
-         "name":"Shantam Shrestha",
-         "imageurl":"",
-         "about":"I am a rookie",
-         "facebook":"https://www.facebook.com/shantam.shrestha",
-         "github":"https://github.com/shantam0810",
-         "twitter":"https://twitter.com/shant0810"
-    	}
-	},
+	
 	 {
          "name":"Aadya Mishra",
          "imageurl":"contestant/IMG_20171105_130131_419.jpg",
@@ -479,7 +471,16 @@
          "facebook":"https://www.facebook.com/aadya.mishra.583",
          "github":"https://github.com/Panda2498",
          "twitter":""
-      }
+      },
+	     {
+         "name":"Shantam Shrestha",
+         "imageurl":"contestant/logan.jfif",
+         "about":"I am a rookie",
+         "facebook":"https://www.facebook.com/shantam.shrestha",
+         "github":"https://github.com/shantam0810",
+         "twitter":"https://twitter.com/shant0810"
+    	
+	}
 
    ]
 }
