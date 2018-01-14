@@ -757,6 +757,15 @@
           "github" : "https://github.com/MaanasVohra",
           "twitter" : "",
           "referral" : ""
-      }
+      },
+      {
+         "name":"Anshu Kumari",
+         "imageurl":"contestant/Ros_Anshu.jpg",
+         "about":"Trying to set my vision",
+         "facebook":"https://www.facebook.com/RosAnshu",
+         "github":"https://github.com/Anshu-ros",
+         "twitter":"https://twitter.com/Ros_Anshu",
+         "referral":""
+      } ,
    ]
 }
