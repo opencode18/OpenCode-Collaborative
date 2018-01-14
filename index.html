@@ -50,22 +50,22 @@
     background: #f1f1f1;
 }
 
-
 ::-webkit-scrollbar-thumb {
     background: #888;
     border-radius: 15px ;
 }
-
-    ::-webkit-scrollbar-thumb {
-      background: #888;
-      border-radius: 15px;
-    }
-
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 15px; 
+}
+::-webkit-scrollbar-thumb:hover {
+      background: #555;
+}
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
-
-  </style>
+	
+</style>
   <style type="text/css">
   @media screen and (max-width: 300px) {
     div.mentors, div.contestants, div.projects{margin-left: 14vh;}
@@ -111,13 +111,13 @@
           </li>
           <li class="nav-item">
             <div class="st">
-              <span id="star-box"><i class="fa fa-star" aria-hidden="true"></i>  Stars</span>
+              <span id="star-box"><i class="fa fa-star" aria-hidden="true"></i><a href="https://github.com/opencode18/OpenCode-Collaborative">  Stars</a></span>
               <span id="star"></span>
             </div>
           </li>
           <li class="nav-item">
             <div class="fo">
-              <span id="fork-box"><i class="fa fa-code-fork" aria-hidden="true"></i>  Forks</span>
+              <span id="fork-box"><i class="fa fa-code-fork" aria-hidden="true"></i><a href="https://github.com/opencode18/OpenCode-Collaborative">  Forks</a></span>
               <span id="fork"></span>
             </div>
           </li>
@@ -193,7 +193,7 @@
   <section id="services" class="bg-light">
     <div class="container">
       <div class="row">
-        <div class="mentors" id="mentors">
+        <div class="col-md-12" class="mentors" id="mentors">
           <div class="heading">
             <h1 id="center-mentor">Mentors</h1>
           </div>
@@ -202,15 +202,22 @@
               <div class="image">
                 <img v-bind:src="mentor.imageurl">
               </div>
-              <div class="name">{{ mentor.name }}</div>
+              <div class="name">
+                <div class="triangle-left"></div>
+                <div class="triangle-right"></div>
+                {{ mentor.name }}</div>
             </div>
             <div class="back">
+              <!-- <div class="snow-card"></div> -->
               <div class="about">
+                <div id="snow"></div>
                 <h3>About me</h3>
                 <hr class="card-underline">
                 <p>{{ mentor.about }}</p>
               </div>
               <div class="social">
+                <div class="triangle-left"></div>
+                <div class="triangle-right"></div>
                 <a v-bind:href="mentor.facebook">
                   <i class="fa fa-facebook-official" aria-hidden="true"></i>
                 </a>
@@ -241,16 +248,23 @@
               <div class="image">
                 <img v-bind:src="contestant.imageurl">
               </div>
-              <div class="name">{{ contestant.name }}</div>
+              <div class="name">
+                <div class="triangle-left"></div>
+                <div class="triangle-right"></div>
+                {{ contestant.name }}</div>
             </div>
             <div class="back">
+              <!-- <div id="snow"></div> -->
               <div class="about">
+                  <div id="snow"></div>
                 <h3>About me</h3>
                 <p class="card-college">{{ contestant.college }}</p>
                 <hr class="card-underline">
                 <p class="card-bio">{{ contestant.about }}</p>
               </div>
               <div class="social">
+                <div class="triangle-left"></div>
+                <div class="triangle-right"></div>
                 <a v-bind:href="contestant.facebook">
                   <i class="fa fa-facebook-official" aria-hidden="true"></i>
                 </a>
@@ -278,7 +292,6 @@
 
           <div class="card" v-for="project in alphaSort(projects)" onclick="this.classList.toggle('flipped')">
             <div class="front">
-
               <div class="project">
 
                   <p class="project-name">{{ project.name }}</p>
@@ -287,16 +300,22 @@
                   <p class="project-mentor">{{ project.mentors }}</p>
 
               </div>
-              <div class="name">{{ project.lang }}</div>
+              <div class="name">
+                <div class="triangle-left"></div>
+                <div class="triangle-right"></div>
+                {{ project.lang }}</div>
             </div>
             <div class="back">
+              <!-- <div id="snow"></div> -->
               <div class="about">
+                <div id="snow"></div>
                 <p class="project-name">ABOUT PROJECT</p>
                 <hr class="card-underline">
                 <p class="about-project">{{ project.about }}</p>
               </div>
               <div class="social">
-
+                <div class="triangle-left"></div>
+                <div class="triangle-right"></div>
                 <a v-bind:href="project.github">
                   <i class="fa fa-github" aria-hidden="true"></i>
                 </a>
@@ -521,12 +540,17 @@
 
 
 
+
 </body>
 <script src="https://unpkg.com/vue"></script>
 <script src="js/mentor.js"></script>
 <script src="js/contestant.js"></script>
 <script src="js/projects.js"></script>
+
+</html>
+
 <script src="countDown.js"></script>
 <script src="js/apicall.js"></script>
 <script src="js/popup.js"></script>
 </html>
+
