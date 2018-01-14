@@ -9,6 +9,14 @@
             "twitter" : ""
         },
         {
+            "name" : "Himanshu Shekhar",
+            "imageurl" : "mentor/himanshu.jpg",
+            "about" : " i make things you can easily find facbook, github and twitter by searching",
+            "facebook" : "https://www.facebook.com/himanshub16",
+            "github" : "https://github.com/himanshub16/",
+            "twitter" : ""
+        },
+        {
             "name" : "Gautham Santhosh",
             "imageurl" : "mentor/gautham.jpeg",
             "about" : "Don't text me on fb about issues,use zulip",
