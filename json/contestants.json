@@ -786,6 +786,16 @@
           "github" : "https://github.com/kgauravk",
           "twitter" : "",
           "referral" : ""
+      },
+	   {
+          "name" : "Sudhir Kumar",
+          "imageurl" : "contestant/profile.jpg",
+          "about" : "Is someone seeing this?",
+          "college" : "Indian Institute of Information Technology, Allahabad",
+          "facebook" : "https://www.facebook.com/sudhiriiita17",
+          "github" : "https://github.com/sudhiriiit17",
+          "twitter" : "",
+          "referral" : "https://github.com/marshallKR7"
       }
    ]
 }
