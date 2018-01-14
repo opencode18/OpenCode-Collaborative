@@ -304,9 +304,33 @@ header .card-underline{
   margin:20px 0;
 }
 
-#footer{
-	height: 90px;
+footer{
+height:auto;
+padding:40px 0 20px 0;
+background: -webkit-linear-gradient(45deg, #ee0979, #ff6a00);
+text-align: center;
 }
+
+footer ul{
+  margin:10px auto;
+}
+
+footer .list-inline-item a:link,
+footer .list-inline-item a:visited{
+  color:white;
+}
+
+footer .list-inline-item a:hover{
+  color:white!important;
+  background:none;
+}
+
+footer p{
+  display: inline-block;
+  padding:17px 0;
+}
+
+
 #star-box,#fork-box
 { 
   padding: 7px;
