@@ -1,0 +1,187 @@
+{
+	"projects": [{
+			"name": "OpenCode Collaborative",
+			"imageurl": "",
+			"mentors": "Team OpenCode",
+			"about": "A collaborative website created by particpants of opencode'18.",
+			"lang": "HTML, JavaScript, CSS",
+			"github": "https://github.com/opencode18/OpenCode-Collaborative"
+		},
+		{
+			"name": "CodeStash",
+			"imageurl": "",
+			"mentors": "Team OpenCode",
+			"about": "Competitive Coding",
+			"lang": "C, C++, Python",
+			"github": "https://github.com/opencode18/CodeStash"
+		},
+		{
+			"name": "Girls Who Code",
+			"imageurl": "",
+			"mentors": "Team OpenCode",
+			"about": "Female Developers only project for OpenCode'18",
+			"lang": "HTML, JavaScript, CSS",
+			"github": "https://github.com/opencode18/Girls-who-code"
+		},
+		{
+			"name": "Letsgo",
+			"imageurl": "",
+			"mentors": "Team GoStudents",
+			"about": "A Website for learning Go",
+			"lang": "Go",
+			"github": "https://github.com/gostudent/Letsgo"
+		},
+		{
+			"name": "Go Algorithms",
+			"imageurl": "",
+			"mentors": "Team GoStudents",
+			"about": "Implementation of Data Structures and Algorithms in Go",
+			"lang": "Go",
+			"github": "https://github.com/gostudent/Algorithms"
+		},
+		{
+			"name": "Anna",
+			"imageurl": "",
+			"mentors": "Gautham",
+			"about": "Assistant on chrome.",
+			"lang": "HTML, JavaScript, CSS",
+			"github": "https://github.com/Anna-Assistant/Anna"
+		},
+		{
+			"name": "Motivate",
+			"imageurl": "",
+			"mentors": "Mubaris NK",
+			"about": "A simple script to print random motivational quotes.",
+			"lang": "Python",
+			"github": "https://github.com/mubaris/motivate"
+		},
+		{
+			"name": "Lecture Connect",
+			"imageurl": "",
+			"mentors": "Ayush Gupta and Siddhant Srivastav",
+			"about": "A real time lecture translation in different languages for students.",
+			"lang": "HTML, JavaScript, CSS",
+			"github": "https://github.com/agbilotia1998/Lecture-Connect"
+		},
+		{
+			"name": "Aparoksha-18: Website",
+			"imageurl": "",
+			"mentors": "Pradeep Gangwar, A S Gagan Ganapathy and Shreyansh Dwivedi",
+			"about": "Official website of Aparoksha'18.",
+			"lang": "HTML, JavaScript, CSS, PHP, Smarty",
+			"github": "https://github.com/GeekHaven/Aparoksha-18"
+		},
+		{
+			"name": "ProfilePortal",
+			"imageurl": "",
+			"mentors": "Ravi Charan & Arindam Das Modak",
+			"about": "A portal that keeps track of the Profiles of websites like Spoj, Codechef, Github etc.",
+			"lang": "HTML, JavaScript, CSS, Python",
+			"github": "https://github.com/GitHubCommunity-IIITAllahabad/ProfilePortal-Beta"
+		},
+		{
+			"name": "Youtube Queue Extension",
+			"imageurl": "",
+			"mentors": "Abhishek Deora",
+			"about": "chrome extension to queue youtube songs .",
+			"lang": "HTML, JavaScript, CSS",
+			"github": "https://github.com/adeora7/youtube_queue_extension"
+		},
+		{
+			"name": "Utlyz-CLI",
+			"imageurl": "",
+			"mentors": "Rahul Arulkumaran",
+			"about": "A command line application to access internet over terminal.Be it facebook, wikipedia or even news.",
+			"lang": "Python, Shell",
+			"github": "https://github.com/rahulkumaran/Utlyz-CLI"
+		},
+		{
+			"name": "PyDic",
+			"imageurl": "",
+			"mentors": "Saicharan Reddy",
+			"about": "A python app which uses the CLI to query the definitions of a word in a dictionary.",
+			"lang": "Python",
+			"github": "https://github.com/mrsaicharan1/PyDic"
+		},
+		{
+			"name": "Attendance Portal",
+			"imageurl": "",
+			"mentors": "Harshit Jain",
+			"about": "A unique solution to mark attendance online using tokens",
+			"lang": "HTML, JavaScript, CSS, Python",
+			"github": "https://github.com/Symphoria/attendance-portal"
+		},
+		{
+			"name": "HoxNox",
+			"imageurl": "",
+			"mentors": "Anupam Dagar",
+			"about": "Portfolios Made Easy, Generate portfolios in 3 easy steps.",
+			"lang": "HTML, JavaScript, CSS, Python",
+			"github": "https://github.com/Anupam-dagar/Portfolio-Generator"
+		},
+		{
+			"name": "LucidCV",
+			"imageurl": "",
+			"mentors": "Aswin VB",
+			"about": "Simple CV Maker.",
+			"lang": "HTML, JavaScript, CSS, NodeJS",
+			"github": "https://github.com/aswinzz/LucidCV"
+		},
+		{
+			"name": "OpenNews",
+			"imageurl": "",
+			"mentors": "Team OpenCode",
+			"about": "Newsfeed App.",
+			"lang": "HTML, JavaScript, CSS, Vue",
+			"github": "https://github.com/aswanthkoleri/OpenNews"
+		},
+		{
+			"name": "yes",
+			"imageurl": "",
+			"mentors": "Aswanth K Anil",
+			"about": "Implementation of simple and dangerous yes command in various languages.",
+			"lang": "Multiple Languages",
+			"github": "https://github.com/mubaris/yes"
+		},
+		{
+			"name": "Goal Coach",
+			"imageurl": "",
+			"mentors": "Himank Goel",
+			"about": "A webapp built on React and Redux with authentication from firebase to assign tasks.",
+			"lang": "React Redux",
+			"github": "https://github.com/himank-goel/Goal-Coach"
+		},
+		{
+			"name": "Addy-React-Native",
+			"imageurl": "",
+			"mentors": "Yashovardhan Agrawal",
+			"about": "Addy is an app that enhances the addressing system of the world.",
+			"lang": "React Native",
+			"github": "https://github.com/addy-org/Addy-React-Native"
+		},
+		{
+			"name": "DiavApp",
+			"imageurl": "",
+			"mentors": "Luis Eduardo, Jimenez Robles",
+			"about": "Proyecto de la materia de Ingeniería de Software en el cual se va a crear una aplicacion para las personas con diabetes.",
+			"lang": "Angular",
+			"github": "https://github.com/luisejrobles/DiavApp"
+		},
+		{
+			"name": "Tech Jalsa",
+			"imageurl": "",
+			"mentors": "Akshay Nandwana",
+			"about": "Tech Jalsa is an Android app to show details about tech fest of Techno India NJR. Contribute in this idea to bring all college events on a single platform! ",
+			"lang": "Android, Java",
+			"github": "https://github.com/anandwana001/Tech-Jalsa"
+		},
+		{
+			"name": "Cool-Physics",
+			"imageurl": "",
+			"mentors": "Himanshu Shekhar",
+			"about": "Visualisations of awesome concepts from Physics ",
+			"lang": "HTML, JavaScript",
+			"github": "https://github.com/himanshub16/cool-physics"
+		}
+	]
+}

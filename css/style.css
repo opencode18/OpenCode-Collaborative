@@ -1,32 +1,43 @@
 html{
   overflow-x: hidden;
 }
-
+#mentors{
+	text-align:left;
+}
+#contestants{
+	text-align: left;
+}
+#projects {
+	text-align: left;
+}
 .card {
     width: 200px;
     height: 235px;
-    background: #f8f9fa;
+    /* background: #f8f9fa; */
     position: relative;
-    margin: 10px;
-    padding:5px;
+    /* margin: 10px;
+    padding:5px; */
     text-align: center;
     color: #fff;
     cursor: pointer;
     display: inline-block;
-    
+    margin: 17px;
+    transition:transform 1s;
+    transform-style:preserve-3d;
+
   }
 
   .card .front .image {
     width: 100%;
     height: 80%;
     background: #bd1036;
-     border-radius:5px;
+    /* border-radius:5px; */
   }
 
   .card .back .about {
     width: 100%;
     height: 80%;
-    background: #333;
+    /* background: #333; */
     text-align: center;
   }
 
@@ -35,9 +46,20 @@ html{
     font-size:20px;
     text-transform: uppercase;
   }
-
+  
   .card .back .social {
+    position: relative;
+    top: -8%;
+    border: 1px solid rgb(17, 16, 15);
     font-size: 30px;
+    padding:5px 0;
+    text-transform: uppercase;
+    background: #222;
+    box-shadow: 0px 5px 5px  rgba(28, 31, 32,0.5) ;
+  }
+
+  .card .back{
+    box-shadow: 0px 5px 5px  rgba(28, 31, 32,0.5) ;
   }
 
   .card .back .about p.card-college{
@@ -63,67 +85,107 @@ html{
   .card .front .image img {
     width: 100%;
     height: 100%;
-    border-radius:5px;
+    border: 1px solid rgb(61, 17, 0);
+    /* border-radius:5px; */
   }
 
   .card .front {
     position: absolute;
-    width: 95%;
-    height: 95%;
-    
+    /* width: 95%;
+    height: 95%; */
+    width: 100%;
+    height: 100%;
     backface-visibility: hidden;
-    transform: perspective(600px) rotateY(0deg);
+    /* transform: perspective(600px) rotateY(0deg); */
     transition: transform 0.55s linear;
-    border-radius:3px;
+    /* border-radius:3px; */
   }
 
   .card-underline{
     background-color:#ff6a00;
     margin:5px auto 10px auto;
   }
+  .card .front .triangle-right{
+    
+    position: absolute;
+    width: 5%;
+    height: 20%;
+    top: -20%;
+    left: 96%;
+    background: rgb(85, 23, 0);
+    border: 1px solid rgb(85, 23, 0);
+    /* box-shadow: -30px -10px 0px  rgb(135, 149, 158)  inset; */
+    clip-path: polygon(0% 0%,0% 100%,100% 100%);/* 3 vertices made and postion relative to 0 0 are taken as argument*/
+    z-index: 5;
+    backface-visibility: hidden;
+  }
+  .card .front .triangle-left{
+    
+    position: absolute;
+    width: 5%;
+    height: 20%;
+    top: -20%;
+    right: 96%;
+    background: rgb(85, 23, 0);
+    border: 1px solid rgb(85, 23, 0);
+    /* box-shadow: -30px -10px 0px  rgb(135, 149, 158)  inset; */
+    clip-path: polygon(100% 0%,100% 100%,0% 100%);/* 3 vertices made and postion relative to 0 0 are taken as argument*/
+    z-index: 5;
+    backface-visibility: hidden;
+  }
   .card .front .name {
     
-    margin-top:7px;
-    width:100%;
+    /* margin-top:7px; */
+    position: relative;
+    right:5%;
+    width:110%;
+    border: 1px solid rgb(85, 23, 0);
     font-size: 12px;
-    border-radius:3px;
-    padding:8px 0;
+    /* border-radius:3px; */
+    padding:15px 0;
     font-weight:bold;
     text-transform: uppercase;
-    
+    backface-visibility: hidden;
     background: -webkit-linear-gradient(45deg, #ee0979, #ff6a00);
-
+    box-shadow: 0px 5px 5px  rgba(28, 31, 32,0.5) ;
     
   }
 
   .card .back {
     position: absolute;
-    width: 95%;
-    height: 95%;
-    background: #333;
+    /* width: 95%;
+    height: 95%; */
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/cardback.png");
+    background-size: cover;
+    background-position: center;
     backface-visibility: hidden;
     transform: perspective(600px) rotateY(180deg);
     transition: transform 0.55s linear;
     padding: 10px;
-    border-radius:4px;
+    /* border-radius:4px; */
   }
 
-  /*.card:hover .front {
+  /* .card:hover .front {
     transform: perspective(600px) rotateY(-180deg)
   }
 
   .card:hover .back {
     transform: perspective(600px) rotateY(0deg)
-  }*/
-
-  .flipped .front{
-   transform: perspective(600px) rotateY(-180deg);
-  }
-    
-   .flipped .back{
-   transform: perspective(600px) rotateY(0deg);
+  } */
+  /* .flipped-back .front {
+    transform: perspective(600px) rotateY(-180deg);
   }
 
+  .flipped-back .back {
+    transform: perspective(600px) rotateY(0deg);
+  } */
+
+ 
+  .card.flipped {
+    transform: rotateY( 180deg );
+  }
   .mentors .contestants {
     width: 100%;
     text-align: center;
@@ -136,17 +198,21 @@ html{
   
   .mentors .back .social a {
     color: #fff;
-    margin:0 4px;
+    /* margin:0 4px; */
+    z-index: 4;
   }
   .mentors .back .social a:hover {
     color: lightblue;
+    z-index: 4;
   }
   .contestants .back .social a {
     color: #fff;
-    margin:0 4px;
+    /* margin:0 4px; */
+    z-index: 4;
   }
   .contestants .back .social a:hover {
     color: lightblue;
+    z-index: 4;
   }
  .bg-primary {
      
@@ -238,6 +304,37 @@ header .card-underline{
   margin:20px 0;
 }
 
+#footer{
+	height: 90px;
+}
+#star-box,#fork-box
+{ 
+  padding: 7px;
+  outline: none;
+  user-select: none;
+  border-radius: 5px 0px 0px 5px;
+  background-color: #6B6F74;
+  color: white;
+}
+#star,#fork
+{
+ 
+  padding: 7px;
+  outline: none;
+  user-select: none;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #D3AD7D;
+  color: #14100C;
+}
+.st,.fo
+{
+  position: relative;
+  top: 50%;
+  transform: translate(0%,-50%);
+  margin-left: 10px;
+  left: 60%;
+}
+
 #snow{
   background-image:
           url(https://image.ibb.co/k0aqx6/snow.png), 
@@ -248,13 +345,56 @@ header .card-underline{
   position: absolute;
   top: 0;
   left: 0;
-  z-index:2;
+  /* z-index:1; */
   animation: snow 20s linear infinite;
   opacity:0.5;
 }
+
+.videoHidden {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: none; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+.videoPopup {
+  background-color: #212121;
+  margin: 5% 10% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
 @keyframes snow {
    from {background-position: 0px 0px, 0px 0px, 0px 0px;}
    to {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@keyframes twirl {
+  0%{ transform: rotateY(0deg);}
+  10%{ transform: rotateY(-180deg);}
+  90%{ transform: rotateY(-180deg);}
+  100% { transform: rotateY(0deg);}
+}
+@keyframes twirl-back {
+  0%{ transform: rotateY(-180deg);}
+  10%{ transform: rotateY(0deg);}
+  90%{ transform: rotateY(0deg);}
+  100% { transform: rotateY(-180deg);}
 }
 
 /*----------------------- Preloader -----------------------*/
