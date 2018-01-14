@@ -49,16 +49,26 @@
          "twitter":"",
          "referral":"https://github.com/surasnayak"
       },
+	   {
+         "name":"Sanghamitra Nayak",
+         "imageurl":"contestant/sanghamitra.jpg",
+         "about":"CBIT Queen!!",
+	"college":"CBIT Hyderabad",
+         "facebook":"",
+         "github":"https://github.com/sanghamitra04",
+         "twitter":"",
+         "referral":"https://github.com/surasnayak"
+      },
       {
          "name":"Kamal Chaubey",
-         "imageurl":"contestant/kiranvelumuri.svg",
+         "imageurl":"contestant/kamal.jpg",
          "about":"The swagger boy!!",
 	  "college":"IIIT Allahabad",
          "facebook":"",
          "github":"https://github.com/kamalchaubey1",
          "twitter":"",
          "referral":"https://github.com/surasnayak"
-      },   
+      },
       {
          "name":"Sarath",
          "imageurl":"contestant/sarath.jpg",
@@ -87,7 +97,7 @@
          "github":"https://github.com/surasnayak",
          "twitter":"",
          "referral":""
-      },	
+      },
       {
          "name":"Arpit Mishra",
          "imageurl":"contestant/Cool-avatars-anonymous-avatar.jpg",
@@ -355,7 +365,7 @@
          "github":"https://github.com/pranjalg2308",
          "twitter":"",
          "referral":""
-      },   
+      },
 	{
             "name" : "Nabeel Jawahir",
             "imageurl" : "contestant/nabeel.png",
@@ -648,7 +658,7 @@
          "github":"https://github.com/ranjanbinwani",
          "twitter" : "",
          "referral":""
-      }, 
+      },
 	   {
          "name":"Harsh Aryan",
          "imageurl":"contestant/aryan-harsh.jpg",
@@ -737,6 +747,45 @@
       	  "github" : "https://github.com/ashish4321",
       	  "twitter" : "",
 	      "referral" : ""
-      }  
+      },
+      {
+          "name" : "Maanas Vohra",
+          "imageurl" : "contestant/maanas.jpg",
+          "about" : "A professional procastinator",
+          "college" : "Indian Institute of Information Technology, Allahabad",
+          "facebook" : "https://www.facebook.com/maanas.vohra",
+          "github" : "https://github.com/MaanasVohra",
+          "twitter" : "",
+          "referral" : ""
+      },
+      {
+         "name":"Anshu Kumari",
+         "imageurl":"contestant/Ros_Anshu.jpg",
+         "about":"Trying to set my vision",
+         "facebook":"https://www.facebook.com/RosAnshu",
+         "github":"https://github.com/Anshu-ros",
+         "twitter":"https://twitter.com/Ros_Anshu",
+         "referral":""
+      } ,
+	{
+          "name" : "Priyanka Choubey",
+          "imageurl" : "contestant/priyanka.jpg",
+          "about" : "Always Exploring",
+          "college" : "Indian Institute of Information Technology, Allahabad",
+          "facebook" : "https://www.facebook.com/profile.php?id=100004553978615",
+          "github" : "https://github.com/priyanka-choubey",
+          "twitter" : "",
+          "referral" : "ananya"
+      },
+	{
+          "name" : "Gaurav Kumar",
+          "imageurl" : "contestant/dbz.jpg",
+          "about" : "I am Rookie",
+          "college" : "Indian Institute of Information Technology, Allahabad",
+          "facebook" : "https://www.facebook.com/kg674",
+          "github" : "https://github.com/kgauravk",
+          "twitter" : "",
+          "referral" : ""
+      }
    ]
 }
