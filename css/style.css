@@ -333,6 +333,12 @@ header .card-underline{
   padding-top: 5%;
 }
 
+.space
+{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 #snow{
   background-image:
           url(https://image.ibb.co/k0aqx6/snow.png), 
