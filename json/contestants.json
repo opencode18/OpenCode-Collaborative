@@ -755,7 +755,7 @@
       	  "about" : "A Noob",
 	        "college":"NIT Durgapur",
       	  "facebook" : "",
-      	  "github" : "https://github.com/ashish4321",
+     	  "github" : "https://github.com/ashish4321",
       	  "twitter" : "",
 	      "referral" : ""
       },
@@ -807,6 +807,16 @@
           "github" : "https://github.com/shantam0810",
           "twitter" : "https://twitter.com/shant0810",
           "referral" : ""
-      }
+      },
+	{
+   	   "name" : "Hidayat Ullah Khan",
+  	   "imageurl" : "contestant/elmo.jpg",
+           "about" : "Newbie to webDev",
+           "college" : "Indian Institute of Information Technology, Lucknow",
+           "facebook" : "https://www.facebook.com/profile.php?id=100017456440701",
+           "github" : "https://github.com/masterchef2209",
+           "twitter" : "",
+           "referral" : ""
+	}
    ]
 }
