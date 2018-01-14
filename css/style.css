@@ -1,7 +1,14 @@
 html{
   overflow-x: hidden;
 }
-
+.navbar-brand{
+  margin-bottom: 28px;
+}
+#mainNav{
+  overflow: hidden;
+  height: 60px;
+  padding-top: 40px;
+}
 .card {
     width: 200px;
     height: 235px;
@@ -263,7 +270,7 @@ header .card-underline{
   top: 27%;
   transform: translate(0%,-50%);
   margin-left: 10px;
-  left: 60%;
+  left: 40%;
 }
 
 #snow{
