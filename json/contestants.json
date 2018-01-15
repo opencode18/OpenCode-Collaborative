@@ -379,7 +379,7 @@
       },
 	{
             "name" : "Nabeel Jawahir",
-            "imageurl" : "contestant/nabeel.png",
+            "imageurl" : "contestant/nabeel.jpg",
             "about" : "ganggang",
             "facebook" : "https://www.facebook.com/nab331",
             "github" : "https://github.com/nab331",
@@ -583,9 +583,10 @@
             "twitter" : "",
             "referral":""
         },
-	      {
+	    {
       	  "name" : "Anshuman Verma",
       	  "imageurl" : "contestant/anshumanv.jpeg",
+      	  "imageurl" : "contestant/anshumanv.jpg",
           "about" : "Football | Anime",
           "college" : "",
       	  "facebook" : "https://www.facebook.com/anshumanv12",
@@ -643,7 +644,7 @@
     	},
 	{
           "name" : "Shivansh Srivastava",
-          "imageurl" : "ironman.jpg",
+          "imageurl" : "contestant/ironman.jpg",
           "about" : "The Optimist",
           "college" : "",
           "facebook" : "",
@@ -751,7 +752,7 @@
       } ,
       {
       	  "name" : "Ashish Agarwala",
-      	  "imageurl" : "ashishagarwal.jpg",
+      	  "imageurl" : "contestant/ashishagarwal.jpg",
       	  "about" : "A Noob",
 	        "college":"NIT Durgapur",
       	  "facebook" : "",

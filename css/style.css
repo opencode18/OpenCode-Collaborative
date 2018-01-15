@@ -1,6 +1,61 @@
 html{
   overflow-x: hidden;
 }
+.sticky-container{
+    padding:0px;
+    margin:0px;
+    position:fixed;
+    right:-100px;
+    top:200px;
+    width:192px;
+    z-index: 1100;
+}
+.sticky li{
+    list-style-type:none;
+    background-color:#3b5998;
+    border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+    color:#efefef;
+	text-align:left;
+	font-size:200%;
+    height:150px;
+    padding:0px;
+    margin:0px 0px 1px 0px;
+    -webkit-transition:all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out;
+    -o-transition:all 0.25s ease-in-out;
+    transition:all 0.25s ease-in-out;
+    cursor:pointer;
+}
+.sticky li:hover{
+    margin-left:-350px;
+	color:#222;
+}
+.sticky li img{
+    float:left;
+    margin:0px 0px;
+    margin-right:0px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+	border-right: 1px solid black;
+
+}
+.sticky li p{
+    padding-top:0px;
+    padding-left:1.4cm;
+    margin:0px auto;
+    line-height:10px;
+    font-size:20px;
+	color:white;
+}
+.sticky li p a{
+    text-decoration:none;
+	color:white;
+}
+.sticky li p a:hover{
+	background-color:#3b5998;
+	text-decoration:underline;
+	}
 #mentors{
 	text-align:left;
 }
