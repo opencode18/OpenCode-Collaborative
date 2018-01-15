@@ -585,7 +585,7 @@
         },
 	    {
       	  "name" : "Anshuman Verma",
-      	  "imageurl" : "contestant/anshumanv.jpg",
+      	  "imageurl" : "contestant/anshumanv.jpeg",
           "about" : "Football | Anime",
           "college" : "",
       	  "facebook" : "https://www.facebook.com/anshumanv12",
@@ -761,9 +761,9 @@
       },
       {
           "name" : "Maanas Vohra",
-          "imageurl" : "contestant/maanas.jpg",
+          "imageurl" : "contestant/maanas1.jpg",
           "about" : "A professional procastinator",
-          "college" : "Indian Institute of Information Technology, Allahabad",
+          "college" : "IIIT - Allahabad",
           "facebook" : "https://www.facebook.com/maanas.vohra",
           "github" : "https://github.com/MaanasVohra",
           "twitter" : "",
