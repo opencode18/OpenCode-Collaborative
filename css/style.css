@@ -21,10 +21,10 @@ html{
     height:150px;
     padding:0px;
     margin:0px 0px 1px 0px;
-    -webkit-transition:all 0.25s ease-in-out;
-    -moz-transition:all 0.25s ease-in-out;
-    -o-transition:all 0.25s ease-in-out;
-    transition:all 0.25s ease-in-out;
+    -webkit-transition:all 0.05s ease-in-out;
+    -moz-transition:all 0.05s ease-in-out;
+    -o-transition:all 0.05s ease-in-out;
+    transition:all 0.05s ease-in-out;
     cursor:pointer;
 }
 .sticky li:hover{
