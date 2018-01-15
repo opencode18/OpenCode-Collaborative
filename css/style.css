@@ -406,7 +406,7 @@ body.preloader-site {
     height: 100%;
     width: 100%;
     background: #FFF;
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 9999999;
