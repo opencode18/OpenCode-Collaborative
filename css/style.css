@@ -410,7 +410,7 @@ body.preloader-site {
     top: 0;
     left: 0;
     z-index: 9999999;
-    margin: -50px auto 0px auto;
+    margin-left: -50px;
 }
 
 .preloader-wrapper .preloader {
