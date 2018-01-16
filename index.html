@@ -17,8 +17,15 @@
 
   <title>OpenCode</title>
 
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- JQuery UI links -->
+  <link href="vendor/jquery/jquery-ui.min.css" rel="stylesheet">
+  <link href="vendor/jquery/jquery-ui.structure.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
   <link href="css/scrolling-nav.css" rel="stylesheet">
@@ -27,9 +34,49 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/simple-line-icons.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+  <link href="style1.css" media="all" rel="stylesheet" />
 
+  <link rel="stylesheet" href="css/projects-style.css">
+  <link rel="stylesheet" href="css/issues-style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style type="text/css">
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 15px ;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 15px;
+}
+::-webkit-scrollbar-thumb:hover {
+      background: #555;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+</style>
+  <style type="text/css">
+  @media screen and (max-width: 300px) {
+    div.mentors, div.contestants, div.projects{margin-left: 14vh;}
+    h1#center-mentor{margin-left: 5vh;}
+    h1#center-participant{margin-left: 1vh;}
+    h1#center-project{margin-left: 5vh;}
+
+    }
+  </style>
+</head>
+<script>var cards = document.querySelectorAll(".card");</script>
 <body id="page-top">
 
   <!-- Navigation -->
@@ -51,17 +98,83 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Participants</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#works">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" id="trailer" href="#trailer">Trailer</a>
+          </li>
+          <li class="nav-item">
+            <span class="space"></span>
+          </li>
+          <li class="nav-item">
+            <div class="st">
+              <span id="star-box"><i class="fa fa-star" aria-hidden="true"></i><a href="https://github.com/opencode18/OpenCode-Collaborative" style="text-decoration-line: none" target="_blank">  Stars</a></span>
+              <span id="star"></span>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="fo">
+              <span id="fork-box"><i class="fa fa-code-fork" aria-hidden="true"></i><a href="https://github.com/opencode18/OpenCode-Collaborative" style="text-decoration-line: none" target="_blank">  Forks</a></span>
+              <span id="fork"></span>
+            </div>
+          </li>
+
         </ul>
       </div>
     </div>
   </nav>
 
-  <header class="bg-primary text-white">
-    <div class="container text-center">
-      <h1>OpenCode</h1>
-      <p class="lead">IIIT Allahabad's very own mini GSOC!</p>
+  <header>
+    <div id="snow"></div>
+
+    <div class="row logo">
+      <img src="images/OpenCode.png" alt="Opencode Logo" class="hero-logo">
+
+   </div>
+
+    </div>
+
+    <div class="row title">
+      <h1 class="hero-title">&nbsp;OPENCODE</h1>
+
+
+    </div>
+    <hr class="card-underline">
+    <div class="row quote">
+      <p class="hero-quote">IIIT Allahabad's very own mini GSOC!</p>
     </div>
   </header>
+<br>
+<br>
+<div class="sticky-container">
+    <ul class="sticky">
+        <li>
+            <img src="images/fb.jpeg" width="70" height="150">
+			<p><br><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fopencodeiiita%2F&tabs=timeline&width=340&height=200&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" padding-left="10px" width="340" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></p>
+        </li>
+    </ul>
+</div>
+
+<div id="clockdiv">
+	<div><span class="days"></span><div class="smalltext">Days</div></div>
+	<div><span class="hours"></span><div class="smalltext">Hours</div></div>
+	<div><span class="minutes"></span><div class="smalltext">Minutes</div></div>
+	<div><span class="seconds"></span><div class="smalltext">Seconds</div></div>
+</div>
+
+
+<section id="Trailer">
+  <div id="popupBody" class="videoHidden">
+    <div class="videoPopup">
+
+    <iframe width="100%" height="500" src="https://www.youtube.com/embed/qjVYRDQAl2Q"></iframe>
+
+    <span class="close"></span>
+    </div>
+  </div>
+</section>
+
 
   <section id="about">
     <div class="container">
@@ -72,11 +185,11 @@
             contribute to different projects and earn points simultaneously. A minified version of GSOC, OpenCode is organised
             by the FOSS wing of IIIT-Allahabad's technical society, Geekhaven.</p>
           <!-- <ul>
-              <li>Clickable nav links that smooth scroll to page sections</li>
-              <li>Responsive behavior when clicking nav links perfect for a one page website</li>
-              <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
-              <li>Minimal custom CSS so you are free to explore your own unique design options</li>
-            </ul> -->
+                <li>Clickable nav links that smooth scroll to page sections</li>
+                <li>Responsive behavior when clicking nav links perfect for a one page website</li>
+                <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
+                <li>Minimal custom CSS so you are free to explore your own unique design options</li>
+              </ul> -->
         </div>
       </div>
     </div>
@@ -85,21 +198,31 @@
   <section id="services" class="bg-light">
     <div class="container">
       <div class="row">
-        <div class="mentors" id="mentors">
+        <div class="col-md-12" class="mentors" id="mentors">
           <div class="heading">
-            <h1>Mentors</h1>
+            <h1 id="center-mentor">Mentors</h1>
           </div>
-          <div class="card" v-for="mentor in mentors" onclick="this.classList.toggle('flipped')">
+          <div class="card" v-for="mentor in alphaSort(mentors)" onclick="this.classList.toggle('flipped')">
             <div class="front">
               <div class="image">
                 <img v-bind:src="mentor.imageurl">
               </div>
-              <div class="name">{{ mentor.name }}</div>
+              <div class="name">
+                <div class="triangle-left"></div>
+                <div class="triangle-right"></div>
+                {{ mentor.name }}</div>
             </div>
             <div class="back">
+              <!-- <div class="snow-card"></div> -->
               <div class="about">
-                <h3>About me</h3>{{ mentor.about }}</div>
+                <div id="snow"></div>
+                <h3>About me</h3>
+                <hr class="card-underline">
+                <p>{{ mentor.about }}</p>
+              </div>
               <div class="social">
+                <div class="triangle-left"></div>
+                <div class="triangle-right"></div>
                 <a v-bind:href="mentor.facebook">
                   <i class="fa fa-facebook-official" aria-hidden="true"></i>
                 </a>
@@ -123,19 +246,30 @@
       <div class="row">
         <div class="contestants" id="contestants">
           <div class="heading">
-            <h1>Participants</h1>
+            <h1 id="center-participant">Participants</h1>
           </div>
-          <div class="card" v-for="contestant in contestants" onclick="this.classList.toggle('flipped')">
+          <div class="card" v-for="contestant in alphaSort(contestants)" onclick="this.classList.toggle('flipped')">
             <div class="front">
               <div class="image">
                 <img v-bind:src="contestant.imageurl">
               </div>
-              <div class="name">{{ contestant.name }}</div>
+              <div class="name">
+                <div class="triangle-left"></div>
+                <div class="triangle-right"></div>
+                {{ contestant.name }}</div>
             </div>
             <div class="back">
+              <!-- <div id="snow"></div> -->
               <div class="about">
-                <h3>About me</h3>{{ contestant.about }}</div>
+                  <div id="snow"></div>
+                <h3>About me</h3>
+                <p class="card-college">{{ contestant.college }}</p>
+                <hr class="card-underline">
+                <p class="card-bio">{{ contestant.about }}</p>
+              </div>
               <div class="social">
+                <div class="triangle-left"></div>
+                <div class="triangle-right"></div>
                 <a v-bind:href="contestant.facebook">
                   <i class="fa fa-facebook-official" aria-hidden="true"></i>
                 </a>
@@ -150,70 +284,217 @@
           </div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section id="works" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="projects" id="projects">
+          <div class="heading">
+            <h1 id="center-project">Projects</h1>
+          </div>
+
+          <div class="card" v-for="project in alphaSort(projects)" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <div class="project">
+
+                  <p class="project-name">{{ project.name }}</p>
+                  <hr class="card-underline">
+                  <p class="project-mentored-by">Mentored by</p>
+                  <p class="project-mentor">{{ project.mentors }}</p>
+
+              </div>
+              <div class="name">
+                <div class="triangle-left"></div>
+                <div class="triangle-right"></div>
+                {{ project.lang }}</div>
+            </div>
+            <div class="back">
+              <!-- <div id="snow"></div> -->
+              <div class="about">
+                <div id="snow"></div>
+                <p class="project-name">ABOUT PROJECT</p>
+                <hr class="card-underline">
+                <p class="about-project">{{ project.about }}</p>
+              </div>
+              <div class="social">
+                <div class="triangle-left"></div>
+                <div class="triangle-right"></div>
+                <a v-bind:href="project.github">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="issues">
+      <div class="section-title">
+          ISSUES
+      </div>
+
+      <div id="accordion" class="container">
+
+          <div class="project-title" id="opencode18-OpenCode-Collaborative-heading">
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+                 OpenCode-Collaborative (html, css, javascript)
+              <a href="#">
+                 <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+           </div>
+
+          <div class="project-issues-list container" role="tab">
+            <div class="row" id="opencode18-OpenCode-Collaborative-issues">
+            </div>
+	    <br>	
+            <div class="row" id="opencode18-OpenCode-Collaborative-load-more">
+
+                <button class="btn btn-danger" onclick="loadMoreIssues('opencode18', 'OpenCode-Collaborative')">Load more</button>
+
+             </div>
+          </div>
+
+          <!-- ================================================================================== -->
+          <!-- COPY AND PASTE THIS BLOCK AND REPLACE USER opencode18 AND REPOSITORY NAME CodeStash-->
+          <!-- ================================================================================== -->
+
+          <div class="project-title" id="opencode18-CodeStash-heading">
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+                  CodeStash (C, C++)
+              <a href="#">
+                 <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+           </div>
+
+          <div class="project-issues-list container" role="tab">
+            <div class="row" id="opencode18-CodeStash-issues">
+            </div>
+
+            <div class="row" id="opencode18-CodeStash-load-more">
+
+                <button class="btn btn-danger" onclick="loadMoreIssues('opencode18', 'CodeStash')">Load more</button>
+
+             </div>
+          </div>
+
+          <!-- ============================================================== -->
+          <!-- NOW GO DOWN TO script.js-->
+          <!-- ============================================================== -->
+
+      </div>
   </section>
 
   <!-- Footer -->
- <footer id="footer" role="contentinfo">
-			<div class="container">
-			<!-- <div class=""> -->
-				<div class="col-md-12 text-center">
-					<div>
-        
-          </div>
+  <footer role="contentinfo">
+    <div class="container">
+      <!-- <div class=""> -->
+      <!-- <div class="col-md-12 text-center"> -->
+      <!-- <div> -->
 
-          <p>Created with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://geekhaven.iiita.ac.in/foss/" target="_blank">FOSS</a></p>
+      <!-- </div> -->
 
-        </div>
 
-						<!-- <div class="col-md-6 to-animate"> -->
-							<!-- <h3>Contact Info</h3> -->
+      <!-- </div> -->
 
-								<!-- <li class="fh5co-contact-address ">
+      <!-- <div class="col-md-6 to-animate"> -->
+      <!-- <h3>Contact Info</h3> -->
+
+      <!-- <li class="fh5co-contact-address ">
 									<i class="icon-home"></i>
 									5555 Love Paradise 56 New Clity 5655, <br>Excel Tower United Kingdom
 								</li> -->
 
-								<!-- <div class="row">
-
+      <!-- <div class="row">
 							<div class="col-md-4">
-
 									<h4 class="contact_head">Faheem Zunjani</h4>
 										<i class="icon-envelope contact_icon"></i><span>iit2015113@iiita.ac.in</span>
-
 									</div>
 									<div class="col-md-4">
 								<i class="icon-globe contact_icon"></i> <a href="http://fossiiita.github.io" target="_blank">fossiiita.github.io</a>
 							</div>
-
-
 									<div class="col-md-4">
-
 									<h4 class="contact_head">Mubaris NK</h4>
 									<i class="icon-envelope contact_icon"></i><span>iit2015134@iita.ac.in</span>
 								</div>
-
 						</div> -->
 
-						<!-- </div> -->
-			<!-- </div> -->
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<ul class= "list-inline" style="float: right; margin-right: 0px ;">
-						
-						<li class="list-inline-item"><a href="https://github.com/fossiiita" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true" style="font-size: 40px"></i></a></li>
-						<li class="list-inline-item"><a href="mailto:iit2015113@iiita.ac.in"><i class="fa fa-envelope-square" style="font-size: 40px" ></i></a></li>
-						<li class="list-inline-item"><a href="https://www.facebook.com/opencodeiiita/"><i class=" fa fa-facebook-square" style="font-size: 40px" ></i></a></li>
-					</ul>
-					
-				</div>
-			</div>
-		</div>
-	</footer>
+      <!-- </div> -->
+      <!-- </div> -->
+      <div class="row">
+
+        <div class="col-12 col-sm-12 col-md-4">
+
+          <ul class="list-inline">
+
+            <li class="list-inline-item">
+              <a href="https://github.com/fossiiita" target="_blank">
+                <img class="img-responsive" id="foss" src="images/favicon/foss.png">
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://geekhaven.iiita.ac.in/">
+                <img class="img-responsive" id="geek" src="images/favicon/Geekhaven.png">
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.iiita.ac.in/">
+                <img class="img-responsive" id="iiita" src="images/favicon/iiita.png">
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-4">
+
+          <p style="color:white">Created with
+            <i class="fa fa-heart" aria-hidden="true"></i> by
+            <a href="https://geekhaven.iiita.ac.in/foss/" target="_blank">FOSS</a>
+          </p>
+        </div>
+
+
+        <div class="col-12 col-sm-12 col-md-4">
+          <ul class="list-inline">
+
+            <li class="list-inline-item">
+              <a href="https://github.com/fossiiita" target="_blank">
+                <i class="fa fa-github fa-2x" aria-hidden="true" style="font-size: 40px"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="mailto:iit2015113@iiita.ac.in">
+                <i class="fa fa-envelope-square" style="font-size: 40px"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/opencodeiiita/">
+                <i class=" fa fa-facebook-square" style="font-size: 40px"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </footer>
 
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JQuery UI -->
+  <script src="vendor/jquery/jquery-ui.min.js"></script>
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
@@ -223,9 +504,57 @@
 
 
 
-  </body>
+
+
+
   <script src="https://unpkg.com/vue"></script>
   <script src="js/mentor.js"></script>
   <script src="js/contestant.js"></script>
+  <script src="js/projects.js"></script>
+  <script src="js/issue-loader.js"></script>
 
+
+  <!-- Accordion Issues Menu -->
+  <script>
+    $(document).ready(function () {
+      $(function () {
+        $("#accordion").accordion({
+          collapsible: true,
+          active: false,
+          heightStyle: "content"
+        });
+      });
+
+
+    });
+  </script>
+
+          <!-- ===================================================================================== -->
+          <!-- IN THIS SCRIPT TAG BELOW, COPY AND PASTE THE LINE AND REPLACE USERNAME AND REPO NAME-->
+          <!-- ===================================================================================== -->
+
+  <script>
+
+    $(document).ready(function () {
+      $('#opencode18-CodeStash-load-more button').click();
+      $('#opencode18-OpenCode-Collaborative-load-more button').click();
+    });
+
+  </script>
+
+
+
+
+
+</body>
+<script src="https://unpkg.com/vue"></script>
+<script src="js/mentor.js"></script>
+<script src="js/contestant.js"></script>
+<script src="js/projects.js"></script>
+
+</html>
+
+<script src="countDown.js"></script>
+<script src="js/apicall.js"></script>
+<script src="js/popup.js"></script>
 </html>
