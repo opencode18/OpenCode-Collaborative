@@ -829,6 +829,16 @@
            "github" : "https://github.com/masterchef2209",
            "twitter" : "",
            "referral" : ""
-	}
+	},
+	   {
+   "name" : "Prashik Raut",
+   "imageurl" : "contestant/github-512.png",
+   "about" : "Learning !!",
+   "college" : "Indian Institute Of Information Technology,Allahabad",
+   "facebook" : "https://www.facebook.com/prashik.raut.14",
+   "github" : "https://github.com/prashikr",
+   "twitter" : "",
+   "referral" : "namantw"
+}
    ]
 }
