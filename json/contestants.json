@@ -60,6 +60,18 @@
          "twitter":"",
          "referral":"https://github.com/surasnayak"
       },
+	   
+	    {
+         "name":"Shailendra Kumar",
+         "imageurl":"contestant/shailendra.png",
+         "about":"Coding is my passion. Dont take it from me!!",
+	"college":"IIIT Allahabad",
+         "facebook":"",
+         "github":"https://github.com/Shail7524",
+         "twitter":"",
+         "referral":"https://github.com/surasnayak"
+      },
+	   
 	   {
          "name":"Sanghamitra Nayak",
          "imageurl":"contestant/sanghamitra.jpg",
@@ -585,7 +597,7 @@
         },
 	    {
       	  "name" : "Anshuman Verma",
-      	  "imageurl" : "contestant/anshumanv.jpg",
+      	  "imageurl" : "contestant/anshumanv.jpeg",
           "about" : "Football | Anime",
           "college" : "",
       	  "facebook" : "https://www.facebook.com/anshumanv12",
@@ -761,9 +773,9 @@
       },
       {
           "name" : "Maanas Vohra",
-          "imageurl" : "contestant/maanas.jpg",
+          "imageurl" : "contestant/maanas1.jpg",
           "about" : "A professional procastinator",
-          "college" : "Indian Institute of Information Technology, Allahabad",
+          "college" : "IIIT - Allahabad",
           "facebook" : "https://www.facebook.com/maanas.vohra",
           "github" : "https://github.com/MaanasVohra",
           "twitter" : "",
