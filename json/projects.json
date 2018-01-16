@@ -182,6 +182,38 @@
 			"about": "Visualisations of awesome concepts from Physics ",
 			"lang": "HTML, JavaScript",
 			"github": "https://github.com/himanshub16/cool-physics"
+		},
+		{
+			"name": "Coindesk",
+			"imageurl": "",
+			"mentors": "Team GoStudents",
+			"about": "Golang API client for Coindesk",
+			"lang": "Go",
+			"github": "https://github.com/gostudent/coindesk"
+		},
+		{
+			"name": "Console",
+			"imageurl": "",
+			"mentors": "Team GoStudents",
+			"about": "Beautiful Console Logging with Emojis",
+			"lang": "Go",
+			"github": "https://github.com/gostudent/console"
+		},	
+		{
+			"name": "Grypto",
+			"imageurl": "",
+			"mentors": "Team GoStudents",
+			"about": "Terminal Application to check price of Cryptocurrencies",
+			"lang": "Go",
+			"github": "https://github.com/gostudent/Grypto"
+		},
+		{
+			"name": "Aurora",
+			"imageurl": "",
+			"mentors": "Team GoStudents",
+			"about": "A Package to create quote images",
+			"lang": "Go",
+			"github": "https://github.com/gostudent/aurora"
 		}
 	]
 }
