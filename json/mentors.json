@@ -8,6 +8,14 @@
             "github" : "",
             "twitter" : ""
         },
+         {
+            "name" : "Abhinav Khare",
+            "imageurl" : "mentor/abhinav.jpeg",
+            "about" : "My mom says I'm cool",
+            "facebook" : "https://www.facebook.com/khareabhinav",
+            "github" : "https://github.com/CosmicCoder96",
+            "twitter" : ""
+        },
         {
             "name" : "Himanshu Shekhar",
             "imageurl" : "mentor/himanshu.jpg",
