@@ -56,7 +56,7 @@
 }
 ::-webkit-scrollbar-thumb {
     background: #888;
-    border-radius: 15px; 
+    border-radius: 15px;
 }
 ::-webkit-scrollbar-thumb:hover {
       background: #555;
@@ -64,7 +64,7 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
-	
+
 </style>
   <style type="text/css">
   @media screen and (max-width: 300px) {
@@ -105,18 +105,21 @@
             <a class="nav-link js-scroll-trigger" id="trailer" href="#trailer">Trailer</a>
           </li>
           <li class="nav-item">
+            <span class="space"></span>
+          </li>
+          <li class="nav-item">
             <div class="st">
-              <span id="star-box"><i class="fa fa-star" aria-hidden="true"></i><a href="https://github.com/opencode18/OpenCode-Collaborative">  Stars</a></span>
+              <span id="star-box"><i class="fa fa-star" aria-hidden="true"></i><a href="https://github.com/opencode18/OpenCode-Collaborative" style="text-decoration-line: none" target="_blank">  Stars</a></span>
               <span id="star"></span>
             </div>
           </li>
           <li class="nav-item">
             <div class="fo">
-              <span id="fork-box"><i class="fa fa-code-fork" aria-hidden="true"></i><a href="https://github.com/opencode18/OpenCode-Collaborative">  Forks</a></span>
+              <span id="fork-box"><i class="fa fa-code-fork" aria-hidden="true"></i><a href="https://github.com/opencode18/OpenCode-Collaborative" style="text-decoration-line: none" target="_blank">  Forks</a></span>
               <span id="fork"></span>
             </div>
           </li>
-          
+
         </ul>
       </div>
     </div>
@@ -144,7 +147,14 @@
   </header>
 <br>
 <br>
-
+<div class="sticky-container">
+    <ul class="sticky">
+        <li>
+            <img src="images/fb.jpeg" width="70" height="150">
+			<p><br><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fopencodeiiita%2F&tabs=timeline&width=340&height=200&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" padding-left="10px" width="340" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></p>
+        </li>
+    </ul>
+</div>
 
 <div id="clockdiv">
 	<div><span class="days"></span><div class="smalltext">Days</div></div>
@@ -157,9 +167,9 @@
 <section id="Trailer">
   <div id="popupBody" class="videoHidden">
     <div class="videoPopup">
-      
-    <iframe width="100%" height="700" src="https://www.youtube.com/embed/qjVYRDQAl2Q"></iframe>
-    
+
+    <iframe width="100%" height="500" src="https://www.youtube.com/embed/qjVYRDQAl2Q"></iframe>
+
     <span class="close"></span>
     </div>
   </div>
@@ -345,7 +355,7 @@
           <div class="project-issues-list container" role="tab">
             <div class="row" id="opencode18-OpenCode-Collaborative-issues">
             </div>
-
+	    <br>	
             <div class="row" id="opencode18-OpenCode-Collaborative-load-more">
 
                 <button class="btn btn-danger" onclick="loadMoreIssues('opencode18', 'OpenCode-Collaborative')">Load more</button>
@@ -384,7 +394,7 @@
   </section>
 
   <!-- Footer -->
-  <footer id="footer" role="contentinfo" style="background: -webkit-linear-gradient(135deg, #ff6a00, #ee0979);"/>
+  <footer role="contentinfo">
     <div class="container">
       <!-- <div class=""> -->
       <!-- <div class="col-md-12 text-center"> -->
@@ -421,9 +431,9 @@
       <!-- </div> -->
       <div class="row">
 
-        <div class="col-xs-12 col-md-4 text-center">
+        <div class="col-12 col-sm-12 col-md-4">
 
-          <ul class="list-inline" style="float: left; margin-right: 0px ;">
+          <ul class="list-inline">
 
             <li class="list-inline-item">
               <a href="https://github.com/fossiiita" target="_blank">
@@ -443,7 +453,7 @@
           </ul>
         </div>
 
-        <div class="col-xs-12 col-md-4 text-center">
+        <div class="col-12 col-sm-12 col-md-4">
 
           <p style="color:white">Created with
             <i class="fa fa-heart" aria-hidden="true"></i> by
@@ -452,8 +462,8 @@
         </div>
 
 
-        <div class="col-xs-12 col-md-4 text-center">
-          <ul class="list-inline" style="float: right; margin-right: 0px ;">
+        <div class="col-12 col-sm-12 col-md-4">
+          <ul class="list-inline">
 
             <li class="list-inline-item">
               <a href="https://github.com/fossiiita" target="_blank">
@@ -548,4 +558,3 @@
 <script src="js/apicall.js"></script>
 <script src="js/popup.js"></script>
 </html>
-
