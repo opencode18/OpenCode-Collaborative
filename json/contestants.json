@@ -829,6 +829,16 @@
            "github" : "https://github.com/masterchef2209",
            "twitter" : "",
            "referral" : ""
+	},
+	{
+   	   "name" : "Yash Agarwal",
+  	   "imageurl" : "contestant/yash-agarwal.jpg",
+           "about" : "Do it with perfection or don't do it!!!",
+           "college" : "IIIT-Allahabad",
+           "facebook" : "https://www.facebook.com/yashyorker",
+           "github" : "https://github.com/yash-agarwal17",
+           "twitter" : "",
+           "referral" : "Ekansh Bansal"
 	}
    ]
 }
