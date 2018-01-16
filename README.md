@@ -60,15 +60,15 @@ To add Your scores open `json/scores.json` and follow the given format
 >   
 
        {  
-        &nbsp;&nbsp;     "name" : "Name",  
-        &nbsp;&nbsp;     "Contributions" : {
-                               "name": "Name of issue",
-                               "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/331",
-                               "PRlink": "Link of the PR",
-                               "score": "10"   
+        "name" : "Name",  
+        "Contributions" : {
+                           "name": "Name of issue",
+                           "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/331",
+                           "PRlink": "Link of the PR",
+                           "score": "10"   
                          },
-                         "Total" : "500"
-        }
+        "Total" : "500"
+       }
         
 
 
