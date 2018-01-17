@@ -3,7 +3,7 @@
         {
             "name" : "AK-007",
             "imageurl": "game/tic.jpg",
-            "gamename" : "tic-tac-to",
+            "gamename" : "tic-tac-toe",
             "github" : "https://ak-007.github.io/Tic-Tac-Toe/"
         },
         {
