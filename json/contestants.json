@@ -1,4 +1,4 @@
-{
+﻿{
    "contestants":[
       {
          "name":"Sneha Mishra",
@@ -851,6 +851,16 @@
            "twitter" : "",
            "referral" : ""
 	},
+        {
+      	  "name" : "Mahak Saria",
+      	  "imageurl" : "contestant/mahek.jpg",
+      	  "about" : "Beginner in the world of open source",
+	        "college":"SRM Institute of Science and Technology",
+      	  "facebook" : "https://www.facebook.com/mahek.saria123",
+      	  "github" : "https://github.com/mahek5",
+      	  "twitter" : "",
+	        "referral" : "shivhek25"
+      },
 	   {
    "name" : "Prashik Raut",
    "imageurl" : "contestant/github-512.png",
