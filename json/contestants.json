@@ -849,6 +849,16 @@
       "github" : "https://github.com/Ace-Bansal",
       "twitter" : "",
       "referral" : ""
-    }
+    },
+   {
+         "name":"Snigdha Dobhal",
+         "imageurl":"contestant/Code.jpg",
+         "about":"Coding is love!!!",
+         "college":"IIIT Allahabad",
+         "facebook":"https://www.facebook.com/snigdha.dobhal",
+         "github":"https://github.com/SnigdhaDobhal",
+         "twitter":"",
+         "referral":"https://github.com/Ace-Bansal"
+   }
    ]
 }
