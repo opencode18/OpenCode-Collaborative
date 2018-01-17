@@ -367,6 +367,7 @@ height:auto;
 padding:40px 0 20px 0;
 background: -webkit-linear-gradient(45deg, #ee0979, #ff6a00);
 text-align: center;
+<<<<<<< HEAD
 }
 
 footer ul{
@@ -378,6 +379,19 @@ footer .list-inline-item a:visited{
   color:white;
 }
 
+=======
+}
+
+footer ul{
+  margin:10px auto;
+}
+
+footer .list-inline-item a:link,
+footer .list-inline-item a:visited{
+  color:white;
+}
+
+>>>>>>> upstream/master
 footer .list-inline-item a:hover{
   color:white!important;
   background:none;
@@ -481,5 +495,30 @@ footer p{
   10%{ transform: rotateY(0deg);}
   90%{ transform: rotateY(0deg);}
   100% { transform: rotateY(-180deg);}
+}
+
+/*----------------------- Preloader -----------------------*/
+body.preloader-site {
+    overflow: hidden;
+}
+
+.preloader-wrapper {
+    height: 100%;
+    width: 100%;
+    background: #FFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+}
+
+.preloader-wrapper .preloader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 120px;
+    margin-left: -50px;
 }
 

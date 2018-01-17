@@ -49,7 +49,7 @@
          "twitter":"",
          "referral":"https://github.com/surasnayak"
       },
-	   
+
 	   {
          "name":"Saurabh Kumar",
          "imageurl":"contestant/saurabh.png",
@@ -60,7 +60,7 @@
          "twitter":"",
          "referral":"https://github.com/surasnayak"
       },
-	   
+
 	    {
          "name":"Shailendra Kumar",
          "imageurl":"contestant/shailendra.png",
@@ -71,7 +71,7 @@
          "twitter":"",
          "referral":"https://github.com/surasnayak"
       },
-	   
+
 	   {
          "name":"Sanghamitra Nayak",
          "imageurl":"contestant/sanghamitra.jpg",
@@ -839,6 +839,26 @@
            "github" : "https://github.com/yash-agarwal17",
            "twitter" : "",
            "referral" : "Ekansh Bansal"
-	}
+	},
+	   {
+   "name" : "Prashik Raut",
+   "imageurl" : "contestant/github-512.png",
+   "about" : "Learning !!",
+   "college" : "Indian Institute Of Information Technology,Allahabad",
+   "facebook" : "https://www.facebook.com/prashik.raut.14",
+   "github" : "https://github.com/prashikr",
+   "twitter" : "",
+   "referral" : "namantw"
+},
+  {
+      "name" : "Ekansh Bansal",
+      "imageurl" : "contestant/Ekansh.png",
+      "about" : "Naah I don't have anything witty to say!",
+      "college" : "IIIT-Allahabad",
+      "facebook" : "https://www.facebook.com/ekansh.bansal.77",
+      "github" : "https://github.com/Ace-Bansal",
+      "twitter" : "",
+      "referral" : ""
+    }
    ]
 }
