@@ -35,7 +35,7 @@
   <link rel="stylesheet" href="css/simple-line-icons.css">
   <link rel="stylesheet" href="css/style.css">
   <link href="style1.css" media="all" rel="stylesheet" />
-
+  <link rel="stylesheet" href="css/game-style.css">
   <link rel="stylesheet" href="css/projects-style.css">
   <link rel="stylesheet" href="css/issues-style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -70,11 +70,11 @@
 </style>
   <style type="text/css">
   @media screen and (max-width: 300px) {
-    div.mentors, div.contestants, div.projects{margin-left: 14vh;}
+    div.mentors, div.contestants, div.projects, div.game{margin-left: 14vh;}
     h1#center-mentor{margin-left: 5vh;}
     h1#center-participant{margin-left: 1vh;}
     h1#center-project{margin-left: 5vh;}
-
+    h1#center-game{margin-left: 5vh;}
     }
   </style>
   <!-- jQuery -->
@@ -110,6 +110,10 @@
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#works">Projects</a>
+          </li>
+		
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#fun">game</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" id="trailer" href="#trailer">Trailer</a>
@@ -343,6 +347,43 @@
       </div>
     </div>
   </section>
+	
+  <section id="fun" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="game" id="game">
+          <div class="heading">
+            <h1 id="center-game">game</h1>
+          </div>
+
+          <div class="card" v-for="game in alphaSort(game)" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <div class="game">
+
+                  <p class="game-gamename">{{ game.gamename }}</p>
+                  <hr class="card-underline">
+                  <p class="game-by">Made by</p>
+                  <p class="game-name">{{ game.name }}</p>
+
+            <div class="back">
+              <!-- <div id="snow"></div> -->
+              <div class="social">
+                <div class="triangle-left"></div>
+                <div class="triangle-right"></div>
+                <a v-bind:href="game.gh-pageurl">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
 
 
 
@@ -547,6 +588,6 @@
 <script src="countDown.js"></script>
 <script src="js/apicall.js"></script>
 <script src="js/popup.js"></script>
-
+<script src="js/game.js"></script>
 </body>
 </html>
