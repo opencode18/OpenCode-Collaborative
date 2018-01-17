@@ -17,6 +17,12 @@
 .game .card-underline{
     margin:0;
 }
+
+.about-game{
+    font-size:15px;
+
+}
+
 .game-gamename{
     text-transform: uppercase;
     font-size:14.5px;
@@ -26,6 +32,17 @@
     padding:5px 0;
 
 }
+
+.game-url{
+    text-transform: uppercase;
+    font-size:14.5px;
+    text-align: center;
+    font-weight:700;
+    margin-bottom:0;
+    padding:5px 0;
+
+}
+
 
 .game .card .front .game .game-by{
    font-size:12px;
