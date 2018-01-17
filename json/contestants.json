@@ -10,6 +10,16 @@
          "twitter":"",
          "referral":""
       },
+	   {
+         "name":"Piyush Mantri",
+         "imageurl":"contestant/mantri.jpg",
+         "about":"Keep Learning",
+         "college":"NIT Durgapur",
+         "facebook":"https://www.facebook.com/piyush.mantri007",
+         "github":"https://github.com/piyu007",
+         "twitter":"",
+         "referral":"shivhek25"
+	   },
 	    {
          "name":"Rudransh Gupta",
          "imageurl":"contestant/pp1.jpg",
