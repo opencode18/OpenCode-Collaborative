@@ -1,26 +1,21 @@
 {
     "game" : [
         {
+            "name" : "Ananya Agrawal",
+            "imageurl": "game/brick.png",
+            "gamename" : "Break-The-Brick",
+            "github" : "https://ananya-agrawal.github.io/break-the-brick-game/"
+        },
+        
+        {
             "name" : "AK-007",
             "imageurl": "game/tic.jpg",
             "gamename" : "tic-tac-toe",
             "github" : "https://ak-007.github.io/Tic-Tac-Toe/"
         },
         {
-            "name" : "OrionStar25 ",
-            "imageurl": "",
-            "gamename" : "Whack-a-Mole-game",
-            "github" : "https://orionstar25.github.io/Whack-a-Mole-game/"
-        },
-        {
-            "name" : "swaager",
-            "imageurl": "",
-            "gamename" : "dodger-game",
-            "github" : "https://swaager.github.io/Dodger_game/dodger.html"
-        },
-        {
             "name" : "adiagg2000",
-            "imageurl": "",
+            "imageurl": "game/memory.jpeg",
             "gamename" : "memory-game",
             "github" : "https://adiagg2000.github.io/memory_game/memory.html"
         }
