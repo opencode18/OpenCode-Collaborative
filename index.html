@@ -353,36 +353,36 @@
       <div class="row">
         <div class="game" id="game">
           <div class="heading">
-            <h1 id="center-game">game</h1>
+            <h1 id="center-game">Participant's Game</h1>
           </div>
-
           <div class="card" v-for="game in alphaSort(game)" onclick="this.classList.toggle('flipped')">
             <div class="front">
-              <div class="game">
-
-                  <p class="game-gamename">{{ game.gamename }}</p>
-                  <hr class="card-underline">
-                  <p class="game-by">Made by</p>
-                  <p class="game-name">{{ game.name }}</p>
-
-            <div class="back">
-              <!-- <div id="snow"></div> -->
-              <div class="social">
-                <div class="triangle-left"></div>
-                <div class="triangle-right"></div>
-                <a v-bind:href="game.gh-pageurl">
-                  <i class="fa fa-github" aria-hidden="true"></i>
-                </a>
-
-              </div>
-            </div>
+                <div class="game">
+                    <p class="game-by">Made by</p>
+                    <p class="game-name">{{ game.name }}</p>
+                </div>
+                <div class="name">
+                    <div class="triangle-left"></div>
+                    <div class="triangle-right"></div>
+                    {{ game.gamename }}</div>
+                </div>
+                <div class="back">
+                    <!-- <div id="snow"></div> -->
+                    
+                    <div class="social">
+                      <div class="triangle-left"></div>
+                      <div class="triangle-right"></div>
+                      <a v-bind:href="game.github">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                  </div>
           </div>
 
         </div>
       </div>
     </div>
   </section>
-
 
 
 
