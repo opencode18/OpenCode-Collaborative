@@ -1,4 +1,4 @@
-{
+﻿{
    "contestants":[
       {
          "name":"Sneha Mishra",
@@ -829,6 +829,16 @@
            "github" : "https://github.com/masterchef2209",
            "twitter" : "",
            "referral" : ""
-	}
+	},
+        {
+      	  "name" : "Mahak Saria",
+      	  "imageurl" : "contestant/mahek.jpg",
+      	  "about" : "Beginner in the world of open source",
+	        "college":"SRM Institute of Science and Technology",
+      	  "facebook" : "https://www.facebook.com/mahek.saria123",
+      	  "github" : "https://github.com/mahek5",
+      	  "twitter" : "",
+	        "referral" : ""
+      }
    ]
 }
