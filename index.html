@@ -40,23 +40,25 @@
   <link rel="stylesheet" href="css/issues-style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style type="text/css">
-
 ::-webkit-scrollbar {
     width: 20px;
 }
-
-
+::-webkit-scrollbar {
+    width: 20px;
+}
 ::-webkit-scrollbar-track {
     background: #f1f1f1;
 }
-
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
 ::-webkit-scrollbar-thumb {
     background: #888;
     border-radius: 15px ;
 }
 ::-webkit-scrollbar-thumb {
     background: #888;
-    border-radius: 15px; 
+    border-radius: 15px;
 }
 ::-webkit-scrollbar-thumb:hover {
       background: #555;
@@ -64,7 +66,7 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
-	
+
 </style>
   <style type="text/css">
   @media screen and (max-width: 300px) {
@@ -75,10 +77,18 @@
 
     }
   </style>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="js/preloader.js"></script>
+
 </head>
 <script>var cards = document.querySelectorAll(".card");</script>
 <body id="page-top">
-
+<div class="preloader-wrapper">
+    <div class="preloader">
+        <img style="margin-left: -15px; margin-top: -25px;" src="images/running.gif" alt="NILA">
+    </div>
+</div>
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
     <div class="container">
@@ -105,18 +115,21 @@
             <a class="nav-link js-scroll-trigger" id="trailer" href="#trailer">Trailer</a>
           </li>
           <li class="nav-item">
+            <span class="space"></span>
+          </li>
+          <li class="nav-item">
             <div class="st">
-              <span id="star-box"><i class="fa fa-star" aria-hidden="true"></i><a href="https://github.com/opencode18/OpenCode-Collaborative">  Stars</a></span>
+              <span id="star-box"><i class="fa fa-star" aria-hidden="true"></i><a href="https://github.com/opencode18/OpenCode-Collaborative" style="text-decoration-line: none" target="_blank">  Stars</a></span>
               <span id="star"></span>
             </div>
           </li>
           <li class="nav-item">
             <div class="fo">
-              <span id="fork-box"><i class="fa fa-code-fork" aria-hidden="true"></i><a href="https://github.com/opencode18/OpenCode-Collaborative">  Forks</a></span>
+              <span id="fork-box"><i class="fa fa-code-fork" aria-hidden="true"></i><a href="https://github.com/opencode18/OpenCode-Collaborative" style="text-decoration-line: none" target="_blank">  Forks</a></span>
               <span id="fork"></span>
             </div>
           </li>
-          
+
         </ul>
       </div>
     </div>
@@ -144,7 +157,14 @@
   </header>
 <br>
 <br>
-
+<div class="sticky-container">
+    <ul class="sticky">
+        <li>
+            <img src="images/fb.jpeg" width="70" height="150">
+			<p><br><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fopencodeiiita%2F&tabs=timeline&width=340&height=200&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" padding-left="10px" width="340" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></p>
+        </li>
+    </ul>
+</div>
 
 <div id="clockdiv">
 	<div><span class="days"></span><div class="smalltext">Days</div></div>
@@ -157,9 +177,9 @@
 <section id="Trailer">
   <div id="popupBody" class="videoHidden">
     <div class="videoPopup">
-      
-    <iframe width="100%" height="700" src="https://www.youtube.com/embed/qjVYRDQAl2Q"></iframe>
-    
+
+    <iframe width="100%" height="500" src="https://www.youtube.com/embed/qjVYRDQAl2Q"></iframe>
+
     <span class="close"></span>
     </div>
   </div>
@@ -345,7 +365,7 @@
           <div class="project-issues-list container" role="tab">
             <div class="row" id="opencode18-OpenCode-Collaborative-issues">
             </div>
-
+	    <br>	
             <div class="row" id="opencode18-OpenCode-Collaborative-load-more">
 
                 <button class="btn btn-danger" onclick="loadMoreIssues('opencode18', 'OpenCode-Collaborative')">Load more</button>
@@ -478,7 +498,6 @@
     </div>
   </footer>
 
-
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -490,19 +509,6 @@
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom JavaScript for this theme -->
-  <script src="js/scrolling-nav.js"></script>
-
-
-
-
-
-
-  <script src="https://unpkg.com/vue"></script>
-  <script src="js/mentor.js"></script>
-  <script src="js/contestant.js"></script>
-  <script src="js/projects.js"></script>
-  <script src="js/issue-loader.js"></script>
-
 
   <!-- Accordion Issues Menu -->
   <script>
@@ -532,20 +538,14 @@
 
   </script>
 
-
-
-
-
-</body>
+<script src="js/scrolling-nav.js"></script>
 <script src="https://unpkg.com/vue"></script>
 <script src="js/mentor.js"></script>
 <script src="js/contestant.js"></script>
 <script src="js/projects.js"></script>
-
-</html>
-
+<script src="js/issue-loader.js"></script>
 <script src="countDown.js"></script>
 <script src="js/apicall.js"></script>
 <script src="js/popup.js"></script>
+</body>
 </html>
-
