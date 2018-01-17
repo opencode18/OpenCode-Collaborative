@@ -9,9 +9,6 @@ body{
   margin-top: 40px;
 }
 
-a:hover{
-  background: -webkit-linear-gradient(45deg, #ee0979, #ff6a00);
-}
 
 #clockdiv{
 	font-family: sans-serif;

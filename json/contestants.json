@@ -49,6 +49,29 @@
          "twitter":"",
          "referral":"https://github.com/surasnayak"
       },
+
+	   {
+         "name":"Saurabh Kumar",
+         "imageurl":"contestant/saurabh.png",
+         "about":"Coding is my passion. Dont take it from me!!",
+	"college":"IIIT Allahabad",
+         "facebook":"",
+         "github":"https://github.com/srbkhr",
+         "twitter":"",
+         "referral":"https://github.com/surasnayak"
+      },
+
+	    {
+         "name":"Shailendra Kumar",
+         "imageurl":"contestant/shailendra.png",
+         "about":"Coding is my passion. Dont take it from me!!",
+	"college":"IIIT Allahabad",
+         "facebook":"",
+         "github":"https://github.com/Shail7524",
+         "twitter":"",
+         "referral":"https://github.com/surasnayak"
+      },
+
 	   {
          "name":"Sanghamitra Nayak",
          "imageurl":"contestant/sanghamitra.jpg",
@@ -368,7 +391,7 @@
       },
 	{
             "name" : "Nabeel Jawahir",
-            "imageurl" : "contestant/nabeel.png",
+            "imageurl" : "contestant/nabeel.jpg",
             "about" : "ganggang",
             "facebook" : "https://www.facebook.com/nab331",
             "github" : "https://github.com/nab331",
@@ -572,9 +595,9 @@
             "twitter" : "",
             "referral":""
         },
-	      {
+	    {
       	  "name" : "Anshuman Verma",
-      	  "imageurl" : "contestant/anshumanv",
+      	  "imageurl" : "contestant/anshumanv.jpeg",
           "about" : "Football | Anime",
           "college" : "",
       	  "facebook" : "https://www.facebook.com/anshumanv12",
@@ -632,7 +655,7 @@
     	},
 	{
           "name" : "Shivansh Srivastava",
-          "imageurl" : "ironman.jpg",
+          "imageurl" : "contestant/ironman.jpg",
           "about" : "The Optimist",
           "college" : "",
           "facebook" : "",
@@ -740,19 +763,19 @@
       } ,
       {
       	  "name" : "Ashish Agarwala",
-      	  "imageurl" : "ashishagarwal.jpg",
+      	  "imageurl" : "contestant/ashishagarwal.jpg",
       	  "about" : "A Noob",
 	        "college":"NIT Durgapur",
       	  "facebook" : "",
-      	  "github" : "https://github.com/ashish4321",
+     	  "github" : "https://github.com/ashish4321",
       	  "twitter" : "",
 	      "referral" : ""
       },
       {
           "name" : "Maanas Vohra",
-          "imageurl" : "contestant/maanas.jpg",
+          "imageurl" : "contestant/maanas1.jpg",
           "about" : "A professional procastinator",
-          "college" : "Indian Institute of Information Technology, Allahabad",
+          "college" : "IIIT - Allahabad",
           "facebook" : "https://www.facebook.com/maanas.vohra",
           "github" : "https://github.com/MaanasVohra",
           "twitter" : "",
@@ -786,6 +809,46 @@
           "github" : "https://github.com/kgauravk",
           "twitter" : "",
           "referral" : ""
-      }
+      },
+	   {
+          "name" : "Shantam Shrestha",
+          "imageurl" : "contestant/logan.jpg",
+          "about" : "I love devolopment(android and web)",
+          "college" : "Indian Institute of Information Technology, Allahabad",
+          "facebook" : "https://www.facebook.com/shantam.shrestha",
+          "github" : "https://github.com/shantam0810",
+          "twitter" : "https://twitter.com/shant0810",
+          "referral" : ""
+      },
+	{
+   	   "name" : "Hidayat Ullah Khan",
+  	   "imageurl" : "contestant/elmo.jpg",
+           "about" : "Newbie to webDev",
+           "college" : "Indian Institute of Information Technology, Lucknow",
+           "facebook" : "https://www.facebook.com/profile.php?id=100017456440701",
+           "github" : "https://github.com/masterchef2209",
+           "twitter" : "",
+           "referral" : ""
+	},
+	   {
+   "name" : "Prashik Raut",
+   "imageurl" : "contestant/github-512.png",
+   "about" : "Learning !!",
+   "college" : "Indian Institute Of Information Technology,Allahabad",
+   "facebook" : "https://www.facebook.com/prashik.raut.14",
+   "github" : "https://github.com/prashikr",
+   "twitter" : "",
+   "referral" : "namantw"
+},
+  {
+      "name" : "Ekansh Bansal",
+      "imageurl" : "contestant/Ekansh.png",
+      "about" : "Naah I don't have anything witty to say!",
+      "college" : "IIIT-Allahabad",
+      "facebook" : "https://www.facebook.com/ekansh.bansal.77",
+      "github" : "https://github.com/Ace-Bansal",
+      "twitter" : "",
+      "referral" : ""
+    }
    ]
 }
