@@ -2,23 +2,31 @@
     "game" : [
         {
             "name" : "AK-007",
+            "about" :"aaa",
+            "imageurl": "game/a.jpeg",
             "gamename" : "tic-tac-to",
-            "gh-pageurl" : "https://ak-007.github.io/Tic-Tac-Toe/"
+            "github" : "https://ak-007.github.io/Tic-Tac-Toe/"
         },
         {
             "name" : "OrionStar25 ",
+            "about" :"aaa",
+            "imageurl": "game/a.jpeg",
             "gamename" : "Whack-a-Mole-game",
-            "gh-pageurl" : "https://orionstar25.github.io/Whack-a-Mole-game/"
+            "github" : "https://orionstar25.github.io/Whack-a-Mole-game/"
         },
         {
             "name" : "swaager",
+            "about" :"aaa",
+            "imageurl": "game/a.jpeg",
             "gamename" : "dodger-game",
-            "gh-pageurl" : "https://swaager.github.io/Dodger_game/dodger.html"
+            "github" : "https://swaager.github.io/Dodger_game/dodger.html"
         },
         {
             "name" : "adiagg2000",
+            "about" :"aaa",
+            "imageurl": "game/a.jpeg",
             "gamename" : "memory-game",
-            "gh-pageurl" : "https://adiagg2000.github.io/memory_game/memory.html"
+            "github" : "https://adiagg2000.github.io/memory_game/memory.html"
         }
     ]
 }
