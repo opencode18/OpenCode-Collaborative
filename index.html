@@ -357,10 +357,10 @@
           </div>
           <div class="card" v-for="game in alphaSort(game)" onclick="this.classList.toggle('flipped')">
             <div class="front">
-                <div class="game">
-                    <p class="game-by">Made by</p>
-                    <p class="game-name">{{ game.name }}</p>
-                </div>
+
+                <div class="image">
+                    <img v-bind:src="game.imageurl">
+                  </div>
                 <div class="name">
                     <div class="triangle-left"></div>
                     <div class="triangle-right"></div>
@@ -368,11 +368,15 @@
                 </div>
                 <div class="back">
                     <!-- <div id="snow"></div> -->
-                    
+                    <div class="about">
+                        <div id="snow"></div>
+                        <p class="game-name">CREATED BY</p>
+                        <p class="game-name">{{ game.name }}</p>
+                      </div>
                     <div class="social">
                       <div class="triangle-left"></div>
                       <div class="triangle-right"></div>
-                      <a v-bind:href="game.github">
+                      <a v-bind:href="game.github" target="_blank">
                         <i class="fa fa-cubes" aria-hidden="true"></i>
                       </a>
                     </div>
