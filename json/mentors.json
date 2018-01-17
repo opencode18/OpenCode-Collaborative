@@ -10,7 +10,7 @@
         },
          {
             "name" : "Abhinav Khare",
-            "imageurl" : "mentor/abhinav.jpeg",
+            "imageurl" : "mentor/abhinav.jpg",
             "about" : "My mom says I'm cool",
             "facebook" : "https://www.facebook.com/khareabhinav",
             "github" : "https://github.com/CosmicCoder96",
@@ -26,7 +26,7 @@
         },
         {
             "name" : "Gautham Santhosh",
-            "imageurl" : "mentor/gautham.jpeg",
+            "imageurl" : "https://avatars0.githubusercontent.com/u/12110844?s=460&v=4",
             "about" : "Don't text me on fb about issues,use zulip",
             "facebook" : "https://www.facebook.com/gauthamzz",
             "github" : "https://github.com/gauthamzz",
