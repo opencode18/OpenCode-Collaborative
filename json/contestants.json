@@ -849,6 +849,16 @@
       "github" : "https://github.com/Ace-Bansal",
       "twitter" : "",
       "referral" : ""
-    }
+    },
+{
+         "name":"Jayant Saraf",
+         "imageurl":"contestant/IMG_1940.JPG",
+         "about":"Hello, I am a web developer",
+         "college":"NIT Durgapur",
+         "facebook":"",
+         "github":"https://github.com/jayantsaraf",
+         "twitter":"",
+         "referral":"shivek25"
+      }
    ]
 }
