@@ -11,6 +11,16 @@
          "referral":""
       },
 	   {
+         "name":"Prakash Kumar",
+         "imageurl":"contestant/pk.jpg",
+         "about":"I'm here to scratch my head",
+         "college":"IIIT, Allahabad",
+         "facebook":"https://www.facebook.com/prakash.kumsr",
+         "github":"https://github.com/OG1998",
+         "twitter":"",
+         "referral":""
+      },
+     {
          "name":"Piyush Mantri",
          "imageurl":"contestant/mantri.jpg",
          "about":"Keep Learning",
