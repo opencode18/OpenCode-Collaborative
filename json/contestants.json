@@ -891,5 +891,15 @@
          "twitter":"",
          "referral":"https://github.com/Ace-Bansal"
    }
+	   {
+         "name":"Rahul Arulkumaran",
+         "imageurl":"contestant/rahul_arulkumaran.jpg",
+         "about":"Open Source Enthusiast | Sleep all day, Code all night! ",
+         "college":"Mahindra Ecole Centrale",
+         "facebook":"https://www.facebook.com/rahulroxx1233",
+         "github":"https://github.com/rahulkumaran",
+         "twitter":"",
+         "referral":""
+   }
    ]
 }
