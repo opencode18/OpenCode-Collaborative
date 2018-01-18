@@ -214,6 +214,14 @@
 			"about": "A Package to create quote images",
 			"lang": "Go",
 			"github": "https://github.com/gostudent/aurora"
+		},
+		{
+			"name": "Addy-Android",
+			"imageurl": "",
+			"mentors": " Saswat Sahoo, Yashovardhan Agrawal",
+			"about": "Addy is an app that enhances the addressing system of the world.",
+			"lang": "Android",
+			"github": "https://github.com/addy-org/Addy-Android"
 		}
 	]
 }
