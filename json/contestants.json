@@ -890,6 +890,16 @@
          "github":"https://github.com/SnigdhaDobhal",
          "twitter":"",
          "referral":"https://github.com/Ace-Bansal"
-   }
+   },
+   {
+         "name":"Sagar Lakhani",
+         "imageurl":"contestant/sagar.jpg",
+         "about":"development is fun",
+         "college":"IIIT Allahabad",
+         "facebook":"https://www.facebook.com/profile.php?id=100017418402038",
+         "github":"https://github.com/SLakhani1",
+         "twitter":"",
+         "referral":"https://github.com/ananya-agrawal"
+   }   
    ]
 }
