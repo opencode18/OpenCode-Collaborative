@@ -52,6 +52,32 @@ IMPORTANT:
 * If you do not want to include social media accounts, leave the field empty `"facebook":""`. 
 
 
+## Updating Your Scores
+
+
+To add Your scores open `json/scores.json` and follow the given format
+
+>   
+
+       {  
+           "name":"Name",
+           "Contributions":[{
+                "name":"Name of issue",
+                "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/331",
+                "PRlink":"Link of the PR",
+                "score":"10"
+              },{
+                "name":"Name of issue",
+                "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/331",
+                "PRlink":"Link of the PR",
+                "score":"10"
+              }
+           ],
+           "Total":"500"
+       }
+        
+
+
 ## Contributing
 ### Code practices
 Please help us follow the best practice to make it easy for the reviewer as well as the contributor. We want to focus on the code quality more than on managing pull request ethics.

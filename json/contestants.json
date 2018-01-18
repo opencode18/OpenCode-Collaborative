@@ -1,4 +1,4 @@
-{
+﻿{
    "contestants":[
       {
          "name":"Sneha Mishra",
@@ -10,6 +10,16 @@
          "twitter":"",
          "referral":""
       },
+	   {
+         "name":"Piyush Mantri",
+         "imageurl":"contestant/mantri.jpg",
+         "about":"Keep Learning",
+         "college":"NIT Durgapur",
+         "facebook":"https://www.facebook.com/piyush.mantri007",
+         "github":"https://github.com/piyu007",
+         "twitter":"",
+         "referral":"shivhek25"
+	   },
 	    {
          "name":"Rudransh Gupta",
          "imageurl":"contestant/pp1.jpg",
@@ -49,9 +59,53 @@
          "twitter":"",
          "referral":"https://github.com/surasnayak"
       },
+
+	   {
+         "name":"Saurabh Kumar",
+         "imageurl":"contestant/saurabh.png",
+         "about":"Coding is my passion. Dont take it from me!!",
+	"college":"IIIT Allahabad",
+         "facebook":"",
+         "github":"https://github.com/srbkhr",
+         "twitter":"",
+         "referral":"https://github.com/surasnayak"
+      },
+
+	    {
+         "name":"Shailendra Kumar",
+         "imageurl":"contestant/shailendra.png",
+         "about":"Coding is my passion. Dont take it from me!!",
+	"college":"IIIT Allahabad",
+         "facebook":"",
+         "github":"https://github.com/Shail7524",
+         "twitter":"",
+         "referral":"https://github.com/surasnayak"
+      },
+	   
+	   {
+         "name":"Akshay Kumar",
+         "imageurl":"contestant/akshay.png",
+         "about":"Dragon Ball Super Rocks!!",
+	"college":"IIIT Allahabad",
+         "facebook":"",
+         "github":"https://github.com/jfx1234",
+         "twitter":"",
+         "referral":"https://github.com/surasnayak"
+      },
+
+	   {
+         "name":"Sanghamitra Nayak",
+         "imageurl":"contestant/sanghamitra.jpg",
+         "about":"CBIT Queen!!",
+	"college":"CBIT Hyderabad",
+         "facebook":"",
+         "github":"https://github.com/sanghamitra04",
+         "twitter":"",
+         "referral":"https://github.com/surasnayak"
+      },
       {
          "name":"Kamal Chaubey",
-         "imageurl":"contestant/kiranvelumuri.svg",
+         "imageurl":"contestant/kamal.jpg",
          "about":"The swagger boy!!",
 	  "college":"IIIT Allahabad",
          "facebook":"",
@@ -358,7 +412,7 @@
       },
 	{
             "name" : "Nabeel Jawahir",
-            "imageurl" : "contestant/nabeel.png",
+            "imageurl" : "contestant/nabeel.jpg",
             "about" : "ganggang",
             "facebook" : "https://www.facebook.com/nab331",
             "github" : "https://github.com/nab331",
@@ -562,9 +616,9 @@
             "twitter" : "",
             "referral":""
         },
-	      {
+	    {
       	  "name" : "Anshuman Verma",
-      	  "imageurl" : "contestant/anshumanv",
+      	  "imageurl" : "contestant/anshumanv.jpeg",
           "about" : "Football | Anime",
           "college" : "",
       	  "facebook" : "https://www.facebook.com/anshumanv12",
@@ -622,7 +676,7 @@
     	},
 	{
           "name" : "Shivansh Srivastava",
-          "imageurl" : "ironman.jpg",
+          "imageurl" : "contestant/ironman.jpg",
           "about" : "The Optimist",
           "college" : "",
           "facebook" : "",
@@ -730,23 +784,112 @@
       } ,
       {
       	  "name" : "Ashish Agarwala",
-      	  "imageurl" : "ashishagarwal.jpg",
+      	  "imageurl" : "contestant/ashishagarwal.jpg",
       	  "about" : "A Noob",
 	        "college":"NIT Durgapur",
       	  "facebook" : "",
-      	  "github" : "https://github.com/ashish4321",
+     	  "github" : "https://github.com/ashish4321",
       	  "twitter" : "",
 	      "referral" : ""
       },
       {
           "name" : "Maanas Vohra",
-          "imageurl" : "contestant/maanas.jpg",
+          "imageurl" : "contestant/maanas1.jpg",
           "about" : "A professional procastinator",
-          "college" : "Indian Institute of Information Technology, Allahabad",
+          "college" : "IIIT - Allahabad",
           "facebook" : "https://www.facebook.com/maanas.vohra",
           "github" : "https://github.com/MaanasVohra",
           "twitter" : "",
           "referral" : ""
-      }
+      },
+      {
+         "name":"Anshu Kumari",
+         "imageurl":"contestant/Ros_Anshu.jpg",
+         "about":"Trying to set my vision",
+         "facebook":"https://www.facebook.com/RosAnshu",
+         "github":"https://github.com/Anshu-ros",
+         "twitter":"https://twitter.com/Ros_Anshu",
+         "referral":""
+      } ,
+	{
+          "name" : "Priyanka Choubey",
+          "imageurl" : "contestant/priyanka.jpg",
+          "about" : "Always Exploring",
+          "college" : "Indian Institute of Information Technology, Allahabad",
+          "facebook" : "https://www.facebook.com/profile.php?id=100004553978615",
+          "github" : "https://github.com/priyanka-choubey",
+          "twitter" : "",
+          "referral" : "ananya"
+      },
+	{
+          "name" : "Gaurav Kumar",
+          "imageurl" : "contestant/dbz.jpg",
+          "about" : "I am Rookie",
+          "college" : "Indian Institute of Information Technology, Allahabad",
+          "facebook" : "https://www.facebook.com/kg674",
+          "github" : "https://github.com/kgauravk",
+          "twitter" : "",
+          "referral" : ""
+      },
+	   {
+          "name" : "Shantam Shrestha",
+          "imageurl" : "contestant/logan.jpg",
+          "about" : "I love devolopment(android and web)",
+          "college" : "Indian Institute of Information Technology, Allahabad",
+          "facebook" : "https://www.facebook.com/shantam.shrestha",
+          "github" : "https://github.com/shantam0810",
+          "twitter" : "https://twitter.com/shant0810",
+          "referral" : ""
+      },
+	{
+   	   "name" : "Hidayat Ullah Khan",
+  	   "imageurl" : "contestant/elmo.jpg",
+           "about" : "Newbie to webDev",
+           "college" : "Indian Institute of Information Technology, Lucknow",
+           "facebook" : "https://www.facebook.com/profile.php?id=100017456440701",
+           "github" : "https://github.com/masterchef2209",
+           "twitter" : "",
+           "referral" : ""
+	},
+        {
+      	  "name" : "Mahak Saria",
+      	  "imageurl" : "contestant/mahek.jpg",
+      	  "about" : "Beginner in the world of open source",
+	        "college":"SRM Institute of Science and Technology",
+      	  "facebook" : "https://www.facebook.com/mahek.saria123",
+      	  "github" : "https://github.com/mahek5",
+      	  "twitter" : "",
+	        "referral" : "shivhek25"
+      },
+	   {
+   "name" : "Prashik Raut",
+   "imageurl" : "contestant/github-512.png",
+   "about" : "Learning !!",
+   "college" : "Indian Institute Of Information Technology,Allahabad",
+   "facebook" : "https://www.facebook.com/prashik.raut.14",
+   "github" : "https://github.com/prashikr",
+   "twitter" : "",
+   "referral" : "namantw"
+},
+  {
+      "name" : "Ekansh Bansal",
+      "imageurl" : "contestant/Ekansh.png",
+      "about" : "Naah I don't have anything witty to say!",
+      "college" : "IIIT-Allahabad",
+      "facebook" : "https://www.facebook.com/ekansh.bansal.77",
+      "github" : "https://github.com/Ace-Bansal",
+      "twitter" : "",
+      "referral" : ""
+    },
+   {
+         "name":"Snigdha Dobhal",
+         "imageurl":"contestant/Code.jpg",
+         "about":"Coding is love!!!",
+         "college":"IIIT Allahabad",
+         "facebook":"https://www.facebook.com/snigdha.dobhal",
+         "github":"https://github.com/SnigdhaDobhal",
+         "twitter":"",
+         "referral":"https://github.com/Ace-Bansal"
+   }
    ]
 }
