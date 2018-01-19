@@ -214,6 +214,14 @@
 			"about": "A Package to create quote images",
 			"lang": "Go",
 			"github": "https://github.com/gostudent/aurora"
+		},
+		{
+			"name": "Dataviz Gallery",
+			"imageurl": "",
+			"mentors": "Mubaris NK",
+			"about": "Collection of cool Data Visualizations",
+			"lang": "Python, R, JavaScript",
+			"github": "https://github.com/mubaris/dataviz-gallery"
 		}
 	]
 }
