@@ -1,20 +1,60 @@
 {
    "scores":[
       {
-         "name":"Name",
+         "name":"shivhek25",
          "Contributions":[{
-            "name":"Name of issue",
-            "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/331",
-            "PRlink":"Link of the PR",
+            "name":"Add yourself to the participants list #1",
+            "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/1",
+            "PRlink":"https://github.com/opencode18/OpenCode-Collaborative/pull/243",
             "score":"10"
          },{
-            "name":"Name of issue",
-            "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/331",
-            "PRlink":"Link of the PR",
+            "name":"Link star and fork to the github repo #268",
+            "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/268",
+            "PRlink":"https://github.com/opencode18/OpenCode-Collaborative/pull/270",
             "score":"10"
+         },{
+            "name":"Day5 #86",
+            "Issuelink":"https://github.com/opencode18/CodeStash/issues/86",
+            "PRlink":"https://github.com/opencode18/CodeStash/pull/90",
+            "score":"10"
+         },{
+            "name":"Day6 #96",
+            "Issuelink":"https://github.com/opencode18/CodeStash/issues/96",
+            "PRlink":"https://github.com/opencode18/CodeStash/pull/106",
+            "score":"10"
+         },{
+            "name":"Day7 #109",
+            "Issuelink":"https://github.com/opencode18/CodeStash/issues/109",
+            "PRlink":"https://github.com/opencode18/CodeStash/pull/120",
+            "score":"10"
+         },{
+            "name":"Find more issues in the Website and comment here . #13",
+            "Issuelink":"https://github.com/opencode18/OpenNews/issues/13",
+            "PRlink":"",
+            "score":"10"
+         },{
+            "name":"Generate Github Resume #23",
+            "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/23",
+            "PRlink":"",
+            "score":"10"
+         },{
+            "name":"star this repository #128",
+            "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/128",
+            "PRlink":"",
+            "score":"10"
+         },{
+            "name":"Star This Repo #55",
+            "Issuelink":"https://github.com/opencode18/CodeStash/issues/55",
+            "PRlink":"",
+            "score":"10"
+         },{
+            "name":"Make a website for yourself #251",
+            "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/251",
+            "PRlink":"",
+            "score":"50"
          }
          ],
-         "Total":"500"
+         "Total":"140"
       }
    ]
 }
