@@ -17,6 +17,12 @@
             "imageurl": "game/memory.jpeg",
             "gamename" : "memory-game",
             "github" : "https://adiagg2000.github.io/memory_game/memory.html"
+        },
+        {
+            "developer" : "Maanas Vohra",
+            "imageurl": "game/pong.png",
+            "gamename" : "Ping-Pong-Game",
+            "github" : "https://maanasvohra.github.io/2D-Ping-Pong-Game/"
         }
     ]
 }
