@@ -1,20 +1,19 @@
 {
     "game" : [
         {
-            "name" : "Ananya Agrawal",
+            "developer" : "Ananya Agrawal",
             "imageurl": "game/brick.png",
             "gamename" : "Break-The-Brick",
             "github" : "https://ananya-agrawal.github.io/break-the-brick-game/"
         },
-        
         {
-            "name" : "AK-007",
+            "developer" : "AK-007",
             "imageurl": "game/tic.jpg",
             "gamename" : "tic-tac-toe",
             "github" : "https://ak-007.github.io/Tic-Tac-Toe/"
         },
         {
-            "name" : "Aditi Aggarwal",
+            "developer" : "Aditi Aggarwal",
             "imageurl": "game/memory.jpeg",
             "gamename" : "memory-game",
             "github" : "https://adiagg2000.github.io/memory_game/memory.html"
