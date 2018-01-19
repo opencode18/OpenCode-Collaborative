@@ -98,6 +98,111 @@
 		}
 }
   </style>
+
+  <style>
+
+
+
+  @-webkit-keyframes slideInDown {
+from {
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  visibility: visible;
+}
+
+to {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+}
+
+@keyframes slideInDown {
+from {
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  visibility: visible;
+}
+
+to {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+}
+.slideInDown {
+-webkit-animation-name: slideInDown;
+animation-name: slideInDown;
+}
+
+@-webkit-keyframes slideOutUp {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes slideOutUp {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+.slideOutUp {
+  -webkit-animation-name: slideOutUp;
+  animation-name: slideOutUp;
+}
+
+
+.fh5co-animated {
+  -webkit-animation-duration: .6s;
+  animation-duration: .6s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.navbar-fixed-top{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-fixed-top{
+max-height: 340px;
+}
+@media (max-device-width: 480px) and (orientation: landscape) {
+.navbar-fixed-top{
+  max-height: 200px;
+}}
+.navbar-fixed-top{
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+@media (min-width: 768px) {
+  .navbar-fixed-top{
+    border-radius: 0;
+  }
+}
+
+.navbar-fixed-top{
+  top: 0;
+  border-width: 0 0 1px;
+}
+
+
+  </style>
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="js/preloader.js"></script>
@@ -111,8 +216,9 @@
     </div>
 </div>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-    <div class="container">
+  <div id="fh5co-header">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">OpenCode</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
         aria-expanded="false" aria-label="Toggle navigation">
@@ -153,8 +259,9 @@
 
         </ul>
       </div>
-    </div>
   </nav>
+</div>
+  </div>
 
   <header>
     <div id="snow"></div>
@@ -1056,42 +1163,6 @@
     </div>
   </footer>
 
-  <script>
-
-  //Hidden Fixed header v1.1
-
-  //Replace ID below with your box ID
-  var boxToFix = '#mainNav';
-
-  //Set the number of pixels to scroll before showing the header
-  var scrollPositionToShowHeader = 600;
-
-  var boxParent = $(boxToFix).parent();
-  var boxClone = $(boxToFix).clone();
-
-  $(boxClone).appendTo(boxParent).css({"position":"fixed", "left":"0", "top":"0", "width":"100%", "z-index":"899"}).children().remove();
-
-  $(boxToFix).css({"position":"fixed", "left":"auto", "top":"0px", "width":"100%", "z-index":"999", "border-style":"none none none none", "border-width":"0px", "background":"none"});
-
-  showOrHideHeader();
-
-  function showOrHideHeader() {
-    var currentPositionFromTop = $(window).scrollTop();
-
-    if (currentPositionFromTop > scrollPositionToShowHeader) {
-      $(boxToFix).show();
-      $(boxClone).show();
-    } else {
-      $(boxToFix).hide();
-      $(boxClone).hide();
-    }
-  }
-
-  $(window).scroll(function() {
-    showOrHideHeader();
-  });
-
-</script>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
@@ -1167,6 +1238,58 @@
 <script src="countDown.js"></script>
 <script src="js/apicall.js"></script>
 <script src="js/popup.js"></script>
+
+<script type="text/javascript">
+  (function ($) {
+$(document).ready(function(){
+
+  // hide .navbar first
+  $("#fh5co-header").hide();
+
+  // fade in .navbar
+  $(function () {
+      $(window).scroll(function () {
+
+               // set distance user needs to scroll before we start fadeIn
+          if ($(this).scrollTop() > 580) {
+              $("#fh5co-header").fadeIn();
+          } else {
+              $("#fh5co-header").fadeOut();
+          }
+      });
+  });
+
+});
+}(jQuery));
+</script>
+
+<script>
+// Window Scroll
+var windowScroll = function() {
+  var lastScrollTop = 0;
+
+  $(window).scroll(function(event){
+
+      var header = $('#fh5co-header'),
+      scrlTop = $(this).scrollTop();
+
+    if ( scrlTop > 500 && scrlTop <= 2000 ) {
+      header.addClass('navbar-fixed-top fh5co-animated slideInDown');
+    } else if ( scrlTop <= 500) {
+      if ( header.hasClass('navbar-fixed-top') ) {
+        header.addClass('navbar-fixed-top fh5co-animated slideOutUp');
+        setTimeout(function(){
+          header.removeClass('navbar-fixed-top fh5co-animated slideInDown slideOutUp');
+        }, 100 );
+      }
+    }
+
+  });
+};
+
+</script>
+
+
 
 </body>
 </html>
