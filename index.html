@@ -82,7 +82,7 @@
   width:auto;
   margin:0 auto;
   display: inline-block;
-}  
+}
 .preloader img {
 		-webkit-animation: rotation 2s 1 linear;
 }
@@ -90,11 +90,11 @@
 @-webkit-keyframes rotation {
 		from {
 				-webkit-transform: rotateY(0deg)  scale(0,0);
-				
+
 		}
 		to {
 				-webkit-transform: rotateY(360deg) scale(1.7,1.7);
-			
+
 		}
 }
   </style>
@@ -207,7 +207,7 @@
 </section>
 
 
- 
+
   <section id="services" class="bg-light">
     <div class="container">
       <div class="row">
@@ -368,7 +368,7 @@
           <div class="project-issues-list container" role="tab">
             <div class="row" id="opencode18-OpenCode-Collaborative-issues">
             </div>
-	    <br>	
+	    <br>
             <div class="row" id="opencode18-OpenCode-Collaborative-load-more">
 
                 <button class="btn btn-danger" onclick="loadMoreIssues('opencode18', 'OpenCode-Collaborative')">Load more</button>
@@ -380,7 +380,7 @@
           <!-- COPY AND PASTE THIS BLOCK AND REPLACE USER opencode18 AND REPOSITORY NAME CodeStash-->
           <!-- ================================================================================== -->
 
-          
+
 
           <div class="project-title" id="opencode18-CodeStash-heading">
               <i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -864,7 +864,7 @@
         </div>
 
 
-        
+
         <!-- Girls who Code -->
         <div class="project-title" id="opencode18-Girls-who-code-heading">
           <i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -1056,6 +1056,43 @@
     </div>
   </footer>
 
+  <script>
+
+  //Hidden Fixed header v1.1
+
+  //Replace ID below with your box ID
+  var boxToFix = '#mainNav';
+
+  //Set the number of pixels to scroll before showing the header
+  var scrollPositionToShowHeader = 600;
+
+  var boxParent = $(boxToFix).parent();
+  var boxClone = $(boxToFix).clone();
+
+  $(boxClone).appendTo(boxParent).css({"position":"fixed", "left":"0", "top":"0", "width":"100%", "z-index":"899"}).children().remove();
+
+  $(boxToFix).css({"position":"fixed", "left":"auto", "top":"0px", "width":"100%", "z-index":"999", "border-style":"none none none none", "border-width":"0px", "background":"none"});
+
+  showOrHideHeader();
+
+  function showOrHideHeader() {
+    var currentPositionFromTop = $(window).scrollTop();
+
+    if (currentPositionFromTop > scrollPositionToShowHeader) {
+      $(boxToFix).show();
+      $(boxClone).show();
+    } else {
+      $(boxToFix).hide();
+      $(boxClone).hide();
+    }
+  }
+
+  $(window).scroll(function() {
+    showOrHideHeader();
+  });
+
+</script>
+
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -1103,7 +1140,7 @@
       $('#agbilotia1998-Lecture-Connect-load-more button').click();
       $('#GeekHaven-Aparoksha-18-load-more button').click();
       $('#GitHubCommunity-IIITAllahabad-ProfilePortal-Beta-load-more button').click();
-      $('#adeora7-youtube_queue_extension-load-more button').click();    
+      $('#adeora7-youtube_queue_extension-load-more button').click();
       $('#rahulkumaran-Utlyz-CLI-load-more button').click();
       $('#mrsaicharan1-PyDic-load-more button').click();
       $('#GitHubCommunity-IIITAllahabad-attendance-portal-load-more button').click();
