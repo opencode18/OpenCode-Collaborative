@@ -23,6 +23,29 @@
             "imageurl": "game/pong.png",
             "gamename" : "Ping-Pong-Game",
             "github" : "https://maanasvohra.github.io/2D-Ping-Pong-Game/"
-        }
+        },
+            "developer" : "Vivek",
+            "imageurl": "game/swag.jpeg",
+            "gamename" : "Dodger-game",
+            "github" : "https://swaager.github.io/Dodger_game/dodger.html"
+        },
+        {
+            "developer" : "Nikki",
+            "imageurl": "game/color.jpg",
+            "gamename" : "Color-game",
+            "github" : "https://nikki1016.github.io/Color-game/"
+        },
+        {
+            "developer" : "Brain-Sick",
+            "imageurl": "game/mine.jpeg",
+            "gamename" : "Locate The Gifts",
+            "github" : "https://brain-sick.github.io/webGame.github.io/"
+        },
+        {
+            "developer" : "Ritika Motwani",
+            "imageurl": "game/tetris.jpeg",
+            "gamename" : "tetris",
+            "github" : "https://ritikamotwani.github.io/Tetris/"
+        },
     ]
 }
