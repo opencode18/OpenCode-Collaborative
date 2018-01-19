@@ -1,11 +1,7 @@
 html{
   overflow-x: hidden;
 }
-#about{
-	background:url("http://www.animateit.net/data/media/june2010/d6e5e40d22d3.gif");
-	color:white;
-	font-size:20px;
-}
+
 .sticky-container{
     padding:0px;
     margin:0px;
