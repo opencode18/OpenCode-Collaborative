@@ -1,0 +1,22 @@
+{
+    "game" : [
+        {
+            "developer" : "Ananya Agrawal",
+            "imageurl": "game/brick.png",
+            "gamename" : "Break-The-Brick",
+            "github" : "https://ananya-agrawal.github.io/break-the-brick-game/"
+        },
+        {
+            "developer" : "AK-007",
+            "imageurl": "game/tic.jpg",
+            "gamename" : "tic-tac-toe",
+            "github" : "https://ak-007.github.io/Tic-Tac-Toe/"
+        },
+        {
+            "developer" : "Aditi Aggarwal",
+            "imageurl": "game/memory.jpeg",
+            "gamename" : "memory-game",
+            "github" : "https://adiagg2000.github.io/memory_game/memory.html"
+        }
+    ]
+}

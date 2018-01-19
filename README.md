@@ -1,6 +1,8 @@
 # OpenCode Collaborative Website
 ![](https://raw.githubusercontent.com/opencode18/opencode18.github.io/master/images/fbog.png)
 
+[![OpenCode](https://img.shields.io/badge/Open-Code-ff6a00.svg?style=flat-square)](https://opencode18.github.io)
+
 Chat with us on [Zulip](https://opencode18.zulipchat.com/)  
 Like us on [Facebook](https://www.facebook.com/opencodeiiita/)
 
