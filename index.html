@@ -76,6 +76,27 @@
     h1#center-project{margin-left: 5vh;}
 
     }
+	.preloader img{
+
+  height:230px;
+  width:auto;
+  margin:0 auto;
+  display: inline-block;
+}  
+.preloader img {
+		-webkit-animation: rotation 2s 1 linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotateY(0deg)  scale(0,0);
+				
+		}
+		to {
+				-webkit-transform: rotateY(360deg) scale(1.7,1.7);
+			
+		}
+}
   </style>
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -84,9 +105,9 @@
 </head>
 <script>var cards = document.querySelectorAll(".card");</script>
 <body id="page-top">
-<div class="preloader-wrapper">
+<div class="preloader-wrapper" style="background-color: black;">
     <div class="preloader">
-        <img style="margin-left: -15px; margin-top: -25px;" src="images/running.gif" alt="NILA">
+        <img style="margin-left: -15px; margin-top: -25px;" src="images/OpenCode.png" alt="NILA">
     </div>
 </div>
   <!-- Navigation -->
