@@ -1,0 +1,164 @@
+{
+    "mentors" : [
+        {
+            "name" : "Aswin VB",
+            "imageurl" : "mentor/aswin.jpeg",
+            "about" : "Im commited",
+            "facebook" : "",
+            "github" : "",
+            "twitter" : ""
+        },
+         {
+            "name" : "Abhinav Khare",
+            "imageurl" : "mentor/abhinav.jpg",
+            "about" : "My mom says I'm cool",
+            "facebook" : "https://www.facebook.com/khareabhinav",
+            "github" : "https://github.com/CosmicCoder96",
+            "twitter" : ""
+        },
+        {
+            "name" : "Himanshu Shekhar",
+            "imageurl" : "mentor/himanshu.jpg",
+            "about" : " i make things you can easily find facbook, github and twitter by searching",
+            "facebook" : "https://www.facebook.com/himanshub16",
+            "github" : "https://github.com/himanshub16/",
+            "twitter" : ""
+        },
+        {
+            "name" : "Gautham Santhosh",
+            "imageurl" : "https://avatars0.githubusercontent.com/u/12110844?s=460&v=4",
+            "about" : "Don't text me on fb about issues,use zulip",
+            "facebook" : "https://www.facebook.com/gauthamzz",
+            "github" : "https://github.com/gauthamzz",
+            "twitter" : "https://twitter.com/gauthamzzz"
+        },
+        {
+            "name" : "Aswanth K",
+            "imageurl" : "mentor/aswanth.jpg",
+            "about" : "Hello I'm a web developer",
+            "facebook" : "https://facebook.com/aswanth9495",
+            "github" : "https://github.com/aswanth9495",
+            "twitter" : "https://twitter.com/aswanthkoleri"
+        },
+        {
+            "name" : "Anupam Dagar",
+            "imageurl" : "mentor/anupam.jpg",
+            "about" : "Hello I'm a web developer",
+            "facebook" : "https://facebook.com/aswanth9495",
+            "github" : "https://github.com/aswanth9495",
+            "twitter" : "https://twitter.com/aswanthkoleri"
+        },
+        {
+            "name" : "Mubaris NK",
+            "imageurl" : "mentor/mubaris.jpeg",
+            "about" : "",
+            "facebook" : "https://www.facebook.com/nk.mubaris",
+            "github" : "https://github.com/mubaris",
+            "twitter" : "twitter.com/Mubaris_NK"
+        },
+        {
+            "name" : "Ayush Gupta",
+            "imageurl" : "mentor/ayush.jpeg",
+            "about" : "",
+            "facebook" : "",
+            "github" : "",
+            "twitter" : ""
+        },
+        {
+            "name" : "Siddhant Srivastav",
+            "imageurl" : "mentor/siddhant.jpeg",
+            "about" : "",
+            "facebook" : "",
+            "github" : "",
+            "twitter" : ""
+        },
+        {
+            "name" : "Pradeep Gangwar",
+            "imageurl" : "mentor/pradeep.jpeg",
+            "about" : "",
+            "facebook" : "",
+            "github" : "",
+            "twitter" : ""
+        },
+        {
+            "name" : "Gagan Ganapathy",
+            "imageurl" : "mentor/gagan.jpeg",
+            "about" : "",
+            "facebook" : "",
+            "github" : "",
+            "twitter" : ""
+        },
+        {
+            "name" : "Shreyansh Dwivedi",
+            "imageurl" : "mentor/shreyansh.jpeg",
+            "about" : "",
+            "facebook" : "",
+            "github" : "",
+            "twitter" : ""
+        },
+        {
+            "name" : "Ravi Charan",
+            "imageurl" : "mentor/ravi.jpeg",
+            "about" : "",
+            "facebook" : "",
+            "github" : "",
+            "twitter" : ""
+        },
+        {
+            "name" : "Arindam Das Modak",
+            "imageurl" : "mentor/arindam.png",
+            "about" : "",
+            "facebook" : "",
+            "github" : "",
+            "twitter" : ""
+        },
+        {
+            "name" : "Yashovardhan Agrawal",
+            "imageurl" : "mentor/yashovardhanagrawal.jpg",
+            "about" : "Open Source Enthusiast",
+            "facebook" : "https://www.facebook.com/yashovardhanagrawal",
+            "github" : "https://github.com/yashovardhanagrawal",
+            "twitter" : "https://twitter.com/yashovardhan"
+        },
+        {
+            "name" : "Abhishek Deora",
+            "imageurl" : "mentor/abhishek.jpeg",
+            "about" : "",
+            "facebook" : "",
+            "github" : "",
+            "twitter" : ""
+        },
+        {
+            "name" : "Rahul Arulkumaran",
+            "imageurl" : "mentor/rahul.jpeg",
+            "about" : "",
+            "facebook" : "",
+            "github" : "",
+            "twitter" : ""
+        },
+        {
+            "name" : "Saicharan Reddy",
+            "imageurl" : "mentor/saicharan.jpeg",
+            "about" : "",
+            "facebook" : "",
+            "github" : "",
+            "twitter" : ""
+        },
+        {
+            "name" : "Harshit Jain",
+            "imageurl" : "mentor/harshit.png",
+            "about" : "",
+            "facebook" : "",
+            "github" : "",
+            "twitter" : ""
+        },
+        {
+            "name" : "Aditya Goel",
+            "imageurl" : "mentor/Aditya.jpg",
+            "about" : "Veni Vidi Vici",
+            "facebook" : "https://www.facebook.com/aditya.goel.311",
+            "github" : "http://github.com/Ellusionists",
+            "twitter" : "https://twitter.com/itsAdityaGoel"
+        }
+    ]
+}
