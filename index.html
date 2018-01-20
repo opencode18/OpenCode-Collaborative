@@ -69,14 +69,24 @@
 
 </style>
   <style type="text/css">
-  @media screen and (max-width: 300px) {
-    div.mentors, div.contestants, div.projects, div.game{margin-left: 14vh;}
+  @media screen and (min-width: 300px) {
+    div.mentors, div.contestants, div.projects, div.game{margin-left:16vh;}
+    h1#center-mentor{margin-left: 2vh;}
+    h1#center-participant{margin-left: 2vh;}
+    h1#center-project{margin-left: 2vh;}
+    h1#center-game{margin-left: 2vh;}
+}
+
+
+  /* @media screen and (max-width: 300px) {
+    div.mentors, div.contestants, div.projects, div.game{margin-left:10vh;}
     h1#center-mentor{margin-left: 5vh;}
     h1#center-participant{margin-left: 1vh;}
     h1#center-project{margin-left: 5vh;}
     h1#center-game{margin-left: 5vh;}
-    }
-	.preloader img{
+} */
+
+  .preloader img{
 
   height:230px;
   width:auto;
@@ -322,7 +332,7 @@ max-height: 340px;
   <section id="services" class="bg-light">
     <div class="container">
       <div class="row">
-        <div class="col-md-12" class="mentors" id="mentors">
+        <div class="mentors" id="mentors">
           <div class="heading">
             <h1 id="center-mentor">Mentors</h1>
           </div>
