@@ -35,7 +35,7 @@
   <link rel="stylesheet" href="css/simple-line-icons.css">
   <link rel="stylesheet" href="css/style.css">
   <link href="style1.css" media="all" rel="stylesheet" />
-
+  <link rel="stylesheet" href="css/game-style.css">
   <link rel="stylesheet" href="css/projects-style.css">
   <link rel="stylesheet" href="css/issues-style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -70,11 +70,11 @@
 </style>
   <style type="text/css">
   @media screen and (max-width: 300px) {
-    div.mentors, div.contestants, div.projects{margin-left: 14vh;}
+    div.mentors, div.contestants, div.projects, div.game{margin-left: 14vh;}
     h1#center-mentor{margin-left: 5vh;}
     h1#center-participant{margin-left: 1vh;}
     h1#center-project{margin-left: 5vh;}
-
+    h1#center-game{margin-left: 5vh;}
     }
 	.preloader img{
 
@@ -82,7 +82,7 @@
   width:auto;
   margin:0 auto;
   display: inline-block;
-}  
+}
 .preloader img {
 		-webkit-animation: rotation 2s 1 linear;
 }
@@ -90,13 +90,118 @@
 @-webkit-keyframes rotation {
 		from {
 				-webkit-transform: rotateY(0deg)  scale(0,0);
-				
+
 		}
 		to {
 				-webkit-transform: rotateY(360deg) scale(1.7,1.7);
-			
+
 		}
 }
+  </style>
+
+  <style>
+
+
+
+  @-webkit-keyframes slideInDown {
+from {
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  visibility: visible;
+}
+
+to {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+}
+
+@keyframes slideInDown {
+from {
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  visibility: visible;
+}
+
+to {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+}
+.slideInDown {
+-webkit-animation-name: slideInDown;
+animation-name: slideInDown;
+}
+
+@-webkit-keyframes slideOutUp {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes slideOutUp {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+.slideOutUp {
+  -webkit-animation-name: slideOutUp;
+  animation-name: slideOutUp;
+}
+
+
+.fh5co-animated {
+  -webkit-animation-duration: .6s;
+  animation-duration: .6s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.navbar-fixed-top{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-fixed-top{
+max-height: 340px;
+}
+@media (max-device-width: 480px) and (orientation: landscape) {
+.navbar-fixed-top{
+  max-height: 200px;
+}}
+.navbar-fixed-top{
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+@media (min-width: 768px) {
+  .navbar-fixed-top{
+    border-radius: 0;
+  }
+}
+
+.navbar-fixed-top{
+  top: 0;
+  border-width: 0 0 1px;
+}
+
+
   </style>
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -111,8 +216,9 @@
     </div>
 </div>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-    <div class="container">
+  <div id="fh5co-header">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">OpenCode</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
         aria-expanded="false" aria-label="Toggle navigation">
@@ -131,6 +237,10 @@
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#works">Projects</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#fun">Games</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" id="trailer" href="#trailer">Trailer</a>
@@ -153,8 +263,9 @@
 
         </ul>
       </div>
-    </div>
   </nav>
+</div>
+  </div>
 
   <header>
     <div id="snow"></div>
@@ -207,7 +318,7 @@
 </section>
 
 
- 
+
   <section id="services" class="bg-light">
     <div class="container">
       <div class="row">
@@ -347,6 +458,47 @@
     </div>
   </section>
 
+  <section id="fun" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="game" id="game">
+          <div class="heading">
+            <h1 id="center-game">Participant's Games</h1>
+          </div>
+          <div class="card" v-for="game in alphaSort(game)" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+
+                <div class="image">
+                    <img v-bind:src="game.imageurl">
+                  </div>
+                <div class="name">
+                    <div class="triangle-left"></div>
+                    <div class="triangle-right"></div>
+                    {{ game.gamename }}</div>
+                </div>
+                <div class="back">
+                    <!-- <div id="snow"></div> -->
+                    <div class="about">
+                        <div id="snow"></div>
+                        <p class="game-name">CREATED BY</p>
+                        <p class="game-name">{{ game.developer }}</p>
+                      </div>
+                    <div class="social">
+                      <div class="triangle-left"></div>
+                      <div class="triangle-right"></div>
+                      <a v-bind:href="game.github" target="_blank">
+                        <i class="fa fa-cubes" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                  </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
 
 
 
@@ -368,7 +520,7 @@
           <div class="project-issues-list container" role="tab">
             <div class="row" id="opencode18-OpenCode-Collaborative-issues">
             </div>
-	    <br>	
+	    <br>
             <div class="row" id="opencode18-OpenCode-Collaborative-load-more">
 
                 <button class="btn btn-danger" onclick="loadMoreIssues('opencode18', 'OpenCode-Collaborative')">Load more</button>
@@ -380,7 +532,7 @@
           <!-- COPY AND PASTE THIS BLOCK AND REPLACE USER opencode18 AND REPOSITORY NAME CodeStash-->
           <!-- ================================================================================== -->
 
-          
+
 
           <div class="project-title" id="opencode18-CodeStash-heading">
               <i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -864,7 +1016,7 @@
         </div>
 
 
-        
+
         <!-- Girls who Code -->
         <div class="project-title" id="opencode18-Girls-who-code-heading">
           <i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -1056,6 +1208,7 @@
     </div>
   </footer>
 
+
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -1103,7 +1256,7 @@
       $('#agbilotia1998-Lecture-Connect-load-more button').click();
       $('#GeekHaven-Aparoksha-18-load-more button').click();
       $('#GitHubCommunity-IIITAllahabad-ProfilePortal-Beta-load-more button').click();
-      $('#adeora7-youtube_queue_extension-load-more button').click();    
+      $('#adeora7-youtube_queue_extension-load-more button').click();
       $('#rahulkumaran-Utlyz-CLI-load-more button').click();
       $('#mrsaicharan1-PyDic-load-more button').click();
       $('#GitHubCommunity-IIITAllahabad-attendance-portal-load-more button').click();
@@ -1131,5 +1284,57 @@
 <script src="js/apicall.js"></script>
 <script src="js/popup.js"></script>
 
+<script type="text/javascript">
+  (function ($) {
+$(document).ready(function(){
+
+  // hide .navbar first
+  $("#fh5co-header").hide();
+
+  // fade in .navbar
+  $(function () {
+      $(window).scroll(function () {
+
+               // set distance user needs to scroll before we start fadeIn
+          if ($(this).scrollTop() > 580) {
+              $("#fh5co-header").fadeIn();
+          } else {
+              $("#fh5co-header").fadeOut();
+          }
+      });
+  });
+
+});
+}(jQuery));
+</script>
+
+<script>
+// Window Scroll
+var windowScroll = function() {
+  var lastScrollTop = 0;
+
+  $(window).scroll(function(event){
+
+      var header = $('#fh5co-header'),
+      scrlTop = $(this).scrollTop();
+
+    if ( scrlTop > 500 && scrlTop <= 2000 ) {
+      header.addClass('navbar-fixed-top fh5co-animated slideInDown');
+    } else if ( scrlTop <= 500) {
+      if ( header.hasClass('navbar-fixed-top') ) {
+        header.addClass('navbar-fixed-top fh5co-animated slideOutUp');
+        setTimeout(function(){
+          header.removeClass('navbar-fixed-top fh5co-animated slideInDown slideOutUp');
+        }, 100 );
+      }
+    }
+
+  });
+};
+
+</script>
+
+
+<script src="js/game.js"></script>
 </body>
 </html>
