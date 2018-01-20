@@ -41,6 +41,12 @@
             "imageurl": "game/tetris.jpeg",
             "gamename" : "tetris",
             "github" : "https://ritikamotwani.github.io/Tetris/"
+        },
+        {
+          "developer" : "Maanas Vohra",
+          "imageurl": "game/pong.png",
+          "gamename" : "Ping-Pong-Game",
+          "github" : "https://maanasvohra.github.io/2D-Ping-Pong-Game/"
         }
     ]
 }
