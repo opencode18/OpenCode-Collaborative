@@ -222,6 +222,14 @@
 			"about": "Collection of cool Data Visualizations",
 			"lang": "Python, R, JavaScript",
 			"github": "https://github.com/mubaris/dataviz-gallery"
+		},
+		{
+			"name": "Long Drive",
+			"imageurl": "",
+			"mentors": "Abhinav Khare",
+			"about": "A Fun CSS Side Project",
+			"lang": "CSS",
+			"github": "https://github.com/CosmicCoder96/longDrive"
 		}
 	]
 }
