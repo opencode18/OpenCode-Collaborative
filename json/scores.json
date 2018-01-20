@@ -52,9 +52,24 @@
             "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/251",
             "PRlink":"",
             "score":"50"
+         },{
+            "name":"Update scores.json #325",
+            "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/325",
+            "PRlink":"https://github.com/opencode18/OpenCode-Collaborative/pull/344",
+            "score":"10"
+         },{
+            "name":"Day 9 #138",
+            "Issuelink":"https://github.com/opencode18/CodeStash/issues/138",
+            "PRlink":"https://github.com/opencode18/CodeStash/pull/143",
+            "score":"10"
+         },{
+            "name":"Day 10 #150",
+            "Issuelink":"https://github.com/opencode18/CodeStash/issues/150",
+            "PRlink":"https://github.com/opencode18/CodeStash/pull/143",
+            "score":"10"
          }
          ],
-         "Total":"140"
+         "Total":"170"
       }
    ]
 }
