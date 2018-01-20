@@ -218,14 +218,14 @@ max-height: 340px;
   margin: 5px;
 }
 
-.button2 span {
+.button2 span a {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.button2 span:after {
+.button2 span a:after {
   content: '\25C0';
   position: absolute;
   opacity: 0;
@@ -234,11 +234,11 @@ max-height: 340px;
   transition: 0.5s;
 }
 
-.button2:hover span {
+.button2:hover span a {
   padding-right: 25px;
 }
 
-.button2:hover span:after {
+.button2:hover span a:after {
   opacity: 1;
   right: 0;
 }
@@ -296,7 +296,7 @@ max-height: 340px;
       </div>
     </div>
   </section>
-  <button><span><a href="https://opencode18.github.io/OpenCode-Collaborative/">Go To Home Page</a> </span></button>
+  <button class="button2"><span><a  url="https://opencode18.github.io/OpenCode-Collaborative/">Go To Home Page</a> </span></button>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
