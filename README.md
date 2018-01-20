@@ -1,6 +1,8 @@
 # OpenCode Collaborative Website
 ![](https://raw.githubusercontent.com/opencode18/opencode18.github.io/master/images/fbog.png)
 
+[![OpenCode](https://img.shields.io/badge/Open-Code-ff6a00.svg?style=flat-square)](https://opencode18.github.io)
+
 Chat with us on [Zulip](https://opencode18.zulipchat.com/)  
 Like us on [Facebook](https://www.facebook.com/opencodeiiita/)
 
@@ -60,14 +62,20 @@ To add Your scores open `json/scores.json` and follow the given format
 >   
 
        {  
-        "name" : "Name",  
-        "Contributions" : {
-                           "name": "Name of issue",
-                           "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/331",
-                           "PRlink": "Link of the PR",
-                           "score": "10"   
-                         },
-        "Total" : "500"
+           "name":"Name",
+           "Contributions":[{
+                "name":"Name of issue",
+                "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/331",
+                "PRlink":"Link of the PR",
+                "score":"10"
+              },{
+                "name":"Name of issue",
+                "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/331",
+                "PRlink":"Link of the PR",
+                "score":"10"
+              }
+           ],
+           "Total":"500"
        }
         
 
