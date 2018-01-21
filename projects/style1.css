@@ -4,7 +4,9 @@ body{
   font-weight: 100;
 }
 
-
+#projects{
+	text-align:center;
+}
 .link{
   margin-top: 40px;
 }
