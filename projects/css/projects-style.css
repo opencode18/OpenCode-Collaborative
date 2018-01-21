@@ -1,0 +1,74 @@
+.projects .card .front{
+    color:#222;
+}
+
+.projects .card .front .project{
+    background: #cb2d3e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(45deg, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 1px solid rgb(85, 23, 0);
+    padding:5px 0;
+    height:80%;
+    /* border-radius:3px; */
+    color:white;
+    font-family: 'Lato';
+}
+
+.projects .card-underline{
+    margin:0;
+}
+.project-name{
+    text-transform: uppercase;
+    font-size:14.5px;
+    text-align: center;
+    font-weight:700;
+    margin-bottom:0;
+    padding:5px 0;
+
+}
+
+.projects .card .front .project .project-mentored-by{
+   font-size:12px;
+   font-weight:700;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   padding:3px 0;
+   margin-bottom: 0;
+   margin-top:5px;
+
+}
+
+.projects .card .front .project .project-mentor{
+    font-size:14px;
+    width:100%;
+    padding:10px;
+    text-transform: capitalize;
+    font-weight:700;
+    margin-bottom: 0;
+ 
+ }
+
+
+.projects .card .front .name{
+    color:white;
+}
+
+.about-project{
+    font-size:15px;
+
+}
+
+.projects .card .back{
+    padding:3px;
+}
+
+.projects .card .back .card-underline{
+    margin-bottom:5px;
+}
+
+.projects .social i{
+    color:white
+}
+.projects .social{
+    background:white
+}
