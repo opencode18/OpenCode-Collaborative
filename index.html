@@ -69,13 +69,15 @@
 
 </style>
   <style type="text/css">
-  @media screen and (min-width: 300px) {
-    div.mentors, div.contestants, div.projects, div.game{margin-left:18vh;}
+  /* @media screen and (min-width: 300px) {
+
+    div.mentors, div.contestants{margin-left:16vh;}
+    dic.project-row, div.game-row{margin:auto;}
     h1#center-mentor{margin-left: 2vh;}
     h1#center-participant{margin-left: 2vh;}
     h1#center-project{margin-left: 2vh;}
     h1#center-game{margin-left: 2vh;}
-}
+} */
 
 
   /* @media screen and (max-width: 300px) {
@@ -86,6 +88,9 @@
     h1#center-game{margin-left: 5vh;}
 } */
 
+  #mentors, #contestants, #projects, #game{
+    text-align: center;
+  }
   .preloader img{
 
   height:230px;
@@ -328,10 +333,10 @@ max-height: 340px;
 </section>
 
 
-
+<div class="container">
   <section id="services" class="bg-light">
     <div class="container">
-      <div class="row">
+      <!-- <div class="row"> -->
         <div class="mentors" id="mentors">
           <div class="heading">
             <h1 id="center-mentor">Mentors</h1>
@@ -371,13 +376,13 @@ max-height: 340px;
           </div>
 
         </div>
-      </div>
+      <!-- </div> -->
     </div>
   </section>
 
   <section id="contact">
     <div class="container">
-      <div class="row">
+      <!-- <div class="row"> -->
         <div class="contestants" id="contestants">
           <div class="heading">
             <h1 id="center-participant">Participants</h1>
@@ -417,13 +422,13 @@ max-height: 340px;
             </div>
           </div>
         </div>
-      </div>
+      <!-- </div> -->
     </div>
   </section>
 
   <section id="works" class="bg-light">
     <div class="container">
-      <div class="row">
+      <!-- <div class="row project-row"> -->
         <div class="projects" id="projects">
           <div class="heading">
             <h1 id="center-project">Projects</h1>
@@ -464,13 +469,13 @@ max-height: 340px;
           </div>
 
         </div>
-      </div>
+      <!-- </div> -->
     </div>
   </section>
 
-  <section id="fun" class="bg-light">
+  <section id="fun">
     <div class="container">
-      <div class="row">
+      <!-- <div class="row game-row"> -->
         <div class="game" id="game">
           <div class="heading">
             <h1 id="center-game">Participant's Games</h1>
@@ -504,9 +509,11 @@ max-height: 340px;
           </div>
 
         </div>
-      </div>
+      <!-- </div> -->
     </div>
   </section>
+
+</div>
 
 
 
