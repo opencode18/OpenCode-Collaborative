@@ -15,10 +15,17 @@ html{
     list-style-type:none;
     background-color:#3b5998;
     border-top-left-radius: 10px;
+<<<<<<< HEAD
     border-bottom-left-radius: 10px;
     color:#efefef;
     text-align:left;
     font-size:200%;
+=======
+	border-bottom-left-radius: 10px;
+    color:#efefef;
+	text-align:left;
+	font-size:200%;
+>>>>>>> upstream/master
     height:150px;
     padding:0px;
     margin:0px 0px 1px 0px;
@@ -497,6 +504,7 @@ footer p{
   90%{ transform: rotateY(0deg);}
   100% { transform: rotateY(-180deg);}
 }
+<<<<<<< HEAD
 /*----------------------- Progress Bar---------------------*/
 progress {
   display: block;
@@ -549,6 +557,8 @@ progress::-webkit-progress-value {
   background-color: #1de9b6;
   transition: width .3s linear;
 } */
+=======
+>>>>>>> upstream/master
 
 /*----------------------- Preloader -----------------------*/
 body.preloader-site {
