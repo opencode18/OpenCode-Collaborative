@@ -66,7 +66,6 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
-
 </style>
   <style type="text/css">
   @media screen and (max-width: 300px) {
@@ -77,7 +76,6 @@
     h1#center-game{margin-left: 5vh;}
     }
 	.preloader img{
-
   height:230px;
   width:auto;
   margin:0 auto;
@@ -86,43 +84,34 @@
 .preloader img {
 		-webkit-animation: rotation 2s 1 linear;
 }
-
 @-webkit-keyframes rotation {
 		from {
 				-webkit-transform: rotateY(0deg)  scale(0,0);
-
 		}
 		to {
 				-webkit-transform: rotateY(360deg) scale(1.7,1.7);
-
 		}
 }
   </style>
 
   <style>
-
-
-
   @-webkit-keyframes slideInDown {
 from {
   -webkit-transform: translate3d(0, -100%, 0);
   transform: translate3d(0, -100%, 0);
   visibility: visible;
 }
-
 to {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
 }
-
 @keyframes slideInDown {
 from {
   -webkit-transform: translate3d(0, -100%, 0);
   transform: translate3d(0, -100%, 0);
   visibility: visible;
 }
-
 to {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
@@ -132,51 +121,42 @@ to {
 -webkit-animation-name: slideInDown;
 animation-name: slideInDown;
 }
-
 @-webkit-keyframes slideOutUp {
   from {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
-
   to {
     visibility: hidden;
     -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
   }
 }
-
 @keyframes slideOutUp {
   from {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
-
   to {
     visibility: hidden;
     -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
   }
 }
-
 .slideOutUp {
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
 }
-
-
 .fh5co-animated {
   -webkit-animation-duration: .6s;
   animation-duration: .6s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-
 .navbar-fixed-top{
   padding-left: 0;
   padding-right: 0;
 }
-
 .navbar-fixed-top{
 max-height: 340px;
 }
@@ -195,13 +175,10 @@ max-height: 340px;
     border-radius: 0;
   }
 }
-
 .navbar-fixed-top{
   top: 0;
   border-width: 0 0 1px;
 }
-
-
   </style>
   <style>
 .button2 {
@@ -217,27 +194,26 @@ max-height: 340px;
   cursor: pointer;
   margin: 5px;
 }
-
 .button2 span a {
   cursor: pointer;
+  color:white;
+  text-decoration:none;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
-
 .button2 span a:after {
   content: '\25C0';
   position: absolute;
   opacity: 0;
   top: 0;
+  color:white;
   right: -20px;
   transition: 0.5s;
 }
-
 .button2:hover span a {
   padding-right: 25px;
 }
-
 .button2:hover span a:after {
   opacity: 1;
   right: 0;
@@ -296,7 +272,7 @@ max-height: 340px;
       </div>
     </div>
   </section>
-  <button class="button2"><span><a  href="https://opencode18.github.io/OpenCode-Collaborative/">Go To Home Page</a> </span></button>
+  <button class="button2"><span><a href="https://opencode18.github.io/OpenCode-Collaborative/">Go To Home Page</a> </span></button>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
@@ -320,8 +296,6 @@ max-height: 340px;
           heightStyle: "content"
         });
       });
-
-
     });
   </script>
 
@@ -330,7 +304,6 @@ max-height: 340px;
           <!-- ===================================================================================== -->
 
   <script>
-
     $(document).ready(function () {
       $('#opencode18-CodeStash-load-more button').click();
       $('#opencode18-OpenCode-Collaborative-load-more button').click();
@@ -360,7 +333,6 @@ max-height: 340px;
       $('#gostudent-Grypto-load-more button').click();
       $('#gostudent-aurora-load-more button').click();
     });
-
   </script>
 
 <script src="js/scrolling-nav.js"></script>
@@ -376,14 +348,11 @@ max-height: 340px;
 <script type="text/javascript">
   (function ($) {
 $(document).ready(function(){
-
   // hide .navbar first
   $("#fh5co-header").hide();
-
   // fade in .navbar
   $(function () {
       $(window).scroll(function () {
-
                // set distance user needs to scroll before we start fadeIn
           if ($(this).scrollTop() > 580) {
               $("#fh5co-header").fadeIn();
@@ -392,7 +361,6 @@ $(document).ready(function(){
           }
       });
   });
-
 });
 }(jQuery));
 </script>
@@ -401,12 +369,9 @@ $(document).ready(function(){
 // Window Scroll
 var windowScroll = function() {
   var lastScrollTop = 0;
-
   $(window).scroll(function(event){
-
       var header = $('#fh5co-header'),
       scrlTop = $(this).scrollTop();
-
     if ( scrlTop > 500 && scrlTop <= 2000 ) {
       header.addClass('navbar-fixed-top fh5co-animated slideInDown');
     } else if ( scrlTop <= 500) {
@@ -417,10 +382,8 @@ var windowScroll = function() {
         }, 100 );
       }
     }
-
   });
 };
-
 </script>
 
 
