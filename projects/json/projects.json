@@ -15,6 +15,22 @@
 			"lang": "C, C++, Python",
 			"github": "https://github.com/opencode18/CodeStash"
 		},
+		     {
+			"name": "ProDesigner",
+			"imageurl": "",
+			"mentors": "Team OpenCode",
+			"about": "Kickstart for designers",
+			"lang": "css",
+			"github": "https://github.com/opencode18/ProDesigner"
+		},
+		{
+			"name": "HackerSkills",
+			"imageurl": "",
+			"mentors": "Team OpenCode",
+			"about": "Competitive Coding",
+			"lang": "HTML, CSS",
+			"github": "https://github.com/hacker1x1x1/HackerSkills"
+		},
 		{
 			"name": "Girls Who Code",
 			"imageurl": "",
