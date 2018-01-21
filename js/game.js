@@ -4,7 +4,7 @@ const app3=new Vue({
         game : []
     },
     created() {
-        fetch('https://opencode18.github.io/OpenCode-Collaborative/json/game.json')
+        fetch('https://github.com/aadixiiita/OpenCode-Collaborative/blob/master/json/game.json')
       .then(response => response.json() )
       .then(json => {
           this.game = json.game
