@@ -35,7 +35,7 @@
   <link rel="stylesheet" href="css/simple-line-icons.css">
   <link rel="stylesheet" href="css/style.css">
   <link href="style1.css" media="all" rel="stylesheet" />
-
+  <link rel="stylesheet" href="css/game-style.css">
   <link rel="stylesheet" href="css/projects-style.css">
   <link rel="stylesheet" href="css/issues-style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -70,12 +70,138 @@
 </style>
   <style type="text/css">
   @media screen and (max-width: 300px) {
-    div.mentors, div.contestants, div.projects{margin-left: 14vh;}
+    div.mentors, div.contestants, div.projects, div.game{margin-left: 14vh;}
     h1#center-mentor{margin-left: 5vh;}
     h1#center-participant{margin-left: 1vh;}
     h1#center-project{margin-left: 5vh;}
-
+    h1#center-game{margin-left: 5vh;}
     }
+	.preloader img{
+
+  height:230px;
+  width:auto;
+  margin:0 auto;
+  display: inline-block;
+}
+.preloader img {
+		-webkit-animation: rotation 2s 1 linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotateY(0deg)  scale(0,0);
+
+		}
+		to {
+				-webkit-transform: rotateY(360deg) scale(1.7,1.7);
+
+		}
+}
+  </style>
+
+  <style>
+
+
+
+  @-webkit-keyframes slideInDown {
+from {
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  visibility: visible;
+}
+
+to {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+}
+
+@keyframes slideInDown {
+from {
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  visibility: visible;
+}
+
+to {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+}
+.slideInDown {
+-webkit-animation-name: slideInDown;
+animation-name: slideInDown;
+}
+
+@-webkit-keyframes slideOutUp {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes slideOutUp {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+.slideOutUp {
+  -webkit-animation-name: slideOutUp;
+  animation-name: slideOutUp;
+}
+
+
+.fh5co-animated {
+  -webkit-animation-duration: .6s;
+  animation-duration: .6s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.navbar-fixed-top{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-fixed-top{
+max-height: 340px;
+}
+@media (max-device-width: 480px) and (orientation: landscape) {
+.navbar-fixed-top{
+  max-height: 200px;
+}}
+.navbar-fixed-top{
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+@media (min-width: 768px) {
+  .navbar-fixed-top{
+    border-radius: 0;
+  }
+}
+
+.navbar-fixed-top{
+  top: 0;
+  border-width: 0 0 1px;
+}
+
+
   </style>
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -84,14 +210,15 @@
 </head>
 <script>var cards = document.querySelectorAll(".card");</script>
 <body id="page-top">
-<div class="preloader-wrapper">
+<div class="preloader-wrapper" style="background-color: black;">
     <div class="preloader">
-        <img style="margin-left: -15px; margin-top: -25px;" src="images/running.gif" alt="NILA">
+        <img style="margin-left: -15px; margin-top: -25px;" src="images/OpenCode.png" alt="NILA">
     </div>
 </div>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-    <div class="container">
+  <div id="fh5co-header">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">OpenCode</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
         aria-expanded="false" aria-label="Toggle navigation">
@@ -110,6 +237,10 @@
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#works">Projects</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#fun">Games</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" id="trailer" href="#trailer">Trailer</a>
@@ -132,8 +263,9 @@
 
         </ul>
       </div>
-    </div>
   </nav>
+</div>
+  </div>
 
   <header>
     <div id="snow"></div>
@@ -186,24 +318,6 @@
 </section>
 
 
-  <section id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>About this event</h2>
-          <p class="lead">Opencode is an open source event aimed to raise awareness about open source. It is a month long event where participants
-            contribute to different projects and earn points simultaneously. A minified version of GSOC, OpenCode is organised
-            by the FOSS wing of IIIT-Allahabad's technical society, Geekhaven.</p>
-          <!-- <ul>
-                <li>Clickable nav links that smooth scroll to page sections</li>
-                <li>Responsive behavior when clicking nav links perfect for a one page website</li>
-                <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
-                <li>Minimal custom CSS so you are free to explore your own unique design options</li>
-              </ul> -->
-        </div>
-      </div>
-    </div>
-  </section>
 
   <section id="services" class="bg-light">
     <div class="container">
@@ -344,6 +458,47 @@
     </div>
   </section>
 
+  <section id="fun" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="game" id="game">
+          <div class="heading">
+            <h1 id="center-game">Participant's Games</h1>
+          </div>
+          <div class="card" v-for="game in alphaSort(game)" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+
+                <div class="image">
+                    <img v-bind:src="game.imageurl">
+                  </div>
+                <div class="name">
+                    <div class="triangle-left"></div>
+                    <div class="triangle-right"></div>
+                    {{ game.gamename }}</div>
+                </div>
+                <div class="back">
+                    <!-- <div id="snow"></div> -->
+                    <div class="about">
+                        <div id="snow"></div>
+                        <p class="game-name">CREATED BY</p>
+                        <p class="game-name">{{ game.developer }}</p>
+                      </div>
+                    <div class="social">
+                      <div class="triangle-left"></div>
+                      <div class="triangle-right"></div>
+                      <a v-bind:href="game.github" target="_blank">
+                        <i class="fa fa-cubes" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                  </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
 
 
 
@@ -365,7 +520,7 @@
           <div class="project-issues-list container" role="tab">
             <div class="row" id="opencode18-OpenCode-Collaborative-issues">
             </div>
-	    <br>	
+	    <br>
             <div class="row" id="opencode18-OpenCode-Collaborative-load-more">
 
                 <button class="btn btn-danger" onclick="loadMoreIssues('opencode18', 'OpenCode-Collaborative')">Load more</button>
@@ -376,6 +531,8 @@
           <!-- ================================================================================== -->
           <!-- COPY AND PASTE THIS BLOCK AND REPLACE USER opencode18 AND REPOSITORY NAME CodeStash-->
           <!-- ================================================================================== -->
+
+
 
           <div class="project-title" id="opencode18-CodeStash-heading">
               <i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -395,6 +552,559 @@
 
              </div>
           </div>
+
+
+
+          <!-- Go Algorithms -->
+          <div class="project-title" id="gostudent-Algorithms-heading">
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    Go Algorithms (Go)
+              <a href="#">
+                 <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+           </div>
+
+          <div class="project-issues-list container" role="tab">
+            <div class="row" id="gostudent-Algorithms-issues">
+            </div>
+
+            <div class="row" id="gostudent-Algorithms-load-more">
+
+                <button class="btn btn-danger" onclick="loadMoreIssues('gostudent', 'Algorithms')">Load more</button>
+
+             </div>
+          </div>
+
+
+          <!-- Anna -->
+          <div class="project-title" id="Anna-Assistant-Anna-heading">
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    Anna (HTML, CSS, JAVASCRIPT)
+              <a href="#">
+                 <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+           </div>
+
+          <div class="project-issues-list container" role="tab">
+            <div class="row" id="Anna-Assistant-Anna-issues">
+            </div>
+
+            <div class="row" id="Anna-Assistant-Anna-load-more">
+
+                <button class="btn btn-danger" onclick="loadMoreIssues('Anna-Assistant', 'Anna')">Load more</button>
+
+             </div>
+          </div>
+
+
+          <!-- Motivate -->
+          <div class="project-title" id="mubaris-motivate-heading">
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    Motivate (PYTHON)
+              <a href="#">
+                 <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+           </div>
+
+          <div class="project-issues-list container" role="tab">
+            <div class="row" id="mubaris-motivate-issues">
+            </div>
+
+            <div class="row" id="mubaris-motivate-load-more">
+
+                <button class="btn btn-danger" onclick="loadMoreIssues('mubaris', 'motivate')">Load more</button>
+
+             </div>
+          </div>
+
+
+
+          <!-- Lecture Connect -->
+          <div class="project-title" id="agbilotia1998-Lecture-Connect-heading">
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    Lecture Connect (HTML, CSS, JAVASCRIPT)
+              <a href="#">
+                 <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+           </div>
+
+          <div class="project-issues-list container" role="tab">
+            <div class="row" id="agbilotia1998-Lecture-Connect-issues">
+            </div>
+
+            <div class="row" id="agbilotia1998-Lecture-Connect-load-more">
+
+                <button class="btn btn-danger" onclick="loadMoreIssues('agbilotia1998', 'Lecture-Connect')">Load more</button>
+
+             </div>
+          </div>
+
+
+
+          <!-- Aparoksha 18 -->
+          <div class="project-title" id="GeekHaven-Aparoksha-18-heading">
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    Aparoksha 18 (HTML, CSS, JAVASCRIPT)
+              <a href="#">
+                 <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+           </div>
+
+          <div class="project-issues-list container" role="tab">
+            <div class="row" id="GeekHaven-Aparoksha-18-issues">
+            </div>
+
+            <div class="row" id="GeekHaven-Aparoksha-18-load-more">
+
+                <button class="btn btn-danger" onclick="loadMoreIssues('GeekHaven', 'Aparoksha-18')">Load more</button>
+
+             </div>
+          </div>
+
+
+
+          <!-- Profile Portal -->
+          <div class="project-title" id="GitHubCommunity-IIITAllahabad-ProfilePortal-Beta-heading">
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    Profile Portal (HTML, CSS, JAVASCRIPT, PYTHON)
+              <a href="#">
+                 <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+           </div>
+
+          <div class="project-issues-list container" role="tab">
+            <div class="row" id="GitHubCommunity-IIITAllahabad-ProfilePortal-Beta-issues">
+            </div>
+
+            <div class="row" id="GitHubCommunity-IIITAllahabad-ProfilePortal-Beta-load-more">
+
+                <button class="btn btn-danger" onclick="loadMoreIssues('GitHubCommunity-IIITAllahabad', 'ProfilePortal-Beta')">Load more</button>
+
+             </div>
+          </div>
+
+
+
+          <!-- Youtube Queue Extension -->
+          <div class="project-title" id="adeora7-youtube_queue_extension-heading">
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    Youtube-Queue-Extension (HTML, CSS, JAVASCRIPT)
+              <a href="#">
+                 <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+           </div>
+
+          <div class="project-issues-list container" role="tab">
+            <div class="row" id="adeora7-youtube_queue_extension-issues">
+            </div>
+
+            <div class="row" id="adeora7-youtube_queue_extension-load-more">
+
+                <button class="btn btn-danger" onclick="loadMoreIssues('adeora7', 'youtube_queue_extension')">Load more</button>
+
+             </div>
+          </div>
+
+
+
+
+          <!-- Utlyz CLI -->
+          <div class="project-title" id="rahulkumaran-Utlyz-CLI-heading">
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    Utlyz CLI (PYTHON)
+              <a href="#">
+                 <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+           </div>
+
+          <div class="project-issues-list container" role="tab">
+            <div class="row" id="rahulkumaran-Utlyz-CLI-issues">
+            </div>
+
+            <div class="row" id="rahulkumaran-Utlyz-CLI-load-more">
+
+                <button class="btn btn-danger" onclick="loadMoreIssues('rahulkumaran', 'Utlyz-CLI')">Load more</button>
+
+             </div>
+          </div>
+
+
+
+          <!-- Pydic -->
+          <div class="project-title" id="mrsaicharan1-PyDic-heading">
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    PyDic (PYTHON)
+              <a href="#">
+                 <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+           </div>
+
+          <div class="project-issues-list container" role="tab">
+            <div class="row" id="mrsaicharan1-PyDic-issues">
+            </div>
+
+            <div class="row" id="mrsaicharan1-PyDic-load-more">
+
+                <button class="btn btn-danger" onclick="loadMoreIssues('mrsaicharan1', 'PyDic')">Load more</button>
+
+             </div>
+          </div>
+
+
+
+          <!-- Attendence Portal -->
+          <div class="project-title" id="GitHubCommunity-IIITAllahabad-attendance-portal-heading">
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    Attendence Portal (HTML, CSS, JAVASCRIPT)
+              <a href="#">
+                 <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+           </div>
+
+          <div class="project-issues-list container" role="tab">
+            <div class="row" id="GitHubCommunity-IIITAllahabad-attendance-portal-issues">
+            </div>
+
+            <div class="row" id="GitHubCommunity-IIITAllahabad-attendance-portal-load-more">
+
+                <button class="btn btn-danger" onclick="loadMoreIssues('GitHubCommunity-IIITAllahabad', 'attendance-portal')">Load more</button>
+
+             </div>
+          </div>
+
+
+
+          <!-- HoxNox -->
+          <div class="project-title" id="Anupam-dagar-Portfolio-Generator-heading">
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    HoxNox (HTML, CSS, JAVASCRIPT)
+              <a href="#">
+                 <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+           </div>
+
+          <div class="project-issues-list container" role="tab">
+            <div class="row" id="Anupam-dagar-Portfolio-Generator-issues">
+            </div>
+
+            <div class="row" id="Anupam-dagar-Portfolio-Generator-load-more">
+
+                <button class="btn btn-danger" onclick="loadMoreIssues('Anupam-dagar', 'Portfolio-Generator')">Load more</button>
+
+             </div>
+          </div>
+
+
+
+          <!-- Lucid CV -->
+          <div class="project-title" id="aswinzz-LucidCV-heading">
+            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                  Lucid CV (HTML, CSS, JAVASCRIPT)
+            <a href="#">
+               <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+         </div>
+
+        <div class="project-issues-list container" role="tab">
+          <div class="row" id="aswinzz-LucidCV-issues">
+          </div>
+
+          <div class="row" id="aswinzz-LucidCV-load-more">
+
+              <button class="btn btn-danger" onclick="loadMoreIssues('aswinzz', 'LucidCV')">Load more</button>
+
+           </div>
+        </div>
+
+
+
+        <!-- OpenNews -->
+        <div class="project-title" id="opencode18-OpenNews-heading">
+          <i class="fa fa-angle-down" aria-hidden="true"></i>
+                Open News (HTML, CSS, JAVASCRIPT)
+          <a href="#">
+             <i class="fa fa-github" aria-hidden="true"></i>
+          </a>
+       </div>
+
+      <div class="project-issues-list container" role="tab">
+        <div class="row" id="opencode18-OpenNews-issues">
+        </div>
+
+        <div class="row" id="opencode18-OpenNews-load-more">
+
+            <button class="btn btn-danger" onclick="loadMoreIssues('opencode18', 'OpenNews')">Load more</button>
+
+         </div>
+      </div>
+
+
+
+          <!-- yes -->
+          <div class="project-title" id="mubaris-yes-heading">
+            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                  YES (MULTIPLE LANGUAGES)
+            <a href="#">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div class="project-issues-list container" role="tab">
+          <div class="row" id="mubaris-yes-issues">
+          </div>
+
+          <div class="row" id="mubaris-yes-load-more">
+
+              <button class="btn btn-danger" onclick="loadMoreIssues('mubaris', 'yes')">Load more</button>
+
+          </div>
+        </div>
+
+
+
+          <!-- addy-react-native -->
+          <div class="project-title" id="addy-org-Addy-React-Native-heading">
+            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                  Addy React Native (REACT)
+            <a href="#">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div class="project-issues-list container" role="tab">
+          <div class="row" id="addy-org-Addy-React-Native-issues">
+          </div>
+
+          <div class="row" id="addy-org-Addy-React-Native-load-more">
+
+              <button class="btn btn-danger" onclick="loadMoreIssues('addy-org', 'Addy-React-Native')">Load more</button>
+
+          </div>
+        </div>
+
+
+
+        <!-- DiavApp -->
+        <div class="project-title" id="luisejrobles-DiavApp-heading">
+            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                  DiavApp (ANGULAR)
+            <a href="#">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div class="project-issues-list container" role="tab">
+          <div class="row" id="luisejrobles-DiavApp-issues">
+          </div>
+
+          <div class="row" id="luisejrobles-DiavApp-load-more">
+
+              <button class="btn btn-danger" onclick="loadMoreIssues('luisejrobles', 'DiavApp')">Load more</button>
+
+          </div>
+        </div>
+
+
+
+        <!-- Coin Desk -->
+        <div class="project-title" id="gostudent-coindesk-heading">
+            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                  Coin Desk (GO)
+            <a href="#">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div class="project-issues-list container" role="tab">
+          <div class="row" id="gostudent-coindesk-issues">
+          </div>
+
+          <div class="row" id="gostudent-coindesk-load-more">
+
+              <button class="btn btn-danger" onclick="loadMoreIssues('gostudent', 'coindesk')">Load more</button>
+
+          </div>
+        </div>
+
+
+
+        <!-- Console -->
+        <div class="project-title" id="gostudent-console-heading">
+            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                  Console (GO)
+            <a href="#">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div class="project-issues-list container" role="tab">
+          <div class="row" id="gostudent-console-issues">
+          </div>
+
+          <div class="row" id="gostudent-console-load-more">
+
+              <button class="btn btn-danger" onclick="loadMoreIssues('gostudent', 'console')">Load more</button>
+
+          </div>
+        </div>
+
+
+
+        <!-- Grypto -->
+        <div class="project-title" id="gostudent-Grypto-heading">
+            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                  Grypto (GO)
+            <a href="#">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div class="project-issues-list container" role="tab">
+          <div class="row" id="gostudent-Grypto-issues">
+          </div>
+
+          <div class="row" id="gostudent-Grypto-load-more">
+
+              <button class="btn btn-danger" onclick="loadMoreIssues('gostudent', 'Grypto')">Load more</button>
+
+          </div>
+        </div>
+
+
+
+        <!-- aurora -->
+        <div class="project-title" id="gostudent-aurora-heading">
+            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                  aurora (GO)
+            <a href="#">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div class="project-issues-list container" role="tab">
+          <div class="row" id="gostudent-aurora-issues">
+          </div>
+
+          <div class="row" id="gostudent-aurora-load-more">
+
+              <button class="btn btn-danger" onclick="loadMoreIssues('gostudent', 'aurora')">Load more</button>
+
+          </div>
+        </div>
+
+
+
+
+          <!-- HackerSkills -->
+          <div class="project-title" id="opencode18-HackerSkills-heading">
+            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                  HackerSkills (MULTIPLE LANGUAGES)
+            <a href="#">
+               <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+         </div>
+
+        <div class="project-issues-list container" role="tab">
+          <div class="row" id="opencode18-HackerSkills-issues">
+          </div>
+
+          <div class="row" id="opencode18-HackerSkills-load-more">
+
+              <button class="btn btn-danger" onclick="loadMoreIssues('opencode18', 'HackerSkills')">Load more</button>
+
+           </div>
+        </div>
+
+
+
+        <!-- Girls who Code -->
+        <div class="project-title" id="opencode18-Girls-who-code-heading">
+          <i class="fa fa-angle-down" aria-hidden="true"></i>
+                Girls-who-code (HTML, CSS, JAVASCRIPT)
+          <a href="#">
+             <i class="fa fa-github" aria-hidden="true"></i>
+          </a>
+       </div>
+
+      <div class="project-issues-list container" role="tab">
+        <div class="row" id="opencode18-Girls-who-code-issues">
+        </div>
+
+        <div class="row" id="opencode18-Girls-who-code-load-more">
+
+            <button class="btn btn-danger" onclick="loadMoreIssues('opencode18', 'Girls-who-code')">Load more</button>
+
+         </div>
+      </div>
+
+
+
+      <!-- Letsgo -->
+      <div class="project-title" id="gostudent-Letsgo-heading">
+        <i class="fa fa-angle-down" aria-hidden="true"></i>
+              Letsgo (GO)
+        <a href="#">
+           <i class="fa fa-github" aria-hidden="true"></i>
+        </a>
+     </div>
+
+      <div class="project-issues-list container" role="tab">
+        <div class="row" id="gostudent-Letsgo-issues">
+        </div>
+
+        <div class="row" id="gostudent-Letsgo-load-more">
+
+            <button class="btn btn-danger" onclick="loadMoreIssues('gostudent', 'Letsgo')">Load more</button>
+
+        </div>
+      </div>
+
+
+
+
+      <!-- Cool Physics -->
+      <div class="project-title" id="himanshub16-cool-physics-heading">
+        <i class="fa fa-angle-down" aria-hidden="true"></i>
+              cool-physics (HTML, CSS, JAVASCRIPT)
+        <a href="#">
+          <i class="fa fa-github" aria-hidden="true"></i>
+        </a>
+      </div>
+
+      <div class="project-issues-list container" role="tab">
+        <div class="row" id="himanshub16-cool-physics-issues">
+        </div>
+
+        <div class="row" id="himanshub16-cool-physics-load-more">
+
+            <button class="btn btn-danger" onclick="loadMoreIssues('himanshub16', 'cool-physics')">Load more</button>
+
+        </div>
+      </div>
+
+
+
+
+      <!-- Goal Coach -->
+      <div class="project-title" id="himank-goel-Goal-Coach-heading">
+          <i class="fa fa-angle-down" aria-hidden="true"></i>
+              Goal-Coach (REACT)
+          <a href="#">
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </a>
+      </div>
+
+      <div class="project-issues-list container" role="tab">
+        <div class="row" id="himank-goel-Goal-Coach-issues">
+        </div>
+
+        <div class="row" id="himank-goel-Goal-Coach-load-more">
+
+            <button class="btn btn-danger" onclick="loadMoreIssues('himank-goel', 'Goal-Coach')">Load more</button>
+
+        </div>
+      </div>
+
 
           <!-- ============================================================== -->
           <!-- NOW GO DOWN TO script.js-->
@@ -498,6 +1208,7 @@
     </div>
   </footer>
 
+
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -534,6 +1245,31 @@
     $(document).ready(function () {
       $('#opencode18-CodeStash-load-more button').click();
       $('#opencode18-OpenCode-Collaborative-load-more button').click();
+      $('#opencode18-HackerSkills-load-more button').click();
+      $('#opencode18-Girls-who-code-load-more button').click();
+      $('#gostudents-Letsgo-load-more button').click();
+      $('#himanshub16-cool-physics-load-more button').click();
+      $('#himank-goel-Goal-Coach-load-more button').click();
+      $('#gostudent-Algorithms-load-more button').click();
+      $('#Anna-Assistant-Anna-load-more button').click();
+      $('#mubaris-motivate-load-more button').click();
+      $('#agbilotia1998-Lecture-Connect-load-more button').click();
+      $('#GeekHaven-Aparoksha-18-load-more button').click();
+      $('#GitHubCommunity-IIITAllahabad-ProfilePortal-Beta-load-more button').click();
+      $('#adeora7-youtube_queue_extension-load-more button').click();
+      $('#rahulkumaran-Utlyz-CLI-load-more button').click();
+      $('#mrsaicharan1-PyDic-load-more button').click();
+      $('#GitHubCommunity-IIITAllahabad-attendance-portal-load-more button').click();
+      $('#Anupam-dagar-Portfolio-Generator-load-more button').click();
+      $('#aswinzz-LucidCV-load-more button').click();
+      $('#opencode18-OpenNews-load-more button').click();
+      $('#mubaris-yes-load-more button').click();
+      $('#addy-org-Addy-React-Native-load-more button').click();
+      $('#luisejrobles-DiavApp-load-more button').click();
+      $('#gostudent-coindesk-load-more button').click();
+      $('#gostudent-console-load-more button').click();
+      $('#gostudent-Grypto-load-more button').click();
+      $('#gostudent-aurora-load-more button').click();
     });
 
   </script>
@@ -548,5 +1284,57 @@
 <script src="js/apicall.js"></script>
 <script src="js/popup.js"></script>
 
+<script type="text/javascript">
+  (function ($) {
+$(document).ready(function(){
+
+  // hide .navbar first
+  $("#fh5co-header").hide();
+
+  // fade in .navbar
+  $(function () {
+      $(window).scroll(function () {
+
+               // set distance user needs to scroll before we start fadeIn
+          if ($(this).scrollTop() > 580) {
+              $("#fh5co-header").fadeIn();
+          } else {
+              $("#fh5co-header").fadeOut();
+          }
+      });
+  });
+
+});
+}(jQuery));
+</script>
+
+<script>
+// Window Scroll
+var windowScroll = function() {
+  var lastScrollTop = 0;
+
+  $(window).scroll(function(event){
+
+      var header = $('#fh5co-header'),
+      scrlTop = $(this).scrollTop();
+
+    if ( scrlTop > 500 && scrlTop <= 2000 ) {
+      header.addClass('navbar-fixed-top fh5co-animated slideInDown');
+    } else if ( scrlTop <= 500) {
+      if ( header.hasClass('navbar-fixed-top') ) {
+        header.addClass('navbar-fixed-top fh5co-animated slideOutUp');
+        setTimeout(function(){
+          header.removeClass('navbar-fixed-top fh5co-animated slideInDown slideOutUp');
+        }, 100 );
+      }
+    }
+
+  });
+};
+
+</script>
+
+
+<script src="js/game.js"></script>
 </body>
 </html>

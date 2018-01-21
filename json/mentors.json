@@ -52,9 +52,9 @@
             "name" : "Mubaris NK",
             "imageurl" : "mentor/mubaris.jpeg",
             "about" : "",
-            "facebook" : "",
-            "github" : "",
-            "twitter" : ""
+            "facebook" : "https://www.facebook.com/nk.mubaris",
+            "github" : "https://github.com/mubaris",
+            "twitter" : "twitter.com/Mubaris_NK"
         },
         {
             "name" : "Ayush Gupta",
@@ -159,6 +159,14 @@
             "facebook" : "https://www.facebook.com/aditya.goel.311",
             "github" : "http://github.com/Ellusionists",
             "twitter" : "https://twitter.com/itsAdityaGoel"
+        },
+        {
+            "name" : "Saswat Sahoo",
+            "imageurl" : "mentor/saswat.jpg",
+            "about" : "Developer - Powered By Caffeine",
+            "facebook" : "https://www.facebook.com/profile.php?id=100009337968648",
+            "github" : "https://github.com/reverie-ss",
+            "twitter" : "https://www.linkedin.com/in/reverie-ss/"
         }
     ]
 }
