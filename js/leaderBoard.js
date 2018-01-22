@@ -17,8 +17,8 @@ const app3 = new Vue({
                 var keyA = a.Total,
                     keyB = b.Total;
 
-                if (keyA < keyB) return -1;
-                if (keyA > keyB) return 1;
+                if (keyA > keyB) return -1;
+                if (keyA < keyB) return 1;
                 return 0;
             });
         }
