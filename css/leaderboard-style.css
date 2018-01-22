@@ -1,0 +1,112 @@
+.section-leaderboard{
+    height:auto;
+    width:100%;
+    
+    padding:50px 0;
+    font-size:40px;
+    font-family: 'Lato';
+ 
+    background-color:white;
+    
+
+}
+
+.section-leaderboard .section-title{
+    text-transform: capitalize;
+}
+
+.section-leaderboard .container{
+   
+    margin:30px auto 0 auto!important;
+    border-radius:5px;
+    padding:10px;
+    background-color:#FEFEFE;
+    width:60%;
+    box-shadow:0px 0px 5px #AAA;
+}
+
+.section-leaderboard table{
+    width:100%;
+}
+
+.section-leaderboard table tr:first-of-type{
+    background-color:black;
+    color:white;
+    
+    font-weight:normal;
+    
+    text-transform:uppercase;
+    border-bottom:3px solid white;
+    
+    
+}
+
+.section-leaderboard table tr:first-of-type th{
+    text-align: center;
+    padding:10px 0;
+    font-family: 'Lato', sans-serif!important;
+    font-size:100%;
+    font-weight: 300;
+    
+}
+
+.section-leaderboard table tr{
+    font-size:46%;
+    font-weight:300;
+    padding:5px 0;
+    margin:3px 0;
+    background-color:white;
+    
+   
+}
+
+.section-leaderboard table td{
+   
+    padding:5px 0;
+   
+}
+
+.section-leaderboard table tr:nth-of-type(2),
+.section-leaderboard table tr:nth-of-type(3),
+.section-leaderboard table tr:nth-of-type(4),
+.section-leaderboard table tr:nth-of-type(5),
+.section-leaderboard table tr:nth-of-type(6){
+    color:white;
+    background: #ee0979; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ee0979, #ff6a00); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ee0979, #ff6a00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-bottom:0.5px solid white;
+}
+
+@media only screen and (max-width:1100px){
+
+    .section-leaderboard .container{
+   
+      
+        width:80%;
+
+
+    }
+
+    .section-leaderboard{
+        font-size:35px;
+    }
+    
+}
+
+@media only screen and (max-width:650px){
+
+    .section-leaderboard .container{
+   
+      
+        width:100%;
+
+    }
+    
+    .section-leaderboard{
+        font-size:30px;
+        font-weight: 500;
+    }
+}
+
+
