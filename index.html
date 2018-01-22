@@ -1372,6 +1372,11 @@ var windowScroll = function() {
 
   });
 };
+$(window).scroll(function(){
+    $(".logo").css("opacity", 1 - $(window).scrollTop() / 400);
+    $(".title").css("opacity", 1 - $(window).scrollTop() / 400);
+    $(".quote").css("opacity", 1 - $(window).scrollTop() / 400);
+  });
 
 </script>
 
