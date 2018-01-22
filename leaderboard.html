@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OpenCode'18 | Leaderboard</title>
+    <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- JQuery UI links -->
+  <link href="vendor/jquery/jquery-ui.min.css" rel="stylesheet">
+  <link href="vendor/jquery/jquery-ui.structure.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+  <!-- Font awesome for social icons  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/simple-line-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="style1.css" media="all" rel="stylesheet" />
+  <link rel="stylesheet" href="css/game-style.css">
+  <link rel="stylesheet" href="css/projects-style.css">
+  <link rel="stylesheet" href="css/issues-style.css">
+  <link rel="stylesheet" href="css/leaderboard-style.css">
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style type="text/css">
+::-webkit-scrollbar {
+    width: 20px;
+}
+::-webkit-scrollbar {
+    width: 20px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 15px ;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 15px;
+}
+::-webkit-scrollbar-thumb:hover {
+      background: #555;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+</style>
+  <style type="text/css">
+  /* @media screen and (min-width: 300px) {
+
+    div.mentors, div.contestants{margin-left:16vh;}
+    dic.project-row, div.game-row{margin:auto;}
+    h1#center-mentor{margin-left: 2vh;}
+    h1#center-participant{margin-left: 2vh;}
+    h1#center-project{margin-left: 2vh;}
+    h1#center-game{margin-left: 2vh;}
+} */
+
+
+  /* @media screen and (max-width: 300px) {
+    div.mentors, div.contestants, div.projects, div.game{margin-left:10vh;}
+    h1#center-mentor{margin-left: 5vh;}
+    h1#center-participant{margin-left: 1vh;}
+    h1#center-project{margin-left: 5vh;}
+    h1#center-game{margin-left: 5vh;}
+} */
+
+  #mentors, #contestants, #projects, #game{
+    text-align: center;
+  }
+  .preloader img{
+
+  height:230px;
+  width:auto;
+  margin:0 auto;
+  display: inline-block;
+}
+.preloader img {
+		-webkit-animation: rotation 2s 1 linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotateY(0deg)  scale(0,0);
+
+		}
+		to {
+				-webkit-transform: rotateY(360deg) scale(1.7,1.7);
+
+		}
+}
+  </style>
+
+  <style>
+
+
+
+  @-webkit-keyframes slideInDown {
+from {
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  visibility: visible;
+}
+
+to {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+}
+
+@keyframes slideInDown {
+from {
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  visibility: visible;
+}
+
+to {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+}
+.slideInDown {
+-webkit-animation-name: slideInDown;
+animation-name: slideInDown;
+}
+
+@-webkit-keyframes slideOutUp {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes slideOutUp {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+.slideOutUp {
+  -webkit-animation-name: slideOutUp;
+  animation-name: slideOutUp;
+}
+
+
+.fh5co-animated {
+  -webkit-animation-duration: .6s;
+  animation-duration: .6s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.navbar-fixed-top{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-fixed-top{
+max-height: 340px;
+}
+@media (max-device-width: 480px) and (orientation: landscape) {
+.navbar-fixed-top{
+  max-height: 200px;
+}}
+.navbar-fixed-top{
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+@media (min-width: 768px) {
+  .navbar-fixed-top{
+    border-radius: 0;
+  }
+}
+
+.navbar-fixed-top{
+  top: 0;
+  border-width: 0 0 1px;
+}
+
+  .heading{
+    height:auto;
+    width:100%;
+    padding:50px 0;
+    font-size:40px;
+    font-family: 'Lato';
+    color:#222;
+    text-align: center;
+    margin:0 auto;
+    font-weight:300;
+  }
+
+  .heading:after{
+    content: '';
+    display: block;
+    height:2px;
+    width:70px;
+    margin:0 auto;
+    background: #ee0979; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ee0979, #ff6a00); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ee0979, #ff6a00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+  </style>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+        <section id="leaderboard" class="section-leaderboard">
+                <div class="section-title">
+                  Leaderboard
+                </div>
+                <div class="leaderboard-table container">
+                    <table>
+                        <tbody class="contributors" id="contributors">
+                          <tr>
+                            <th>Rank</th>
+                            <th>Username</th>
+                            <th>Points</th>
+                          </tr>
+                          <tr v-for="(contributor, index) in scoreSort(contributors)">
+                            <td>{{ index + 1 }}</td>
+                            <td>{{ contributor.name }}</td>
+                            <td>{{ contributor.Total }}</td>
+                         </tr>
+                         
+
+                        </tbody>
+                  </table>
+                
+                </div>
+                <a href="index.html" class="return">Return to Home Page</a>
+            </section>
+
+            <script src="https://unpkg.com/vue"></script>
+            <script src="js/leaderBoard.js"></script>
+</body>
+</html>
+  
