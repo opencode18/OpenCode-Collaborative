@@ -240,11 +240,21 @@ max-height: 340px;
 
 }
 
+  .stars{
+    padding-right: 10px;
+    padding-top: 5px;
+  }
 
+  .forks{
+    padding-top: 5px;
+  }
   </style>
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="js/preloader.js"></script>
+  <!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
 
 </head>
 <script>var cards = document.querySelectorAll(".card");</script>
@@ -287,17 +297,21 @@ max-height: 340px;
           <li class="nav-item">
             <span class="space"></span>
           </li>
-          <li class="nav-item">
-            <div class="st">
+          <li class="nav-item stars">
+            <!-- <div class="st">
               <span id="star-box"><i class="fa fa-star" aria-hidden="true"></i><a href="https://github.com/opencode18/OpenCode-Collaborative" style="text-decoration-line: none" target="_blank">  Stars</a></span>
               <span id="star"></span>
-            </div>
+            </div> -->
+            <!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/opencode18/OpenCode-Collaborative" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
           </li>
-          <li class="nav-item">
-            <div class="fo">
+          <li class="nav-item forks">
+            <!-- <div class="fo">
               <span id="fork-box"><i class="fa fa-code-fork" aria-hidden="true"></i><a href="https://github.com/opencode18/OpenCode-Collaborative" style="text-decoration-line: none" target="_blank">  Forks</a></span>
               <span id="fork"></span>
-            </div>
+            </div> -->
+            <!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/opencode18/OpenCode-Collaborative/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork ntkme/github-buttons on GitHub">Fork</a>
           </li>
 
         </ul>
