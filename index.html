@@ -69,14 +69,29 @@
 
 </style>
   <style type="text/css">
-  @media screen and (max-width: 300px) {
-    div.mentors, div.contestants, div.projects, div.game{margin-left: 14vh;}
+  /* @media screen and (min-width: 300px) {
+
+    div.mentors, div.contestants{margin-left:16vh;}
+    dic.project-row, div.game-row{margin:auto;}
+    h1#center-mentor{margin-left: 2vh;}
+    h1#center-participant{margin-left: 2vh;}
+    h1#center-project{margin-left: 2vh;}
+    h1#center-game{margin-left: 2vh;}
+} */
+
+
+  /* @media screen and (max-width: 300px) {
+    div.mentors, div.contestants, div.projects, div.game{margin-left:10vh;}
     h1#center-mentor{margin-left: 5vh;}
     h1#center-participant{margin-left: 1vh;}
     h1#center-project{margin-left: 5vh;}
     h1#center-game{margin-left: 5vh;}
-    }
-	.preloader img{
+} */
+
+  #mentors, #contestants, #projects, #game{
+    text-align: center;
+  }
+  .preloader img{
 
   height:230px;
   width:auto;
@@ -201,6 +216,30 @@ max-height: 340px;
   border-width: 0 0 1px;
 }
 
+  .heading{
+    height:auto;
+    width:100%;
+    padding:50px 0;
+    font-size:40px;
+    font-family: 'Lato';
+    color:#222;
+    text-align: center;
+    margin:0 auto;
+    font-weight:300;
+  }
+
+  .heading:after{
+    content: '';
+    display: block;
+    height:2px;
+    width:70px;
+    margin:0 auto;
+    background: #ee0979; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ee0979, #ff6a00); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ee0979, #ff6a00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
 
   </style>
   <!-- jQuery -->
@@ -236,7 +275,7 @@ max-height: 340px;
             <a class="nav-link js-scroll-trigger" href="#contact">Participants</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#works">Projects</a>
+            <a class="nav-link js-scroll-trigger" href="projects/projects.html" target="_blank">Projects</a>
           </li>
 
           <li class="nav-item">
@@ -318,11 +357,11 @@ max-height: 340px;
 </section>
 
 
-
+<div class="container">
   <section id="services" class="bg-light">
     <div class="container">
-      <div class="row">
-        <div class="col-md-12" class="mentors" id="mentors">
+      <!-- <div class="row"> -->
+        <div class="mentors" id="mentors">
           <div class="heading">
             <h1 id="center-mentor">Mentors</h1>
           </div>
@@ -361,13 +400,13 @@ max-height: 340px;
           </div>
 
         </div>
-      </div>
+      <!-- </div> -->
     </div>
   </section>
 
   <section id="contact">
     <div class="container">
-      <div class="row">
+      <!-- <div class="row"> -->
         <div class="contestants" id="contestants">
           <div class="heading">
             <h1 id="center-participant">Participants</h1>
@@ -407,60 +446,14 @@ max-height: 340px;
             </div>
           </div>
         </div>
-      </div>
+      <!-- </div> -->
     </div>
   </section>
 
-  <section id="works" class="bg-light">
+
+  <section id="fun">
     <div class="container">
-      <div class="row">
-        <div class="projects" id="projects">
-          <div class="heading">
-            <h1 id="center-project">Projects</h1>
-          </div>
-
-          <div class="card" v-for="project in alphaSort(projects)" onclick="this.classList.toggle('flipped')">
-            <div class="front">
-              <div class="project">
-
-                  <p class="project-name">{{ project.name }}</p>
-                  <hr class="card-underline">
-                  <p class="project-mentored-by">Mentored by</p>
-                  <p class="project-mentor">{{ project.mentors }}</p>
-
-              </div>
-              <div class="name">
-                <div class="triangle-left"></div>
-                <div class="triangle-right"></div>
-                {{ project.lang }}</div>
-            </div>
-            <div class="back">
-              <!-- <div id="snow"></div> -->
-              <div class="about">
-                <div id="snow"></div>
-                <p class="project-name">ABOUT PROJECT</p>
-                <hr class="card-underline">
-                <p class="about-project">{{ project.about }}</p>
-              </div>
-              <div class="social">
-                <div class="triangle-left"></div>
-                <div class="triangle-right"></div>
-                <a v-bind:href="project.github">
-                  <i class="fa fa-github" aria-hidden="true"></i>
-                </a>
-
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="fun" class="bg-light">
-    <div class="container">
-      <div class="row">
+      <!-- <div class="row game-row"> -->
         <div class="game" id="game">
           <div class="heading">
             <h1 id="center-game">Participant's Games</h1>
@@ -494,9 +487,11 @@ max-height: 340px;
           </div>
 
         </div>
-      </div>
+      <!-- </div> -->
     </div>
   </section>
+
+</div>
 
 
 
