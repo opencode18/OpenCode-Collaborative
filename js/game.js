@@ -1,4 +1,4 @@
-const app3=new Vue({
+const appgame=new Vue({
     el : '#game',
     data : {
         game : []
