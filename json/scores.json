@@ -70,6 +70,102 @@
          }
          ],
          "Total":"170"
+      },
+      {
+         "name":"re42",
+         "Contributions":[{
+            "name":"Add yourself to the participants list #1",
+            "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/1",
+            "PRlink":"https://github.com/opencode18/OpenCode-Collaborative/pull/22",
+            "score":"10"
+         },{
+            "name":"Fix box animations on closing. #1",
+            "Issuelink":"https://github.com/GeekHaven/Aparoksha-18/issues/1",
+            "PRlink":"https://github.com/GeekHaven/Aparoksha-18/pull/4",
+            "score":"10"
+         },{
+            "name":"Align closing button in fest registration modal #6",
+            "Issuelink":"https://github.com/GeekHaven/Aparoksha-18/issues/6",
+            "PRlink":"https://github.com/GeekHaven/Aparoksha-18/pull/12",
+            "score":"20"
+         },{
+            "name":"Generate Github Resume #23",
+            "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/23",
+            "PRlink":"",
+            "score":"10"
+         },{
+            "name":"Run this project on your local computer #3",
+            "Issuelink":"https://github.com/GeekHaven/Aparoksha-18/issues/3",
+            "PRlink":"",
+            "score":"20"
+         },{
+            "name":"Add a simple Pre-Loader for the website. #32",
+            "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/32",
+            "PRlink":"https://github.com/opencode18/OpenCode-Collaborative/pull/207",
+            "score":"30"
+         },{
+            "name":"Share solved issues in social medias which have \"social\" label #31",
+            "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/31",
+            "PRlink":"",
+            "score":"10"
+         },{
+            "name":"Star this repository #10",
+            "Issuelink":"https://github.com/GeekHaven/Aparoksha-18/issues/10",
+            "PRlink":"",
+            "score":"10"
+         },{
+            "name":"Star the repo to earn point ! #34",
+            "Issuelink":"https://github.com/opencode18/OpenNews/issues/34",
+            "PRlink":"",
+            "score":"10"
+         },{
+            "name":"star this repository #128",
+            "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/128",
+            "PRlink":"",
+            "score":"10"
+         },{
+            "name":"like opencode fb page #138",
+            "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/138",
+            "PRlink":"",
+            "score":"10"
+         },{
+            "name":"Star This Repo #6",
+            "Issuelink":"https://github.com/gostudent/Letsgo/issues/6",
+            "PRlink":"",
+            "score":"10"
+         },{
+            "name":"Star This Repo #12",
+            "Issuelink":"https://github.com/gostudent/Algorithms/issues/12",
+            "PRlink":"",
+            "score":"10"
+         },{
+            "name":"Star This Repo #1",
+            "Issuelink":"https://github.com/gostudent/gostudent.github.io/issues/1",
+            "PRlink":"",
+            "score":"10"
+         },{
+            "name":"Star This Repo #55",
+            "Issuelink":"https://github.com/opencode18/CodeStash/issues/55",
+            "PRlink":"",
+            "score":"10"
+         },{
+            "name":"star this repo #3",
+            "Issuelink":"https://github.com/opencode18/ProDesigner/issues/3",
+            "PRlink":"",
+            "score":"10"
+         },{
+            "name":"Star this Repository! #12",
+            "Issuelink":"https://github.com/agbilotia1998/Lecture-Connect/issues/12",
+            "PRlink":"",
+            "score":"0"
+         },{
+            "name":"Star and fork the repo to get points #23",
+            "Issuelink":"https://github.com/rahulkumaran/Utlyz-CLI/issues/23",
+            "PRlink":"",
+            "score":"10"
+         }
+         ],
+         "Total":"210"
       }
    ]
 }
