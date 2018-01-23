@@ -182,6 +182,62 @@
 			"about": "Visualisations of awesome concepts from Physics ",
 			"lang": "HTML, JavaScript",
 			"github": "https://github.com/himanshub16/cool-physics"
+		},
+		{
+			"name": "Coindesk",
+			"imageurl": "",
+			"mentors": "Team GoStudents",
+			"about": "Golang API client for Coindesk",
+			"lang": "Go",
+			"github": "https://github.com/gostudent/coindesk"
+		},
+		{
+			"name": "Console",
+			"imageurl": "",
+			"mentors": "Team GoStudents",
+			"about": "Beautiful Console Logging with Emojis",
+			"lang": "Go",
+			"github": "https://github.com/gostudent/console"
+		},	
+		{
+			"name": "Grypto",
+			"imageurl": "",
+			"mentors": "Team GoStudents",
+			"about": "Terminal Application to check price of Cryptocurrencies",
+			"lang": "Go",
+			"github": "https://github.com/gostudent/Grypto"
+		},
+		{
+			"name": "Aurora",
+			"imageurl": "",
+			"mentors": "Team GoStudents",
+			"about": "A Package to create quote images",
+			"lang": "Go",
+			"github": "https://github.com/gostudent/aurora"
+		},
+		{
+			"name": "Dataviz Gallery",
+			"imageurl": "",
+			"mentors": "Mubaris NK",
+			"about": "Collection of cool Data Visualizations",
+			"lang": "Python, R, JavaScript",
+			"github": "https://github.com/mubaris/dataviz-gallery"
+		},
+		{
+			"name": "Long Drive",
+			"imageurl": "",
+			"mentors": "Abhinav Khare",
+			"about": "A Fun CSS Side Project",
+			"lang": "CSS",
+			"github": "https://github.com/CosmicCoder96/longDrive"
+		},
+		{
+      "name": "Addy-Android",
+			"imageurl": "",
+			"mentors": " Saswat Sahoo, Yashovardhan Agrawal",
+			"about": "Addy is an app that enhances the addressing system of the world.",
+			"lang": "Android",
+			"github": "https://github.com/addy-org/Addy-Android"
 		}
 	]
 }
