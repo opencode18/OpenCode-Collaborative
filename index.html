@@ -38,6 +38,7 @@
   <link rel="stylesheet" href="css/game-style.css">
   <link rel="stylesheet" href="css/projects-style.css">
   <link rel="stylesheet" href="css/issues-style.css">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style type="text/css">
 ::-webkit-scrollbar {
@@ -305,7 +306,67 @@ $(window).scroll(function () {
             </div>
           </li>
 
-        </ul>
+    <div class="preloader-wrapper" style="background-color: black;">
+        <div class="preloader">
+            <img style="margin-left: -15px; margin-top: -25px;" src="images/OpenCode.png" alt="NILA">
+        </div>
+    </div>
+      <!-- Navigation -->
+      <div id="fh5co-header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+          <a class="navbar-brand js-scroll-trigger" href="#page-top">OpenCode</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#services">Mentors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#contact">Participants</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="projects/projects.html" target="_blank">Projects</a>
+              </li>
+
+              <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="leaderboard.html" target="_blank">Leaderboard</a>
+                </li>
+
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#fun">Games</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" id="trailer" href="#trailer">Trailer</a>
+              </li>
+              <li class="nav-item">
+                <span class="space"></span>
+              </li>
+              <li class="nav-item stars">
+                <!-- <div class="st">
+                  <span id="star-box"><i class="fa fa-star" aria-hidden="true"></i><a href="https://github.com/opencode18/OpenCode-Collaborative" style="text-decoration-line: none" target="_blank">  Stars</a></span>
+                  <span id="star"></span>
+                </div> -->
+                <a class="github-button" href="https://github.com/opencode18/OpenCode-Collaborative" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+              </li>
+              <li class="nav-item forks">
+                <!-- <div class="fo">
+                  <span id="fork-box"><i class="fa fa-code-fork" aria-hidden="true"></i><a href="https://github.com/opencode18/OpenCode-Collaborative" style="text-decoration-line: none" target="_blank">  Forks</a></span>
+                  <span id="fork"></span>
+                </div> -->
+                <a class="github-button" href="https://github.com/opencode18/OpenCode-Collaborative/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork ntkme/github-buttons on GitHub">Fork</a>
+              </li>
+
+            </ul>
+          </div>
+      </nav>
+    </div>
       </div>
 
 
@@ -327,197 +388,158 @@ $(window).scroll(function () {
   <header>
     <div id="snow"></div>
 
-    <div class="row logo">
-      <img src="images/OpenCode.png" alt="Opencode Logo" class="hero-logo">
+        <div class="row logo">
+          <img src="images/OpenCode.png" alt="Opencode Logo" class="hero-logo">
 
-   </div>
-
-    </div>
-
-    <div class="row title">
-      <h1 class="hero-title">&nbsp;OPENCODE</h1>
-
-
-    </div>
-    <hr class="card-underline">
-    <div class="row quote">
-      <p class="hero-quote">IIIT Allahabad's very own mini GSOC!</p>
-    </div>
-  </header>
-<br>
-<br>
-<div class="sticky-container">
-    <ul class="sticky">
-        <li>
-            <img src="images/fb.jpeg" width="70" height="150">
-			<p><br><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fopencodeiiita%2F&tabs=timeline&width=340&height=200&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" padding-left="10px" width="340" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></p>
-        </li>
-    </ul>
-</div>
-
-<div id="clockdiv">
-	<div><span class="days"></span><div class="smalltext">Days</div></div>
-	<div><span class="hours"></span><div class="smalltext">Hours</div></div>
-	<div><span class="minutes"></span><div class="smalltext">Minutes</div></div>
-	<div><span class="seconds"></span><div class="smalltext">Seconds</div></div>
-</div>
-
-
-<section id="Trailer">
-  <div id="popupBody" class="videoHidden">
-    <div class="videoPopup">
-
-      <iframe width="100%" height="500" src="https://www.youtube.com/embed/qjVYRDQAl2Q"></iframe>
-
-    <span class="close"></span>
-    </div>
-  </div>
-</section>
-
-
-
-  <section id="services" class="bg-light">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12" class="mentors" id="mentors">
-          <div class="heading">
-            <h1 id="center-mentor">Mentors</h1>
-          </div>
-          <div class="card" v-for="mentor in alphaSort(mentors)" onclick="this.classList.toggle('flipped')">
-            <div class="front">
-              <div class="image">
-                <img v-bind:src="mentor.imageurl">
-              </div>
-              <div class="name">
-                <div class="triangle-left"></div>
-                <div class="triangle-right"></div>
-                {{ mentor.name }}</div>
-            </div>
-            <div class="back">
-              <!-- <div class="snow-card"></div> -->
-              <div class="about">
-                <div id="snow"></div>
-                <h3>About me</h3>
-                <hr class="card-underline">
-                <p>{{ mentor.about }}</p>
-              </div>
-              <div class="social">
-                <div class="triangle-left"></div>
-                <div class="triangle-right"></div>
-                <a v-bind:href="mentor.facebook">
-                  <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                </a>
-                <a v-bind:href="mentor.github">
-                  <i class="fa fa-github" aria-hidden="true"></i>
-                </a>
-                <a v-bind:href="mentor.twitter">
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
-              </div>
-            </div>
-          </div>
+       </div>
 
         </div>
-      </div>
-    </div>
-  </section>
 
-  <section id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="contestants" id="contestants">
-          <div class="heading">
-            <h1 id="center-participant">Participants</h1>
-          </div>
-          <div class="card" v-for="contestant in alphaSort(contestants)" onclick="this.classList.toggle('flipped')">
-            <div class="front">
-              <div class="image">
-                <img v-bind:src="contestant.imageurl">
-              </div>
-              <div class="name">
-                <div class="triangle-left"></div>
-                <div class="triangle-right"></div>
-                {{ contestant.name }}</div>
-            </div>
-            <div class="back">
-              <!-- <div id="snow"></div> -->
-              <div class="about">
-                  <div id="snow"></div>
-                <h3>About me</h3>
-                <p class="card-college">{{ contestant.college }}</p>
-                <hr class="card-underline">
-                <p class="card-bio">{{ contestant.about }}</p>
-              </div>
-              <div class="social">
-                <div class="triangle-left"></div>
-                <div class="triangle-right"></div>
-                <a v-bind:href="contestant.facebook">
-                  <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                </a>
-                <a v-bind:href="contestant.github">
-                  <i class="fa fa-github" aria-hidden="true"></i>
-                </a>
-                <a v-bind:href="contestant.twitter">
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+        <div class="row title">
+          <h1 class="hero-title">&nbsp;OPENCODE</h1>
 
-  <section id="works" class="bg-light">
-    <div class="container">
-      <div class="row">
-        <div class="projects" id="projects">
-          <div class="heading">
-            <h1 id="center-project">Projects</h1>
-          </div>
-
-          <div class="card" v-for="project in alphaSort(projects)" onclick="this.classList.toggle('flipped')">
-            <div class="front">
-              <div class="project">
-
-                  <p class="project-name">{{ project.name }}</p>
-                  <hr class="card-underline">
-                  <p class="project-mentored-by">Mentored by</p>
-                  <p class="project-mentor">{{ project.mentors }}</p>
-
-              </div>
-              <div class="name">
-                <div class="triangle-left"></div>
-                <div class="triangle-right"></div>
-                {{ project.lang }}</div>
-            </div>
-            <div class="back">
-              <!-- <div id="snow"></div> -->
-              <div class="about">
-                <div id="snow"></div>
-                <p class="project-name">ABOUT PROJECT</p>
-                <hr class="card-underline">
-                <p class="about-project">{{ project.about }}</p>
-              </div>
-              <div class="social">
-                <div class="triangle-left"></div>
-                <div class="triangle-right"></div>
-                <a v-bind:href="project.github">
-                  <i class="fa fa-github" aria-hidden="true"></i>
-                </a>
-
-              </div>
-            </div>
-          </div>
 
         </div>
-      </div>
+        <hr class="card-underline">
+        <div class="row quote">
+          <p class="hero-quote">IIIT Allahabad's very own mini GSOC!</p>
+        </div>
+      </header>
+    <br>
+    <br>
+    <div class="sticky-container">
+        <ul class="sticky">
+            <li>
+                <img src="images/fb.jpeg" width="70" height="150">
+          <p><br><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fopencodeiiita%2F&tabs=timeline&width=340&height=200&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" padding-left="10px" width="340" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></p>
+            </li>
+        </ul>
     </div>
-  </section>
 
-  <section id="fun" class="bg-light">
+    <div id="clockdiv">
+      <div><span class="days"></span><div class="smalltext">Days</div></div>
+      <div><span class="hours"></span><div class="smalltext">Hours</div></div>
+      <div><span class="minutes"></span><div class="smalltext">Minutes</div></div>
+      <div><span class="seconds"></span><div class="smalltext">Seconds</div></div>
+    </div>
+
+
+    <section id="Trailer">
+      <div id="popupBody" class="videoHidden">
+        <div class="videoPopup">
+
+          <iframe width="100%" height="500" src="https://www.youtube.com/embed/qjVYRDQAl2Q"></iframe>
+
+        <span class="close"></span>
+        </div>
+      </div>
+    </section>
+
+
     <div class="container">
-      <div class="row">
+      <section id="services" class="bg-light">
+        <div class="container">
+          <!-- <div class="row"> -->
+            <div class="mentors" id="mentors">
+              <div class="heading">
+                <h1 id="center-mentor">Mentors</h1>
+              </div>
+              <div class="card" v-for="mentor in alphaSort(mentors)" onclick="this.classList.toggle('flipped')">
+                <div class="front">
+                  <div class="image">
+                    <img v-bind:src="mentor.imageurl">
+                  </div>
+                  <div class="name">
+                    <div class="triangle-left"></div>
+                    <div class="triangle-right"></div>
+                    {{ mentor.name }}</div>
+                </div>
+                <div class="back">
+                  <!-- <div class="snow-card"></div> -->
+                  <div class="about">
+                    <div id="snow"></div>
+                    <h3>About me</h3>
+                    <hr class="card-underline">
+                    <p>{{ mentor.about }}</p>
+                  </div>
+                  <div class="social">
+                    <div class="triangle-left"></div>
+                    <div class="triangle-right"></div>
+                    <a v-bind:href="mentor.facebook">
+                      <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    </a>
+                    <a v-bind:href="mentor.github">
+                      <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a v-bind:href="mentor.twitter">
+                      <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          <!-- </div> -->
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container">
+          <!-- <div class="row"> -->
+            <div class="contestants" id="contestants">
+              <div class="heading">
+                <h1 id="center-participant">Participants</h1>
+              </div>
+              <div class="card" v-for="contestant in alphaSort(contestants)" onclick="this.classList.toggle('flipped')">
+                <div class="front">
+                  <div class="image">
+                    <img v-bind:src="contestant.imageurl">
+                  </div>
+                  <div class="name">
+                    <div class="triangle-left"></div>
+                    <div class="triangle-right"></div>
+                    {{ contestant.name }}</div>
+                </div>
+                <div class="back">
+                  <!-- <div id="snow"></div> -->
+                  <div class="about">
+                      <div id="snow"></div>
+                    <h3>About me</h3>
+                    <p class="card-college">{{ contestant.college }}</p>
+                    <hr class="card-underline">
+                    <p class="card-bio">{{ contestant.about }}</p>
+                  </div>
+                  <div class="social">
+                    <div class="triangle-left"></div>
+                    <div class="triangle-right"></div>
+                    <a v-bind:href="contestant.facebook">
+                      <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    </a>
+                    <a v-bind:href="contestant.github">
+                      <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a v-bind:href="contestant.twitter">
+                      <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <!-- </div> -->
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+ <section id="fun">
+    <div class="container">
+      <!-- <div class="row game-row"> -->
         <div class="game" id="game">
           <div class="heading">
             <h1 id="center-game">Participant's Games</h1>
@@ -551,9 +573,11 @@ $(window).scroll(function () {
           </div>
 
         </div>
-      </div>
+      <!-- </div> -->
     </div>
   </section>
+
+</div>
 
 
 
@@ -1170,6 +1194,13 @@ $(window).scroll(function () {
       </div>
   </section>
 
+
+
+
+
+
+
+
   <!-- Footer -->
   <footer role="contentinfo">
     <div class="container">
@@ -1337,9 +1368,13 @@ $(window).scroll(function () {
 <script src="js/contestant.js"></script>
 <script src="js/projects.js"></script>
 <script src="js/issue-loader.js"></script>
+<script src="js/leaderBoard.js"></script>
 <script src="countDown.js"></script>
 <script src="js/apicall.js"></script>
 <script src="js/popup.js"></script>
+<!-- ---------------------Stars and Forks--------------------------- -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+<!-- ---------------------------------------------------------------------------- -->
 
 <script type="text/javascript">
   (function ($) {

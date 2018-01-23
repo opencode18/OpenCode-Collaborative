@@ -1,0 +1,319 @@
+body{
+    
+   background:#FCFCFC;
+}
+
+.section-leaderboard{
+    height:100vh;
+    
+    width:100%;
+    
+    padding:50px 0;
+    font-size:40px;
+    font-family: 'Lato';
+    text-align: center;
+  
+    
+
+}
+
+.section-leaderboard .section-title{
+    text-transform: capitalize;
+    color:#555;
+    font-weight: 500;
+}
+
+.section-leaderboard .container{
+   
+    margin:30px auto 0 auto!important;
+    border-radius:5px;
+    padding:10px;
+    background-color:#FEFEFE;
+    width:60%;
+    
+}
+
+.section-leaderboard table{
+    width:100%;
+    box-shadow:0px 0px 5px #AAA;
+    border:5px solid white;
+    border-radius:5px;
+}
+
+.section-leaderboard table tr:first-of-type{
+    background-color:#333;
+    color:white;
+    
+    font-weight:normal;
+    
+    text-transform:uppercase;
+    border-bottom:3px solid white;
+    
+    
+}
+
+.section-leaderboard table tr:first-of-type th{
+    text-align: center;
+    padding:10px 0;
+    font-family: 'Lato', sans-serif!important;
+    font-size:100%;
+    font-weight: 300;
+    
+}
+
+.section-leaderboard table tr{
+    font-size:46%;
+    font-weight:300;
+    padding:5px 0;
+    margin:3px 0;
+    background-color:white;
+    
+   
+}
+
+.section-leaderboard table td{
+   
+    padding:5px 0;
+   
+}
+
+.section-leaderboard table tr:nth-of-type(2),
+.section-leaderboard table tr:nth-of-type(3),
+.section-leaderboard table tr:nth-of-type(4),
+.section-leaderboard table tr:nth-of-type(5),
+.section-leaderboard table tr:nth-of-type(6){
+    color:white;
+    background: #11998e; /* fallback for old browsers */
+    background: -webkit-linear-gradient(45deg, #11af4e, #2aac5b); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #11af4e, #2aac5b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-bottom:0.5px solid white;
+}
+
+.return:link,
+.return:visited{
+    color:#222;
+    text-decoration: none;
+    font-size:15px;
+    font-family: 'Lato', sans-serif;
+    font-weight:500;
+    display: inline-block;
+    height:auto;
+    padding:10px;
+    border:2px solid #222;
+    border-radius:6px;
+    margin-top:40px;
+}
+
+
+@media only screen and (max-width:1100px){
+
+    .section-leaderboard .container{
+   
+      
+        width:80%;
+
+
+    }
+
+    .section-leaderboard{
+        font-size:35px;
+    }
+    
+}
+
+@media only screen and (max-width:650px){
+
+    .section-leaderboard .container{
+   
+      
+        width:100%;
+
+    }
+    
+    .section-leaderboard{
+        font-size:30px;
+        font-weight: 500;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+::-webkit-scrollbar {
+    width: 20px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 15px ;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 15px;
+}
+::-webkit-scrollbar-thumb:hover {
+      background: #555;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+
+#mentors, #contestants, #projects, #game{
+    text-align: center;
+  }
+  .preloader img{
+
+  height:230px;
+  width:auto;
+  margin:0 auto;
+  display: inline-block;
+}
+.preloader img {
+		animation: rotation 2s 1 linear;
+}
+
+@keyframes rotation {
+		from {
+				-webkit-transform: rotateY(0deg)  scale(0,0);
+
+		}
+		to {
+				-webkit-transform: rotateY(360deg) scale(1.7,1.7);
+
+		}
+}
+
+
+
+@-webkit-keyframes slideInDown {
+    from {
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+      visibility: visible;
+    }
+    
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+    }
+    
+    @keyframes slideInDown {
+    from {
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+      visibility: visible;
+    }
+    
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+    }
+    .slideInDown {
+    -webkit-animation-name: slideInDown;
+    animation-name: slideInDown;
+    }
+    
+    @-webkit-keyframes slideOutUp {
+      from {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+      }
+    
+      to {
+        visibility: hidden;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+      }
+    }
+    
+    @keyframes slideOutUp {
+      from {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+      }
+    
+      to {
+        visibility: hidden;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+      }
+    }
+    
+    .slideOutUp {
+      -webkit-animation-name: slideOutUp;
+      animation-name: slideOutUp;
+    }
+    
+    
+    .fh5co-animated {
+      -webkit-animation-duration: .6s;
+      animation-duration: .6s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+    }
+    
+    .navbar-fixed-top{
+      padding-left: 0;
+      padding-right: 0;
+    }
+    
+    .navbar-fixed-top{
+    max-height: 340px;
+    }
+    @media (max-device-width: 480px) and (orientation: landscape) {
+    .navbar-fixed-top{
+      max-height: 200px;
+    }}
+    .navbar-fixed-top{
+      position: fixed;
+      right: 0;
+      left: 0;
+      z-index: 1030;
+    }
+    @media (min-width: 768px) {
+      .navbar-fixed-top{
+        border-radius: 0;
+      }
+    }
+    
+    .navbar-fixed-top{
+      top: 0;
+      border-width: 0 0 1px;
+    }
+    
+      .heading{
+        height:auto;
+        width:100%;
+        padding:50px 0;
+        font-size:40px;
+        font-family: 'Lato';
+        color:#222;
+        text-align: center;
+        margin:0 auto;
+        font-weight:300;
+      }
+    
+      .heading:after{
+        content: '';
+        display: block;
+        height:2px;
+        width:70px;
+        margin:0 auto;
+        background: #ee0979; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ee0979, #ff6a00); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ee0979, #ff6a00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    }
+    
+
+
+
