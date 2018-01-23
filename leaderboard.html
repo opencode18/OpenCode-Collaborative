@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OpenCode'18 | Leaderboard</title>
+    <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- JQuery UI links -->
+  <link href="vendor/jquery/jquery-ui.min.css" rel="stylesheet">
+  <link href="vendor/jquery/jquery-ui.structure.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+  <!-- Font awesome for social icons  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/simple-line-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="style1.css" media="all" rel="stylesheet" />
+  <link rel="stylesheet" href="css/game-style.css">
+  <link rel="stylesheet" href="css/projects-style.css">
+  <link rel="stylesheet" href="css/issues-style.css">
+  <link rel="stylesheet" href="css/leaderboard-style.css">
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+        <section id="leaderboard" class="section-leaderboard">
+                <div class="section-title">
+                  Leaderboard
+                </div>
+                <div class="leaderboard-table container">
+                    <table>
+                        <tbody class="contributors" id="contributors">
+                          <tr>
+                            <th>Rank</th>
+                            <th>Username</th>
+                            <th>Points</th>
+                          </tr>
+                          <tr v-for="(contributor, index) in scoreSort(contributors)">
+                            <td>{{ index + 1 }}</td>
+                            <td>{{ contributor.name }}</td>
+                            <td>{{ contributor.Total }}</td>
+                         </tr>
+                         
+
+                        </tbody>
+                  </table>
+                
+                </div>
+                <a href="index.html" class="return">Return to Home Page</a>
+            </section>
+
+            <script src="https://unpkg.com/vue"></script>
+            <script src="js/leaderBoard.js"></script>
+</body>
+</html>
+  
