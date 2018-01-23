@@ -1,6 +1,41 @@
 {
    "scores":[
       {
+         "name":"piyu007",
+         "Contributions":[{
+            "name":"Add yourself to the participants list #1",
+            "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/1",
+            "PRlink":"https://github.com/opencode18/OpenCode-Collaborative/pull/328",
+            "score":"10"
+         },
+         {
+            "name":"Make a website for yourself #251",
+            "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/251",
+            "PRlink":"",
+            "score":"50"
+         },
+         {
+            "name":"Generate Github Resume #23",
+            "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/23",
+            "PRlink":"",
+            "score":"10"
+         },
+         {
+            "name":"Day 11 #156",
+            "Issuelink":"https://github.com/opencode18/CodeStash/issues/156",
+            "PRlink":"https://github.com/opencode18/CodeStash/pull/157",
+            "score":"20"
+         },
+         {
+            "name":"Day 12 #163",
+            "Issuelink":"https://github.com/opencode18/CodeStash/issues/163",
+            "PRlink":"https://github.com/opencode18/CodeStash/pull/171",
+            "score":"10"
+         }
+         ],
+         "Total":"100"
+      }  
+      {
          "name":"shivhek25",
          "Contributions":[{
             "name":"Add yourself to the participants list #1",
