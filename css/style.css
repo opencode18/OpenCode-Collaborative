@@ -714,3 +714,13 @@ body.preloader-site {
     width: 120px;
     margin-left: -50px;
 }
+
+/*--------------------------Stars and Forks-------------------------*/
+.stars{
+  padding-right: 10px;
+  padding-top: 5px;
+}
+
+.forks{
+  padding-top: 5px;
+}
