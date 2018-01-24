@@ -788,6 +788,136 @@
          }
        ],
        "Total":"210"
-    }
+    }, {
+         "name":"aadixiiita",
+         "Contributions":[{
+            "name":"Add yourself to the participants list #1",
+            "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/1",
+            "PRlink":"https://github.com/opencode18/OpenCode-Collaborative/pull/145",
+            "score":"10"
+         },{
+            "name":"Add social links icons in footer #30",
+            "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/30",
+            "PRlink":"https://github.com/opencode18/OpenCode-Collaborative/pull/52",
+            "score":"10"
+         },{
+            "name":"Add custom scroll bar",
+            "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/158",
+            "PRlink":"https://github.com/opencode18/OpenCode-Collaborative/pull/165",
+            "score":"20"
+         },{
+            "name":"Seperate folder to be made for JSON files",
+            "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/225",
+            "PRlink":"https://github.com/opencode18/OpenCode-Collaborative/pull/236",
+            "score":"30"
+         },{
+            "name":"Make preloader Opencode logo",
+            "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/332",
+            "PRlink":"https://github.com/opencode18/OpenCode-Collaborative/pull/339",
+            "score":"20"
+         },{
+            "name":"Make a simple javascript game",
+             "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/175",
+            "PRlink":"https://github.com/opencode18/OpenCode-Collaborative/pull/375",
+            "score":"50"
+         },{
+            "name":"Generate Github Resume #23",
+            "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/23",
+            "PRlink":"",
+            "score":"10"
+         },{
+            "name":"star this repository #128",
+            "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/128",
+            "PRlink":"",
+            "score":"10"
+         },{
+            "name":"Star This Repo #55",
+            "Issuelink":"https://github.com/opencode18/CodeStash/issues/55",
+            "PRlink":"",
+            "score":"10"
+         },{
+            "name":"Make a website for yourself #251",
+            "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/251",
+            "PRlink":"",
+            "score":"50"
+         },{
+            "name":"Use github student pack and using .me domain create a portfolio website",
+            "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/313",
+            "PRlink":"",
+            "score":"20"
+         },{
+            "name":"Add Footer",
+            "Issuelink":"https://github.com/opencode18/OpenNews/issues/2",
+            "PRlink":"https://github.com/opencode18/OpenNews/pull/27",
+            "score":"10"
+         },{
+            "name":"Task 5 - Threading",
+            "Issuelink":"https://github.com/opencode18/HackerSkills/issues/13",
+            "PRlink":"https://github.com/opencode18/HackerSkills/pull/51",
+            "score":"30"
+         },{
+            "name":"Task 3 - Web Scraping",
+            "Issuelink":"https://github.com/opencode18/HackerSkills/issues/11",
+            "PRlink":"https://github.com/opencode18/HackerSkills/pull/50",
+            "score":"50"
+         },{
+            "name":"Task 2 - Regex Exercise 1",
+            "Issuelink":"https://github.com/opencode18/HackerSkills/issues/2",
+            "PRlink":"https://github.com/opencode18/HackerSkills/pull/50",
+            "score":"30"
+         },{
+            "name":"Day 12",
+            "Issuelink":"https://github.com/opencode18/CodeStash/issues/163",
+            "PRlink":"https://github.com/opencode18/CodeStash/pull/165",
+            "score":"10"
+         },{
+            "name":"Add solutions of codestash",
+            "Issuelink":"https://github.com/gostudent/Letsgo/issues/13",
+            "PRlink":"https://github.com/gostudent/Letsgo/pull/35",
+            "score":"50"
+         },{
+            "name":"Make a translucent info box appear on site load ",
+            "Issuelink":"https://github.com/CosmicCoder96/longDrive/issues/3",
+            "PRlink":"https://github.com/CosmicCoder96/longDrive/pull/6",
+            "score":"30"
+         },{
+            "name":"Add a script to scrape dynamic data from hackerearth",
+            "Issuelink":"https://github.com/GitHubCommunity-IIITAllahabad/ProfilePortal-Beta/issues/8",
+            "PRlink":"https://github.com/GitHubCommunity-IIITAllahabad/ProfilePortal-Beta/pull/21",
+            "score":"50"
+         },{
+            "name":"star this repository",
+            "Issuelink":"https://github.com/gostudent/Letsgo/issues/6",
+            "PRlink":"",
+            "score":"10"
+         },{
+            "name":"star this repository",
+            "Issuelink":"https://github.com/GeekHaven/Aparoksha-18/issues/10",
+            "PRlink":"",
+            "score":"10"
+         },{
+            "name":"star this repository",
+            "Issuelink":"https://github.com/Anna-Assistant/Anna/issues/134",
+            "PRlink":"",
+            "score":"10"
+         },{
+            "name":"star this repository",
+            "Issuelink":"https://github.com/opencode18/OpenNews/issues/34",
+            "PRlink":"",
+            "score":"10"
+         },{
+            "name":"Run this project on your local computer",
+            "Issuelink":"https://github.com/GeekHaven/Aparoksha-18/issues/3",
+            "PRlink":"",
+            "score":"20"
+         },{
+            "name":"Add timestamp when a user registers",
+            "Issuelink":"https://github.com/GeekHaven/Aparoksha-18/issues/11",
+            "PRlink":"https://github.com/GeekHaven/Aparoksha-18/pull/15",
+            "score":"20"
+         }
+         ],
+         "Total":"580"
+      }
 	]
 }
