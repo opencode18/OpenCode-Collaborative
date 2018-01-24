@@ -1,6 +1,8 @@
 # OpenCode Collaborative Website
 ![](https://raw.githubusercontent.com/opencode18/opencode18.github.io/master/images/fbog.png)
 
+[![OpenCode](https://img.shields.io/badge/Open-Code-ff6a00.svg?style=flat-square)](https://opencode18.github.io)
+
 Chat with us on [Zulip](https://opencode18.zulipchat.com/)  
 Like us on [Facebook](https://www.facebook.com/opencodeiiita/)
 
@@ -50,6 +52,32 @@ IMPORTANT:
 * All images must be optimized before uploaded to the repo via commit or PR. 
 * The images should be of square resolution.
 * If you do not want to include social media accounts, leave the field empty `"facebook":""`. 
+
+
+## Updating Your Scores
+
+
+To add Your scores open `json/scores.json` and follow the given format
+
+>   
+
+       {  
+           "name":"Name",
+           "Contributions":[{
+                "name":"Name of issue",
+                "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/331",
+                "PRlink":"Link of the PR",
+                "score":"10"
+              },{
+                "name":"Name of issue",
+                "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/331",
+                "PRlink":"Link of the PR",
+                "score":"10"
+              }
+           ],
+           "Total":"500"
+       }
+        
 
 
 ## Contributing
