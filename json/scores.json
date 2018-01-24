@@ -302,6 +302,203 @@
 				"score": "10"
 			}],
 			"Total": "780"
-		}
+		},
+		   
+    {  
+        "name" : "Aayush Joglekar",  
+        "Contributions" : [
+                            {
+                           "name": "Add yourself to the participants list",
+                           "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/1",
+                           "PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/33",
+                           "score": "10"   
+                             },
+                         {
+                            "name": "Add favicon for the website.",
+                            "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/25",
+                            "PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/36",
+                            "score": "10"   
+                        },
+                        {
+                            "name": "Make the background of the flipcard same as that of the background of website.",
+                            "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/27",
+                            "PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/51",
+                            "score": "10"   
+                        },
+                        {
+                            "name": "increase mentors and participants grid size.",
+                            "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/61",
+                            "PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/85",
+                            "score": "50"   
+                        },
+                        {
+                            "name": "sort names alphabetically",
+                            "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/101",
+                            "PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/120",
+                            "score": "30"   
+                        },
+                        {
+                            "name": "sort names alphabetically",
+                            "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/121",
+                            "PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/134",
+                            "score": "30"   
+                        },
+                        {
+                            "name": "Add a field for college in contestants.json and display it",
+                            "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/133",
+                            "PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/154",
+                            "score": "30"   
+                        },
+                        {
+                            "name": "Add card for projects",
+                            "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/102",
+                            "PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/187",
+                            "score": "30"   
+                        },
+                        {
+                            "name": "make contents of footer vertically centered",
+                            "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/226",
+                            "PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/294",
+                            "score": "30"   
+                        },
+                        {
+                            "name": "The trailer won't stop playing after it's closed",
+                            "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/321",
+                            "PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/327",
+                            "score": "20"   
+                        },
+                        {
+                            "name": "Have a section of issues for each project",
+                            "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/131",
+                            "PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/220",
+                            "score": "50"   
+                        },
+                        {
+                            "name": "make a leaderboard",
+                            "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/326",
+                            "PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/394",
+                            "score": "50"
+                        },
+                        {
+                            "name": "Decrease the spacing in the image",
+                            "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/396",
+                            "PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/403",
+                            "score": "20"
+                        },
+
+                        {
+                            "name": "Place the Read more button inside the Card.",
+                            "Issuelink": "https://github.com/opencode18/OpenNews/issues/60",
+                            "PRlink": "https://github.com/opencode18/OpenNews/pull/69",
+                            "score": "10"
+                        },
+                        {
+                            "name": "Pure CSS Images Task 1 - Wine Glass",
+                            "Issuelink": "https://github.com/opencode18/ProDesigner/issues/5",
+                            "PRlink": "https://github.com/opencode18/ProDesigner/pull/13",
+                            "score": "50"   
+                        },
+                        {
+                            "name": "Pure CSS Images Task 2 - Doge",
+                            "Issuelink": "https://github.com/opencode18/ProDesigner/issues/6",
+                            "PRlink": "https://github.com/opencode18/ProDesigner/pull/16",
+                            "score": "50"   
+                        },
+                        {
+                            "name": "Created Login Page UI",
+                            "Issuelink": "https://github.com/opencode18/ProDesigner/issues/11",
+                            "PRlink": "https://github.com/opencode18/ProDesigner/pull/18",
+                            "score": "30"   
+                        },
+                        {
+                            "name": "Pure Css task - Cat",
+                            "Issuelink": "https://github.com/opencode18/ProDesigner/issues/24",
+                            "PRlink": "https://github.com/opencode18/ProDesigner/pull/28",
+                            "score": "30"   
+                        },
+                        {
+                            "name": "Concept 2 - Chat",
+                            "Issuelink": "https://github.com/opencode18/ProDesigner/issues/21",
+                            "PRlink": "https://github.com/opencode18/ProDesigner/pull/31",
+                            "score": "50"   
+                        },
+
+                        
+                        {
+                            "name": "Place the Read more button inside the Card.",
+                            "Issuelink": "https://github.com/opencode18/OpenNews/issues/60",
+                            "PRlink": "https://github.com/opencode18/OpenNews/pull/63",
+                            "score": "10"   
+                        },
+                        {
+                            "name": "Share your designs in socialmedias",
+                            "Issuelink": "https://github.com/opencode18/ProDesigner/issues/9#issuecomment-357904456",
+                            "PRlink": "",
+                            "score": "10"   
+                        },
+                        {
+                            "name": "Share your designs in socialmedias",
+                            "Issuelink": "https://github.com/opencode18/ProDesigner/issues/9#issuecomment-357888532",
+                            "PRlink": "",
+                            "score": "10"   
+                        },
+                        {
+                            "name": "Share your designs in socialmedias",
+                            "Issuelink": "https://github.com/opencode18/ProDesigner/issues/9#issuecomment-357745861",
+                            "PRlink": "",
+                            "score": "10"   
+                        },
+                        {
+                            "name": "Share your designs in socialmedias",
+                            "Issuelink": "https://github.com/opencode18/ProDesigner/issues/9#issuecomment-358271327",
+                            "PRlink": "",
+                            "score": "10"   
+                        },
+                        {
+                            "name": "Make a logo",
+                            "Issuelink": "https://github.com/opencode18/ProDesigner/issues/4#issuecomment-358262591",
+                            "PRlink": "",
+                            "score": "30"   
+                        },
+                        {
+                            "name": "Generate Github Resume",
+                            "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/23#issuecomment-356608137",
+                            "PRlink": "",
+                            "score": "10"   
+                        },
+                        {
+                            "name": "Suggest new issues",
+                            "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/136#issuecomment-357159845",
+                            "PRlink": "",
+                            "score": "20"   
+                        },
+                        {
+                            "name": "Suggest new issues",
+                            "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/136#issuecomment-357176699",
+                            "PRlink": "",
+                            "score": "20"   
+                        },
+                        {
+                            "name": "Suggest new issues",
+                            "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/136#issuecomment-357228910",
+                            "PRlink": "",
+                            "score": "20"   
+                        },
+                        {
+                            "name": "Suggest new issues",
+                            "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/136#issuecomment-357351546",
+                            "PRlink": "",
+                            "score": "20"   
+                        },
+                        {
+                            "name": "Suggest new issues",
+                            "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/136#issuecomment-357352212",
+                            "PRlink": "",
+                            "score": "20"   
+                        }
+		],
+        "Total" : "780"
+    }
+
 	]
 }
