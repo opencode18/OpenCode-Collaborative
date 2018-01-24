@@ -10,6 +10,16 @@
 			"twitter": "",
 			"referral": ""
 		},
+			{
+   			"name" : "Atul Kumar Agrawal",
+			"imageurl" : "contestant/atul.jpg",
+			"about" : "Coder.Geek",
+			"college" : "Veer Surendra Sai University Of Technology,Burla,Sambalpur",
+			"facebook" : "https://www.facebook.com/msatul1305",
+			"github" : "https://github.com/msatul1305",
+			"twitter" : "https://twitter.com/ms_atul",
+			"referral" : ""
+}
 		{
 			"name": "Prakash Kumar",
 			"imageurl": "contestant/pk.jpg",
