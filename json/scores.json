@@ -101,11 +101,6 @@
 				"PRlink": "https://github.com/opencode18/CodeStash/pull/143",
 				"score": "10"
 			},{
-				"name": "Update scores.json #325",
-				"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/325",
-				"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/344",
-				"score": "10"
-			},{
             "name":"Day12 #163",
             "Issuelink":"https://github.com/opencode18/CodeStash/issues/163",
             "PRlink":"https://github.com/opencode18/CodeStash/pull/167",
@@ -122,7 +117,7 @@
             "score":"10"
          }
 		],
-			"Total": "210"
+			"Total": "200"
 		},
 		{
 			"name": "Jigar Chavada",
