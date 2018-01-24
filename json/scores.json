@@ -1,4 +1,74 @@
 {
+	"scores":[{
+		"name":"ashish4321",
+		"Contributions": [{
+				"name": "Add yourself to the participants list #1",
+				"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/1",
+				"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/252",
+				"score": "10"
+			}, {
+				"name": "Day5 #86",
+				"Issuelink": "https://github.com/opencode18/CodeStash/issues/86",
+				"PRlink": "https://github.com/opencode18/CodeStash/pull/91",
+				"score": "10"
+			}, {
+				"name": "Day7 #109",
+				"Issuelink": "https://github.com/opencode18/CodeStash/issues/109",
+				"PRlink": "https://github.com/opencode18/CodeStash/pull/118",
+				"score": "10"
+			}, {
+				"name": "Generate Github Resume #23",
+				"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/23",
+				"PRlink": "",
+				"score": "10"
+			}, {
+				"name": "star this repository #34",
+				"Issuelink": "https://github.com/opencode18/OpenNews/issues/34",
+				"PRlink": "",
+				"score": "10"
+			}, {
+				"name": "star this repository #128",
+				"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/128",
+				"PRlink": "",
+				"score": "10"
+			},{
+				"name": "Star This Repo #55",
+				"Issuelink": "https://github.com/opencode18/CodeStash/issues/55",
+				"PRlink": "",
+				"score": "10"
+			}, {
+				"name": "Make a website for yourself #251",
+				"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/251",
+				"PRlink": "",
+				"score": "50"
+			}, {
+				"name": "Day 8 #126",
+				"Issuelink": "https://github.com/opencode18/CodeStash/issues/126",
+				"PRlink": "https://github.com/opencode18/CodeStash/pull/133",
+				"score": "10"
+			},{
+				"name": "Day 9 #138",
+				"Issuelink": "https://github.com/opencode18/CodeStash/issues/138",
+				"PRlink": "https://github.com/opencode18/CodeStash/pull/145",
+				"score": "10"
+			}, {
+				"name": "Day 10 #150",
+				"Issuelink": "https://github.com/opencode18/CodeStash/issues/150",
+				"PRlink": "https://github.com/opencode18/CodeStash/pull/145",
+				"score": "10"
+			},{
+				"name": "Day 12#163",
+				"Issuelink": "https://github.com/opencode18/CodeStash/issues/163",
+				"PRlink": "https://github.com/opencode18/CodeStash/pull/169",
+				"score": "10"
+			},{
+				"name": "Day 13#173",
+				"Issuelink": "https://github.com/opencode18/CodeStash/issues/173",
+				"PRlink": "https://github.com/opencode18/CodeStash/pull/176",
+				"score": "20"
+			}],
+			"Total": "180"
+		},{
 	"scores": [{
 			"name": "piyu007",
 			"Contributions": [{
