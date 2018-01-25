@@ -196,10 +196,12 @@ max-height: 340px;
     list-style-type:none;
     background-color:#3b5998;
     border-top-left-radius: 10px;
+
     border-bottom-left-radius: 10px;
     color:#efefef;
     text-align:left;
     font-size:200%;
+
 	border-bottom-left-radius: 10px;
     color:#efefef;
 	text-align:left;
@@ -566,17 +568,6 @@ footer .list-inline-item a:visited{
 }
 
 
-footer ul{
-  margin:10px auto;
-}
-
-footer .list-inline-item a:link,
-footer .list-inline-item a:visited{
-  color:white;
-
-}
-
-
 
 footer ul{
   margin:10px auto;
@@ -585,7 +576,20 @@ footer ul{
 footer .list-inline-item a:link,
 footer .list-inline-item a:visited{
   color:white;
+
 }
+
+
+
+footer ul{
+  margin:10px auto;
+}
+
+footer .list-inline-item a:link,
+footer .list-inline-item a:visited{
+  color:white;
+}
+
 
 footer .list-inline-item a:hover{
   color:white!important;
@@ -787,4 +791,7 @@ body.preloader-site {
 
 .forks{
   padding-top: 5px;
+
+}
+
 }
