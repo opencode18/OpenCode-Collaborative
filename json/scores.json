@@ -446,6 +446,146 @@
                ],
                "Total":"780"
             },
+	
+            {  
+                "name" : "Arpit Mishra",  
+                "Contributions" : [
+                {
+                    "name": "Show all projects in issues",
+                    "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/250",
+                    "PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/350",
+                    "score": "30"   
+                        },
+                    {
+                    "name": "Fix stars and forks in mobile view ",
+                    "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/261",
+                    "PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/292",
+                    "score": "20"   
+                },
+                {
+                    "name": "Add watch trailer on nav bar and pop up for youtube video",
+                    "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/163",
+                    "PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/263",
+                    "score": "20"   
+                },
+                {
+                    "name": "Add yourself to the participants list",
+                    "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/1",
+                    "PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/10",
+                    "score": "10"   
+                },
+                {
+                    "name": "Adding a quit option",
+                    "Issuelink": "https://github.com/mrsaicharan1/PyDic/issues/3",
+                    "PRlink": "https://github.com/mrsaicharan1/PyDic/pull/14",
+                    "score": "20"   
+                },
+                {
+                    "name": "Re-implement smart suggestions",
+                    "Issuelink": "https://github.com/mrsaicharan1/PyDic/issues/30",
+                    "PRlink": "https://github.com/mrsaicharan1/PyDic/pull/37",
+                    "score": "30"   
+                },
+                {
+                    "name": "Add a GUI to the application",
+                    "Issuelink": "https://github.com/mrsaicharan1/PyDic/issues/5",
+                    "PRlink": "https://github.com/mrsaicharan1/PyDic/pull/37",
+                    "score": "50"   
+                },
+                {
+                    "name": "Day 1",
+                    "Issuelink": "https://github.com/opencode18/CodeStash/issues/1",
+                    "PRlink": "https://github.com/opencode18/CodeStash/pull/21",
+                    "score": "10"   
+                },
+                {
+                    "name": "Day5",
+                    "Issuelink": "https://github.com/opencode18/CodeStash/issues/86",
+                    "PRlink": "https://github.com/opencode18/CodeStash/pull/95",
+                    "score": "10"   
+                },
+                {
+                    "name": "Visualize 2D-projectile motion with the help of a catapult",
+                    "Issuelink": "https://github.com/himanshub16/cool-physics/issues/3",
+                    "PRlink": "https://github.com/himanshub16/cool-physics/pull/9",
+                    "score": "30"   
+                },
+                {
+                    "name": "UI for selecting different modules",
+                    "Issuelink": "https://github.com/himanshub16/cool-physics/issues/12",
+                    "PRlink": "https://github.com/himanshub16/cool-physics/pull/13",
+                    "score": "10"   
+                },
+                {
+                    "name": "Task 2 - Regex Exercise 1",
+                    "Issuelink": "https://github.com/opencode18/HackerSkills/issues/2",
+                    "PRlink": "https://github.com/opencode18/HackerSkills/pull/3",
+                    "score": "30"
+                },
+                {
+                    "name": "Task 3 - Web Scraping",
+                    "Issuelink": "https://github.com/opencode18/HackerSkills/issues/11",
+                    "PRlink": "https://github.com/opencode18/HackerSkills/pull/30",
+                    "score": "50"
+                },
+
+                {
+                    "name": "Task 5 - Threading",
+                    "Issuelink": "https://github.com/opencode18/HackerSkills/issues/13",
+                    "PRlink": "https://github.com/opencode18/HackerSkills/pull/47",
+                    "score": "30"
+                },
+                {
+                    "name": "Taks 4 - Plot a Sine Wave ",
+                    "Issuelink": "https://github.com/opencode18/HackerSkills/issues/12",
+                    "PRlink": "https://github.com/opencode18/HackerSkills/pull/47",
+                    "score": "20"   
+                },
+                {
+                    "name": "Pure CSS Images Task 1 - Wine Glass",
+                    "Issuelink": "https://github.com/opencode18/ProDesigner/issues/5",
+                    "PRlink": "https://github.com/opencode18/ProDesigner/pull/8",
+                    "score": "50"   
+                },
+                {
+                    "name": "Ability to minimize, maximise and close terminal. ",
+                    "Issuelink": "https://github.com/opencode18/OpenTerm/issues/4",
+                    "PRlink": "https://github.com/opencode18/OpenTerm/pull/5",
+                    "score": "20"   
+                },
+                {
+                    "name": "Add a plank at the bottom of the page.",
+                    "Issuelink": "https://github.com/opencode18/OpenTerm/issues/6",
+                    "PRlink": "https://github.com/opencode18/OpenTerm/pull/13",
+                    "score": "20"   
+                },
+                {
+                    "name": "Create Theme menu ",
+                    "Issuelink": "https://github.com/opencode18/OpenTerm/issues/16",
+                    "PRlink": "https://github.com/opencode18/OpenTerm/pull/20",
+                    "score": "20"   
+                },
+                {
+                    "name": "Generate Github Resume",
+                    "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/23",
+                    "PRlink": "",
+                    "score": "10"   
+                },
+                {
+                    "name": "Share your designs in socialmedias",
+                    "Issuelink": "hhttps://github.com/opencode18/ProDesigner/issues/9",
+                    "PRlink": "",
+                    "score": "10"   
+                },
+                {
+                    "name": "Star and fork the repo to get points",
+                    "Issuelink": "https://github.com/rahulkumaran/Utlyz-CLI/issues/23",
+                    "PRlink": "",
+                    "score": "10"   
+                }
+                        ],
+                "Total" : "510"
+            },
             {  
                "name":"ananya-agrawal",
                "Contributions":[  
