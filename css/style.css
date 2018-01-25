@@ -690,6 +690,7 @@ footer p{
   90%{ transform: rotateY(0deg);}
   100% { transform: rotateY(-180deg);}
 }
+
 /*----------------------- Progress Bar---------------------*/
 progress {
   display: block;
@@ -731,6 +732,7 @@ progress::-webkit-progress-value {
 }
 
 
+
 /*----------------------- Preloader -----------------------*/
 body.preloader-site {
     overflow: hidden;
@@ -770,4 +772,5 @@ body.preloader-site {
   border: none;
   background-color: transparent;
   outline: none;
+
 }
