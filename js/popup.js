@@ -8,7 +8,7 @@ var trailer = document.getElementById("trailer");
 // Get the <close> element that closes the popupBody
 var close = document.querySelector(".close");
 
-var gameBody = document.getElementById('gameBody');
+var gameBody = document.getElementById("gameBody");
 
 
 
@@ -29,7 +29,7 @@ window.onclick = function(event) {
         $('iframe')[1].setAttribute("src","");
         popupBody.style.display = "none";
     }
-    if (event.target == gameBody) {
+    if (event.target === gameBody) {
         $('.gameFrame').attr("src","");
         gameBody.style.display = "none";
     }
@@ -42,8 +42,8 @@ close.onclick = function(event) {
         popupBody.style.display = "none";
     }
 };
-$('.closes').click(function(event) {
-    $('.gameFrame').attr("src","");
+$(".closes").click(function(event) {
+    $(".gameFrame").attr("src","");
     gameBody.style.display = "none";
 });
 function myFunction(link)
@@ -51,9 +51,9 @@ function myFunction(link)
         $.ajax({
                 url: link,
                 async: false,
-                type: 'GET',
+                type: "GET",
                 success: function (trans) {
-                $('.gameFrame').attr("src",link);
+                $(".gameFrame").attr("src",link);
                 gameBody.style.display = "block";
                 }
                });
