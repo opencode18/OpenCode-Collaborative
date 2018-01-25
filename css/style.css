@@ -196,7 +196,6 @@ max-height: 340px;
     list-style-type:none;
     background-color:#3b5998;
     border-top-left-radius: 10px;
-
     border-bottom-left-radius: 10px;
     color:#efefef;
     text-align:left;
@@ -568,7 +567,6 @@ footer .list-inline-item a:visited{
 }
 
 
-
 footer ul{
   margin:10px auto;
 }
@@ -589,7 +587,6 @@ footer .list-inline-item a:link,
 footer .list-inline-item a:visited{
   color:white;
 }
-
 
 footer .list-inline-item a:hover{
   color:white!important;
@@ -709,11 +706,15 @@ progress {
 }
 progress::-moz-progress-bar {
   border-radius: 100px;
-  background: #ee0979; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ee0979, #ff6a00); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ee0979, #ff6a00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background:  #e5405e;
+  background: -moz-linear-gradient(left, #e5405e 0%, #ffdb3a 25%, #3fffa2 50%, #3fffa2 50%, #1a9be0 73%, #ba68ed 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #e5405e 0%, #ffdb3a 25%, #3fffa2 50%, #3fffa2 50%, #1a9be0 73%, #ba68ed 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #e5405e 0%, #ffdb3a 25%, #3fffa2 50%, #3fffa2 50%, #1a9be0 73%, #ba68ed 100%);
 
 
+  box-shadow: inset 0 -2px 4px rgba(0,0,0,0.4), 0 2px 5px 0px rgba(0,0,0,0.3);
 
 }
 
@@ -724,9 +725,12 @@ progress::-moz-progress-bar {
   }
 }
 progress::-webkit-progress-bar {
-  background: #ee0979; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ee0979, #ff6a00); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ee0979, #ff6a00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background:  #e5405e;
+  background: -moz-linear-gradient(left, #e5405e 0%, #ffdb3a 25%, #3fffa2 50%, #3fffa2 50%, #1a9be0 73%, #ba68ed 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #e5405e 0%, #ffdb3a 25%, #3fffa2 50%, #3fffa2 50%, #1a9be0 73%, #ba68ed 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #e5405e 0%, #ffdb3a 25%, #3fffa2 50%, #3fffa2 50%, #1a9be0 73%, #ba68ed 100%);
 
 
 }
