@@ -161,6 +161,14 @@
         </div>
       </div>
     </section>
+    <section id="Game">
+      <div id="gameBody" class="gameHidden">
+        <div class="gamePopup">
+          <span class="closes">X</span>
+          <iframe class="gameFrame" width="100%" height="550" src=""></iframe>
+        </div>
+      </div>
+    </section>
 
 
     <div class="container">
@@ -292,9 +300,9 @@
                     <div class="social">
                       <div class="triangle-left"></div>
                       <div class="triangle-right"></div>
-                      <a v-bind:href="game.github" target="_blank">
+                      <button class="bb" v-bind:id="game.github" onclick="myFunction(this.id)">
                         <i class="fa fa-cubes" aria-hidden="true"></i>
-                      </a>
+                      </button>
                     </div>
                   </div>
           </div>
