@@ -30,7 +30,7 @@ window.onclick = function(event) {
         popupBody.style.display = "none";
     }
     if (event.target === gameBody) {
-        $('.gameFrame').attr("src","");
+        $(".gameFrame").attr("src","");
         gameBody.style.display = "none";
     }
 };
@@ -48,15 +48,10 @@ $(".closes").click(function(event) {
 });
 function myFunction(link)
     {   
-        $.ajax({
-                url: link,
-                async: false,
-                type: "GET",
-                success: function (trans) {
-                $(".gameFrame").attr("src",link);
-                gameBody.style.display = "block";
-                }
-               });
+        $.get( link, function( data ) {
+            $(".gameFrame").attr("src",link);
+            gameBody.style.display = "block";
+        });
     }
 
 
