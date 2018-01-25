@@ -932,9 +932,10 @@
                ],
                "Total":"210"
             },
-{
+            {
 			"name": "Rudransh Gupta",
-			"Contributions": [{
+			"Contributions": [
+			{
 				"name": "Add timer for coutdown till the event is over.",
 				"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/160",
 				"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/231",
