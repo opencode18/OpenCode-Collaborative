@@ -1315,7 +1315,253 @@
                   }
                ],
                "Total":"580"
-            }
+            },
+			{
+			   "name":"Ayush Gupta",
+               "Contributions":[  
+                  {  
+                     "name":"Add yourself to the participants list #1",
+                     "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/1",
+                     "PRlink":"https://github.com/opencode18/OpenCode-Collaborative/pull/67",
+                     "score":"10"
+                  },
+				  {  
+                     "name":"Generate Github Resume #23",
+                     "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/23",
+                     "PRlink":"",
+                     "score":"10"
+                  },
+				  {  
+                     "name":"like opencode fb page #138",
+                     "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/138",
+                     "PRlink":"",
+                     "score":"10"
+                  },
+				  {  
+                     "name":"star this repository #128",
+                     "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/128",
+                     "PRlink":"",
+                     "score":"10"
+                  },
+				  {  
+                     "name":"Make simple JavaScript game #175",
+                     "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/175",
+                     "PRlink":"",
+                     "score":"50"
+                  },
+				  {  
+                     "name":"Show number of stars and forks #176",
+                     "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/176",
+                     "PRlink":"https://github.com/opencode18/OpenCode-Collaborative/pull/258",
+                     "score":"30"
+                  },
+				  {  
+                     "name":"Make Games appear as a pop up screen#360",
+                     "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/360",
+                     "PRlink":"https://github.com/opencode18/OpenCode-Collaborative/pull/428",
+                     "score":"20"
+                  },
+				  {  
+                     "name":"Task 5 - Threading #13",
+                     "Issuelink":"https://github.com/opencode18/HackerSkills/issues/13",
+                     "PRlink":"https://github.com/opencode18/HackerSkills/pull/53",
+                     "score":"30"
+                  },
+				  {  
+                     "name":"Task 1 - Access REST API #1",
+                     "Issuelink":"https://github.com/opencode18/HackerSkills/issues/1",
+                     "PRlink":"https://github.com/opencode18/HackerSkills/pull/42",
+                     "score":"40"
+                  },
+				  {  
+                     "name":"Task 3 - Web Scraping #11",
+                     "Issuelink":"https://github.com/opencode18/HackerSkills/issues/11",
+                     "PRlink":"https://github.com/opencode18/HackerSkills/pull/29",
+                     "score":"50"
+                  },
+				  {  
+                     "name":"Task 2 - Regex Exercise 1 #2",
+                     "Issuelink":"https://github.com/opencode18/HackerSkills/issues/2",
+                     "PRlink":"https://github.com/opencode18/HackerSkills/pull/20",
+                     "score":"30"
+                  },
+				  {  
+                     "name":"Show the stars count in the page. #53",
+                     "Issuelink":"https://github.com/opencode18/OpenNews/issues/53",
+                     "PRlink":"https://github.com/opencode18/OpenNews/pull/54",
+                     "score":"10"
+                  },
+				  {  
+                     "name":"Add new Category of news other than Technology. #45",
+                     "Issuelink":"https://github.com/opencode18/OpenNews/issues/45",
+                     "PRlink":"https://github.com/opencode18/OpenNews/pull/51",
+                     "score":"20"
+                  },
+				  {  
+                     "name":"Remove inline css and js and fix indentation #39",
+                     "Issuelink":"https://github.com/opencode18/OpenNews/issues/39",
+                     "PRlink":"https://github.com/opencode18/OpenNews/pull/42",
+                     "score":"10"
+                  },
+				  {  
+                     "name":"Prevent overflow of news description for each card. #11",
+                     "Issuelink":"https://github.com/opencode18/OpenNews/issues/11",
+                     "PRlink":"https://github.com/opencode18/OpenNews/pull/22",
+                     "score":"30"
+                  },
+				  {  
+                     "name":"Remove the Website name from the Title part",
+                     "Issuelink":"https://github.com/opencode18/OpenNews/issues/16",
+                     "PRlink":"https://github.com/opencode18/OpenNews/pull/18",
+                     "score":"10"
+                  },
+				  {  
+                     "name":"Star the repo to earn point ! #34",
+                     "Issuelink":"https://github.com/opencode18/OpenNews/issues/34",
+                     "PRlink":"",
+                     "score":"10"
+                  },
+				  {  
+                     "name":"Auto-suggest form inputs",
+                     "Issuelink":"https://github.com/aswinzz/LucidCV/issues/25",
+                     "PRlink":"https://github.com/aswinzz/LucidCV/pull/34",
+                     "score":"30"
+                  },
+				  {  
+                     "name":"Setup LucidCV in your local system #7",
+                     "Issuelink":"https://github.com/aswinzz/LucidCV/issues/7",
+                     "PRlink":"",
+                     "score":"10"
+                  },
+				  {  
+                     "name":"Improve UI #2",
+                     "Issuelink":"https://github.com/aswinzz/LucidCV/issues/2",
+                     "PRlink":"https://github.com/aswinzz/LucidCV/pull/15",
+                     "score":"10"
+                  },
+				  {  
+                     "name":"Bug: Fix closing animation speed",
+                     "Issuelink":"https://github.com/GeekHaven/Aparoksha-18/issues/5",
+                     "PRlink":"https://github.com/GeekHaven/Aparoksha-18/pull/9",
+                     "score":"10"
+                  },
+				  {  
+                     "name":"Run this project on your local computer #3",
+                     "Issuelink":"https://github.com/GeekHaven/Aparoksha-18/issues/3",
+                     "PRlink":"",
+                     "score":"20"
+                  },
+				  {  
+                     "name":"Star this repository #10",
+                     "Issuelink":"https://github.com/GeekHaven/Aparoksha-18/issues/10",
+                     "PRlink":"",
+                     "score":"10"
+                  },
+				  {  
+                     "name":"star this repo #134",
+                     "Issuelink":"https://github.com/Anna-Assistant/Anna/issues/134",
+                     "PRlink":"",
+                     "score":"10"
+                  },
+				  {  
+                     "name":"Star This Repo #12",
+                     "Issuelink":"https://github.com/gostudent/Algorithms/issues/12",
+                     "PRlink":"",
+                     "score":"10"
+                  },
+				  {  
+                     "name":"Star This Repo #6",
+                     "Issuelink":"https://github.com/gostudent/Letsgo/issues/6",
+                     "PRlink":"",
+                     "score":"10"
+                  },
+				  {  
+                     "name":"Star This Repo #1",
+                     "Issuelink":"https://github.com/gostudent/gostudent.github.io/issues/1",
+                     "PRlink":"",
+                     "score":"10"
+                  },
+				  {  
+                     "name":"Day 1 #1",
+                     "Issuelink":"https://github.com/opencode18/CodeStash/issues/1",
+                     "PRlink":"https://github.com/opencode18/CodeStash/pull/4",
+                     "score":"20"
+                  },
+				  {  
+                     "name":"Day 2 #36",
+                     "Issuelink":"https://github.com/opencode18/CodeStash/issues/36",
+                     "PRlink":"https://github.com/opencode18/CodeStash/pull/47",
+                     "score":"10"
+                  },
+				  {  
+                     "name":"Day 4 #75",
+                     "Issuelink":"https://github.com/opencode18/CodeStash/issues/75",
+                     "PRlink":"https://github.com/opencode18/CodeStash/pull/82",
+                     "score":"10"
+                  },
+				  {  
+                     "name":"Day5 #86",
+                     "Issuelink":"https://github.com/opencode18/CodeStash/issues/86",
+                     "PRlink":"https://github.com/opencode18/CodeStash/pull/92",
+                     "score":"10"
+                  },
+				  {  
+                     "name":"Day6 #96",
+                     "Issuelink":"https://github.com/opencode18/CodeStash/issues/96",
+                     "PRlink":"https://github.com/opencode18/CodeStash/pull/98",
+                     "score":"20"
+                  },
+				  {  
+                     "name":"Day7 #109",
+                     "Issuelink":"https://github.com/opencode18/CodeStash/issues/109",
+                     "PRlink":"https://github.com/opencode18/CodeStash/pull/116",
+                     "score":"10"
+                  },
+				  {  
+                     "name":"Day 8 #126",
+                     "Issuelink":"https://github.com/opencode18/CodeStash/issues/126",
+                     "PRlink":"https://github.com/opencode18/CodeStash/pull/129",
+                     "score":"20"
+                  },
+				  {  
+                     "name":"Day 9 #138",
+                     "Issuelink":"https://github.com/opencode18/CodeStash/issues/138",
+                     "PRlink":"https://github.com/opencode18/CodeStash/pull/148",
+                     "score":"10"
+                  },
+				  {  
+                     "name":"Day 10 #150",
+                     "Issuelink":"https://github.com/opencode18/CodeStash/issues/150",
+                     "PRlink":"https://github.com/opencode18/CodeStash/pull/148",
+                     "score":"10"
+                  },
+				  {  
+                     "name":"Day11 #156",
+                     "Issuelink":"https://github.com/opencode18/CodeStash/issues/156",
+                     "PRlink":"https://github.com/opencode18/CodeStash/pull/161",
+                     "score":"20"
+                  },
+				  {  
+                     "name":"Day12 #163",
+                     "Issuelink":"https://github.com/opencode18/CodeStash/issues/163",
+                     "PRlink":"https://github.com/opencode18/CodeStash/pull/172",
+                     "score":"10"
+                  },
+				  {  
+                     "name":"Day13 #173",
+                     "Issuelink":"https://github.com/opencode18/CodeStash/issues/173",
+                     "PRlink":"https://github.com/opencode18/CodeStash/pull/180",
+                     "score":"10"
+                  },
+				  {  
+                     "name":"Star This Repo #55",
+                     "Issuelink":"https://github.com/opencode18/CodeStash/issues/55",
+                     "PRlink":"",
+                     "score":"10"
+                  }
+				],
+			   "Total":"680"
+			}
          ]
       }
    ]
