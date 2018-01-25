@@ -53,7 +53,7 @@ html{
 
 		}
 }
-  
+
 
 
 
@@ -196,6 +196,10 @@ max-height: 340px;
     list-style-type:none;
     background-color:#3b5998;
     border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color:#efefef;
+    text-align:left;
+    font-size:200%;
 	border-bottom-left-radius: 10px;
     color:#efefef;
 	text-align:left;
@@ -562,6 +566,17 @@ footer .list-inline-item a:visited{
 }
 
 
+footer ul{
+  margin:10px auto;
+}
+
+footer .list-inline-item a:link,
+footer .list-inline-item a:visited{
+  color:white;
+
+}
+
+
 
 footer ul{
   margin:10px auto;
@@ -571,19 +586,6 @@ footer .list-inline-item a:link,
 footer .list-inline-item a:visited{
   color:white;
 }
-
-
-
-footer ul{
-  margin:10px auto;
-}
-
-footer .list-inline-item a:link,
-footer .list-inline-item a:visited{
-  color:white;
-}
-
-
 
 footer .list-inline-item a:hover{
   color:white!important;
@@ -689,6 +691,81 @@ footer p{
   90%{ transform: rotateY(0deg);}
   100% { transform: rotateY(-180deg);}
 }
+
+/*----------------------- Progress Bar---------------------*/
+progress {
+  display: block;
+  margin:-1px;
+  position:absolute;
+  width:100%;
+  height:5px;
+  top: 0px;
+  border:0 none;
+  border-radius: 3px;
+}
+progress::-moz-progress-bar {
+  border-radius: 100px;
+  background:  #e5405e;
+  background: -moz-linear-gradient(left, #e5405e 0%, #ffdb3a 25%, #3fffa2 50%, #3fffa2 50%, #1a9be0 73%, #ba68ed 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #e5405e 0%, #ffdb3a 25%, #3fffa2 50%, #3fffa2 50%, #1a9be0 73%, #ba68ed 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #e5405e 0%, #ffdb3a 25%, #3fffa2 50%, #3fffa2 50%, #1a9be0 73%, #ba68ed 100%);
+
+
+  box-shadow: inset 0 -2px 4px rgba(0,0,0,0.4), 0 2px 5px 0px rgba(0,0,0,0.3);
+
+}
+
+/* webkit */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  progress {
+    height: 25px;
+  }
+}
+progress::-webkit-progress-bar {
+  background:  #e5405e;
+  background: -moz-linear-gradient(left, #e5405e 0%, #ffdb3a 25%, #3fffa2 50%, #3fffa2 50%, #1a9be0 73%, #ba68ed 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #e5405e 0%, #ffdb3a 25%, #3fffa2 50%, #3fffa2 50%, #1a9be0 73%, #ba68ed 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #e5405e 0%, #ffdb3a 25%, #3fffa2 50%, #3fffa2 50%, #1a9be0 73%, #ba68ed 100%);
+
+
+}
+progress::-webkit-progress-value {
+  border-radius: 12px;
+  background:  #e5405e;
+  background: -moz-linear-gradient(left, #e5405e 0%, #ffdb3a 25%, #3fffa2 50%, #3fffa2 50%, #1a9be0 73%, #ba68ed 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #e5405e 0%, #ffdb3a 25%, #3fffa2 50%, #3fffa2 50%, #1a9be0 73%, #ba68ed 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #e5405e 0%, #ffdb3a 25%, #3fffa2 50%, #3fffa2 50%, #1a9be0 73%, #ba68ed 100%);
+
+
+  box-shadow: inset 0 -2px 4px rgba(0,0,0,0.4), 0 2px 5px 0px rgba(0,0,0,0.3);
+}
+.progress-bar {
+  display: block;
+  position:fixed;
+  margin-top:55px;
+  margin-left:-1px;
+  z-index: 1000;
+  height:4px;
+  width:100%;
+
+
+
+}
+
+/* .progress-amt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #1de9b6;
+  transition: width .3s linear;
+} */
 
 /*----------------------- Preloader -----------------------*/
 body.preloader-site {

@@ -47,12 +47,14 @@
           "imageurl": "game/pong.png",
           "gamename" : "Ping-Pong-Game",
           "github" : "https://maanasvohra.github.io/2D-Ping-Pong-Game/"
+
         },
          {
           "developer" : "ADESH SHUKLA",
           "imageurl": "game/images.jpeg",
           "gamename" : "Dodge The Ball",
           "github" : "http://aadishukla.me/mygame/"
+
         }
     ]
 }
