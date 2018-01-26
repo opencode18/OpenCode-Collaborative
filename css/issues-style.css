@@ -1,7 +1,7 @@
 .issue1{
 height:auto;
 padding:40px 0 20px 0;
-background: #07ee99;
+background: #fff;
 text-align: center;
 }
 
@@ -64,7 +64,7 @@ text-align: center;
 
 
 .issues .project-title i{
-    color:#555;
+    color:#000000;
     margin-right:10px;
     
 }
@@ -107,6 +107,7 @@ text-align: center;
     height:auto;
    text-align: left;
     margin:5px 0;
+
 }
 
 
@@ -146,6 +147,7 @@ text-align: center;
 @media only screen and (max-width:800px){
 
     .issues .project-title{
+
         font-size:12px!important;
     }
 }

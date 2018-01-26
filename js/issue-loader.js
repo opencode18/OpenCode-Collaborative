@@ -31,7 +31,7 @@ function loadMoreIssues(user, repo) {
                 labels += '<a href=\'' + link + '\' target="_blank" class="label-btn btn btn-success">' + this.name +'</a> &nbsp;';
             });
 
-            var issue_markup = '<div class="col col-12 col-sm-12 col-md-12 col-lg-6">' +
+            var issue_markup = '<div class="col col-12 col-sm-12 col-md-12 col-lg-6 total">' +
                                     '<div class="issue">' +
                                          '<blockquote>' +
                                                 '<p><a href="'+issue_url+'" target="_blank">' + title + '</a></p>' +
