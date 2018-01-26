@@ -122,6 +122,173 @@
                ],
                "Total":"100"
             },
+			{
+				"name": "Rudransh Gupta",
+				"Contributions": [
+				{
+					"name": "Add timer for coutdown till the event is over.",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/160",
+					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/231",
+					"score": "20"
+				}, {
+					"name": "added myself in contestant list",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/1",
+					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/246",
+					"score": "10"
+				}, {
+					"name": "cards left aligned and added a new mentor",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/242",
+					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/284",
+					"score": "30"
+				}, {
+					"name": "updated float timings for fb sidebar ",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/162",
+					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/311",
+					"score": "10"
+				}, {
+					"name": "made issue section more responsive",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/283",
+					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/316",
+					"score": "30"
+				}, {
+					"name": "Added a new mentor",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/322",
+					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/323",
+					"score": "10"
+				}, {
+					"name": "removed about section",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/347",
+					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/349",
+					"score": "10"
+				}, {
+					"name": "Projects Section Added to a new page",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/353",
+					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/385",
+					"score": "20"
+				}, {
+					"name": "Made a pure css wine glass",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/5",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/37",
+					"score": "50"
+				}, {
+					"name": "made a pure css doge with blinking eyes",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/6",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/41",
+					"score": "50"
+				}, {
+					"name": "created a login page",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/11",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/45",
+					"score": "30"
+				}, {
+					"name": "Make a logo",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/4",
+					"score": "30"
+				}, {
+					"name": "Share your designs in socialmedias",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9",
+					"score": "10"
+				}, {
+					"name": "added a custom scroll bar",
+					"Issuelink": "https://github.com/aswinzz/LucidCV/issues/22",
+					"PRlink": "https://github.com/aswinzz/LucidCV/pull/23",
+					"score": "20"
+				}, {
+					"name": "added background in style.css",
+					"Issuelink": "https://github.com/aswinzz/LucidCV/issues/18",
+					"PRlink": "https://github.com/aswinzz/LucidCV/pull/33",
+					"score": "10"
+				}, {
+					"name": "Suggest more issues",
+					"Issuelink": "https://github.com/aswinzz/LucidCV/issues/20",
+					"score": "10"
+				}, {
+					"name": "Setup LucidCV in your local system",
+					"Issuelink": "https://github.com/aswinzz/LucidCV/issues/7",
+					"score": "10"
+				}, {
+					"name": "fixed button color of "Read More" on click ",
+					"Issuelink": "https://github.com/opencode18/OpenNews/issues/9",
+					"PRlink": "https://github.com/opencode18/OpenNews/pull/40",
+					"score": "10"
+				}, {
+					"name": "changed the color scheme of the scrollbar",
+					"Issuelink": "https://github.com/opencode18/OpenNews/issues/59",
+					"PRlink": "https://github.com/opencode18/OpenNews/pull/62",
+					"score": "10"
+				}, {
+					"name": "new custom scroll bar added",
+					"Issuelink": "https://github.com/opencode18/OpenNews/issues/14",
+					"PRlink": "https://github.com/opencode18/OpenNews/pull/24",
+					"score": "20"
+				}, {
+					"name": "added task2 solution",
+					"Issuelink": "https://github.com/opencode18/HackerSkills/issues/2",
+					"PRlink": "https://github.com/opencode18/HackerSkills/pull/54",
+					"score": "30"
+				}, {
+					"name": "added screenshot of seeting up the project",
+					"Issuelink": "https://github.com/GitHubCommunity-IIITAllahabad/ProfilePortal-Beta/issues/5",
+					"PRlink": "https://github.com/GitHubCommunity-IIITAllahabad/ProfilePortal-Beta/pull/19",
+					"score": "10"
+				}, {
+					"name": "Generate Github Resume",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/23",
+					"score": "10"
+				}, {
+					"name": "Suggest new issues",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/158",
+					"score": "20"
+				}, {
+					"name": "Make a website for yourself",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/251",
+					"score": "50"
+				}, {
+					"name": "Share on Social Media",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/348",
+					"score": "10"
+				}, {
+					"name": "star this repo",
+					"Issuelink": "https://github.com/Anna-Assistant/Anna/issues/134",
+					"score": "10"
+				}, {
+					"name": "Run this project on your local computer",
+					"Issuelink": "https://github.com/GeekHaven/Aparoksha-18/issues/3",
+					"score": "20"
+				}, {
+					"name": "Star and fork the repo to get points",
+					"Issuelink": "https://github.com/rahulkumaran/Utlyz-CLI/issues/23",
+					"PRlink": "",
+					"score": "10"
+				}, {
+					"name": "Star This Repo",
+					"Issuelink": "https://github.com/opencode18/CodeStash/issues/55",
+					"PRlink": "",
+					"score": "10"
+				}, {
+					"name": "Star this Repository!",
+					"Issuelink": "https://github.com/agbilotia1998/Lecture-Connect/issues/12",
+					"PRlink": "",
+					"score": "10"
+				}, {
+					"name": "Star the repo to earn point !",
+					"Issuelink": "https://github.com/opencode18/OpenNews/issues/34",
+					"PRlink": "",
+					"score": "10"
+				}, {
+					"name": " Star this repository",
+					"Issuelink": "https://github.com/GeekHaven/Aparoksha-18/issues/10",
+					"PRlink": "",
+					"score": "10"
+				}, {
+					"name": "Setting up the project",
+					"Issuelink": "https://github.com/agbilotia1998/Lecture-Connect/issues/9",
+					"PRlink": "",
+					"score": "20"
+				}
+				],
+				"Total": "630"
+			},
             {  
                "name":"shivhek25",
                "Contributions":[  
