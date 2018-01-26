@@ -35,7 +35,7 @@ function loadMoreIssues(user, repo) {
                                     '<div class="issue">' +
                                          '<blockquote>' +
                                                 '<p><a href="'+issue_url+'" target="_blank">' + title + '</a></p>' +
-                                                '<footer><a href="' + author_url +'" target="_blank">' + author + '</a> in <a href="' + repo_url + '" target="_blank">' + repo_name + '</a></footer>' +
+                                                '<div class="issue1"><a href="' + author_url +'" target="_blank">' + author + '</a> in <a href="' + repo_url + '" target="_blank">' + repo_name + '</a></div>' +
                                             '</blockquote>' +
                                             labels +
                                             '<a href="' + issue_url +'" target="_blank" class="comment-btn btn btn-success">' +
