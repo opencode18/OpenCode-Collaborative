@@ -643,7 +643,7 @@ footer p{
   opacity:0.5;
 }
 
-.videoHidden {
+.videoHidden,.gameHidden {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 100; /* Sit on top */
@@ -657,7 +657,7 @@ footer p{
 }
 
 
-.videoPopup {
+.videoPopup,.gamePopup {
   background-color: #212121;
   margin: 5% 10% auto; /* 15% from the top and centered */
   padding: 20px;
@@ -666,9 +666,10 @@ footer p{
 }
 
 
-.close {
-  color: #aaa;
+.close,.closes {
+  color: white;
   float: right;
+  cursor: pointer;
   font-size: 28px;
   font-weight: bold;
 }
@@ -723,4 +724,10 @@ body.preloader-site {
 
 .forks{
   padding-top: 5px;
+}
+.bb
+{
+  border: none;
+  background-color: transparent;
+  outline: none;
 }
