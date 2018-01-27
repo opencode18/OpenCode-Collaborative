@@ -729,6 +729,16 @@
       	  "github" : "https://github.com/ashish4321",
       	  "twitter" : "",
 	      "referral" : ""
-      }  
+      },
+	{
+         "name":"Dhairya Khale",
+         "imageurl":"contestant/dhairyakhale.jpg",
+         "about":"Working my way up.",
+         "college":"MPSTME Mumbai",
+         "facebook":"https://www.facebook.com/dhairyakhale",
+         "github":"https://github.com/dhairyakhale",
+         "twitter":"",
+         "referral":""
+	}      
    ]
 }
