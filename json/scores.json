@@ -2062,7 +2062,18 @@
                   }
 				],
 			   "Total":"680"
-			}
+			},
+			{  
+		       "name":"Aashutosh Rathi",
+		       "Contributions":[{
+		            "name":"Add more quotes.",
+		            "Issuelink":"https://github.com/mubaris/motivate/issues/3",
+		            "PRlink":"https://github.com/mubaris/motivate/pull/124",
+		            "score":"10"
+		          }
+		       ],
+		       "Total":"10"
+		   }
          ]
       }
    ]
