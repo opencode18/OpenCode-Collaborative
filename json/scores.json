@@ -84,8 +84,7 @@
          ],
          "Total":"180"
       },
-      {  
-         "scores":[  
+      
             {  
                "name":"piyu007",
                "Contributions":[  
@@ -122,6 +121,56 @@
                ],
                "Total":"100"
             },
+		 
+		 	 
+		   {  
+               "name":"Muskan",
+               "Contributions":[  
+                  {  
+                     "name":"Add a logo for Girls-who-code in Navbar #61",
+                     "Issuelink":"https://github.com/opencode18/Girls-who-code/issues/72",
+                     "PRlink":"https://github.com/opencode18/Girls-who-code/pull/72",
+                     "score":"20"
+                  },
+                  {  
+                     "name":"Make the landing page smaller #31",
+                     "Issuelink":"https://github.com/opencode18/Girls-who-code/issues/31",
+                     "PRlink":"https://github.com/opencode18/Girls-who-code/pull/38",
+                     "score":"30"
+                  },
+                  {  
+                     "name":"new subsection(goals) ",
+                     "Issuelink":"https://github.com/opencode18/Girls-who-code/issues/29",
+                     "PRlink":"https://github.com/opencode18/Girls-who-code/pull/33",
+                     "score":"20"
+                  },
+                  {  
+                     "name":"fixing horizontal scroll bar ",
+                     "Issuelink":"https://github.com/opencode18/Girls-who-code/issues/30",
+                     "PRlink":"https://github.com/opencode18/Girls-who-code/pull/33",
+                     "score":"20"
+                  },
+                  {  
+                     "name":"adding in contestant list #156",
+                     "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/1",
+                     "PRlink":"https://github.com/opencode18/OpenCode-Collaborative/pull/156",
+                     "score":"10"
+                  },
+                  
+                 
+               
+                  {  
+                     "name":"like opencode fb page #138",
+                     "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/138",
+                     "PRlink":"",
+                     "score":"10"
+                  },
+               ],
+               "Total":"110"
+            },
+     		 
+		 
+		 
 			{
 				"name": "Rudransh Gupta",
 				"Contributions": [
