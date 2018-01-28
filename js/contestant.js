@@ -4,8 +4,8 @@ const app1 = new Vue({
         contestants: []
     },
     created() {
-        fetch('https://opencode18.github.io/OpenCode-Collaborative/json/contestants.json')
-        
+        fetch('https://jigar3.github.io/OpenCode-Collaborative/json/contestants.json')
+
             .then(response => response.json())
             .then(json => {
                 this.contestants = json.contestants
