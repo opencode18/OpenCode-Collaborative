@@ -1176,6 +1176,35 @@
                ],
                "Total":"170"
             },
+		 
+		 
+		 
+		 
+		 ,
+            {  
+               "name":"sangeeta",
+               "Contributions":[  
+                  {  
+                     "name":"making subsection for contributor",
+                     "Issuelink":"https://github.com/opencode18/Girls-who-code/issues/34",
+                     "PRlink":"https://github.com/opencode18/Girls-who-code/pull/50",
+                     "score":"20"
+                  },
+		 {  
+                     "name":"Add yourself to the participants list",
+                     "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/1",
+                     "PRlink":"https://github.com/opencode18/OpenCode-Collaborative/pull/13",
+                     "score":"10"
+                  }
+               ],
+               "Total":"30"
+            },
+	   
+	   
+	   
+	   
+	   
+	   
             {  
                "name":"Jigar Chavada",
                "Contributions":[  
