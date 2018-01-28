@@ -739,6 +739,16 @@
          "github":"https://github.com/dhairyakhale",
          "twitter":"",
          "referral":""
-	}      
+	},
+       {
+      	  "name" : "Ashutosh Agarwal",
+      	  "imageurl" : "contestant/ashutosh.jpg",
+      	  "about" : "A caffeine dependent life-form",
+	      "college":"NIT Durgapur",
+      	  "facebook" : "https://www.facebook.com/ashutosh.agarwal97",
+      	  "github" : "https://github.com/ashutosh97",
+      	  "twitter" : "",
+	      "referral" : ""
+      }
    ]
 }
