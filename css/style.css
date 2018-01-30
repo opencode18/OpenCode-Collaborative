@@ -1,7 +1,95 @@
 html{
   overflow-x: hidden;
 }
+.preloader {
 
+  height:23px;
+  width:23px;
+  margin:0 auto;
+  display: inline-block;
+}
+
+.cls-1 {
+fill: black;
+stroke:url(#linear-gradient);
+stroke-width: 5;
+stroke-dasharray: 10000px;
+stroke-dashoffset: 10000px;
+animation: draw 4s linear forwards,abc 2s 3s linear forwards;
+}
+@-webkit-keyframes draw {
+to {
+     stroke-dashoffset: 0;
+   }
+}
+@-webkit-keyframes abc {
+from {
+       fill:white; 
+     }
+ to {
+      fill:url(#linear-gradient);
+     }
+ }
+           
+            .cls-2 {
+                fill: black;
+                stroke:url(#linear-gradient);
+                stroke-width: 5;
+                stroke-dasharray: 10000px;
+                stroke-dashoffset: 10000px;
+                animation: draw 4s linear forwards,abc 2s 3s linear forwards;
+            }
+            @-webkit-keyframes draw {
+                to {
+                    stroke-dashoffset: 0;
+                }
+            }
+            @-webkit-keyframes abc {
+                from {
+                    fill:white; 
+                }
+                to {
+                    fill:url(#linear-gradient);
+                }
+            }            
+            .cls-3 {
+                opacity: 0.91;
+            }
+            
+            .cls-4 {
+                font-size: 82.726px;
+                fill: #fff;
+                font-family: NexaLight, Nexa Light;
+                letter-spacing: 0.58em;
+                stroke:grey;
+                stroke-width: 5;
+                stroke-dasharray: 10000px;
+                stroke-dashoffset: 10000px;
+                animation-name: draw;
+                animation-duration: 10s;
+                animation-delay: 4s;
+                animation-fill-mode: forwards;
+                animation-iteration-count: 1;
+                animation-timing-function: linear;
+            }
+            @-webkit-keyframes draw {
+                to {
+                    stroke-dashoffset: 0;
+                }
+            }
+            
+            .cls-5 {
+                letter-spacing: 0.601em;
+            }
+            
+            .cls-6 {
+                letter-spacing: 0.58em;
+            }
+            
+            .cls-7 {
+                letter-spacing: 0.611em;
+            }
+   
 ::-webkit-scrollbar {
     width: 20px;
 }
