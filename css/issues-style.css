@@ -1,10 +1,14 @@
 .issue1{
 height:auto;
 padding:40px 0 20px 0;
-background: #fff;
+background: white;
+color:black;
 text-align: center;
 }
 
+.issue_name{
+    color:#000;
+}
 
 .issues{
     height:auto;
@@ -118,7 +122,7 @@ text-align: center;
     height:300px;
     background-color: white;
     border-radius:4px;
-    color:#222;
+    color:#000;
     font-size:20px;
     padding:15px;
     font-family: 'Lato';
@@ -153,7 +157,7 @@ text-align: center;
 }
 
 .issues .project-issues-list .issue blockquote{
-    
+        font-weight:bold;
         padding: 10px 20px;
         margin: 0 0 20px;
         font-size: 17.5px;
@@ -163,9 +167,7 @@ text-align: center;
 }
 
 .issues .project-issues-list .issue blockquote footer{
-    
    font-weight:300;
-
 }
 
 
@@ -192,7 +194,6 @@ text-align: center;
 
 /* REUSABLE TITLES */
 .section-title{
-    color:#222;
     text-align: center;
     margin:0 auto;
     font-weight:300;
@@ -209,4 +210,3 @@ text-align: center;
     background: linear-gradient(to right, #ee0979, #ff6a00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
-
