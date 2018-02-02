@@ -115,8 +115,33 @@
 				"Issuelink": "https://github.com/opencode18/OpenNews/issues/52",
 				"PRlink": "https://github.com/opencode18/OpenNews/pull/70",
 				"score": "10"
+			}, {
+				"name": "Change the color scheme of issues section #380",
+				"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/380",
+				"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/389",
+				"score": "20"
+			}, {
+				"name": "Add scrollspy for Issues section too #436",
+				"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/436",
+				"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/443",
+				"score": "10"
+			}, {
+				"name": "Suggest new issues #136",
+				"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/136",
+				"PRlink": "",
+				"score": "20"
+			}, {
+				"name": "Setup Oh My Zsh on your system #181",
+				"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/181",
+				"PRlink": "",
+				"score": "20"
+			}, {
+				"name": "write a blog post explaining your experince on Opencode #455",
+				"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/455",
+				"PRlink": "",
+				"score": "50"
 			}],
-			"Total": "200"
+			"Total": "320"
 		},
 		{
 			"name": "ananya-agrawal",
