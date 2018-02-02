@@ -53,6 +53,11 @@
           "imageurl": "game/images.jpeg",
           "gamename" : "Dodge The Ball",
           "github" : "http://aadishukla.me/mygame/"
+        },
+          "developer" : "gaurav kumar",
+          "imageurl": "game/ggkk.png",
+          "gamename" : "gminigame",
+          "github" : "http://kgauravk.github.io/gMiniGame/"
         }
     ]
 }
