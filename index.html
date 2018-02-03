@@ -70,6 +70,23 @@
 			</svg>
         </div>
     </div>
+
+    <script>
+      $(window).scroll(function () {
+  var s = $(window).scrollTop(),
+        d = $(document).height(),
+        c = $(window).height();
+        scrollPercent = (s / (d-c)) * 100;
+        var position = scrollPercent;
+   $("#progress-bar").attr('value' , position);
+});
+    </script>
+      <!-- Navigation -->
+      <div id="fh5co-header">
+        <div class="progress-bar">
+   <progress id="progress-bar" value="0" max="100"></progress>
+</div>
+
       <!-- Navigation -->
       <div id="fh5co-header">
       <div class="container">
