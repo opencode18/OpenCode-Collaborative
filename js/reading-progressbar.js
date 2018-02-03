@@ -8,7 +8,7 @@ $(document).ready(function() {
     return $(window).scrollTop();
   };
     
-  if ("max" in document.createElement('progress')) {
+  if ("max" in document.createElement("progress")) {
     var progressBar = $("progress");
     progressBar.attr({ max: getMax() });
 
@@ -22,7 +22,7 @@ $(document).ready(function() {
   
   } else {
 
-    var progressBar = $(".progress-bar"), 
+    var progressBar1 = $(".progress-bar"), 
         max = getMax(), 
         value, width;
         
@@ -32,11 +32,11 @@ $(document).ready(function() {
       width = (value/max) * 100;
       width = width + "%";
       return width;
-    }
+    };
         
     var setWidth = function(){
-      progressBar.css({ width: getWidth() });
-    }
+      progressBar1.css({ width: getWidth() });
+    };
         
     $(document).on("scroll", setWidth);
     $(window).on("resize", function(){
