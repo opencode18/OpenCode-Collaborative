@@ -131,7 +131,7 @@ from {
     background: #555;
 }
 
-  #mentors, #contestants, #projects, #game{
+  #mentors, #contestants, #projects, #game, #blogs{
     text-align: center;
   }
   .preloader img{
@@ -340,7 +340,7 @@ max-height: 340px;
 	background-color:#3b5998;
 	text-decoration:underline;
 	}
-#mentors{
+#mentors, #blogs{
 	text-align:left;
 }
 #contestants{
@@ -525,22 +525,22 @@ max-height: 340px;
   .card.flipped {
     transform: rotateY( 180deg );
   }
-  .mentors .contestants {
+  .mentors .contestants .blogs {
     width: 100%;
     text-align: center;
   }
 
-  .mentors .contestants .heading {
+  .mentors .contestants .heading .blogs {
     text-align: left;
   }
 
 
-  .mentors .back .social a {
+  .mentors .back .social .blogs a {
     color: #fff;
     /* margin:0 4px; */
     z-index: 4;
   }
-  .mentors .back .social a:hover {
+  .mentors .back .social .blogs a:hover {
     color: lightblue;
     z-index: 4;
   }

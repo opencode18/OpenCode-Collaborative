@@ -334,6 +334,47 @@
     </div>
   </section>
 
+  <section id="blogs">
+    <div class="container">
+      <!-- <div class="row"> -->
+        <div class="blogs" id="blogs">
+          <div class="heading">
+            <h1 id="center-mentor">Participant's Blogs</h1>
+          </div>
+          <div class="card" v-for="blog in alphaSort(blogs)" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <div class="image">
+                <img v-bind:src="blog.imageurl">
+              </div>
+              <div class="name">
+                <div class="triangle-left"></div>
+                <div class="triangle-right"></div>
+                {{ blog.name }}</div>
+            </div>
+            <div class="back">
+              <!-- <div class="snow-card"></div> -->
+              <div class="about">
+                <div id="snow"></div>
+                <!-- <h3>About me</h3> -->
+                <hr class="card-underline">
+                <p>{{ blog.blogTitle }}</p>
+              </div>
+              <div class="social">
+                <div class="triangle-left"></div>
+                <div class="triangle-right"></div>
+                <a v-bind:href="blog.blogURL">
+                  Click Here For Blog
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      <!-- </div> -->
+    </div>
+  </section>
+
+
 </div>
 
 
@@ -1186,5 +1227,7 @@ var windowScroll = function() {
 
 
 <script src="js/game.js"></script>
+<script src="js/blogs.js"></script>
+
 </body>
 </html>
