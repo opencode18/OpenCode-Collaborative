@@ -339,17 +339,17 @@
       <!-- <div class="row"> -->
         <div class="blogs" id="blogs">
           <div class="heading">
-            <h1 id="center-mentor">Participant's Blogs</h1>
+            <h1 id="center-mentor">Participants' Blogs</h1>
           </div>
-          <div class="card" v-for="blog in alphaSort(blogs)" onclick="this.classList.toggle('flipped')">
+          <div class="card" v-for="mentor in alphaSort(blogs)" onclick="this.classList.toggle('flipped')">
             <div class="front">
               <div class="image">
-                <img v-bind:src="blog.imageurl">
+                <img v-bind:src="mentor.imageurl">
               </div>
               <div class="name">
                 <div class="triangle-left"></div>
                 <div class="triangle-right"></div>
-                {{ blog.name }}</div>
+                {{ mentor.name }}</div>
             </div>
             <div class="back">
               <!-- <div class="snow-card"></div> -->
@@ -357,12 +357,12 @@
                 <div id="snow"></div>
                 <!-- <h3>About me</h3> -->
                 <hr class="card-underline">
-                <p>{{ blog.blogTitle }}</p>
+                <p>{{ mentor.blogTitle }}</p>
               </div>
               <div class="social">
                 <div class="triangle-left"></div>
                 <div class="triangle-right"></div>
-                <a v-bind:href="blog.blogURL">
+                <a v-bind:href="mentor.blogURL">
                   Click Here For Blog
                 </a>
               </div>
