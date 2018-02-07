@@ -16,6 +16,7 @@
                     var keyA = a.name,
                         keyB = b.name;
 
+                    if (keyA == "OpenCode Collaborative") return 0;                        
                     if (keyA < keyB) return -1;
                     if (keyA > keyB) return 1;
                     return 0;
