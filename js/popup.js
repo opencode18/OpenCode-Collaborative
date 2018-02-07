@@ -8,36 +8,51 @@ var trailer = document.getElementById("trailer");
 // Get the <close> element that closes the popupBody
 var close = document.querySelector(".close");
 
+var gameBody = document.getElementById("gameBody");
 
-var iframe = document.querySelector("iframe");
+
+
 
 // When the user clicks on the 'trailer', open the popupBody 
 trailer.onclick = function() {
-    iframe.setAttribute("src","https://www.youtube.com/embed/qjVYRDQAl2Q");
+    
+    $('iframe')[1].setAttribute("src","https://www.youtube.com/embed/qjVYRDQAl2Q");
     popupBody.style.display = "block";
 
-}
-
-// When the user clicks on any area other than the video, close the popupBody
-close.addEventListener("click",function()
-    {
-        popupBody.style.display = "none";
-    }
-
-);
-
+};
 
 // When the user clicks anywhere outside of the popupBody, close it
 window.onclick = function(event) {
     if (event.target == popupBody) {
-        iframe.setAttribute("src","#");
+
+        console.log($("iframe"));
+        $('iframe')[1].setAttribute("src","");
         popupBody.style.display = "none";
     }
-}
+    if (event.target === gameBody) {
+        $(".gameFrame").attr("src","");
+        gameBody.style.display = "none";
+    }
+};
 
 close.onclick = function(event) {
     if (event.target == popupBody) {
-        iframe.setAttribute("src","#");
+        console.log($("iframe"));
+        $("iframe")[1].setAttribute("src","");
         popupBody.style.display = "none";
     }
-}
+};
+$(".closes").click(function(event) {
+    $(".gameFrame").attr("src","");
+    gameBody.style.display = "none";
+});
+function myFunction(link)
+    {   
+        $.get( link, function( data ) {
+            $(".gameFrame").attr("src",link);
+            gameBody.style.display = "block";
+        });
+    }
+
+
+

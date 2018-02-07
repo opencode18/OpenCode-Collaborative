@@ -10,7 +10,7 @@
         },
          {
             "name" : "Abhinav Khare",
-            "imageurl" : "mentor/abhinav.jpeg",
+            "imageurl" : "mentor/abhinav.jpg",
             "about" : "My mom says I'm cool",
             "facebook" : "https://www.facebook.com/khareabhinav",
             "github" : "https://github.com/CosmicCoder96",
@@ -26,7 +26,7 @@
         },
         {
             "name" : "Gautham Santhosh",
-            "imageurl" : "mentor/gautham.jpeg",
+            "imageurl" : "https://avatars0.githubusercontent.com/u/12110844?s=460&v=4",
             "about" : "Don't text me on fb about issues,use zulip",
             "facebook" : "https://www.facebook.com/gauthamzz",
             "github" : "https://github.com/gauthamzz",
@@ -52,9 +52,9 @@
             "name" : "Mubaris NK",
             "imageurl" : "mentor/mubaris.jpeg",
             "about" : "",
-            "facebook" : "",
-            "github" : "",
-            "twitter" : ""
+            "facebook" : "https://www.facebook.com/nk.mubaris",
+            "github" : "https://github.com/mubaris",
+            "twitter" : "twitter.com/Mubaris_NK"
         },
         {
             "name" : "Ayush Gupta",
@@ -159,6 +159,14 @@
             "facebook" : "https://www.facebook.com/aditya.goel.311",
             "github" : "http://github.com/Ellusionists",
             "twitter" : "https://twitter.com/itsAdityaGoel"
+        },
+        {
+            "name" : "Saswat Sahoo",
+            "imageurl" : "mentor/saswat.jpg",
+            "about" : "Developer - Powered By Caffeine",
+            "facebook" : "https://www.facebook.com/profile.php?id=100009337968648",
+            "github" : "https://github.com/reverie-ss",
+            "twitter" : "https://www.linkedin.com/in/reverie-ss/"
         }
     ]
 }
