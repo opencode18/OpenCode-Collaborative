@@ -8,7 +8,7 @@
             .then(response => response.json() )
             .then(json => {
                 this.blogs = json.blogs
-            })
+            });
           },
           methods: {
             alphaSort: function (arr) {
