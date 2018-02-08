@@ -4,7 +4,7 @@
               blogs : []
           },
           created() {
-              fetch('https://ace-bansal.github.io/OpenCode-Collaborative/json/blogs.json')
+              fetch('https://opencode18.github.io/OpenCode-Collaborative/json/blogs.json')
             .then(response => response.json() )
             .then(json => {
                 this.blogs = json.blogs
