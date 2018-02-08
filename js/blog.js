@@ -4,7 +4,7 @@
               blogs : []
           },
           created() {
-              fetch('https://opencode18.github.io/OpenCode-Collaborative/json/blogs.json')
+              fetch('https://ace-bansal.github.io/OpenCode-Collaborative/json/blogs.json')
             .then(response => response.json() )
             .then(json => {
                 this.blogs = json.blogs
@@ -16,7 +16,7 @@
                     var keyA = a.name,
                         keyB = b.name;
 
-                    if (keyA == "OpenCode Collaborative") return 0;                        
+                    if (keyA == "OpenCode Collaborative") return 0;
                     if (keyA < keyB) return -1;
                     if (keyA > keyB) return 1;
                     return 0;
