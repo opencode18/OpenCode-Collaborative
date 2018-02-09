@@ -2258,7 +2258,111 @@
 				}
 			],
 			"Total": "760"
-		}
+		},
+		   {
+			"name": "Aayush Chaudhry",
+			"Contributions": [{
+					"name": "Add yourself to the participants list",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/1",
+					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/117",
+					"score": "10"
+				},
+				{
+					"name": "Generate Github Resume #23",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/23",
+					"PRlink": "",
+					"score": "10"
+				},
+		   		{
+					"name": "Setup Oh My Zsh on your system #181",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/181",
+					"PRlink": "",
+					"score": "20"
+				},
+		   		{
+					"name": "Update scores.json #325",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/325",
+					"PRlink": "",
+					"score": "10"
+				},
+		   		{
+					"name": "Solution of day 1 codestash",
+					"Issuelink": "https://github.com/opencode18/CodeStash/blob/master/Questions/day1.md",
+					"PRlink": "https://github.com/opencode18/CodeStash/pull/11",
+					"score": "10"
+				},
+		   		{
+					"name": "Add more quotes. #3",
+					"Issuelink": "https://github.com/mubaris/motivate/issues/3",
+					"PRlink": "https://github.com/mubaris/motivate/pull/106",
+					"score": "10"
+				},
+		   		{
+					"name": "SetUp project on your machine and get the app running #5",
+					"Issuelink": "https://github.com/GitHubCommunity-IIITAllahabad/ProfilePortal-Beta/issues/5",
+					"PRlink": "https://github.com/GitHubCommunity-IIITAllahabad/ProfilePortal-Beta/pull/24",
+					"score": "10"
+				},
+		   		{
+					"name": "Setting up the project #9",
+					"Issuelink": "https://github.com/agbilotia1998/Lecture-Connect/issues/9",
+					"PRlink": "",
+					"score": "20"
+				},
+		   		
+		   		{
+					"name": "Star This Repo #5",
+					"Issuelink": "https://github.com/gostudent/Grypto/issues/5",
+					"PRlink": "",
+					"score": "10"
+				},
+		   		
+		 
+		   		{
+					"name": "Star This Repo #55",
+					"Issuelink": "https://github.com/opencode18/CodeStash/issues/55",
+					"PRlink": "",
+					"score": "10"
+				},
+		   		{
+					"name": "Star This Repo #12",
+					"Issuelink": "https://github.com/gostudent/Algorithms/issues/12",
+					"PRlink": "",
+					"score": "10"
+				},
+		   		{
+					"name": "star this repo #134",
+					"Issuelink": "https://github.com/Anna-Assistant/Anna/issues/134",
+					"PRlink": "",
+					"score": "10"
+				},
+		   		{
+					"name": "Star this Repository! #12",
+					"Issuelink": "https://github.com/agbilotia1998/Lecture-Connect/issues/12",
+					"PRlink": "",
+					"score": "10"
+				},
+		   		
+		   		{
+					"name": "Star the repo to earn point ! #34",
+					"Issuelink": "https://github.com/opencode18/OpenNews/issues/34",
+					"PRlink": "",
+					"score": "10"
+				},
+				{
+					"name": "star this repository #128",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/128",
+					"PRlink": "",
+					"score": "10"
+				},
+				{
+					"name": "Star this repository #10",
+					"Issuelink": "https://github.com/GeekHaven/Aparoksha-18/issues/10",
+					"PRlink": "",
+					"score": "10"
+				}
+			],
+			"Total": "180"
 	
 	
 	]
