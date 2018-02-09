@@ -341,7 +341,7 @@
 					"PRlink": "",
 					"score": "10"
 				},
-				
+
 				{
 					"name": "star open-code collaborative",
 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/128",
@@ -1916,9 +1916,64 @@
 					"Issuelink": "https://github.com/rahulkumaran/Utlyz-CLI/issues/23",
 					"PRlink": "https://github.com/rahulkumaran/Utlyz-CLI/issues/23#issuecomment-357571017",
 					"score": "10"
+				},
+				{
+					"name": "Concept 5 - Isometric Design",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/60",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/64",
+					"score": "50"
+				},
+				{
+					"name": "Pure CSS task - Superhero",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/59",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/76",
+					"score": "30"
+				},
+				{
+					"name": "Increase width of codepen",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/78",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/86",
+					"score": "20"
+				},
+				{
+					"name": "Task 2 - Regex Exercise 1",
+					"Issuelink": "https://github.com/opencode18/HackerSkills/issues/2",
+					"PRlink": "https://github.com/opencode18/HackerSkills/pull/66",
+					"score": "30"
+				},
+				{
+					"name": "Task 3 - Web Scraping",
+					"Issuelink": "https://github.com/opencode18/HackerSkills/issues/11",
+					"PRlink": "https://github.com/opencode18/HackerSkills/pull/66",
+					"score": "50"
+				},
+				{
+					"name": "Make cards for participant blogs",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/454",
+					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/463",
+					"score": "30"
+				},
+				{
+					"name": "Make a website for yourself",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/251",
+					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/issues/251#issuecomment-360241744",
+					"score": "50"
+				},
+				{
+					"name": "Make your own awesome list",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/245",
+					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/issues/245#issuecomment-363567278",
+					"score": "30"
+				},
+				{
+					"name": "write a blog post explaining your experience on Opencode",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/455",
+					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/issues/455#issuecomment-362524890",
+					"score": "50"
 				}
+
 			],
-			"Total": "700"
+			"Total": "1040"
 		},
 		{
 			"name": "aadixiiita",
@@ -2509,7 +2564,7 @@
 			],
 			"Total": "760"
 		}
-	
-	
+
+
 	]
 }
