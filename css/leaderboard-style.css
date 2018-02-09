@@ -87,6 +87,7 @@ body{
     width:100%;
     height:auto;
     padding:5px 10px!important;
+    /* padding:5px 10px!important; */
     list-style-type: none;
     display: flex;
     justify-content: space-around;
@@ -133,7 +134,8 @@ ul{
 
 .data-cont-item{
     
-    font-size:50%!important;
+    /* font-size:50%!important; */
+    font-size: 50%;
 }
 
 
@@ -147,7 +149,8 @@ ul{
 
 
 .ui-accordion .ui-accordion-content{
-    padding:0px!important;
+    /* padding:0px!important; */
+    padding:0px;
 }
 
 .flex-container{
@@ -159,7 +162,8 @@ ul{
 }
 
 .total{
-    float: right!important;
+    float: right;
+    /* float: right!important; */
 }
 
 .th{
