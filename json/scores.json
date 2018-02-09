@@ -322,6 +322,149 @@
 			],
 			"Total": "650"
 		},
+		   {
+			"name": "Vivek Raj",
+			"Contributions": [{
+					"name": "Add yourself to the participants list #1",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/1",
+					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/67",
+					"score": "10"
+				},
+				{
+					"name": "Generate Github Resume",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/23",
+					"PRlink": "",
+					"score": "10"
+				},
+				{
+					"name": "Make website for yourself",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/251",
+					"PRlink": "",
+					"score": "50"
+				},
+				{
+					"name": "star open-code collaborative",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/128",
+					"PRlink": "",
+					"score": "10"
+				},
+				{
+					"name": "like opencode fb page",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/138",
+					"PRlink": "",
+					"score": "10"
+				},
+				{
+					"name": "Make java-script game",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/175",
+					"PRlink": "",
+					"score": "50"
+				},
+				{
+					"name": "update score.json",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/325",
+					"PRlink": "",
+					"score": "10"
+				},
+				{
+					"name": "Run this project on your local computer #3",
+					"Issuelink": "https://github.com/GeekHaven/Aparoksha-18/issues/3",
+					"PRlink": "",
+					"score": "20"
+				},
+				{
+					"name": "Setup LucidCV in your local system #7",
+					"Issuelink": "https://github.com/aswinzz/LucidCV/issues/7",
+					"PRlink": "",
+					"score": "10"
+				},
+				{
+					"name": "Add form Validation #8",
+					"Issuelink": "https://github.com/aswinzz/LucidCV/issues/8",
+					"PRlink": "https://github.com/aswinzz/LucidCV/pull/11",
+					"score": "10"
+				},
+				{
+					"name": "make a logo",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/4",
+					"PRlink": "",
+					"score": "30"
+				},
+				{
+					"name": "star prodesigner repo",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/3",
+					"PRlink": "",
+					"score": "10"
+				},
+				{
+					"name": "Concept1-Login Page",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/pull/39",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/57",
+					"score": "30"
+				},
+				{
+					"name": "css snowman",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/38",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/57",
+					"score": "30"
+				},
+				{
+					"name": "css wineglass",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/5",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/19",
+					"score": "50"
+				},
+				{
+					"name": "IIITA-Website",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/35",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/62",
+					"score": "30"
+				},
+				{
+					"name": "Share your designs in socialmedias",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9",
+					"PRlink": "",
+					"score": "10"
+				},
+				{
+					"name": "setting up the project",
+					"Issuelink": "https://github.com/agbilotia1998/Lecture-Connect/issues/9",
+					"PRlink": "",
+					"score": "20"
+				},
+				{
+					"name": "Star Letsgo",
+					"Issuelink": "https://github.com/gostudent/Letsgo/issues/6",
+					"PRlink": "",
+					"score": "10"
+				},
+				{
+					"name": "star opennews",
+					"Issuelink": "https://github.com/opencode18/OpenNews/issues/34",
+					"PRlink": "",
+					"score": "10"
+				},
+				{
+					"name": "star CodeStash",
+					"Issuelink": "https://github.com/opencode18/CodeStash/issues/55",
+					"PRlink": "",
+					"score": "10"
+				},
+				{
+					"name": "star Go",
+					"Issuelink": "https://github.com/gostudent/gostudent.github.io/issues/1",
+					"PRlink": "",
+					"score": "10"
+				},
+				{
+					"name": "star anna",
+					"Issuelink": "https://github.com/Anna-Assistant/Anna/issues/134",
+					"PRlink": "",
+					"score": "10"
+				}
+			],
+			"Total": "420"
+		},
 		{
 			"name": "re42",
 			"Contributions": [{
