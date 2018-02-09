@@ -140,8 +140,13 @@
 				"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/455",
 				"PRlink": "",
 				"score": "50"
+			}, {
+				"name": "add a reading progress bar to the page #359",
+				"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/359",
+				"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/457",
+				"score": "30"
 			}],
-			"Total": "320"
+			"Total": "350"
 		},
 		{
 			"name": "ananya-agrawal",
