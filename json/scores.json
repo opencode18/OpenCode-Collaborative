@@ -2508,6 +2508,41 @@
 				}
 			],
 			"Total": "760"
+		},
+		{
+			"name": "Yash Agarwal",
+			"Contributions": [{
+					"name": "Add yourself to the participants list #1",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/1",
+					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/462",
+					"score": "10"
+				},
+				{
+					"name": "Pure CSS task 4- Snowman",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/38",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/50",
+					"score": "30"
+				},
+				{
+					"name": "Pure CSS Images Task 1 - Wine Glass",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/5",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/23",
+					"score": "50"
+				},
+				{
+					"name": "Pure CSS Images Task 2 - Doge",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/6",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/43",
+					"score": "50"
+				},
+				{
+					"name": "Created Login Page UI",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/11",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/27",
+					"score": "30"
+				},
+			],
+			"Total": "170"
 		}
 	
 	
