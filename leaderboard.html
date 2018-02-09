@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>OpenCode'18 | Leaderboard</title>
-    <!-- Google Fonts -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>OpenCode'18 | Leaderboard</title>
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- JQuery UI links -->
-  <link href="vendor/jquery/jquery-ui.min.css" rel="stylesheet">
+  
   <link href="vendor/jquery/jquery-ui.structure.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
@@ -27,38 +28,87 @@
   <link rel="stylesheet" href="css/projects-style.css">
   <link rel="stylesheet" href="css/issues-style.css">
   <link rel="stylesheet" href="css/leaderboard-style.css">
- 
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
+
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
-<body>
-        <section id="leaderboard" class="section-leaderboard">
-                <div class="section-title">
-                  Leaderboard
-                </div>
-                <div class="leaderboard-table container">
-                    <table>
-                        <tbody class="contributors" id="contributors">
-                          <tr>
-                            <th>Rank</th>
-                            <th>Username</th>
-                            <th>Points</th>
-                          </tr>
-                          <tr v-for="(contributor, index) in scoreSort(contributors)">
-                            <td>{{ index + 1 }}</td>
-                            <td>{{ contributor.name }}</td>
-                            <td>{{ contributor.Total }}</td>
-                          </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <a href="index.html" class="return">Return to Home Page</a>
-            </section>
 
-            <script src="https://unpkg.com/vue"></script>
-            <script src="js/leaderBoard.js"></script>
+<body>
+
+
+  <section id="leaderboard" class="section-leaderboard">
+    <div class="section-title">
+      Leaderboard
+    </div>
+    <div class="leaderboard-table container">
+
+      <div class="contributors" id="contributors">
+        <ul class="row th">
+          <li class="col col-sm-1 col-lg-1">Rank</li>
+          <li class="col col-sm-9 col-lg-9">Username</li>
+          <li class="col col-sm-2 col-lg-2">Points</li>
+        </ul>
+        
+
+        <div class="accordion container" v-for="(contributor, index) in scoreSort(contributors)">
+          <ul class="contributor_data clearfix row">
+            <li class="data-row-item index flex-item col col-lg-1">{{ index + 1 }}</li>
+            <li class="data-row-item name flex-item col col-lg-9">{{ contributor.name }}</li>
+            <li class="data-row-item total flex-item col col-lg-2">{{ contributor.Total }}</li>
+          </ul>
+
+          <div class="contributor_contributions container">
+            <ul class="contribution clearfix row" v-for="(contribution, index) in contributor['Contributions']">
+                <li class="data-cont-item cont-index flex-item col col-sm-1">{{ index+1 }}</li>
+              <li class="data-cont-item cont-name flex-item col col-sm-4">{{ contribution.name }}</li>
+              <li class="data-cont-item cont-ilink col col-sm-2">
+                <a v-bind:href="contribution.Issuelink" target="_blank">Issue Link</a>
+              </li>
+              <li class="data-cont-item cont-plink col col-sm-2">
+                <a v-bind:href="contribution.PRlink" target="_blank">PR Link</a>
+              </li>
+              <li class="data-cont-item cont-score col col-sm-1">{{ contribution.score }}</li>
+            </ul>
+          
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="index.html" class="return">Return to Home Page</a>
+  </section>
+
+  <!-- JQuery UI -->
+  <script src="vendor/jquery/jquery-ui.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $(function () {
+        $(".accordion").accordion({
+          collapsible: true,
+          active: false,
+          heightStyle: "content"
+        });
+      });
+
+
+
+
+    });
+  </script>
+
+  <script src="https://unpkg.com/vue"></script>
+  <script src="js/leaderBoard.js"></script>
+
 </body>
+
+
+
+
 </html>
-  
