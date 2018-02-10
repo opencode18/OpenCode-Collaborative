@@ -479,8 +479,23 @@
 				"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/359",
 				"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/457",
 				"score": "30"
-			}],
-			"Total": "350"
+			}, {
+            "name": "[URGENT] add this to your stories #489",
+            "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/489",
+            "PRlink": "",
+            "score": "90"
+         }, {
+            "name": "Remove the round edge of the cards #71",
+            "Issuelink": "https://github.com/opencode18/OpenNews/issues/71",
+            "PRlink": "https://github.com/opencode18/OpenNews/pull/74",
+            "score": "10"
+         }, {
+            "name": "Day14 #183",
+            "Issuelink": "https://github.com/opencode18/CodeStash/issues/183",
+            "PRlink": "https://github.com/opencode18/CodeStash/pull/190",
+            "score": "10"
+         }],
+			"Total": "460"
 		},
 		{
 			"name": "ananya-agrawal",
@@ -3441,7 +3456,7 @@
  					"PRlink": "https://github.com/mubaris/motivate/pull/107",
  					"score": "10"
  				},
-		    {
+		      {
  					"name": "Make your own awesome list #245",
  					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/245",
  					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/issues/245#issuecomment-364631839",
