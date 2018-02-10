@@ -59,6 +59,12 @@
             "imageurl" : "blog_images/ananya-agrawal.png",
             "blogTitle" : "Experience with OpenCode 18",
             "blogURL" : "https://medium.com/@ananyaagrawal125/experience-with-opencode-18-4df353b93e95"
+        },
+        {
+            "name" : "Aayush Joglekar",
+            "imageurl" : "blog_images/aayushjoglekar.png",
+            "blogTitle" : "My experience of OpenCode’18",
+            "blogURL" : "https://medium.com/@aayushjoglekar/my-experience-of-opencode18-7df78e77a01b"
         }
 
     ]
