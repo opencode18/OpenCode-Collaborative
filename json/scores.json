@@ -457,13 +457,25 @@
 					"score": "10"
 				},
 				{
+					"name": "[URGENT] add this to your stories #489",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/489",
+					"PRlink": "",
+					"score": "30"
+				},
+				{
+					"name": "Use github student pack and using .me domain create a portfolio website #313",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/313",
+					"PRlink": "",
+					"score": "20"
+				},
+				{
 					"name": "star anna",
 					"Issuelink": "https://github.com/Anna-Assistant/Anna/issues/134",
 					"PRlink": "",
 					"score": "10"
 				}
 			],
-			"Total": "450"
+			"Total": "500"
 		},
 		{
 			"name": "re42",
