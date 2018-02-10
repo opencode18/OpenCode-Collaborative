@@ -2654,10 +2654,23 @@
 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/455",
 					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/issues/455#issuecomment-362524890",
 					"score": "50"
+				},
+				{
+					"name": "Show all contributions of the participants",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/414",
+					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/496",
+					"score": "30"
+				},
+				{
+					"name": "leaderboard sorting error",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/491",
+					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/496",
+					"score": "50"
 				}
+				
 
 			],
-			"Total": "1040"
+			"Total": "1090"
 		},
 		{
 			"name": "aadixiiita",
