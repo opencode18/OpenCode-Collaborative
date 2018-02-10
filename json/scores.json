@@ -775,12 +775,6 @@
 					"score": "20"
 				},
 			        {
-					"name": "adding name in contributors sections of girls who code",
-					"Issuelink": "https://github.com/opencode18/Girls-who-code/issues/82",
-					"PRlink": "https://github.com/opencode18/Girls-who-code/pull/85",
-					"score": "10"
-				},
-			        {
 					"name": "adding wordcloud",
 					"Issuelink": "https://github.com/opencode18/HackerSkills/issues/49",
 					"PRlink": "https://github.com/opencode18/HackerSkills/pull/65",
@@ -822,15 +816,130 @@
 					"PRlink": "",
 					"score": "10"
 				},
-					 {
-						  "name": "sharing website on fb",
-						  "Issuelink":"",
-						  "PRlink":"",
-						  "score":"10"
-						}
-
+				{
+					  "name": "sharing website on fb",
+					  "Issuelink":"",
+					  "PRlink":"",
+					  "score":"10"
+				},	  
+				{
+					 "name": "sharing login page on fb",
+					  "Issuelink":"",
+					  "PRlink":"",
+					  "score":"10"
+				},{
+					 "name": "sharing landing page on fb",
+					  "Issuelink":"",
+					  "PRlink":"",
+					  "score":"10"
+				},{
+					 "name": "sharing blog on fb",
+					  "Issuelink":"",
+					  "PRlink":"",
+					  "score":"10"
+				},{
+					 "name": "sharing iiita website on fb",
+					  "Issuelink":"",
+					  "PRlink":"",
+					  "score":"10"
+				},{
+					 "name": "pure css login page",
+					  "Issuelink":"https://github.com/opencode18/ProDesigner/issues/11",
+					  "PRlink":"https://github.com/opencode18/ProDesigner/pull/96",
+					  "score":"30"
+				},{
+					 "name": "landing page for opencode website",
+					  "Issuelink":"https://github.com/opencode18/ProDesigner/issues/95",
+					  "PRlink":"https://github.com/opencode18/ProDesigner/pull/111",
+					  "score":"50"
+				},{
+					 "name": "adding blog",
+					  "Issuelink":"",
+					  "PRlink":"",
+					  "score":"50"
+				},{
+					 "name": "adding story on fb",
+					  "Issuelink":"",
+					  "PRlink":"",
+					  "score":"30"
+				},{
+					 "name": "adding story on insta",
+					  "Issuelink":"",
+					  "PRlink":"",
+					  "score":"30"
+				},{
+					 "name": "adding story on whatsapp",
+					  "Issuelink":"",
+					  "PRlink":"",
+					  "score":"30"
+				},{
+					 "name": "adding story on twitter",
+					  "Issuelink":"",
+					  "PRlink":"",
+					  "score":"30"
+				},{
+					 "name": "adding custom domain website",
+					  "Issuelink":"",
+					  "PRlink":"",
+					  "score":"30"
+				},{
+					 "name": "twitter share iiita website",
+					  "Issuelink":"",
+					  "PRlink":"",
+					  "score":"10"
+				},{
+					 "name": "twitter share login page",
+					  "Issuelink":"",
+					  "PRlink":"",
+					  "score":"10"
+				},{
+					 "name": "twitter share landing page",
+					  "Issuelink":"",
+					  "PRlink":"",
+					  "score":"10"
+				},{
+					 "name": "twitter share blog",
+					  "Issuelink":"",
+					  "PRlink":"",
+					  "score":"10"
+				},{
+					 "name": "twitter share wordcloud",
+					  "Issuelink":"",
+					  "PRlink":"",
+					  "score":"10"
+				},{
+					 "name": "twitter share game",
+					  "Issuelink":"",
+					  "PRlink":"",
+					  "score":"10"
+				},{
+					 "name": "twitter share personal website",
+					  "Issuelink":"",
+					  "PRlink":"",
+					  "score":"10"
+				},{
+					 "name": "twitter share wineglass",
+					  "Issuelink":"",
+					  "PRlink":"",
+					  "score":"10"
+				},{
+					 "name": "twitter share cat",
+					  "Issuelink":"",
+					  "PRlink":"",
+					  "score":"10"
+				},{
+					 "name": "twitter share snowman",
+					  "Issuelink":"",
+					  "PRlink":"",
+					  "score":"10"
+				},{
+					  "name": "twitter share opencode svg",
+					  "Issuelink":"",
+					  "PRlink":"",
+					  "score":"10"
+				}
 			],
-			"Total": "880"
+			"Total": "1290"
 		},
 		{
 			"name": "Aditya Raj",
