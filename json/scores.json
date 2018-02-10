@@ -363,10 +363,53 @@
                "Issuelink":"https://github.com/opencode18/Girls-who-code/issues/22",
                "PRlink":"",
                "score":"20"
+            },
+            {  
+               "name":"Added snowman purecss",
+               "Issuelink":"https://github.com/opencode18/ProDesigner/issues/38",
+               "PRlink":"https://github.com/opencode18/ProDesigner/pull/97",
+               "score":"30"
+            },
+            {  
+               "name":"Share your designs in socialmedias",
+               "Issuelink":"https://github.com/opencode18/ProDesigner/issues/9",
+               "PRlink":"",
+               "score":"10"
+            },
+            {  
+               "name":"Add background changing colour with time",
+               "Issuelink":"https://github.com/opencode18/OpenNews/issues/73",
+               "PRlink":"https://github.com/opencode18/OpenNews/pull/75",
+               "score":"30"
+            },
+            {  
+               "name":"Adding login",
+               "Issuelink":"https://github.com/opencode18/ProDesigner/issues/11",
+               "PRlink":"https://github.com/opencode18/ProDesigner/pull/103",
+               "score":"30"
+            },
+            {  
+               "name":"Share your designs in socialmedias",
+               "Issuelink":"https://github.com/opencode18/ProDesigner/issues/9",
+               "PRlink":"",
+               "score":"10"
+            },
+            {  
+               "name":"Adding doge",
+               "Issuelink":"https://github.com/opencode18/ProDesigner/issues/6",
+               "PRlink":"https://github.com/opencode18/ProDesigner/pull/112",
+               "score":"50"
+            },
+            {  
+               "name":"Share your designs in socialmedias",
+               "Issuelink":"https://github.com/opencode18/ProDesigner/issues/9",
+               "PRlink":"",
+               "score":"10"
             }
+            
 
          ],
-         "Total":"950"
+         "Total":"1120"
       },
 		   {
 			"name": "shivhek25",
