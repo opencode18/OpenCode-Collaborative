@@ -48,7 +48,7 @@
                           </tr>
                           <tr v-for="(contributor, index) in scoreSort(contributors)">
                             <td>{{ index + 1 }}</td>
-                            <td> <a v-bind:href= {{ contributor.github }} > {{ contributor.name }} </a> </td>
+                            <td> <a v-bind:href="contributor.github" > {{ contributor.name }} </a> </td>
                             <td>{{ contributor.Total }}</td>
                           </tr>
                         </tbody>
