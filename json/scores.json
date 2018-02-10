@@ -708,12 +708,6 @@
 					"score": "20"
 				},
 			        {
-					"name": "adding name in contributors sections of girls who code",
-					"Issuelink": "https://github.com/opencode18/Girls-who-code/issues/82",
-					"PRlink": "https://github.com/opencode18/Girls-who-code/pull/85",
-					"score": "10"
-				},
-			        {
 					"name": "adding wordcloud",
 					"Issuelink": "https://github.com/opencode18/HackerSkills/issues/49",
 					"PRlink": "https://github.com/opencode18/HackerSkills/pull/65",
@@ -873,7 +867,7 @@
 					  "score":"10"
 				}
 			],
-			"Total": "1300"
+			"Total": "1290"
 		},
 		{
 			"name": "Aditya Raj",
