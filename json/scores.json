@@ -1532,246 +1532,329 @@
 			"Total": "630"
 		},
 		{
-			"name": "Jigar Chavada",
-			"github": "https://github.com/Jigar3",
-			"Contributions": [{
-					"name": "Day 1",
-					"Issuelink": "https://github.com/opencode18/CodeStash/issues/1",
-					"PRlink": "https://github.com/opencode18/CodeStash/pull/2",
-					"score": "20"
-				},
-				{
-					"name": "make projects optional",
-					"Issuelink": "https://github.com/Anupam-dagar/Portfolio-Generator/issues/29",
-					"PRlink": "https://github.com/Anupam-dagar/Portfolio-Generator/pull/35",
-					"score": "20"
-				},
-				{
-					"name": "Add yourself to the participants list",
-					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/1",
-					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/13",
-					"score": "10"
-				},
-				{
-					"name": "Change the color of the no. button in the corner to the color exactly of the Read more button",
-					"Issuelink": "https://github.com/opencode18/OpenNews/issues/12",
-					"PRlink": "https://github.com/opencode18/OpenNews/pull/19",
-					"score": "10"
-				},
-				{
-					"name": "Add CONTRIBUTIONS.md",
-					"Issuelink": "https://github.com/rahulkumaran/Utlyz-CLI/issues/9",
-					"PRlink": "https://github.com/rahulkumaran/Utlyz-CLI/pull/15",
-					"score": "10"
-				},
-				{
-					"name": "Refine the code in news.py",
-					"Issuelink": "https://github.com/rahulkumaran/Utlyz-CLI/issues/11",
-					"PRlink": "https://github.com/rahulkumaran/Utlyz-CLI/pull/17",
-					"score": "30"
-				},
-				{
-					"name": "create a proper industry standary file structure for this particular project",
-					"Issuelink": "https://github.com/rahulkumaran/Utlyz-CLI/issues/20",
-					"PRlink": "https://github.com/rahulkumaran/Utlyz-CLI/pull/22",
-					"score": "30"
-				},
-				{
-					"name": "add football transfer news under football.py",
-					"Issuelink": "https://github.com/rahulkumaran/Utlyz-CLI/issues/21",
-					"PRlink": "https://github.com/rahulkumaran/Utlyz-CLI/pull/24",
-					"score": "20"
-				},
-				{
-					"name": "Adding new Projects",
-					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/102",
-					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/206",
-					"score": "10"
-				},
-				{
-					"name": "Day3",
-					"Issuelink": "https://github.com/opencode18/CodeStash/issues/56",
-					"PRlink": "https://github.com/opencode18/CodeStash/pull/68",
-					"score": "10"
-				},
-				{
-					"name": " change documentation and readme",
-					"Issuelink": "https://github.com/Anupam-dagar/Portfolio-Generator/issues/23",
-					"PRlink": "https://github.com/Anupam-dagar/Portfolio-Generator/pull/38",
-					"score": "10"
-				},
-				{
-					"name": "Task 1 - Access REST API",
-					"Issuelink": "https://github.com/opencode18/HackerSkills/issues/1",
-					"PRlink": "https://github.com/opencode18/HackerSkills/pull/7",
-					"score": "30"
-				},
-				{
-					"name": "Task 1 - Access REST API",
-					"Issuelink": "https://github.com/opencode18/HackerSkills/issues/1",
-					"PRlink": "https://github.com/opencode18/HackerSkills/pull/14",
-					"score": "30"
-				},
-				{
-					"name": "Task 3 - Web Scraping",
-					"Issuelink": "https://github.com/opencode18/HackerSkills/issues/11",
-					"PRlink": "https://github.com/opencode18/HackerSkills/pull/15",
-					"score": "50"
-				},
-				{
-					"name": "Implement rest of the cryptocurrencies",
-					"Issuelink": "https://github.com/gostudent/Grypto/issues/3",
-					"PRlink": "https://github.com/gostudent/Grypto/pull/6",
-					"score": "20"
-				},
-				{
-					"name": "Task 6 - Browser Automation",
-					"Issuelink": "https://github.com/opencode18/HackerSkills/issues/21",
-					"PRlink": "https://github.com/opencode18/HackerSkills/pull/24",
-					"score": "30"
-				},
-				{
-					"name": "Add feature to read out news bulletins in news.py ",
-					"Issuelink": "https://github.com/rahulkumaran/Utlyz-CLI/issues/26",
-					"PRlink": "https://github.com/rahulkumaran/Utlyz-CLI/pull/27",
-					"score": "20"
-				},
-				{
-					"name": "Task 7- Image manipulation",
-					"Issuelink": "https://github.com/opencode18/HackerSkills/issues/32",
-					"PRlink": "https://github.com/opencode18/HackerSkills/pull/33",
-					"score": "30"
-				},
-				{
-					"name": "Use One API call to collect the data",
-					"Issuelink": "https://github.com/gostudent/Grypto/issues/9",
-					"PRlink": "https://github.com/gostudent/Grypto/pull/11",
-					"score": "30"
-				},
-				{
-					"name": "Add GoDoc Link to README",
-					"Issuelink": "https://github.com/gostudent/coindesk/issues/5",
-					"PRlink": "https://github.com/gostudent/coindesk/pull/7",
-					"score": "10"
-				},
-				{
-					"name": "Add Travis CI Status to README ",
-					"Issuelink": "https://github.com/gostudent/coindesk/issues/6",
-					"PRlink": "https://github.com/gostudent/coindesk/pull/7",
-					"score": "10"
-				},
-				{
-					"name": "Add Badges to the README",
-					"Issuelink": "https://github.com/gostudent/aurora/issues/8",
-					"PRlink": "https://github.com/gostudent/aurora/pull/12",
-					"score": "10"
-				},
-				{
-					"name": "Pure CSS Images Task 1 - Wine Glass",
-					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/5",
-					"PRlink": "https://github.com/opencode18/ProDesigner/pull/34",
-					"score": "50"
-				},
-				{
-					"name": "Task 9 - Word Clouds",
-					"Issuelink": "https://github.com/opencode18/HackerSkills/issues/49",
-					"PRlink": "https://github.com/opencode18/HackerSkills/pull/52",
-					"score": "20"
-				},
-				{
-					"name": "Add Codacy Badge to Readme",
-					"Issuelink": "https://github.com/gostudent/aurora/issues/20",
-					"PRlink": "https://github.com/gostudent/aurora/pull/21",
-					"score": "10"
-				},
-				{
-					"name": "Request Visualization",
-					"Issuelink": "https://github.com/opencode18/dataviz-gallery/issues/2",
-					"PRlink": "https://github.com/opencode18/dataviz-gallery/pull/6",
-					"score": "30"
-				},
-				{
-					"name": "Task 2 - Regex Exercise 1",
-					"Issuelink": "https://github.com/opencode18/HackerSkills/issues/2",
-					"PRlink": "https://github.com/opencode18/HackerSkills/pull/56",
-					"score": "30"
-				},
-				{
-					"name": "Taks 4 - Plot a Sine Wave",
-					"Issuelink": "https://github.com/opencode18/HackerSkills/issues/12",
-					"PRlink": "https://github.com/opencode18/HackerSkills/pull/56",
-					"score": "30"
-				},
-				{
-					"name": "Task 5 - Threading",
-					"Issuelink": "https://github.com/opencode18/HackerSkills/issues/13",
-					"PRlink": "https://github.com/opencode18/HackerSkills/pull/56",
-					"score": "30"
-				},
-				{
-					"name": "Star and fork the repo to get points",
-					"Issuelink": "https://github.com/rahulkumaran/Utlyz-CLI/issues/23",
-					"PRlink": "",
-					"score": "10"
-				},
-				{
-					"name": "star this repo",
-					"Issuelink": "https://github.com/Anna-Assistant/Anna/issues/134",
-					"PRlink": "",
-					"score": "10"
-				},
-				{
-					"name": "Setup Oh My Zsh on your system",
-					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/181",
-					"PRlink": "",
-					"score": "20"
-				},
-				{
-					"name": "Star This Repo",
-					"Issuelink": "https://github.com/opencode18/CodeStash/issues/55",
-					"PRlink": "",
-					"score": "10"
-				},
-				{
-					"name": "Star this Repository!",
-					"Issuelink": "https://github.com/agbilotia1998/Lecture-Connect/issues/12",
-					"PRlink": "",
-					"score": "10"
-				},
-				{
-					"name": "Star the repo to earn point !",
-					"Issuelink": "https://github.com/opencode18/OpenNews/issues/34",
-					"PRlink": "",
-					"score": "10"
-				},
-				{
-					"name": " Star this repository",
-					"Issuelink": "https://github.com/GeekHaven/Aparoksha-18/issues/10",
-					"PRlink": "",
-					"score": "10"
-				},
-				{
-					"name": "Setting up the project",
-					"Issuelink": "https://github.com/agbilotia1998/Lecture-Connect/issues/9",
-					"PRlink": "",
-					"score": "20"
-				},
-				{
-					"name": " Run this project on your local computer",
-					"Issuelink": "https://github.com/GeekHaven/Aparoksha-18/issues/3",
-					"PRlink": "",
-					"score": "20"
-				},
-				{
-					"name": "Share on Social Media",
-					"Issuelink": "",
-					"PRlink": "https://github.com/opencode18/HackerSkills/pull/52#issuecomment-358903664",
-					"score": "10"
-				}
-			],
-			"Total": "780"
+		  "name": "Jigar Chavada",
+		  "github": "https://github.com/Jigar3",
+		  "Contributions": [{
+		      "name": "Day 1",
+		      "Issuelink": "https://github.com/opencode18/CodeStash/issues/1",
+		      "PRlink": "https://github.com/opencode18/CodeStash/pull/2",
+		      "score": "20"
+		    },
+		    {
+		      "name": "make projects optional",
+		      "Issuelink": "https://github.com/Anupam-dagar/Portfolio-Generator/issues/29",
+		      "PRlink": "https://github.com/Anupam-dagar/Portfolio-Generator/pull/35",
+		      "score": "20"
+		    },
+		    {
+		      "name": "Add yourself to the participants list",
+		      "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/1",
+		      "PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/13",
+		      "score": "10"
+		    },
+		    {
+		      "name": "Change the color of the no. button in the corner to the color exactly of the Read more button",
+		      "Issuelink": "https://github.com/opencode18/OpenNews/issues/12",
+		      "PRlink": "https://github.com/opencode18/OpenNews/pull/19",
+		      "score": "10"
+		    },
+		    {
+		      "name": "Add CONTRIBUTIONS.md",
+		      "Issuelink": "https://github.com/rahulkumaran/Utlyz-CLI/issues/9",
+		      "PRlink": "https://github.com/rahulkumaran/Utlyz-CLI/pull/15",
+		      "score": "10"
+		    },
+		    {
+		      "name": "Refine the code in news.py",
+		      "Issuelink": "https://github.com/rahulkumaran/Utlyz-CLI/issues/11",
+		      "PRlink": "https://github.com/rahulkumaran/Utlyz-CLI/pull/17",
+		      "score": "30"
+		    },
+		    {
+		      "name": "create a proper industry standary file structure for this particular project",
+		      "Issuelink": "https://github.com/rahulkumaran/Utlyz-CLI/issues/20",
+		      "PRlink": "https://github.com/rahulkumaran/Utlyz-CLI/pull/22",
+		      "score": "30"
+		    },
+		    {
+		      "name": "add football transfer news under football.py",
+		      "Issuelink": "https://github.com/rahulkumaran/Utlyz-CLI/issues/21",
+		      "PRlink": "https://github.com/rahulkumaran/Utlyz-CLI/pull/24",
+		      "score": "20"
+		    },
+		    {
+		      "name": "Adding new Projects",
+		      "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/102",
+		      "PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/206",
+		      "score": "10"
+		    },
+		    {
+		      "name": "Day3",
+		      "Issuelink": "https://github.com/opencode18/CodeStash/issues/56",
+		      "PRlink": "https://github.com/opencode18/CodeStash/pull/68",
+		      "score": "10"
+		    },
+		    {
+		      "name": " change documentation and readme",
+		      "Issuelink": "https://github.com/Anupam-dagar/Portfolio-Generator/issues/23",
+		      "PRlink": "https://github.com/Anupam-dagar/Portfolio-Generator/pull/38",
+		      "score": "10"
+		    },
+		    {
+		      "name": "Task 1 - Access REST API",
+		      "Issuelink": "https://github.com/opencode18/HackerSkills/issues/1",
+		      "PRlink": "https://github.com/opencode18/HackerSkills/pull/7",
+		      "score": "30"
+		    },
+		    {
+		      "name": "Task 1 - Access REST API",
+		      "Issuelink": "https://github.com/opencode18/HackerSkills/issues/1",
+		      "PRlink": "https://github.com/opencode18/HackerSkills/pull/14",
+		      "score": "30"
+		    },
+		    {
+		      "name": "Task 3 - Web Scraping",
+		      "Issuelink": "https://github.com/opencode18/HackerSkills/issues/11",
+		      "PRlink": "https://github.com/opencode18/HackerSkills/pull/15",
+		      "score": "50"
+		    },
+		    {
+		      "name": "Implement rest of the cryptocurrencies",
+		      "Issuelink": "https://github.com/gostudent/Grypto/issues/3",
+		      "PRlink": "https://github.com/gostudent/Grypto/pull/6",
+		      "score": "20"
+		    },
+		    {
+		      "name": "Task 6 - Browser Automation",
+		      "Issuelink": "https://github.com/opencode18/HackerSkills/issues/21",
+		      "PRlink": "https://github.com/opencode18/HackerSkills/pull/24",
+		      "score": "30"
+		    },
+		    {
+		      "name": "Add feature to read out news bulletins in news.py ",
+		      "Issuelink": "https://github.com/rahulkumaran/Utlyz-CLI/issues/26",
+		      "PRlink": "https://github.com/rahulkumaran/Utlyz-CLI/pull/27",
+		      "score": "20"
+		    },
+		    {
+		      "name": "Task 7- Image manipulation",
+		      "Issuelink": "https://github.com/opencode18/HackerSkills/issues/32",
+		      "PRlink": "https://github.com/opencode18/HackerSkills/pull/33",
+		      "score": "30"
+		    },
+		    {
+		      "name": "Use One API call to collect the data",
+		      "Issuelink": "https://github.com/gostudent/Grypto/issues/9",
+		      "PRlink": "https://github.com/gostudent/Grypto/pull/11",
+		      "score": "30"
+		    },
+		    {
+		      "name": "Add GoDoc Link to README",
+		      "Issuelink": "https://github.com/gostudent/coindesk/issues/5",
+		      "PRlink": "https://github.com/gostudent/coindesk/pull/7",
+		      "score": "10"
+		    },
+		    {
+		      "name": "Add Travis CI Status to README ",
+		      "Issuelink": "https://github.com/gostudent/coindesk/issues/6",
+		      "PRlink": "https://github.com/gostudent/coindesk/pull/7",
+		      "score": "10"
+		    },
+		    {
+		      "name": "Add Badges to the README",
+		      "Issuelink": "https://github.com/gostudent/aurora/issues/8",
+		      "PRlink": "https://github.com/gostudent/aurora/pull/12",
+		      "score": "10"
+		    },
+		    {
+		      "name": "Pure CSS Images Task 1 - Wine Glass",
+		      "Issuelink": "https://github.com/opencode18/ProDesigner/issues/5",
+		      "PRlink": "https://github.com/opencode18/ProDesigner/pull/34",
+		      "score": "50"
+		    },
+		    {
+		      "name": "Task 9 - Word Clouds",
+		      "Issuelink": "https://github.com/opencode18/HackerSkills/issues/49",
+		      "PRlink": "https://github.com/opencode18/HackerSkills/pull/52",
+		      "score": "20"
+		    },
+		    {
+		      "name": "Add Codacy Badge to Readme",
+		      "Issuelink": "https://github.com/gostudent/aurora/issues/20",
+		      "PRlink": "https://github.com/gostudent/aurora/pull/21",
+		      "score": "10"
+		    },
+		    {
+		      "name": "Request Visualization",
+		      "Issuelink": "https://github.com/opencode18/dataviz-gallery/issues/2",
+		      "PRlink": "https://github.com/opencode18/dataviz-gallery/pull/6",
+		      "score": "30"
+		    },
+		    {
+		      "name": "Task 2 - Regex Exercise 1",
+		      "Issuelink": "https://github.com/opencode18/HackerSkills/issues/2",
+		      "PRlink": "https://github.com/opencode18/HackerSkills/pull/56",
+		      "score": "30"
+		    },
+		    {
+		      "name": "Taks 4 - Plot a Sine Wave",
+		      "Issuelink": "https://github.com/opencode18/HackerSkills/issues/12",
+		      "PRlink": "https://github.com/opencode18/HackerSkills/pull/56",
+		      "score": "30"
+		    },
+		    {
+		      "name": "Task 5 - Threading",
+		      "Issuelink": "https://github.com/opencode18/HackerSkills/issues/13",
+		      "PRlink": "https://github.com/opencode18/HackerSkills/pull/56",
+		      "score": "30"
+		    },
+		    {
+		      "name": "Star and fork the repo to get points",
+		      "Issuelink": "https://github.com/rahulkumaran/Utlyz-CLI/issues/23",
+		      "PRlink": "",
+		      "score": "10"
+		    },
+		    {
+		      "name": "star this repo",
+		      "Issuelink": "https://github.com/Anna-Assistant/Anna/issues/134",
+		      "PRlink": "",
+		      "score": "10"
+		    },
+		    {
+		      "name": "Setup Oh My Zsh on your system",
+		      "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/181",
+		      "PRlink": "",
+		      "score": "20"
+		    },
+		    {
+		      "name": "Star This Repo",
+		      "Issuelink": "https://github.com/opencode18/CodeStash/issues/55",
+		      "PRlink": "",
+		      "score": "10"
+		    },
+		    {
+		      "name": "Star this Repository!",
+		      "Issuelink": "https://github.com/agbilotia1998/Lecture-Connect/issues/12",
+		      "PRlink": "",
+		      "score": "10"
+		    },
+		    {
+		      "name": "Star the repo to earn point !",
+		      "Issuelink": "https://github.com/opencode18/OpenNews/issues/34",
+		      "PRlink": "",
+		      "score": "10"
+		    },
+		    {
+		      "name": " Star this repository",
+		      "Issuelink": "https://github.com/GeekHaven/Aparoksha-18/issues/10",
+		      "PRlink": "",
+		      "score": "10"
+		    },
+		    {
+		      "name": "Setting up the project",
+		      "Issuelink": "https://github.com/agbilotia1998/Lecture-Connect/issues/9",
+		      "PRlink": "",
+		      "score": "20"
+		    },
+		    {
+		      "name": " Run this project on your local computer",
+		      "Issuelink": "https://github.com/GeekHaven/Aparoksha-18/issues/3",
+		      "PRlink": "",
+		      "score": "20"
+		    },
+		    {
+		      "name": "Share on Social Media",
+		      "Issuelink": "",
+		      "PRlink": "https://github.com/opencode18/HackerSkills/pull/52#issuecomment-358903664",
+		      "score": "10"
+		    },
+		    {
+		      "name": "Fix the Mentors,Participants and Games section ASAP #435",
+		      "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/435",
+		      "PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/450",
+		      "score": "20"
+		    },
+		    {
+		      "name": "fix scores.json cross origin request ",
+		      "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/433",
+		      "PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/450",
+		      "score": "20"
+		    },
+		    {
+		      "name": "Task 1 - Linear Regression #1",
+		      "Issuelink": "https://github.com/opencode18/X-labs/issues/1",
+		      "PRlink": "https://github.com/opencode18/X-labs/pull/3",
+		      "score": "30"
+		    },
+		    {
+		      "name": "Add Viz from Govt Data India #5",
+		      "Issuelink": "https://github.com/opencode18/dataviz-gallery/issues/5",
+		      "PRlink": "https://github.com/opencode18/dataviz-gallery/pull/11",
+		      "score": "50"
+		    },
+		    {
+		      "name": "Plot a graph regarding opencode #13",
+		      "Issuelink": "https://github.com/opencode18/dataviz-gallery/issues/13",
+		      "PRlink": "https://github.com/opencode18/dataviz-gallery/pull/14",
+		      "score": "50"
+		    },
+		    {
+		      "name": "Concept 5 - Isometric Design #60",
+		      "Issuelink": "https://github.com/opencode18/ProDesigner/issues/60",
+		      "PRlink": "https://github.com/opencode18/ProDesigner/pull/88",
+		      "score": "10"
+		    },
+		    {
+		      "name": "Concept 1 - Login Page #11",
+		      "Issuelink": "https://github.com/opencode18/ProDesigner/issues/11",
+		      "PRlink": "https://github.com/opencode18/ProDesigner/pull/92",
+		      "score": "30"
+		    },
+		    {
+		      "name": "Plot a graph regarding opencode #13",
+		      "Issuelink": "https://github.com/opencode18/dataviz-gallery/issues/13",
+		      "PRlink": "https://github.com/opencode18/dataviz-gallery/pull/15",
+		      "score": "10"
+		    },
+		    {
+		      "name": "Plot a graph regarding opencode #13",
+		      "Issuelink": "https://github.com/opencode18/dataviz-gallery/issues/13",
+		      "PRlink": "https://github.com/opencode18/dataviz-gallery/pull/16",
+		      "score": "60"
+		    },
+		    {
+		      "name": "link username to github profile in leaderboard. #490",
+		      "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/490",
+		      "PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/492",
+		      "score": "20"
+		    },
+		    {
+		      "name": "[URGENT] add this to your stories #489",
+		      "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/489",
+		      "PRlink": "",
+		      "score": "90"
+		    },
+		    {
+		      "name": "write a blog post explaining your experince on Opencode #455",
+		      "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/455",
+		      "PRlink": "",
+		      "score": "50"
+		    },
+		    {
+		      "name": "Generate Github Resume #23",
+		      "Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/23",
+		      "PRlink": "",
+		      "score": "10"
+		    },
+		    {
+		      "name": "Share on Social Media",
+		      "Issuelink": "https://user-images.githubusercontent.com/32068121/36064791-a093a2ca-0eb6-11e8-9562-67998dbfde7f.png",
+		      "PRlink": "",
+		      "score": "30"
+		    }
+		  ],
+		  "Total": "1260"
 		},
-
 		{
 			"name": "Arpit Mishra",
 			"github": "https://github.com/arpitmisraw",
@@ -2037,8 +2120,8 @@
 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/101",
 					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/120",
 					"score": "30"
-				}, 
-				
+				},
+
 				{
 					"name": "Add a field for college in contestants.json and display it",
 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/133",
@@ -2742,7 +2825,7 @@
 					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/496",
 					"score": "50"
 				}
-				
+
 
 			],
 			"Total": "1090"
@@ -3377,383 +3460,365 @@
 			"Total": "760"
 		},
 		{
- 			"name": "Vishal Pani",
+			"name": "Vishal Pani",
 			"github": "https://github.com/falconis",
- 			"Contributions": [{
- 					"name": "Adding Vishal Pani to contestants.json #14",
- 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/1",
- 					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/14",
- 					"score": "10"
- 				},
- 				{
- 					"name": "Generate Github Resume #23",
- 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/23",
- 					"PRlink": "",
- 					"score": "10"
- 				},
- 				{
- 					"name": "like opencode fb page #138",
- 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/138",
- 					"PRlink": "",
- 					"score": "10"
- 				},
- 				{
- 					"name": "star this repository #128",
- 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/128",
- 					"PRlink": "",
- 					"score": "10"
- 				},
- 				{
- 					"name": "Share solved issues in social medias which have \"social\" label #31",
- 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/31",
- 					"PRlink": "",
- 					"score": "10"
- 				},
- 				{
- 					"name": "Refer someone to join opencode #198",
- 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/198",
- 					"PRlink": "",
- 					"score": "10"
- 				},
- 				{
- 					"name": "Setup Oh My Zsh on your system #181",
- 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/181",
- 					"PRlink": "",
- 					"score": "20"
- 				},
- 				{
- 					"name": "write a blog post explaining your experince on Opencode #455",
- 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/455",
- 					"PRlink": "",
- 					"score": "50"
- 				},
- 				{
- 					"name": "Fix grids for cards #460",
- 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/460",
- 					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/461",
- 					"score": "50"
- 				},
- 				{
- 					"name": "Increase speed of loading the website #308",
- 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/308",
- 					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/334",
- 					"score": "30"
- 				},
- 				{
- 					"name": "Change card design #218",
- 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/218",
- 					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/269",
- 					"score": "30"
- 				},
- 				{
- 					"name": "Make the flipped card automatically reset after sometime #115",
- 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/115",
- 					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/212",
- 					"score": "20"
- 				},
- 				{
- 					"name": "Add All the mentors #8",
- 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/8",
- 					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/43",
- 					"score": "10"
- 				},
- 				{
- 					"name": "Give hover effect to social Icons on the flip cards. #28",
- 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/28",
- 					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/43",
- 					"score": "20"
- 				},
- 				{
- 					"name": "star this repo #3",
- 					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/3",
- 					"PRlink": "",
- 					"score": "10"
- 				},
- 				{
- 					"name": "Pure CSS Images Task 1 - Wine Glass #5",
- 					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/5",
- 					"PRlink": "https://github.com/opencode18/ProDesigner/pull/7",
- 					"score": "50"
- 				},
- 				{
- 					"name": "Pure CSS Images Task 2 - Doge #6",
- 					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/6",
- 					"PRlink": "https://github.com/opencode18/ProDesigner/pull/15",
- 					"score": "50"
- 				},
- 				{
- 					"name": "Concept 5 - Isometric Design #60",
- 					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/60",
- 					"PRlink": "https://github.com/opencode18/ProDesigner/pull/75",
- 					"score": "50"
- 				},
- 				{
- 					"name": "Concept 2 - Chat #21",
- 					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/21",
- 					"PRlink": "https://github.com/opencode18/ProDesigner/pull/81",
- 					"score": "50"
- 				},
- 				{
- 					"name": "Purse CSS task - Superheore #59",
- 					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/59",
- 					"PRlink": "https://github.com/opencode18/ProDesigner/pull/82",
- 					"score": "30"
- 				},
- 				{
- 					"name": "Pure CSS task 4- Snowman #38",
- 					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/38",
- 					"PRlink": "https://github.com/opencode18/ProDesigner/pull/84",
- 					"score": "30"
- 				},
- 				{
- 					"name": "Add Functions to create landscape and portrait quote images #1",
- 					"Issuelink": "https://github.com/gostudent/aurora/issues/1",
- 					"PRlink": "https://github.com/gostudent/aurora/pull/3",
- 					"score": "30"
- 				},
- 				{
- 					"name": "Add More Gradients #4",
- 					"Issuelink": "https://github.com/gostudent/aurora/issues/4",
- 					"PRlink": "https://github.com/gostudent/aurora/pull/13",
- 					"score": "20"
- 				},
- 				{
- 					"name": "Add option to specify Image dimensions #15",
- 					"Issuelink": "https://github.com/gostudent/aurora/issues/15",
- 					"PRlink": "https://github.com/gostudent/aurora/pull/18",
- 					"score": "20"
- 				},
- 				{
- 					"name": "Flexible Gradients #22",
- 					"Issuelink": "https://github.com/gostudent/aurora/issues/22",
- 					"PRlink": "https://github.com/gostudent/aurora/pull/24",
- 					"score": "20"
- 				},
- 				{
- 					"name": "Update README examples #6",
- 					"Issuelink": "https://github.com/gostudent/aurora/issues/6",
- 					"PRlink": "https://github.com/gostudent/aurora/pull/25",
- 					"score": "10"
- 				},
- 				{
- 					"name": "Star The Repo #2",
- 					"Issuelink": "https://github.com/gostudent/aurora/issues/2",
- 					"PRlink": "",
- 					"score": "10"
- 				},
- 		   	{
- 					"name": "Share your designs in socialmedias #9",
- 					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9",
- 					"PRlink": "https://github.com/opencode18/ProDesigner/issues/9#issuecomment-357491383",
- 					"score": "10"
- 				},
- 		   	{
- 					"name": "Share your designs in socialmedias #9",
- 					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9",
- 					"PRlink": "https://github.com/opencode18/ProDesigner/issues/9#issuecomment-357939809",
- 					"score": "10"
- 				},
- 		   	{
- 					"name": "Share your designs in socialmedias #9",
- 					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9",
- 					"PRlink": "https://github.com/opencode18/ProDesigner/issues/9#issuecomment-364529073",
- 					"score": "10"
- 				},
- 		   	{
- 					"name": "Share your designs in socialmedias #9",
- 					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9",
- 					"PRlink": "https://github.com/opencode18/ProDesigner/issues/9#issuecomment-364529110",
- 					"score": "10"
- 				},
- 			  {
- 					"name": "Share your designs in socialmedias #9",
- 					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9",
- 					"PRlink": "https://github.com/opencode18/ProDesigner/issues/9#issuecomment-364529171",
- 					"score": "10"
- 				},
- 			  {
- 					"name": "Visualize toppling effect in mechanics #2",
- 					"Issuelink": "https://github.com/himanshub16/cool-physics/issues/2",
- 					"PRlink": "https://github.com/himanshub16/cool-physics/pull/10",
- 					"score": "30"
- 				},
- 			  {
- 					"name": "Add New Issues #6",
- 					"Issuelink": "https://github.com/gostudent/console/issues/6",
- 					"PRlink": "https://github.com/gostudent/console/issues/6#issuecomment-358990956",
- 					"score": "20"
- 				},
- 			  {
- 					"name": "Add New Issues #6",
- 					"Issuelink": "https://github.com/gostudent/console/issues/6",
- 					"PRlink": "https://github.com/gostudent/console/issues/6#issuecomment-359244772",
- 					"score": "20"
- 				},
- 			  {
- 					"name": "Add New Emojis with Appropriate Function Names #1",
- 					"Issuelink": "https://github.com/gostudent/console/issues/1",
- 					"PRlink": "https://github.com/gostudent/console/pull/5",
- 					"score": "10"
- 				},
- 			  {
- 					"name": "Print with single Println function call #2",
- 					"Issuelink": "https://github.com/gostudent/console/issues/2",
- 					"PRlink": "https://github.com/gostudent/console/pull/5",
- 					"score": "10"
- 				},
- 			  {
- 					"name": "Option to print multiple emoji with single function call #7",
- 					"Issuelink": "https://github.com/gostudent/console/issues/7",
- 					"PRlink": "https://github.com/gostudent/console/pull/8",
- 					"score": "10"
- 				},
- 			  {
- 					"name": "Refactor code. #9",
- 					"Issuelink": "https://github.com/gostudent/console/issues/9",
- 					"PRlink": "https://github.com/gostudent/console/pull/10",
- 					"score": "20"
- 				},
- 			  {
- 					"name": "Add Viz - Average Temperature of India #4",
- 					"Issuelink": "https://github.com/opencode18/dataviz-gallery/issues/4",
- 					"PRlink": "https://github.com/opencode18/dataviz-gallery/pull/7",
- 					"score": "30"
- 				},
- 			  {
- 					"name": "Add Viz from Govt Data India #5",
- 					"Issuelink": "https://github.com/opencode18/dataviz-gallery/issues/5",
- 					"PRlink": "https://github.com/opencode18/dataviz-gallery/pull/8",
- 					"score": "50"
- 				},
- 			  {
- 					"name": "Day 1 #1",
- 					"Issuelink": "https://github.com/opencode18/CodeStash/issues/1",
- 					"PRlink": "https://github.com/opencode18/CodeStash/pull/12",
- 					"score": "10"
- 				},
- 			  {
- 					"name": "Day 2 #36",
- 					"Issuelink": "https://github.com/opencode18/CodeStash/issues/36",
- 					"PRlink": "https://github.com/opencode18/CodeStash/pull/39",
- 					"score": "10"
- 				},
- 			  {
- 					"name": "Task 2 - Regex Exercise 1 #2",
- 					"Issuelink": "https://github.com/opencode18/HackerSkills/issues/2",
- 					"PRlink": "https://github.com/opencode18/HackerSkills/pull/5",
- 					"score": "30"
- 				},
- 			 	{
- 					"name": "Task 1 - Access REST API #1",
- 					"Issuelink": "https://github.com/opencode18/HackerSkills/issues/1",
- 					"PRlink": "https://github.com/opencode18/HackerSkills/pull/59",
- 					"score": "30"
- 				},
- 			  {
- 					"name": "Task 3 - Web Scraping #11",
- 					"Issuelink": "https://github.com/opencode18/HackerSkills/issues/11",
- 					"PRlink": "https://github.com/opencode18/HackerSkills/pull/59",
- 					"score": "50"
- 				},
- 			  {
- 					"name": "Taks 4 - Plot a Sine Wave #12",
- 					"Issuelink": "https://github.com/opencode18/HackerSkills/issues/12",
- 					"PRlink": "https://github.com/opencode18/HackerSkills/pull/59",
- 					"score": "20"
- 				},
- 			  {
- 					"name": "Task 5 - Threading #13",
- 					"Issuelink": "https://github.com/opencode18/HackerSkills/issues/13",
- 					"PRlink": "https://github.com/opencode18/HackerSkills/pull/59",
- 					"score": "30"
- 				},
- 			  {
- 					"name": "Task 6 - Browser Automation #21",
- 					"Issuelink": "https://github.com/opencode18/HackerSkills/issues/21",
- 					"PRlink": "https://github.com/opencode18/HackerSkills/pull/59",
- 					"score": "30"
- 				},
- 			  {
- 					"name": "Task 7- Image manipulation #32",
- 					"Issuelink": "https://github.com/opencode18/HackerSkills/issues/32",
- 					"PRlink": "https://github.com/opencode18/HackerSkills/pull/59",
- 					"score": "30"
- 				},
- 			  {
- 					"name": "Task 9 - Word Clouds #49",
- 					"Issuelink": "https://github.com/opencode18/HackerSkills/issues/49",
- 					"PRlink": "https://github.com/opencode18/HackerSkills/pull/59",
- 					"score": "20"
- 				},
- 			 	{
- 					"name": "Update youtube link in readme and website #137",
- 					"Issuelink": "https://github.com/Anna-Assistant/Anna/issues/137",
- 					"PRlink": "https://github.com/Anna-Assistant/Anna/pull/139",
- 					"score": "10"
- 				},
- 			 	{
- 					"name": "star this repo #134",
- 					"Issuelink": "https://github.com/Anna-Assistant/Anna/issues/134",
- 					"PRlink": "https://github.com/Anna-Assistant/Anna/pull/139",
- 					"score": "10"
- 				},
- 			 	{
- 					"name": "Add Favicon #3",
- 					"Issuelink": "https://github.com/opencode18/OpenNews/issues/3",
- 					"PRlink": "https://github.com/opencode18/OpenNews/pull/28",
- 					"score": "10"
- 				},
- 			 	{
- 					"name": "Star the repo to earn point ! #34",
- 					"Issuelink": "https://github.com/opencode18/OpenNews/issues/34",
- 					"PRlink": "",
- 					"score": "10"
- 				},
- 			 	{
- 					"name": "Design About page #19",
- 					"Issuelink": "https://github.com/GeekHaven/Aparoksha-18/issues/19",
- 					"PRlink": "https://github.com/GeekHaven/Aparoksha-18/pull/22",
- 					"score": "30"
- 				},
- 			 	{
- 					"name": "Star this repository #10",
- 					"Issuelink": "https://github.com/GeekHaven/Aparoksha-18/issues/10",
- 					"PRlink": "",
- 					"score": "10"
- 				},
- 			  {
- 					"name": "Task 1 - Linear Regression #1",
- 					"Issuelink": "https://github.com/opencode18/X-labs/issues/1",
- 					"PRlink": "https://github.com/opencode18/X-labs/pull/5",
- 					"score": "30"
- 				},
- 			 	{
- 					"name": "Add About #15",
- 					"Issuelink": "https://github.com/opencode18/OpenTerm/issues/15",
- 					"PRlink": "https://github.com/opencode18/OpenTerm/pull/21",
- 					"score": "30"
- 				},
- 			 	{
- 					"name": "Change Heading and add logo #9",
- 					"Issuelink": "https://github.com/aswinzz/LucidCV/issues/9",
- 					"PRlink": "https://github.com/aswinzz/LucidCV/pull/13",
- 					"score": "10"
- 				},
- 			 	{
- 					"name": "Add more quotes. #3",
- 					"Issuelink": "https://github.com/mubaris/motivate/issues/3",
- 					"PRlink": "https://github.com/mubaris/motivate/pull/107",
- 					"score": "10"
- 				},
-		      {
- 					"name": "Make your own awesome list #245",
- 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/245",
- 					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/issues/245#issuecomment-364631839",
- 					"score": "30"
- 				}
- 			],
- 			"Total": "1370"
- 		},
+			"Contributions": [{
+						"name": "Adding Vishal Pani to contestants.json #14",
+						"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/1",
+						"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/14",
+						"score": "10"
+					},
+					{
+						"name": "Generate Github Resume #23",
+						"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/23",
+						"PRlink": "",
+						"score": "10"
+					},
+					{
+						"name": "like opencode fb page #138",
+						"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/138",
+						"PRlink": "",
+						"score": "10"
+					},
+					{
+						"name": "Share solved issues in social medias which have \"social\" label #31",
+						"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/31",
+						"PRlink": "",
+						"score": "10"
+					},
+					{
+						"name": "Refer someone to join opencode #198",
+						"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/198",
+						"PRlink": "",
+						"score": "10"
+					},
+					{
+						"name": "Setup Oh My Zsh on your system #181",
+						"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/181",
+						"PRlink": "",
+						"score": "20"
+					},
+					{
+						"name": "write a blog post explaining your experince on Opencode #455",
+						"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/455",
+						"PRlink": "",
+						"score": "50"
+					},
+					{
+						"name": "Fix grids for cards #460",
+						"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/460",
+						"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/461",
+						"score": "50"
+					},
+					{
+						"name": "Increase speed of loading the website #308",
+						"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/308",
+						"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/334",
+						"score": "30"
+					},
+					{
+						"name": "Change card design #218",
+						"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/218",
+						"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/269",
+						"score": "30"
+					},
+					{
+						"name": "Make the flipped card automatically reset after sometime #115",
+						"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/115",
+						"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/212",
+						"score": "20"
+					},
+					{
+						"name": "Add All the mentors #8",
+						"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/8",
+						"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/43",
+						"score": "10"
+					},
+					{
+						"name": "Give hover effect to social Icons on the flip cards. #28",
+						"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/28",
+						"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/43",
+						"score": "20"
+					},
+					{
+						"name": "Pure CSS Images Task 1 - Wine Glass #5",
+						"Issuelink": "https://github.com/opencode18/ProDesigner/issues/5",
+						"PRlink": "https://github.com/opencode18/ProDesigner/pull/7",
+						"score": "50"
+					},
+					{
+						"name": "Pure CSS Images Task 2 - Doge #6",
+						"Issuelink": "https://github.com/opencode18/ProDesigner/issues/6",
+						"PRlink": "https://github.com/opencode18/ProDesigner/pull/15",
+						"score": "50"
+					},
+					{
+						"name": "Concept 5 - Isometric Design #60",
+						"Issuelink": "https://github.com/opencode18/ProDesigner/issues/60",
+						"PRlink": "https://github.com/opencode18/ProDesigner/pull/75",
+						"score": "50"
+					},
+					{
+						"name": "Concept 2 - Chat #21",
+						"Issuelink": "https://github.com/opencode18/ProDesigner/issues/21",
+						"PRlink": "https://github.com/opencode18/ProDesigner/pull/81",
+						"score": "50"
+					},
+					{
+						"name": "Purse CSS task - Superheore #59",
+						"Issuelink": "https://github.com/opencode18/ProDesigner/issues/59",
+						"PRlink": "https://github.com/opencode18/ProDesigner/pull/82",
+						"score": "30"
+					},
+					{
+						"name": "Pure CSS task 4- Snowman #38",
+						"Issuelink": "https://github.com/opencode18/ProDesigner/issues/38",
+						"PRlink": "https://github.com/opencode18/ProDesigner/pull/84",
+						"score": "30"
+					},
+					{
+						"name": "Add Functions to create landscape and portrait quote images #1",
+						"Issuelink": "https://github.com/gostudent/aurora/issues/1",
+						"PRlink": "https://github.com/gostudent/aurora/pull/3",
+						"score": "30"
+					},
+					{
+						"name": "Add More Gradients #4",
+						"Issuelink": "https://github.com/gostudent/aurora/issues/4",
+						"PRlink": "https://github.com/gostudent/aurora/pull/13",
+						"score": "20"
+					},
+					{
+						"name": "Add option to specify Image dimensions #15",
+						"Issuelink": "https://github.com/gostudent/aurora/issues/15",
+						"PRlink": "https://github.com/gostudent/aurora/pull/18",
+						"score": "20"
+					},
+					{
+						"name": "Flexible Gradients #22",
+						"Issuelink": "https://github.com/gostudent/aurora/issues/22",
+						"PRlink": "https://github.com/gostudent/aurora/pull/24",
+						"score": "20"
+					},
+					{
+						"name": "Update README examples #6",
+						"Issuelink": "https://github.com/gostudent/aurora/issues/6",
+						"PRlink": "https://github.com/gostudent/aurora/pull/25",
+						"score": "10"
+					},
+					{
+						"name": "Share your designs in socialmedias #9",
+						"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9",
+						"PRlink": "https://github.com/opencode18/ProDesigner/issues/9#issuecomment-357491383",
+						"score": "10"
+					},
+					{
+						"name": "Share your designs in socialmedias #9",
+						"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9",
+						"PRlink": "https://github.com/opencode18/ProDesigner/issues/9#issuecomment-357939809",
+						"score": "10"
+					},
+					{
+						"name": "Share your designs in socialmedias #9",
+						"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9",
+						"PRlink": "https://github.com/opencode18/ProDesigner/issues/9#issuecomment-364529073",
+						"score": "10"
+					},
+					{
+						"name": "Share your designs in socialmedias #9",
+						"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9",
+						"PRlink": "https://github.com/opencode18/ProDesigner/issues/9#issuecomment-364529110",
+						"score": "10"
+					},
+					{
+						"name": "Share your designs in socialmedias #9",
+						"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9",
+						"PRlink": "https://github.com/opencode18/ProDesigner/issues/9#issuecomment-364529171",
+						"score": "10"
+					},
+					{
+						"name": "Visualize toppling effect in mechanics #2",
+						"Issuelink": "https://github.com/himanshub16/cool-physics/issues/2",
+						"PRlink": "https://github.com/himanshub16/cool-physics/pull/10",
+						"score": "30"
+					},
+					{
+						"name": "Add New Issues #6",
+						"Issuelink": "https://github.com/gostudent/console/issues/6",
+						"PRlink": "https://github.com/gostudent/console/issues/6#issuecomment-358990956",
+						"score": "20"
+					},
+					{
+						"name": "Add New Issues #6",
+						"Issuelink": "https://github.com/gostudent/console/issues/6",
+						"PRlink": "https://github.com/gostudent/console/issues/6#issuecomment-359244772",
+						"score": "20"
+					},
+					{
+						"name": "Add New Emojis with Appropriate Function Names #1",
+						"Issuelink": "https://github.com/gostudent/console/issues/1",
+						"PRlink": "https://github.com/gostudent/console/pull/5",
+						"score": "10"
+					},
+					{
+						"name": "Print with single Println function call #2",
+						"Issuelink": "https://github.com/gostudent/console/issues/2",
+						"PRlink": "https://github.com/gostudent/console/pull/5",
+						"score": "10"
+					},
+					{
+						"name": "Option to print multiple emoji with single function call #7",
+						"Issuelink": "https://github.com/gostudent/console/issues/7",
+						"PRlink": "https://github.com/gostudent/console/pull/8",
+						"score": "10"
+					},
+					{
+						"name": "Refactor code. #9",
+						"Issuelink": "https://github.com/gostudent/console/issues/9",
+						"PRlink": "https://github.com/gostudent/console/pull/10",
+						"score": "20"
+					},
+					{
+						"name": "Add Viz - Average Temperature of India #4",
+						"Issuelink": "https://github.com/opencode18/dataviz-gallery/issues/4",
+						"PRlink": "https://github.com/opencode18/dataviz-gallery/pull/7",
+						"score": "30"
+					},
+					{
+						"name": "Add Viz from Govt Data India #5",
+						"Issuelink": "https://github.com/opencode18/dataviz-gallery/issues/5",
+						"PRlink": "https://github.com/opencode18/dataviz-gallery/pull/8",
+						"score": "50"
+					},
+					{
+						"name": "Day 1 #1",
+						"Issuelink": "https://github.com/opencode18/CodeStash/issues/1",
+						"PRlink": "https://github.com/opencode18/CodeStash/pull/12",
+						"score": "10"
+					},
+					{
+						"name": "Day 2 #36",
+						"Issuelink": "https://github.com/opencode18/CodeStash/issues/36",
+						"PRlink": "https://github.com/opencode18/CodeStash/pull/39",
+						"score": "10"
+					},
+					{
+						"name": "Task 2 - Regex Exercise 1 #2",
+						"Issuelink": "https://github.com/opencode18/HackerSkills/issues/2",
+						"PRlink": "https://github.com/opencode18/HackerSkills/pull/5",
+						"score": "30"
+					},
+					{
+						"name": "Task 1 - Access REST API #1",
+						"Issuelink": "https://github.com/opencode18/HackerSkills/issues/1",
+						"PRlink": "https://github.com/opencode18/HackerSkills/pull/59",
+						"score": "30"
+					},
+					{
+						"name": "Task 3 - Web Scraping #11",
+						"Issuelink": "https://github.com/opencode18/HackerSkills/issues/11",
+						"PRlink": "https://github.com/opencode18/HackerSkills/pull/59",
+						"score": "50"
+					},
+					{
+						"name": "Taks 4 - Plot a Sine Wave #12",
+						"Issuelink": "https://github.com/opencode18/HackerSkills/issues/12",
+						"PRlink": "https://github.com/opencode18/HackerSkills/pull/59",
+						"score": "20"
+					},
+					{
+						"name": "Task 5 - Threading #13",
+						"Issuelink": "https://github.com/opencode18/HackerSkills/issues/13",
+						"PRlink": "https://github.com/opencode18/HackerSkills/pull/59",
+						"score": "30"
+					},
+					{
+						"name": "Task 6 - Browser Automation #21",
+						"Issuelink": "https://github.com/opencode18/HackerSkills/issues/21",
+						"PRlink": "https://github.com/opencode18/HackerSkills/pull/59",
+						"score": "30"
+					},
+					{
+						"name": "Task 7- Image manipulation #32",
+						"Issuelink": "https://github.com/opencode18/HackerSkills/issues/32",
+						"PRlink": "https://github.com/opencode18/HackerSkills/pull/59",
+						"score": "30"
+					},
+					{
+						"name": "Task 9 - Word Clouds #49",
+						"Issuelink": "https://github.com/opencode18/HackerSkills/issues/49",
+						"PRlink": "https://github.com/opencode18/HackerSkills/pull/59",
+						"score": "20"
+					},
+					{
+						"name": "Update youtube link in readme and website #137",
+						"Issuelink": "https://github.com/Anna-Assistant/Anna/issues/137",
+						"PRlink": "https://github.com/Anna-Assistant/Anna/pull/139",
+						"score": "10"
+					},
+					{
+						"name": "star this repo #134",
+						"Issuelink": "https://github.com/Anna-Assistant/Anna/issues/134",
+						"PRlink": "https://github.com/Anna-Assistant/Anna/pull/139",
+						"score": "10"
+					},
+					{
+						"name": "Add Favicon #3",
+						"Issuelink": "https://github.com/opencode18/OpenNews/issues/3",
+						"PRlink": "https://github.com/opencode18/OpenNews/pull/28",
+						"score": "10"
+					},
+					{
+						"name": "Design About page #19",
+						"Issuelink": "https://github.com/GeekHaven/Aparoksha-18/issues/19",
+						"PRlink": "https://github.com/GeekHaven/Aparoksha-18/pull/22",
+						"score": "30"
+					},
+					{
+						"name": "Task 1 - Linear Regression #1",
+						"Issuelink": "https://github.com/opencode18/X-labs/issues/1",
+						"PRlink": "https://github.com/opencode18/X-labs/pull/5",
+						"score": "30"
+					},
+					{
+						"name": "Add About #15",
+						"Issuelink": "https://github.com/opencode18/OpenTerm/issues/15",
+						"PRlink": "https://github.com/opencode18/OpenTerm/pull/21",
+						"score": "30"
+					},
+					{
+						"name": "Change Heading and add logo #9",
+						"Issuelink": "https://github.com/aswinzz/LucidCV/issues/9",
+						"PRlink": "https://github.com/aswinzz/LucidCV/pull/13",
+						"score": "10"
+					},
+					{
+						"name": "Add more quotes. #3",
+						"Issuelink": "https://github.com/mubaris/motivate/issues/3",
+						"PRlink": "https://github.com/mubaris/motivate/pull/107",
+						"score": "10"
+					},
+					{
+						"name": "Make your own awesome list #245",
+						"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/245",
+						"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/issues/245#issuecomment-364631839",
+						"score": "30"
+					},
+					{
+						"name": "[URGENT] add this to your stories #489",
+						"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/489",
+						"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/issues/489#issuecomment-364643276",
+						"score": "90"
+					},
+				   	{
+						"name": "Make simple JavaScript game #175",
+						"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/4175",
+						"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/499",
+						"score": "30"
+					}
+				],
+				"Total": "1440"
+			},
 		{
 			"name": "Yash Agarwal",
 			"github": "https://github.com/yash-agarwal17",
