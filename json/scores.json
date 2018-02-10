@@ -1800,6 +1800,18 @@
 					"score": "50"
 				},
 				{
+					"name": "Make simple JavaScript game ",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/175",
+					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/499",
+					"score": "30"
+				},
+				{
+					"name": "add this to your stories ",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/489",
+					"PRlink": "",
+					"score": "90"
+				},
+				{
 					"name": "Add yourself to the participants list",
 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/1",
 					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/10",
@@ -1908,6 +1920,36 @@
 					"score": "30"
 				},
 				{
+					"name": "Pure CSS Images Task 2 - Doge",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/6",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/89",
+					"score": "50"
+				},
+				{
+					"name": "Concept 2 - Chat ",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/21",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/89",
+					"score": "50"
+				},
+				{
+					"name": "Purse CSS task - Superheore ",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/59",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/89",
+					"score": "30"
+				},
+				{
+					"name": "Concept 1 - Login Page",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/11",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/106",
+					"score": "30"
+				},
+				{
+					"name": "Share your designs in socialmedias",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9",
+					"PRlink": "",
+					"score": "60"
+				},
+				{
 					"name": "Ability to minimize, maximise and close terminal. ",
 					"Issuelink": "https://github.com/opencode18/OpenTerm/issues/4",
 					"PRlink": "https://github.com/opencode18/OpenTerm/pull/5",
@@ -1962,7 +2004,7 @@
 					"score": "30"
 				}
 			],
-			"Total": "810"
+			"Total": "1150"
 		},
 		{
 			"name": "Aayush Joglekar",
