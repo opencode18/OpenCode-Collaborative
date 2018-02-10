@@ -3716,9 +3716,69 @@
 					"Issuelink": "https://github.com/opencode18/OpenNews/issues/34",
 					"PRlink": "",
 					"score": "10"
+				},
+				{
+					  "name":"Concept-1 Login page",
+					  "Issuelink":"https://github.com/opencode18/ProDesigner/issues/11",
+					  "PRlink":"https://github.com/opencode18/ProDesigner/pull/101",
+					  "score":"30"
+				},
+				{
+					  "name":"Pure CSS Images Task 1 - Wine Glass #5",
+					  "Issuelink":"https://github.com/opencode18/ProDesigner/issues/5",
+					  "PRlink":"https://github.com/opencode18/ProDesigner/pull/102",
+					  "score":"50"
+				},
+				{
+					  "name":"Pure CSS task task 3- Cat #24",
+					  "Issuelink":"https://github.com/opencode18/ProDesigner/issues/24",
+					  "PRlink":"https://github.com/opencode18/ProDesigner/pull/108",
+					  "score":"30"
+				},
+				{
+					  "name":"Animation task - svg of image #44",
+					  "Issuelink":"https://github.com/opencode18/ProDesigner/issues/44",
+					  "PRlink":"https://github.com/opencode18/ProDesigner/pull/109",
+					  "score":"30"
+				},
+				{
+					  "name":"Concept 5 - Isometric Design #60",
+					  "Issuelink":"https://github.com/opencode18/ProDesigner/issues/#88",
+					  "PRlink":"https://github.com/opencode18/ProDesigner/pull/109",
+					  "score":"50"
+				},
+				{
+					  "name":"Pure CSS task 4- Snowman #38",
+					  "Issuelink":"https://github.com/opencode18/ProDesigner/issues/38",
+					  "PRlink":"https://github.com/opencode18/ProDesigner/pull/107",
+					  "score":"30"
+				},
+				{
+					  "name":"shared all 6 designs I made, on fb,snapchat,whatsapp,twitter and insta",
+					  "Issuelink":"https://github.com/opencode18/ProDesigner/issues/9",
+					  "PRlink":"",
+					  "score":"120"
+				},
+				{
+					  "name":"make a logo",
+					  "Issuelink":"https://github.com/opencode18/ProDesigner/issues/4",
+					  "PRlink":"",
+					  "score":"30"
+				},
+				{
+					  "name":"Make a chatbot #271",
+					  "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/271",
+					  "PRlink":"",
+					  "score":"30"
+				},
+				{
+					  "name":" [URGENT] add this to your stories #489 ",
+					  "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/489",
+					  "PRlink":"added to 6 platforms",
+					  "score":"180"
 				}
 			],
-			"Total": "760"
+			"Total": "1340"
 		},
 		{
 			"name": "Vishal Pani",
