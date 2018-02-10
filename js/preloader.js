@@ -1,9 +1,19 @@
 $(document).ready(function($) {
     var Body = $('body');
-    Body.addClass('preloader-site');
+    setTimeout(function(){
+        Body.addClass('preloader-site');
+    },10000);
+    
 });    
-var timeoutID = window.setTimeout(killPreload, 4000);
-$(window).on('load',killPreload );
+
+
+
+$(window).on('load',function(){
+    setTimeout(function(){
+        killPreload();
+    },3000);
+});
+
 function killPreload () {
     $('.preloader-wrapper').fadeOut();
     $('body').removeClass('preloader-site');

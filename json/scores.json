@@ -2206,9 +2206,15 @@
 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/491",
 					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/496",
 					"score": "50"
+				},
+				{
+					"name": "Setup LucidCV in your local system",
+					"Issuelink": "https://github.com/aswinzz/LucidCV/issues/7",
+					"PRlink": "",
+					"score": "10"
 				}
 			],
-			"Total": "1090"
+			"Total": "1100"
 		},
 
 		{
