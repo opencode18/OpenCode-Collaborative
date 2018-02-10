@@ -3999,7 +3999,19 @@
 				}
 			],
 			"Total": "240"
-		}
+		},
+      {
+         "name": "Ritika Motwani",
+         "github": "https://github.com/ritikamotwani",
+         "Contributions": [{
+               "name": "Various issues on Girls-who-code",
+               "Issuelink": "https://github.com/opencode18/Girls-who-code/issues?q=is%3Aissue+author%3Aritikamotwani",
+               "PRlink": "https://github.com/opencode18/Girls-who-code/pulls?q=is%3Apr+ritikamotwani+is%3Aclosed",
+               "score": ""
+            }
+         ],
+         "Total": "290"
+      }
 
 	]
 }
