@@ -2544,9 +2544,45 @@
 					"Issuelink": "https://github.com/GeekHaven/Aparoksha-18/issues/11",
 					"PRlink": "https://github.com/GeekHaven/Aparoksha-18/pull/15",
 					"score": "20"
+				},
+				{
+					"name": "Pure CSS Images Task 1 - Wine Glass",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/5",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/66",
+					"score": "50"
+				},
+				{
+					"name": "Pure CSS Images Task 2 - Doge",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/6",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/66",
+					"score": "50"
+				},
+				{
+					"name": "Concept 1 - Login Page ",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/11",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/66",
+					"score": "30"
+				},
+				{
+					"name": "Pure Css task 3 - Cat",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/24",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/66",
+					"score": "30"
+				},
+				{
+					"name": "Pure CSS task 4- Snowman",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/38",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/69",
+					"score": "30"
+				},
+				{
+					"name": "write a blog post explaining your experince on Opencode",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/455",
+					"PRlink": "",
+					"score": "50"
 				}
 			],
-			"Total": "580"
+			"Total": "820"
 		},
 		{
 			"name": "Ayush Gupta",
