@@ -1,4 +1,10 @@
 # OpenCode Collaborative Website
+
+# This event is over as of 10 Feb 2018, No new pr's will be merged (except score updates till next 12 hours). Thank you for participating and showing interest in OpenCode'18 and OpenSource.
+# If you haven't written blog yet, then you can write and submit in next 12 hours, failing to do so will make you ineligible for prizes(if any)
+
+For any further details and queries contact [Anupam Dagar](https://www.facebook.com/invincible.anupam) .
+
 ![](https://raw.githubusercontent.com/opencode18/opencode18.github.io/master/images/fbog.png)
 
 [![OpenCode](https://img.shields.io/badge/Open-Code-ff6a00.svg?style=flat-square)](https://opencode18.github.io)
@@ -23,14 +29,14 @@ To add a mentor open `mentors.json` and please maintain the following format EXA
 
 IMPORTANT:
 
-* All images must be optimized before uploaded to the repo via commit or PR. 
+* All images must be optimized before uploaded to the repo via commit or PR.
 * The images should be of square resolution.
-* If you do not want to include social media accounts, leave the field empty `"facebook":""`. 
+* If you do not want to include social media accounts, leave the field empty `"facebook":""`.
 
 ## Adding yourselves to student section
 
 * For already exisiting contestants :
-        
+
         Update your college name in the college key in contestants.json.
 
 To add yourself to student section you need to open the file `contestants.json` and please maintain the following format EXACTLY (replacing values where indicated):
@@ -45,13 +51,13 @@ To add yourself to student section you need to open the file `contestants.json` 
         &nbsp;&nbsp;     "twitter" : "url",  
         &nbsp;&nbsp;     "referral" : "who refered you?"   
         }
-        
+
 
 IMPORTANT:
 
-* All images must be optimized before uploaded to the repo via commit or PR. 
+* All images must be optimized before uploaded to the repo via commit or PR.
 * The images should be of square resolution.
-* If you do not want to include social media accounts, leave the field empty `"facebook":""`. 
+* If you do not want to include social media accounts, leave the field empty `"facebook":""`.
 
 
 ## Updating Your Scores
@@ -63,6 +69,7 @@ To add Your scores open `json/scores.json` and follow the given format
 
        {  
            "name":"Name",
+           "github":"github link",
            "Contributions":[{
                 "name":"Name of issue",
                 "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/331",
@@ -77,7 +84,7 @@ To add Your scores open `json/scores.json` and follow the given format
            ],
            "Total":"500"
        }
-        
+
 
 
 ## Contributing

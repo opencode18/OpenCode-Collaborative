@@ -13,14 +13,12 @@ const app3 = new Vue({
     },
     methods: {
         scoreSort: function (arr) {
-            return arr.sort(function (a, b) {
-                var keyA = a.Total,
-                    keyB = b.Total;
 
-                if (keyA > keyB) return -1;
-                if (keyA < keyB) return 1;
-                return 0;
+            arr.sort(function (a, b) {
+                return b.Total-a.Total;
             });
+
+            return arr;
         }
     }
 });
