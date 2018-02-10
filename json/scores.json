@@ -33,7 +33,341 @@
 				}
 			],
 			"Total": "100"
-		}, {
+		},
+
+         {
+         "name":"Tlazypanda",
+         "Contributions":[
+            {
+               "name":"Added Sneha Mishra to contestants list",
+               "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/1",
+               "PRlink":"https://github.com/opencode18/OpenCode-Collaborative/pull/11",
+               "score":"10"
+            },
+            {
+               "name":"Fixes #26 Update background to linear gradient ",
+               "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/26",
+               "PRlink":"https://github.com/opencode18/OpenCode-Collaborative/pull/35",
+               "score":"10"
+            },
+            {
+               "name":"Fixes #29 Adding logos updated",
+               "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/29",
+               "PRlink":"https://github.com/opencode18/OpenCode-Collaborative/pull/88",
+               "score":"10"
+            },
+            {
+               "name":"Generate Github Resume #23",
+               "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/23",
+               "PRlink":"",
+               "score":"10"
+            },
+             {
+               "name":"Fixes #416 Remove grey bg",
+               "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/416",
+               "PRlink":"https://github.com/opencode18/OpenCode-Collaborative/pull/422",
+               "score":"10"
+            },
+            {
+               "name":"write a blog post explaining your experince on Opencode",
+               "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/455",
+               "PRlink":"",
+               "score":"50"
+            },
+            {
+               "name":"purecss wineglass",
+               "Issuelink":"https://github.com/opencode18/ProDesigner/issues/5",
+               "PRlink":"https://github.com/opencode18/ProDesigner/pull/73",
+               "score":"50"
+            },
+            {
+               "name":"Make a logo",
+               "Issuelink":"https://github.com/opencode18/ProDesigner/issues/4",
+               "PRlink":"",
+               "score":"30"
+            },
+            {
+               "name":"Share your designs in socialmedias",
+               "Issuelink":"https://github.com/opencode18/ProDesigner/issues/9",
+               "PRlink":"",
+               "score":"10"
+            },
+            {
+				"name": "Star this repository #10",
+				"Issuelink": "https://github.com/GeekHaven/Aparoksha-18/issues/10",
+				"PRlink": "",
+				"score": "10"
+            },
+            {
+				"name": "Run this project on your local computer",
+				"Issuelink": "https://github.com/GeekHaven/Aparoksha-18/issues/3",
+				"PRlink": "",
+				"score": "20"
+            },
+            {
+					"name": "Setup LucidCV in your local system #7",
+					"Issuelink": "https://github.com/aswinzz/LucidCV/issues/7",
+					"PRlink": "",
+					"score": "10"
+            },
+            {
+					"name": "like opencode fb page #138",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/138",
+					"PRlink": "",
+					"score": "10"
+            },
+            {
+					"name": "Star This Repo #6",
+					"Issuelink": "https://github.com/gostudent/Letsgo/issues/6",
+					"PRlink": "",
+					"score": "10"
+           },
+           {
+					"name": "Star This Repo #12",
+					"Issuelink": "https://github.com/gostudent/Algorithms/issues/12",
+					"PRlink": "",
+					"score": "10"
+          },
+          {
+					"name": "Star This Repo #1",
+					"Issuelink": "https://github.com/gostudent/gostudent.github.io/issues/1",
+					"PRlink": "",
+					"score": "10"
+         },
+         {
+					"name": "star this repo #3",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/3",
+					"PRlink": "",
+					"score": "10"
+        },
+        {
+					"name": "Star this Repository! #12",
+					"Issuelink": "https://github.com/agbilotia1998/Lecture-Connect/issues/12",
+					"PRlink": "",
+					"score": "10"
+		},
+        {
+					"name": "Star and fork the repo to get points #23",
+					"Issuelink": "https://github.com/rahulkumaran/Utlyz-CLI/issues/23",
+					"PRlink": "",
+					"score": "10"
+		},
+
+        {
+               "name":"star this repository #34",
+               "Issuelink":"https://github.com/opencode18/OpenNews/issues/34",
+               "PRlink":"",
+               "score":"10"
+        },
+            {
+               "name":"star this repository #128",
+               "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/128",
+               "PRlink":"",
+               "score":"10"
+            },
+            {
+					"name": "star anna",
+					"Issuelink": "https://github.com/Anna-Assistant/Anna/issues/134",
+					"PRlink": "",
+					"score": "10"
+            },
+            {
+               "name":"Star This Repo #55",
+               "Issuelink":"https://github.com/opencode18/CodeStash/issues/55",
+               "PRlink":"",
+               "score":"10"
+            },
+            {
+               "name":"Task5 solution",
+               "Issuelink":"https://github.com/opencode18/HackerSkills/issues/13",
+               "PRlink":"https://github.com/opencode18/HackerSkills/pull/58",
+               "score":"30"
+            },
+            {
+               "name":"Task1 solution and Task 6 solution",
+               "Issuelink":"https://github.com/opencode18/HackerSkills/issues/1",
+               "PRlink":"https://github.com/opencode18/HackerSkills/pull/63",
+               "score":"30"
+            },
+            {
+               "name":"Task1 solution and Task 6 solution",
+               "Issuelink":"https://github.com/opencode18/HackerSkills/issues/21",
+               "PRlink":"https://github.com/opencode18/HackerSkills/pull/63",
+               "score":"30"
+            },
+            {
+               "name":"Added solution for task3",
+               "Issuelink":"https://github.com/opencode18/HackerSkills/issues/11",
+               "PRlink":"https://github.com/opencode18/HackerSkills/pull/57",
+               "score":"50"
+            },
+            {
+               "name":"Solution to task2",
+               "Issuelink":"https://github.com/opencode18/HackerSkills/issues/2",
+               "PRlink":"https://github.com/opencode18/HackerSkills/pull/38",
+               "score":"30"
+            },
+            {
+               "name":"Fixes#7 bug fixed",
+               "Issuelink":"https://github.com/himank-goel/Goal-Coach/issues/7",
+               "PRlink":"https://github.com/himank-goel/Goal-Coach/pull/19",
+               "score":"20"
+            },
+            {
+               "name":"Fixes #15 Add auth for github and twitter #17 Bug solved",
+               "Issuelink":"https://github.com/himank-goel/Goal-Coach/issues/17",
+               "PRlink":"https://github.com/himank-goel/Goal-Coach/pull/18",
+               "score":"10"
+            },
+            {
+               "name":"Fixes #15 Add auth for github and twitter #17 Bug solved",
+               "Issuelink":"https://github.com/himank-goel/Goal-Coach/issues/15",
+               "PRlink":"https://github.com/himank-goel/Goal-Coach/pull/18",
+               "score":"10"
+            },
+            {
+               "name":"Fixes #12 Make a redirection page #13 #14",
+               "Issuelink":"https://github.com/himank-goel/Goal-Coach/issues/14",
+               "PRlink":"https://github.com/himank-goel/Goal-Coach/pull/16",
+               "score":"10"
+            },
+            {
+               "name":"Fixes #12 Make a redirection page #13 #14",
+               "Issuelink":"https://github.com/himank-goel/Goal-Coach/issues/13",
+               "PRlink":"https://github.com/himank-goel/Goal-Coach/pull/16",
+               "score":"10"
+            },
+            {
+               "name":"Fixes #5 Verify email & #6 Password reset",
+               "Issuelink":"https://github.com/himank-goel/Goal-Coach/issues/5",
+               "PRlink":"https://github.com/himank-goel/Goal-Coach/pull/11",
+               "score":"20"
+            },
+            {
+               "name":"Fixes #5 Verify email & #6 Password reset",
+               "Issuelink":"https://github.com/himank-goel/Goal-Coach/issues/6",
+               "PRlink":"https://github.com/himank-goel/Goal-Coach/pull/11",
+               "score":"30"
+            },
+            {
+               "name":"Fixes #2 Partial Code",
+               "Issuelink":"https://github.com/himank-goel/Goal-Coach/issues/2",
+               "PRlink":"https://github.com/himank-goel/Goal-Coach/pull/10",
+               "score":"20"
+            },
+            {
+               "name":"Fixes #3 Update SignUp.jsx",
+               "Issuelink":"https://github.com/himank-goel/Goal-Coach/issues/3",
+               "PRlink":"https://github.com/himank-goel/Goal-Coach/pull/8",
+               "score":"30"
+            },
+            {
+               "name":"Fixes #1 Add name to sign-up field",
+               "Issuelink":"https://github.com/himank-goel/Goal-Coach/issues/1",
+               "PRlink":"https://github.com/himank-goel/Goal-Coach/pull/4",
+               "score":"10"
+            },
+            {
+               "name":"Added more quotes",
+               "Issuelink":"https://github.com/mubaris/motivate/issues/1",
+               "PRlink":"https://github.com/mubaris/motivate/pull/120",
+               "score":"10"
+            },
+            {
+               "name":"Adding to contributors",
+               "Issuelink":"https://github.com/GitHubCommunity-IIITAllahabad/ProfilePortal-Beta/issues/5",
+               "PRlink":"https://github.com/GitHubCommunity-IIITAllahabad/ProfilePortal-Beta/pull/23",
+               "score":"10"
+            },
+            {
+               "name":"Fixes #23 Update badgetext",
+               "Issuelink":"https://github.com/adeora7/youtube_queue_extension/issues/23",
+               "PRlink":"https://github.com/adeora7/youtube_queue_extension/pull/27",
+               "score":"20"
+            },
+            {
+               "name":"Adding License",
+               "Issuelink":"https://github.com/adeora7/youtube_queue_extension/issues/21",
+               "PRlink":"https://github.com/adeora7/youtube_queue_extension/pull/22",
+               "score":"10"
+            },
+            {
+               "name":"Fixes #16 Adding contributors Fixes #15 Add screenshots",
+               "Issuelink":"https://github.com/adeora7/youtube_queue_extension/issues/15",
+               "PRlink":"https://github.com/adeora7/youtube_queue_extension/pull/17",
+               "score":"10"
+            },
+            {
+               "name":"Fixes #16 Adding contributors Fixes #15 Add screenshots",
+               "Issuelink":"https://github.com/adeora7/youtube_queue_extension/issues/16",
+               "PRlink":"https://github.com/adeora7/youtube_queue_extension/pull/17",
+               "score":"10"
+            },
+             {
+               "name":"Adding new contributors #25 Update README.md",
+               "Issuelink":"https://github.com/adeora7/youtube_queue_extension/issues/25",
+               "PRlink":"https://github.com/adeora7/youtube_queue_extension/pull/29",
+               "score":"10"
+            },
+             {
+               "name":"Fixes #14 Remove viewcount",
+               "Issuelink":"https://github.com/adeora7/youtube_queue_extension/issues/14",
+               "PRlink":"https://github.com/adeora7/youtube_queue_extension/pull/28",
+               "score":"20"
+            },
+            {
+               "name":"Fixes 23 & 12 Add animation and fix main animation",
+               "Issuelink":"https://github.com/opencode18/Girls-who-code/issues/23",
+               "PRlink":"https://github.com/opencode18/Girls-who-code/pull/21",
+               "score":"30"
+            },
+            {
+               "name":"Fixes 23 & 12 Add animation and fix main animation",
+               "Issuelink":"https://github.com/opencode18/Girls-who-code/issues/12",
+               "PRlink":"https://github.com/opencode18/Girls-who-code/pull/21",
+               "score":"30"
+            },
+            {
+               "name":"Add files via upload Fixes#4",
+               "Issuelink":"https://github.com/opencode18/Girls-who-code/issues/4",
+               "PRlink":"https://github.com/opencode18/Girls-who-code/pull/14",
+               "score":"30"
+            },
+            {
+               "name":"Fixes #8 Adding footer ",
+               "Issuelink":"https://github.com/opencode18/Girls-who-code/issues/8",
+               "PRlink":"https://github.com/opencode18/Girls-who-code/pull/10",
+               "score":"10"
+            },
+            {
+               "name":"adding as contributor",
+               "Issuelink":"https://github.com/opencode18/Girls-who-code/issues/82",
+               "PRlink":"https://github.com/opencode18/Girls-who-code/pull/92",
+               "score":"10"
+            },
+            {
+               "name":"suggest issues ",
+               "Issuelink":"https://github.com/opencode18/Girls-who-code/issues/25",
+               "PRlink":"",
+               "score":"20"
+            },
+            {
+               "name":"suggest issues ",
+               "Issuelink":"https://github.com/opencode18/Girls-who-code/issues/18",
+               "PRlink":"https://github.com/opencode18/Girls-who-code/issues/18#issuecomment-357322561",
+               "score":"20"
+            },
+            {
+               "name":"suggest issues",
+               "Issuelink":"https://github.com/opencode18/Girls-who-code/issues/22",
+               "PRlink":"",
+               "score":"20"
+            }
+
+         ],
+         "Total":"950"
+      },
+		   {
 			"name": "shivhek25",
 			"Contributions": [{
 				"name": "Add yourself to the participants list #1",
@@ -235,12 +569,6 @@
 					"score": "10"
 				},
 				{
-					"name": "make a logo",
-					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/4",
-					"PRlink": "",
-					"score": "30"
-				},
-				{
 					"name": "star prodesigner repo",
 					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/3",
 					"PRlink": "",
@@ -323,9 +651,100 @@
 					"Issuelink": "https://github.com/Anna-Assistant/Anna/issues/134",
 					"PRlink": "",
 					"score": "10"
-				}
+				},
+				{
+					"name": "css cat",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/24",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/70",
+					"score": "30"
+				},
+			        {
+					"name": "iiita website",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/35",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/79",
+					"score": "50"
+				},
+			        {
+					"name": "css superhero",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/59",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/87",
+					"score": "30"
+				},
+			        {
+					"name": "change readme of girls who code",
+					"Issuelink": "https://github.com/opencode18/Girls-who-code/issues/84",
+					"PRlink": "https://github.com/opencode18/Girls-who-code/pull/90",
+					"score": "10"
+				},
+			        {
+					"name": "adding name in contributors sections of girls who code",
+					"Issuelink": "https://github.com/opencode18/Girls-who-code/issues/82",
+					"PRlink": "https://github.com/opencode18/Girls-who-code/pull/85",
+					"score": "10"
+				},
+			        {
+					"name": "adding events",
+					"Issuelink": "https://github.com/opencode18/Girls-who-code/issues/70",
+					"PRlink": "https://github.com/opencode18/Girls-who-code/pull/79",
+					"score": "20"
+				},
+			        {
+					"name": "adding name in contributors sections of girls who code",
+					"Issuelink": "https://github.com/opencode18/Girls-who-code/issues/82",
+					"PRlink": "https://github.com/opencode18/Girls-who-code/pull/85",
+					"score": "10"
+				},
+			        {
+					"name": "adding wordcloud",
+					"Issuelink": "https://github.com/opencode18/HackerSkills/issues/49",
+					"PRlink": "https://github.com/opencode18/HackerSkills/pull/65",
+					"score": "20"
+				},
+				{
+					"name": "sharing on fb wineglass",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9",
+					"PRlink": "",
+					"score": "10"
+				},
+				{
+					"name": "sharing on fb cat",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9",
+					"PRlink": "",
+					"score": "10"
+				},
+				{
+					"name": "sharing on fb snowman",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9",
+					"PRlink": "",
+					"score": "10"
+				},
+				{
+					"name": "sharing on fb game",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9",
+					"PRlink": "",
+					"score": "10"
+				},
+				{
+					"name": "sharing on fb svg",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9",
+					"PRlink": "",
+					"score": "10"
+				},
+				{
+					"name": "sharing on fb website",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9",
+					"PRlink": "",
+					"score": "10"
+				},
+					 {
+						  "name": "sharing website on fb",
+						  "Issuelink":"",
+						  "PRlink":"",
+						  "score":"10"
+						},
+
 			],
-			"Total": "650"
+			"Total": "880"
 		},
 		{
 			"name": "Aditya Raj",
@@ -1194,6 +1613,12 @@
 					"score": "20"
 				},
 				{
+					"name": "write a blog post explaining your experince on Opencode",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/455",
+					"PRlink": "",
+					"score": "50"
+				},
+				{
 					"name": "Add yourself to the participants list",
 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/1",
 					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/10",
@@ -1266,10 +1691,40 @@
 					"score": "20"
 				},
 				{
+					"name": "Task 1 - Access REST API",
+					"Issuelink": "https://github.com/opencode18/HackerSkills/issues/1",
+					"PRlink": "https://github.com/opencode18/HackerSkills/pull/64",
+					"score": "30"
+				},
+				{
+					"name": "Task 7- Image manipulation",
+					"Issuelink": "https://github.com/opencode18/HackerSkills/issues/32",
+					"PRlink": "https://github.com/opencode18/HackerSkills/pull/67",
+					"score": "30"
+				},
+				{
+					"name": "Task 9 - Word Clouds",
+					"Issuelink": "https://github.com/opencode18/HackerSkills/issues/49",
+					"PRlink": "https://github.com/opencode18/HackerSkills/pull/68",
+					"score": "20"
+				},
+				{
 					"name": "Pure CSS Images Task 1 - Wine Glass",
 					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/5",
 					"PRlink": "https://github.com/opencode18/ProDesigner/pull/8",
 					"score": "50"
+				},
+				{
+					"name": "Create a website for pro designer",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/72",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/74",
+					"score": "30"
+				},
+				{
+					"name": "Pure CSS task 4- Snowman ",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/38",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/83",
+					"score": "30"
 				},
 				{
 					"name": "Ability to minimize, maximise and close terminal. ",
@@ -1306,9 +1761,27 @@
 					"Issuelink": "https://github.com/rahulkumaran/Utlyz-CLI/issues/23",
 					"PRlink": "",
 					"score": "10"
+				},
+				{
+					"name": "Create a Website of all visualizations",
+					"Issuelink": "https://github.com/opencode18/dataviz-gallery/issues/3",
+					"PRlink": "https://github.com/opencode18/dataviz-gallery/pull/9",
+					"score": "30"
+				},
+				{
+					"name": "Add Viz from Govt Data India",
+					"Issuelink": "https://github.com/opencode18/dataviz-gallery/issues/5",
+					"PRlink": "https://github.com/opencode18/dataviz-gallery/pull/10",
+					"score": "50"
+				},
+				{
+					"name": "Task 1 - Linear Regression",
+					"Issuelink": "https://github.com/opencode18/X-labs/issues/1",
+					"PRlink": "https://github.com/opencode18/X-labs/pull/6",
+					"score": "30"
 				}
 			],
-			"Total": "510"
+			"Total": "810"
 		},
 		{
 			"name": "Aayush Joglekar",
@@ -2563,8 +3036,77 @@
 				}
 			],
 			"Total": "760"
+		},
+		{
+			"name": "Yash Agarwal",
+			"Contributions": [{
+					"name": "Add yourself to the participants list #1",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/1",
+					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/462",
+					"score": "10"
+				},
+				{
+					"name": "like opencode fb page",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/138",
+					"PRlink": "",
+					"score": "10"
+				},
+				{
+					"name": "Star this repository  ",
+					"Issuelink": "https://github.com/GeekHaven/Aparoksha-18/issues/10",
+					"PRlink": "",
+					"score": "20"
+				},
+				{
+					"name": "star this repository",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/128",
+					"PRlink": "",
+					"score": "10"
+				},
+				{
+					"name": "Star the repo to earn point !",
+					"Issuelink": "https://github.com/opencode18/OpenNews/issues/34",
+					"PRlink": "",
+					"score": "10"
+				},
+				{
+					"name": "Star This Repo ",
+					"Issuelink": "https://github.com/opencode18/CodeStash/issues/55",
+					"PRlink": "",
+					"score": "10"
+				},
+				{
+					"name": "Pure CSS Images Task 1 - Wine Glass",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/5",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/23",
+					"score": "50"
+				},
+				{
+					"name": "Pure CSS Images Task 2 - Doge",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/6",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/43",
+					"score": "50"
+				},
+				{
+					"name": "Created Login Page UI",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/11",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/27",
+					"score": "30"
+				},
+				{
+					"name": "Pure CSS task 4- Snowman",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/38",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/50",
+					"score": "30"
+				},
+				{
+					"name": "Share your designs in socialmedias",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9",
+					"PRlink": "https://github.com/opencode18/ProDesigner/issues/9#issuecomment-358458834",
+					"score": "10"
+				}
+			],
+			"Total": "240"
 		}
-
-
 	]
 }
