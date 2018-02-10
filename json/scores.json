@@ -1,6 +1,7 @@
 {
 	"scores": [{
 			"name": "piyu007",
+			"github": "https://github.com/piyu007",
 			"Contributions": [{
 					"name": "Add yourself to the participants list #1",
 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/1",
@@ -37,6 +38,7 @@
 
          {
          "name":"Tlazypanda",
+				 "github": "https://github.com/tlazypanda",
          "Contributions":[
             {
                "name":"Added Sneha Mishra to contestants list",
@@ -369,6 +371,7 @@
       },
 		   {
 			"name": "shivhek25",
+			"github": "https://github.com/shivhek25",
 			"Contributions": [{
 				"name": "Add yourself to the participants list #1",
 				"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/1",
@@ -484,6 +487,7 @@
 		},
 		{
 			"name": "ananya-agrawal",
+			"github": "https://github.com/ananya-agrawal",
 			"Contributions": [{
 					"name": "Add yourself to the participants list #1",
 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/1",
@@ -748,6 +752,7 @@
 		},
 		{
 			"name": "Aditya Raj",
+			"github": "https://github.com/brain-sick",
 			"Contributions": [{
 					"name": "Add yourself to the participants list #1",
 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/1",
@@ -850,6 +855,7 @@
 		},
 		   {
 			"name": "Vivek Raj",
+			"github": "https://github.com/swaager",
 			"Contributions": [{
 					"name": "Add yourself to the participants list #1",
 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/1",
@@ -993,6 +999,7 @@
 		},
 		{
 			"name": "re42",
+			"github": "https://github.com/Re42",
 			"Contributions": [{
 					"name": "Add yourself to the participants list #1",
 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/1",
@@ -1106,6 +1113,7 @@
 		},
 		{
 			"name": "ashish4321",
+			"github": "https://github.com/ashish4321",
 			"Contributions": [{
 					"name": "Add yourself to the participants list #1",
 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/1",
@@ -1189,6 +1197,7 @@
 		},
 		{
 			"name": "Rudransh Gupta",
+			"github": "https://github.com/hacker1x1x1",
 			"Contributions": [{
 				"name": "Add timer for coutdown till the event is over.",
 				"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/160",
@@ -1354,6 +1363,7 @@
 		},
 		{
 			"name": "Jigar Chavada",
+			"github": "https://github.com/Jigar3",
 			"Contributions": [{
 					"name": "Day 1",
 					"Issuelink": "https://github.com/opencode18/CodeStash/issues/1",
@@ -1594,6 +1604,7 @@
 
 		{
 			"name": "Arpit Mishra",
+			"github": "https://github.com/arpitmisraw",
 			"Contributions": [{
 					"name": "Show all projects in issues",
 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/250",
@@ -1785,6 +1796,7 @@
 		},
 		{
 			"name": "Aayush Joglekar",
+			"github": "https://github.com/aayushjoglekar",
 			"Contributions": [{
 					"name": "Add yourself to the participants list",
 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/1",
@@ -1977,6 +1989,7 @@
 
 		{
 			"name": "Aditi Aggarwal",
+			"github": "https://github.com/adiagg2000",
 			"Contributions": [{
 					"name": "like opencode fb page",
 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/138",
@@ -2168,6 +2181,7 @@
 		},
 		{
 			"name": "Ekansh Bansal",
+			"github": "https://github.com/Ace-Bansal",
 			"Contributions": [{
 					"name": "Concept 2 - Chat",
 					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/21",
@@ -2450,6 +2464,7 @@
 		},
 		{
 			"name": "aadixiiita",
+			"github": "https://github.com/aadixiiita",
 			"Contributions": [{
 					"name": "Add yourself to the participants list #1",
 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/1",
@@ -2641,6 +2656,7 @@
 		},
 		{
 			"name": "Ayush Gupta",
+			"github": "https://github.com/AK-007",
 			"Contributions": [{
 					"name": "Add yourself to the participants list #1",
 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/1",
@@ -2886,6 +2902,7 @@
 		},
 		{
 			"name": "Aashutosh Rathi",
+			"github": "https://github.com/aashutoshrathi",
 			"Contributions": [{
 				"name": "Add more quotes.",
 				"Issuelink": "https://github.com/mubaris/motivate/issues/3",
@@ -2896,6 +2913,7 @@
 		},
 		{
 			"name": "Rahul Arulkumaran",
+			"github": "https://github.com/rahulkumaran",
 			"Contributions": [{
 					"name": "Add yourself to the participants list",
 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/1",
@@ -3075,6 +3093,7 @@
 		},
 		{
  			"name": "Vishal Pani",
+			"github": "https://github.com/falconis",
  			"Contributions": [{
  					"name": "Adding Vishal Pani to contestants.json #14",
  					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/1",
@@ -3452,6 +3471,7 @@
  		},
 		{
 			"name": "Yash Agarwal",
+			"github": "https://github.com/yash-agarwal17",
 			"Contributions": [{
 					"name": "Add yourself to the participants list #1",
 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/1",
