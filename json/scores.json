@@ -1194,6 +1194,12 @@
 					"score": "20"
 				},
 				{
+					"name": "write a blog post explaining your experince on Opencode",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/455",
+					"PRlink": "",
+					"score": "50"
+				},
+				{
 					"name": "Add yourself to the participants list",
 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/1",
 					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/10",
@@ -1266,10 +1272,40 @@
 					"score": "20"
 				},
 				{
+					"name": "Task 1 - Access REST API",
+					"Issuelink": "https://github.com/opencode18/HackerSkills/issues/1",
+					"PRlink": "https://github.com/opencode18/HackerSkills/pull/64",
+					"score": "30"
+				},
+				{
+					"name": "Task 7- Image manipulation",
+					"Issuelink": "https://github.com/opencode18/HackerSkills/issues/32",
+					"PRlink": "https://github.com/opencode18/HackerSkills/pull/67",
+					"score": "30"
+				},
+				{
+					"name": "Task 9 - Word Clouds",
+					"Issuelink": "https://github.com/opencode18/HackerSkills/issues/49",
+					"PRlink": "https://github.com/opencode18/HackerSkills/pull/68",
+					"score": "20"
+				},
+				{
 					"name": "Pure CSS Images Task 1 - Wine Glass",
 					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/5",
 					"PRlink": "https://github.com/opencode18/ProDesigner/pull/8",
 					"score": "50"
+				},
+				{
+					"name": "Create a website for pro designer",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/72",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/74",
+					"score": "30"
+				},
+				{
+					"name": "Pure CSS task 4- Snowman ",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/38",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/83",
+					"score": "30"
 				},
 				{
 					"name": "Ability to minimize, maximise and close terminal. ",
@@ -1306,9 +1342,27 @@
 					"Issuelink": "https://github.com/rahulkumaran/Utlyz-CLI/issues/23",
 					"PRlink": "",
 					"score": "10"
+				},
+				{
+					"name": "Create a Website of all visualizations",
+					"Issuelink": "https://github.com/opencode18/dataviz-gallery/issues/3",
+					"PRlink": "https://github.com/opencode18/dataviz-gallery/pull/9",
+					"score": "30"
+				},
+				{
+					"name": "Add Viz from Govt Data India",
+					"Issuelink": "https://github.com/opencode18/dataviz-gallery/issues/5",
+					"PRlink": "https://github.com/opencode18/dataviz-gallery/pull/10",
+					"score": "50"
+				},
+				{
+					"name": "Task 1 - Linear Regression",
+					"Issuelink": "https://github.com/opencode18/X-labs/issues/1",
+					"PRlink": "https://github.com/opencode18/X-labs/pull/6",
+					"score": "30"
 				}
 			],
-			"Total": "510"
+			"Total": "810"
 		},
 		{
 			"name": "Aayush Joglekar",
