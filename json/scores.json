@@ -1951,7 +1951,6 @@
 		},
 		{
 			"name": "Aayush Joglekar",
-			"github": "https://github.com/aayushjoglekar",
 			"Contributions": [{
 					"name": "Add yourself to the participants list",
 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/1",
@@ -1981,13 +1980,8 @@
 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/101",
 					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/120",
 					"score": "30"
-				},
-				{
-					"name": "sort names alphabetically",
-					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/121",
-					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/134",
-					"score": "30"
-				},
+				}, 
+				
 				{
 					"name": "Add a field for college in contestants.json and display it",
 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/133",
@@ -2049,6 +2043,12 @@
 					"score": "50"
 				},
 				{
+					"name": "Pure CSS task 4- Snowman",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/38",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/104",
+					"score": "30"
+				},
+				{
 					"name": "Created Login Page UI",
 					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/11",
 					"PRlink": "https://github.com/opencode18/ProDesigner/pull/18",
@@ -2086,6 +2086,12 @@
 				},
 				{
 					"name": "Share your designs in socialmedias",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9#issuecomment-364658018",
+					"PRlink": "",
+					"score": "10"
+				},
+				{
+					"name": "Share your designs in socialmedias",
 					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9#issuecomment-357745861",
 					"PRlink": "",
 					"score": "10"
@@ -2095,6 +2101,18 @@
 					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9#issuecomment-358271327",
 					"PRlink": "",
 					"score": "10"
+				},
+				{
+					"name": "[URGENT] add this to your stories",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/489#issuecomment-364651289",
+					"PRlink": "",
+					"score": "30"
+				},
+				{
+					"name": "Setup Oh My Zsh on your system",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/181#issuecomment-364663322",
+					"PRlink": "",
+					"score": "20"
 				},
 				{
 					"name": "Make a logo",
@@ -2137,9 +2155,33 @@
 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/136#issuecomment-357352212",
 					"PRlink": "",
 					"score": "20"
+				},
+				{
+					"name": "write a blog post explaining your experince on Opencode",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/455",
+					"PRlink": "",
+					"score": "50"
+				},
+				{
+					"name": "Pure Css task - Superhero",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/59",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/94",
+					"score": "30"
+				},
+				{
+					"name": "Share your designs in socialmedias",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9#issuecomment-358271327",
+					"PRlink": "",
+					"score": "10"
+				},
+				{
+					"name": "Make a project of your own - Squash",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/448#issuecomment-364125700",
+					"PRlink": "",
+					"score": "50"
 				}
 			],
-			"Total": "780"
+			"Total": "1010"
 		},
 
 		{
