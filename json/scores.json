@@ -38,7 +38,6 @@
 
          {
          "name":"Tlazypanda",
-				 "github": "https://github.com/tlazypanda",
          "Contributions":[
             {
                "name":"Added Sneha Mishra to contestants list",
@@ -364,10 +363,53 @@
                "Issuelink":"https://github.com/opencode18/Girls-who-code/issues/22",
                "PRlink":"",
                "score":"20"
+            },
+            {  
+               "name":"Added snowman purecss",
+               "Issuelink":"https://github.com/opencode18/ProDesigner/issues/38",
+               "PRlink":"https://github.com/opencode18/ProDesigner/pull/97",
+               "score":"30"
+            },
+            {  
+               "name":"Share your designs in socialmedias",
+               "Issuelink":"https://github.com/opencode18/ProDesigner/issues/9",
+               "PRlink":"",
+               "score":"10"
+            },
+            {  
+               "name":"Add background changing colour with time",
+               "Issuelink":"https://github.com/opencode18/OpenNews/issues/73",
+               "PRlink":"https://github.com/opencode18/OpenNews/pull/75",
+               "score":"30"
+            },
+            {  
+               "name":"Adding login",
+               "Issuelink":"https://github.com/opencode18/ProDesigner/issues/11",
+               "PRlink":"https://github.com/opencode18/ProDesigner/pull/103",
+               "score":"30"
+            },
+            {  
+               "name":"Share your designs in socialmedias",
+               "Issuelink":"https://github.com/opencode18/ProDesigner/issues/9",
+               "PRlink":"",
+               "score":"10"
+            },
+            {  
+               "name":"Adding doge",
+               "Issuelink":"https://github.com/opencode18/ProDesigner/issues/6",
+               "PRlink":"https://github.com/opencode18/ProDesigner/pull/112",
+               "score":"50"
+            },
+            {  
+               "name":"Share your designs in socialmedias",
+               "Issuelink":"https://github.com/opencode18/ProDesigner/issues/9",
+               "PRlink":"",
+               "score":"10"
             }
+            
 
          ],
-         "Total":"950"
+         "Total":"1120"
       },
 		   {
 			"name": "shivhek25",
@@ -2826,21 +2868,38 @@
 					"score": "50"
 				},
 				{
-					"name": "Show all contributions of the participants",
-					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/414",
-					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/496",
+					"name": "Concept 1 - Login Page",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/11",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/93",
 					"score": "30"
 				},
 				{
-					"name": "leaderboard sorting error",
-					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/491",
-					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/496",
-					"score": "50"
+					"name": "Pure Css task 3 - Cat",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/24",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/93",
+					"score": "30"
+				},
+				{
+					"name": "Use github student pack and using .me domain create a portfolio website",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/313",
+					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/issues/313#issuecomment-364630342",
+					"score": "20"
+				},
+				{
+					"name": "update blog section",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/482",
+					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/pull/486",
+					"score": "20"
+				},
+				{
+					"name": "[URGENT] add this to your stories",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/489",
+					"PRlink": "https://github.com/opencode18/OpenCode-Collaborative/issues/489#issuecomment-364641018",
+					"score": "90"
 				}
 
-
 			],
-			"Total": "1090"
+			"Total": "1230"
 		},
 		{
 			"name": "aadixiiita",
