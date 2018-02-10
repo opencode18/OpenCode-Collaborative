@@ -6,21 +6,21 @@
 }
 
 body{
-    
+
    background:#FCFCFC;
 }
 
 .section-leaderboard{
     height:100vh;
-    
+
     width:100%;
-    
+
     padding:50px 0;
     font-size:40px;
     font-family: 'Lato';
     text-align: center;
-  
-    
+
+
 
 }
 
@@ -235,20 +235,20 @@ ul{
       transform: translate3d(0, -100%, 0);
       visibility: visible;
     }
-    
+
     to {
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0);
     }
     }
-    
+
     @keyframes slideInDown {
     from {
       -webkit-transform: translate3d(0, -100%, 0);
       transform: translate3d(0, -100%, 0);
       visibility: visible;
     }
-    
+
     to {
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0);
@@ -258,51 +258,51 @@ ul{
     -webkit-animation-name: slideInDown;
     animation-name: slideInDown;
     }
-    
+
     @-webkit-keyframes slideOutUp {
       from {
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
       }
-    
+
       to {
         visibility: hidden;
         -webkit-transform: translate3d(0, -100%, 0);
         transform: translate3d(0, -100%, 0);
       }
     }
-    
+
     @keyframes slideOutUp {
       from {
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
       }
-    
+
       to {
         visibility: hidden;
         -webkit-transform: translate3d(0, -100%, 0);
         transform: translate3d(0, -100%, 0);
       }
     }
-    
+
     .slideOutUp {
       -webkit-animation-name: slideOutUp;
       animation-name: slideOutUp;
     }
-    
-    
+
+
     .fh5co-animated {
       -webkit-animation-duration: .6s;
       animation-duration: .6s;
       -webkit-animation-fill-mode: both;
       animation-fill-mode: both;
     }
-    
+
     .navbar-fixed-top{
       padding-left: 0;
       padding-right: 0;
     }
-    
+
     .navbar-fixed-top{
     max-height: 340px;
     }
@@ -322,12 +322,12 @@ ul{
       }
       
     }
-    
+
     .navbar-fixed-top{
       top: 0;
       border-width: 0 0 1px;
     }
-    
+
       .heading{
         height:auto;
         width:100%;
@@ -339,7 +339,7 @@ ul{
         margin:0 auto;
         font-weight:300;
       }
-    
+
       .heading:after{
         content: '';
         display: block;
@@ -424,3 +424,4 @@ ul{
     }
 
 
+    }

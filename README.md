@@ -23,14 +23,14 @@ To add a mentor open `mentors.json` and please maintain the following format EXA
 
 IMPORTANT:
 
-* All images must be optimized before uploaded to the repo via commit or PR. 
+* All images must be optimized before uploaded to the repo via commit or PR.
 * The images should be of square resolution.
-* If you do not want to include social media accounts, leave the field empty `"facebook":""`. 
+* If you do not want to include social media accounts, leave the field empty `"facebook":""`.
 
 ## Adding yourselves to student section
 
 * For already exisiting contestants :
-        
+
         Update your college name in the college key in contestants.json.
 
 To add yourself to student section you need to open the file `contestants.json` and please maintain the following format EXACTLY (replacing values where indicated):
@@ -45,13 +45,13 @@ To add yourself to student section you need to open the file `contestants.json` 
         &nbsp;&nbsp;     "twitter" : "url",  
         &nbsp;&nbsp;     "referral" : "who refered you?"   
         }
-        
+
 
 IMPORTANT:
 
-* All images must be optimized before uploaded to the repo via commit or PR. 
+* All images must be optimized before uploaded to the repo via commit or PR.
 * The images should be of square resolution.
-* If you do not want to include social media accounts, leave the field empty `"facebook":""`. 
+* If you do not want to include social media accounts, leave the field empty `"facebook":""`.
 
 
 ## Updating Your Scores
@@ -63,6 +63,7 @@ To add Your scores open `json/scores.json` and follow the given format
 
        {  
            "name":"Name",
+           "github":"github link",
            "Contributions":[{
                 "name":"Name of issue",
                 "Issuelink":"https://github.com/opencode18/OpenCode-Collaborative/issues/331",
@@ -77,7 +78,7 @@ To add Your scores open `json/scores.json` and follow the given format
            ],
            "Total":"500"
        }
-        
+
 
 
 ## Contributing
