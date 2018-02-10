@@ -29,6 +29,36 @@
             "imageurl" : "blog_images/Jigar3.png",
             "blogTitle" : "MY EXPERIENCE OF OPENCODE18",
             "blogURL" : "https://medium.com/@chavada.jigar.3/my-experience-of-opencode18-4433b6eaf823"
+        },
+        {
+            "name" : "Adesh Shukla",
+            "imageurl" : "blog_images/aadixiiita.png",
+            "blogTitle" : "My Journey with OpenCode’18",
+            "blogURL" : "https://medium.com/@vinaycanttake/my-journey-with-opencode18-3f0d67037edc"
+        },
+        {
+            "name" : "Vishal Pani",
+            "imageurl" : "blog_images/falconis.png",
+            "blogTitle" : "Opencode18: Review by a Humble Contributor.",
+            "blogURL" : "https://medium.com/@panivishal17/my-journey-with-opencode18-5336ea8c9f07"
+        },
+        {
+            "name" : "Sneha Mishra",
+            "imageurl" : "blog_images/Tlazypanda.png",
+            "blogTitle" : "Opencode:How I learnt git and moved into the exciting world of Opensource!",
+            "blogURL" : "https://medium.com/@mishrasneha.bb/opencode-how-i-learnt-git-and-moved-into-the-exciting-world-of-opensource-9de41e546569"
+        },
+        {
+            "name" : "Ayush Gupta",
+            "imageurl" : "blog_images/AK-007.png",
+            "blogTitle" : "OpenCode’18 : An Experience",
+            "blogURL" : "https://medium.com/@ayushkgupta007/opencode18-an-experience-706f417481a5"
+        },
+        {
+            "name" : "Ananya Agrawal",
+            "imageurl" : "blog_images/ananya-agrawal.png",
+            "blogTitle" : "Experience with OpenCode 18",
+            "blogURL" : "https://medium.com/@ananyaagrawal125/experience-with-opencode-18-4df353b93e95"
         }
 
     ]
