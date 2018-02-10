@@ -225,7 +225,7 @@ max-height: 340px;
 
 </head>
 <script>var cards = document.querySelectorAll(".card");</script>
-<body>  
+<body>
   <section id="works" class="bg-light">
     <div class="container">
       <div class="row">
@@ -235,20 +235,19 @@ max-height: 340px;
           </div>
 
           <div class="card" v-for="project in alphaSort(projects)" onclick="this.classList.toggle('flipped')">
-            <div class="front">
-              <div class="project">
-
+              <div class="front">
+                <div class="project">
                   <p class="project-name">{{ project.name }}</p>
                   <hr class="card-underline">
                   <p class="project-mentored-by">Mentored by</p>
                   <p class="project-mentor">{{ project.mentors }}</p>
-
+                </div>
+                <div class="name">
+                  <div class="triangle-left"></div>
+                  <div class="triangle-right"></div>
+                  {{ project.lang }}
+                </div>
               </div>
-              <div class="name">
-                <div class="triangle-left"></div>
-                <div class="triangle-right"></div>
-                {{ project.lang }}</div>
-            </div>
             <div class="back">
               <!-- <div id="snow"></div> -->
               <div class="about">
@@ -263,10 +262,9 @@ max-height: 340px;
                 <a v-bind:href="project.github" target="_blank">
                   <i class="fa fa-github" aria-hidden="true"></i>
                 </a>
-
-              </div>
             </div>
           </div>
+        </div>
 
         </div>
       </div>
