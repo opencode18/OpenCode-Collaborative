@@ -65,6 +65,12 @@
             "imageurl" : "blog_images/aayushjoglekar.png",
             "blogTitle" : "My experience of OpenCode’18",
             "blogURL" : "https://medium.com/@aayushjoglekar/my-experience-of-opencode18-7df78e77a01b"
+        },
+        {
+            "name" : "Ritika Motwani",
+            "imageurl" : "blog_images/ritikamotwani.png",
+            "blogTitle" : "My Experience For Open Code 2018",
+            "blogURL" : "https://docs.google.com/document/d/1luQNxh6zAoeWlPuS015Ih1iYu5TsYvq7kRZXuTqASgw/edit"
         }
 
     ]
