@@ -569,12 +569,6 @@
 					"score": "10"
 				},
 				{
-					"name": "make a logo",
-					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/4",
-					"PRlink": "",
-					"score": "30"
-				},
-				{
 					"name": "star prodesigner repo",
 					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/3",
 					"PRlink": "",
@@ -657,9 +651,100 @@
 					"Issuelink": "https://github.com/Anna-Assistant/Anna/issues/134",
 					"PRlink": "",
 					"score": "10"
-				}
+				},	  
+				{
+					"name": "css cat",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/24",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/70",
+					"score": "30"
+				},
+			        {
+					"name": "iiita website",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/35",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/79",
+					"score": "50"
+				},
+			        {
+					"name": "css superhero",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/59",
+					"PRlink": "https://github.com/opencode18/ProDesigner/pull/87",
+					"score": "30"
+				},
+			        {
+					"name": "change readme of girls who code",
+					"Issuelink": "https://github.com/opencode18/Girls-who-code/issues/84",
+					"PRlink": "https://github.com/opencode18/Girls-who-code/pull/90",
+					"score": "10"
+				},
+			        {
+					"name": "adding name in contributors sections of girls who code",
+					"Issuelink": "https://github.com/opencode18/Girls-who-code/issues/82",
+					"PRlink": "https://github.com/opencode18/Girls-who-code/pull/85",
+					"score": "10"
+				},	  
+			        {
+					"name": "adding events",
+					"Issuelink": "https://github.com/opencode18/Girls-who-code/issues/70",
+					"PRlink": "https://github.com/opencode18/Girls-who-code/pull/79",
+					"score": "20"
+				},	  
+			        {
+					"name": "adding name in contributors sections of girls who code",
+					"Issuelink": "https://github.com/opencode18/Girls-who-code/issues/82",
+					"PRlink": "https://github.com/opencode18/Girls-who-code/pull/85",
+					"score": "10"
+				},	  
+			        {
+					"name": "adding wordcloud",
+					"Issuelink": "https://github.com/opencode18/HackerSkills/issues/49",
+					"PRlink": "https://github.com/opencode18/HackerSkills/pull/65",
+					"score": "20"
+				},
+				{
+					"name": "sharing on fb wineglass",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9",
+					"PRlink": "",
+					"score": "10"
+				},
+				{
+					"name": "sharing on fb cat",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9",
+					"PRlink": "",
+					"score": "10"
+				},  
+				{
+					"name": "sharing on fb snowman",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9",
+					"PRlink": "",
+					"score": "10"
+				},
+				{
+					"name": "sharing on fb game",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9",
+					"PRlink": "",
+					"score": "10"
+				},
+				{
+					"name": "sharing on fb svg",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9",
+					"PRlink": "",
+					"score": "10"
+				},
+				{
+					"name": "sharing on fb website",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9",
+					"PRlink": "",
+					"score": "10"
+				},
+					 {
+						  "name": "sharing website on fb",
+						  "Issuelink":"",
+						  "PRlink":"",
+						  "score":"10"
+						},
+			        
 			],
-			"Total": "650"
+			"Total": "880"
 		},
 		{
 			"name": "Aditya Raj",
