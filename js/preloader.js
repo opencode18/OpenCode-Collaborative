@@ -1,9 +1,16 @@
-$(document).ready(function($) {
+
+$(window).on('load',function(){
+
     var Body = $('body');
-    Body.addClass('preloader-site');
-});    
-var timeoutID = window.setTimeout(killPreload, 4000);
-$(window).on('load',killPreload );
+    setTimeout(function(){
+        Body.addClass('preloader-site');
+    },10000);
+
+    setTimeout(function(){
+        killPreload();
+    },3000);
+});
+
 function killPreload () {
     $('.preloader-wrapper').fadeOut();
     $('body').removeClass('preloader-site');
