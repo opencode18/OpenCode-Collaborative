@@ -1,4 +1,9 @@
 # OpenCode Collaborative Website
+
+# This event is over as of 10 Feb 2018, No new pr's will be merged. Thank you for participating and showing interest in OpenCode'18 and OpenSource.
+
+For any further details and queries contact [Anupam Dagar](https://www.facebook.com/invincible.anupam) .
+
 ![](https://raw.githubusercontent.com/opencode18/opencode18.github.io/master/images/fbog.png)
 
 [![OpenCode](https://img.shields.io/badge/Open-Code-ff6a00.svg?style=flat-square)](https://opencode18.github.io)
