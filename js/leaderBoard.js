@@ -4,7 +4,7 @@ const app3 = new Vue({
         contributors: []
     },
     created() {
-        fetch('https://jigar3.github.io/OpenCode-Collaborative/json/scores.json')
+        fetch('https://opencode18.github.io/OpenCode-Collaborative/json/scores.json')
 
             .then(response => response.json())
             .then(json => {
