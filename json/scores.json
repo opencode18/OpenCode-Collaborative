@@ -1179,7 +1179,7 @@
 					"PRlink": "",
 					"score": "10"
 				},
-				{
+			    	{
 					"name": "star anna",
 					"Issuelink": "https://github.com/Anna-Assistant/Anna/issues/134",
 					"PRlink": "",
@@ -1287,6 +1287,12 @@
 					"score": "30"
 				},
 				{
+					"name": "sharing a blog",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/455",
+					"PRlink": "",
+					"score": "50"
+				},
+				{
 					"name": "Share your designs in socialmedias",
 					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9",
 					"PRlink": "",
@@ -1323,6 +1329,12 @@
 					"score": "10"
 				},
 				{
+					"name": "Writing a blog",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/455",
+					"PRlink": "",
+					"score": "50"
+				},
+				{
 					"name": "[URGENT] add this to your stories #489",
 					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/489",
 					"PRlink": "",
@@ -1341,7 +1353,7 @@
 					"score": "10"
 				}
 			],
-			"Total": "500"
+			"Total": "550"
 		},
 		{
 			"name": "re42",
