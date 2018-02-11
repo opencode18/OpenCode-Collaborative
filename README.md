@@ -1,7 +1,7 @@
 # OpenCode Collaborative Website
 
-# This event is over as of 10 Feb 2018, No new pr's will be merged (except score updates till next 12 hours). Thank you for participating and showing interest in OpenCode'18 and OpenSource.
-# If you haven't written blog yet, then you can write and submit in next 12 hours, failing to do so will make you ineligible for prizes(if any)
+# This event is over as of 10 Feb 2018, No new pr's will be merged (except score updates till next 24 hours). Thank you for participating and showing interest in OpenCode'18 and OpenSource.
+# If you haven't written blog yet, then you can write and submit in next 24 hours, failing to do so will make you ineligible for prizes(if any)
 
 For any further details and queries contact [Anupam Dagar](https://www.facebook.com/invincible.anupam) .
 
