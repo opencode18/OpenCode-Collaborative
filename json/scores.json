@@ -1459,7 +1459,13 @@
 					"Issuelink": "https://github.com/agbilotia1998/Lecture-Connect/issues/12",
 					"PRlink": "",
 					"score": "0"
-				},
+				}, 
+				{
+					"name": "write a blog post explaining your experince on Opencode #455",
+					"Issuelink": "https://github.com/opencode18/OpenCode-Collaborative/issues/455",
+					"PRlink": "",
+					"score": "50"
+				}, 
 				{
 					"name": "Star and fork the repo to get points #23",
 					"Issuelink": "https://github.com/rahulkumaran/Utlyz-CLI/issues/23",
@@ -1467,7 +1473,7 @@
 					"score": "10"
 				}
 			],
-			"Total": "210"
+			"Total": "260"
 		},
 		{
 			"name": "ashish4321",
