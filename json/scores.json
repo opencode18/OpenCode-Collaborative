@@ -2738,6 +2738,39 @@
 					"PRlink": "https://github.com/opencode18/CodeStash/pull/147",
 					"score": "10"
 				},
+					  {
+					"name": "sharing on fb game",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9",
+					"PRlink": "",
+					"score": "10"
+				},
+				{
+					"name": "sharing on fb website",
+					"Issuelink": "https://github.com/opencode18/ProDesigner/issues/9",
+					"PRlink": "",
+					"score": "10"
+				},
+					  {
+					 "name": "adding blog",
+					  "Issuelink":"",
+					  "PRlink":"",
+					  "score":"50"
+				},{
+					 "name": "adding story on insta",
+					  "Issuelink":"",
+					  "PRlink":"",
+					  "score":"30"
+				},{
+					 "name": "adding story on whatsapp",
+					  "Issuelink":"",
+					  "PRlink":"",
+					  "score":"30"
+				},{
+					 "name": "adding story on twitter",
+					  "Issuelink":"",
+					  "PRlink":"",
+					  "score":"30"
+				},
 				{
 					"name": "question 14",
 					"Issuelink": "https://github.com/opencode18/CodeStash/183",
@@ -2745,7 +2778,7 @@
 					"score": "10"
 				}
 			],
-			"Total": "410"
+			"Total": "570"
 		},
 		{
 			"name": "Ekansh Bansal",
