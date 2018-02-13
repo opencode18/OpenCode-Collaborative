@@ -91,6 +91,12 @@
             "blogTitle" : "Experience with OpenCode18",
             "blogURL" : "https://medium.com/@iit2017030/experience-with-opencode-18-3a5cb677f056"
         },
+        {
+            "name" : "Ashish Agarwal",
+            "imageurl" : "blog_images/ashish4321.png",
+            "blogTitle" : "Experience with OpenCode18",
+            "blogURL" : "https://medium.com/@ashishagarwal2223/iiit-allahabads-opencode18-is-a-program-to-boost-open-source-contribution-and-prepare-one-for-3b470b9fa81f"     
+        },
 
     ]
 }
