@@ -7,6 +7,12 @@
             "blogURL" : "https://blogoholicweb.wordpress.com/2018/02/01/opencode-2018-experience/"
         },
         {
+            "name" : "Yash Rathore",
+            "imageurl" : "blog_images/re42.png",
+            "blogTitle" : "My experience with opencode 2018",
+            "blogURL" : "https://medium.com/@iit2017022/my-experience-with-opencode-2018-9c344def05b/"
+        },
+        {
             "name" : "Ekansh Bansal",
             "imageurl" : "blog_images/Ace-Bansal.png",
             "blogTitle" : "MY EXPERIENCE WITH OPENCODE'18",
@@ -17,6 +23,12 @@
             "imageurl" : "blog_images/arpitmisraw.png",
             "blogTitle" : "OpenCode, and how it helped me be a developer.",
             "blogURL" : "https://medium.com/@iit2017088/opencode-and-how-it-helped-me-be-a-developer-43b9213f8884"
+        },
+        {
+            "name" : "Vivek Raj",
+            "imageurl" : "blog_images/portfolio-08-thumbnail.jpg",
+            "blogTitle" : "Opencode18 : A worth Journey ❤",
+            "blogURL" : "https://medium.com/@vivekraj731/opencode18-a-worth-journey-e23fad414eae"
         },
         {
             "name" : "Rahul Arulkumaran",
@@ -60,12 +72,25 @@
             "blogTitle" : "Experience with OpenCode 18",
             "blogURL" : "https://medium.com/@ananyaagrawal125/experience-with-opencode-18-4df353b93e95"
         },
+       
         {
             "name" : "Aayush Joglekar",
             "imageurl" : "blog_images/aayushjoglekar.png",
             "blogTitle" : "My experience of OpenCode’18",
             "blogURL" : "https://medium.com/@aayushjoglekar/my-experience-of-opencode18-7df78e77a01b"
-        }
+        },
+        {
+            "name" : "Ritika Motwani",
+            "imageurl" : "blog_images/ritikamotwani.png",
+            "blogTitle" : "My Experience For Open Code 2018",
+            "blogURL" : "https://medium.com/my-experience-with-opencode-2018/my-experience-of-opencode-2018-7a26415da76"
+        },
+          {
+            "name" : "Aditi Aggarwal",
+            "imageurl" : "blog_images/opencode18_adi.png",
+            "blogTitle" : "Experience with OpenCode18",
+            "blogURL" : "https://medium.com/@iit2017030/experience-with-opencode-18-3a5cb677f056"
+        },
 
     ]
 }
